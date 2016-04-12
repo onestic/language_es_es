@@ -1,6 +1,6 @@
 # European Spanish (español de España) Magento2 Language Pack (es_ES)
 This is a Language Pack generated from the [official Magento2 translations project](https://crowdin.com/project/magento-2) at [Crowdin](https://crowdin.com).
-The European Spanish (español de España) translations used can be found [here](https://crowdin.com/project/magento-2/es).
+The European Spanish (español de España) translations used can be found [here](https://crowdin.com/project/magento-2/es-ES).
 This translation is usefull for people living in the Spain (España).
 
 For our other language packs look at the [Magento2Translations](http://magento2translations.github.io/) page.
@@ -25,3 +25,8 @@ To use this language pack login to your admin panel and goto `Stores -> Configur
 
 # Contribute
 To help push the '*European Spanish (español de España) Magento2 Language Pack (es_ES)*' forward please goto [this](https://crowdin.com/project/magento-2/es) crowdin page and translate the lines.
+
+# Authors
+The translations are done by the [official Magento2 translations project](https://crowdin.com/project/magento-2).
+
+Code generation is sponsored by [Wijzijn.Guru](http://www.wijzijn.guru/).
