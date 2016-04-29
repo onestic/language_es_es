@@ -5007,7 +5007,6 @@ Enable,Activado,module,Magento_Sales
 "Multi-address Description Message","Múltiple direcciones Mensaje descriptivo",module,Magento_Sales
 "Multi-address Error to Show in Shopping Cart","Múltiple direcciones Error en el carrito de compra",module,Magento_Sales
 Dashboard,Panel,module,Magento_Sales
-"Use Aggregated Data (beta)","Utilizar datos agregados (beta)",module,Magento_Sales
 "Sales Emails","Correos de Ventas",module,Magento_Sales
 "Asynchronous sending","Envío asincrónico",module,Magento_Sales
 Enabled,Habilitado,module,Magento_Sales
