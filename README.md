@@ -24,7 +24,7 @@ To install this language package manually you need access to your server file sy
 To use this language pack login to your admin panel and goto `Stores -> Configuration -> General > General -> Locale options` and set the '*locale*' option as '*European Spanish (Spain)*'
 
 # Contribute
-To help push the '*European Spanish (español de España) Magento2 Language Pack (es_ES)*' forward please goto [this](https://crowdin.com/project/magento-2/es) crowdin page and translate the lines.
+To help push the '*European Spanish (español de España) Magento2 Language Pack (es_ES)*' forward please goto [this](https://crowdin.com/project/magento-2/es-ES) crowdin page and translate the lines.
 
 # Authors
 The translations are done by the [official Magento2 translations project](https://crowdin.com/project/magento-2).
