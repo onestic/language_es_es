@@ -1258,6 +1258,7 @@ or,o,module,Magento_Customer
 Company,Empresa,module,Magento_Customer
 Address,Dirección,module,Magento_Customer
 "Street Address","Dirección postal (Calle, Nº de Casa, Código Postal)",module,Magento_Customer
+"Street Address %1","Dirección %1",module,Magento_Customer
 "VAT Number","Número de IVA",module,Magento_Customer
 City,Ciudad,module,Magento_Customer
 State/Province,Estado/Provincia,module,Magento_Customer
@@ -1428,6 +1429,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Invalid default decimal value","Valor decimal por defecto no válido",module,Magento_Eav
 "Invalid default date","Fecha por defecto no válida",module,Magento_Eav
 "Invalid date","Fecha no válida",module,Magento_Eav
+"No options found.","No hay opciones encontradas.",module,Magento_Eav
 label,etiqueta,module,Magento_Eav
 "Attempt to add an invalid object","Intento de añadir un objeto inválido",module,Magento_Eav
 "Joint field or attribute expression with this alias is already declared","Ya se ha declarado un campo combinado o una expresión de atributos con este alias",module,Magento_Eav
@@ -1607,6 +1609,7 @@ Status,Estatus,module,Magento_ImportExport
 "Import successfully done","Importación realizada correctamente",module,Magento_ImportExport
 "File is valid! To start import process press ""Import"" button","El archivo no es correcto. Para empezar el proceso de importación pulse el botón ""Importar"".",module,Magento_ImportExport
 "in rows:","en filas:",module,Magento_ImportExport
+"Exported %1 rows.","Se han exportado %1 filas.",module,Magento_ImportExport
 "Entity is unknown","Entidad desconocida",module,Magento_ImportExport
 "Destination file is not writable","No se puede escribir en el archivo de destino",module,Magento_ImportExport
 "in rows","en filas",module,Magento_ImportExport
@@ -1703,6 +1706,7 @@ Previous,Anterior,module,Magento_LayeredNavigation
 "Data saving problem","Problema de guardar los datos",module,Magento_Multishipping
 "We cannot open the overview page.","No podemos abrir la página de resumen.",module,Magento_Multishipping
 "Please agree to all Terms and Conditions before placing the order.","Bitte akzeptieren Sie unsere Geschäftsbedingungen, bevor Sie Ihre Bestellung abschließen.",module,Magento_Multishipping
+"Order place error","Error al colocar pedido",module,Magento_Multishipping
 "Maximum qty allowed for Shipping to multiple addresses is %1","Cantidad máxima permitida para envío a varias direcciones es %1",module,Magento_Multishipping
 "Please check shipping address information.","Bitte prüfen Sie die Versandanschrift.",module,Magento_Multishipping
 "Please check billing address information.","Bitte prüfen Sie die Rechnungsanschrift.",module,Magento_Multishipping
@@ -2311,7 +2315,9 @@ Name,Nombre,module,Magento_Reports
 "Times Deleted","Veces eliminado",module,Magento_Reports
 Reports,Informes,module,Magento_Reports
 "Customers by Number of Orders","Clientes por número de pedidos",module,Magento_Reports
+"Downloads Report","Informe de descargas",module,Magento_Reports
 "Low Stock","Existencia baja",module,Magento_Reports
+"Low Stock Report","Informe de Stock bajo",module,Magento_Reports
 "Products Most Viewed Report","Bericht meistgesehene Artikel",module,Magento_Reports
 Review,Reseña,module,Magento_Reports
 Reviews,Reseñas,module,Magento_Reports
@@ -4229,6 +4235,7 @@ Updated,Actualizado,module,Magento_Indexer
 "Cleanup Settings","Ajustes de limpieza",module,Magento_Integration
 "Cleanup Probability","Probabilidad de limpieza",module,Magento_Integration
 "Expiration Period","Periodo de expiración",module,Magento_Integration
+"Consumer Settings","Configuración del consumidor",module,Magento_Integration
 Status,Estatus,module,Magento_Integration
 "Layered Navigation","Navegación en capas",module,Magento_LayeredNavigation
 "Display Product Count","Mostrar el número de artículo",module,Magento_LayeredNavigation
@@ -4491,6 +4498,7 @@ Dashboard,Panel,module,Magento_Reports
 "Compared Products List Template","Comparados artículos - Plantilla lista",module,Magento_Reports
 Average,Promedio,module,Magento_Reports
 "Stock Quantity","Cantidad de stock",module,Magento_Reports
+"Ordered Quantity","Cantidad pedida",module,Magento_Reports
 Guest,Visitante,module,Magento_Reports
 Action,Acción,module,Magento_Reports
 "Last Review","Última revisión",module,Magento_Reports
@@ -4631,6 +4639,7 @@ Enabled,Habilitado,module,Magento_Sitemap
 "Link for Google","Enlace para Google",module,Magento_Sitemap
 "Last Generated","Última vez que se generó",module,Magento_Sitemap
 Action,Acción,module,Magento_Sitemap
+"Collections Data","Datos de la Colección",module,Magento_Store
 "Swatches per Product","Muestras por producto",module,Magento_Swatches
 "Tax Classes","Clases de impuestos",module,Magento_Tax
 "Tax Class for Shipping","Clase de impuestos para envíos",module,Magento_Tax
