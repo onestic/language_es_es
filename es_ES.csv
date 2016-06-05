@@ -1518,6 +1518,7 @@ Customers,Clientes,module,Magento_Customer
 "Page not found.","Página no encontrada.",module,Magento_Customer
 "Online Customers","Clientes en línea",module,Magento_Customer
 "Customers Now Online","Los clientes ahora en línea",module,Magento_Customer
+"Login successful.","Inicio de sesión exitoso.",module,Magento_Customer
 "This account is not confirmed.","Esta cuenta no está confirmada.",module,Magento_Customer
 "Please enter the first name.","Introduzca el nombre.",module,Magento_Customer
 "Please enter the last name.","Introduzca el apellido.",module,Magento_Customer
@@ -1545,6 +1546,7 @@ Female,Femenino,module,Magento_Customer
 "Not Specified","No especificado",module,Magento_Customer
 message,mensaje,module,Magento_Customer
 Exception,Excepcion,module,Magento_Customer
+"Exception message","Mensaje de excepción",module,Magento_Customer
 Label,Etiqueta,module,Magento_Customer
 Select...,Seleccionar...,module,Magento_Customer
 Edit,Editar,module,Magento_Customer
@@ -1585,6 +1587,7 @@ Company,Empresa,module,Magento_Customer
 "Phone Number",Telefonnummer,module,Magento_Customer
 Address,Dirección,module,Magento_Customer
 "Street Address","Dirección postal (Calle, Nº de Casa, Código Postal)",module,Magento_Customer
+"Street Address %1","Dirección %1",module,Magento_Customer
 "VAT Number","Número de IVA",module,Magento_Customer
 City,Ciudad,module,Magento_Customer
 State/Province,Estado/Provincia,module,Magento_Customer
@@ -1782,6 +1785,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Invalid default decimal value","Valor decimal por defecto no válido",module,Magento_Eav
 "Invalid default date","Fecha por defecto no válida",module,Magento_Eav
 "Invalid date","Fecha no válida",module,Magento_Eav
+"No options found.","No hay opciones encontradas.",module,Magento_Eav
 label,etiqueta,module,Magento_Eav
 "Attempt to add an invalid object","Intento de añadir un objeto inválido",module,Magento_Eav
 "Joint field or attribute expression with this alias is already declared","Ya se ha declarado un campo combinado o una expresión de atributos con este alias",module,Magento_Eav
@@ -1993,6 +1997,7 @@ Status,Estatus,module,Magento_ImportExport
 "File is valid! To start import process press ""Import"" button","El archivo no es correcto. Para empezar el proceso de importación pulse el botón ""Importar"".",module,Magento_ImportExport
 "Show more","Ver más",module,Magento_ImportExport
 "Additional data","Informacion adicional",module,Magento_ImportExport
+"Exported %1 rows.","Se han exportado %1 filas.",module,Magento_ImportExport
 "Entity is unknown","Entidad desconocida",module,Magento_ImportExport
 "Destination file is not writable","No se puede escribir en el archivo de destino",module,Magento_ImportExport
 "Begin data validation","Inicie la validación de los datos.",module,Magento_ImportExport
@@ -2130,6 +2135,7 @@ Price,Precio,module,Magento_Msrp
 "Data saving problem","Problema de guardar los datos",module,Magento_Multishipping
 "We cannot open the overview page.","No podemos abrir la página de resumen.",module,Magento_Multishipping
 "Please agree to all Terms and Conditions before placing the order.","Bitte akzeptieren Sie unsere Geschäftsbedingungen, bevor Sie Ihre Bestellung abschließen.",module,Magento_Multishipping
+"Order place error","Error al colocar pedido",module,Magento_Multishipping
 "Maximum qty allowed for Shipping to multiple addresses is %1","Cantidad máxima permitida para envío a varias direcciones es %1",module,Magento_Multishipping
 "Please check shipping address information.","Bitte prüfen Sie die Versandanschrift.",module,Magento_Multishipping
 "Please check billing address information.","Bitte prüfen Sie die Rechnungsanschrift.",module,Magento_Multishipping
@@ -2242,6 +2248,7 @@ Subscribers,Suscriptores,module,Magento_Newsletter
 "This email address is already assigned to another user.","Esta dirección de correo ya se asignó a otro usuario.",module,Magento_Newsletter
 "Please enter a valid email address.","Por favor, ingrese una dirección de correo electrónico válida.",module,Magento_Newsletter
 "Thank you for your subscription.","Gracias por suscribirse.",module,Magento_Newsletter
+"You unsubscribed.","Ha cancelado la suscripción.",module,Magento_Newsletter
 Sent,Enviado,module,Magento_Newsletter
 Cancelled,Cancelado,module,Magento_Newsletter
 "Not Sent","No enviado",module,Magento_Newsletter
@@ -2433,6 +2440,7 @@ Never,Nunca,module,Magento_Paypal
 "Last Correlation ID","Última Identificación de Correlación",module,Magento_Paypal
 "Address Verification System Response","Respuesta del sistema de verificación de dirección",module,Magento_Paypal
 "CVV2 Check Result by PayPal","Resultado de comprobación CVV2 por PayPal",module,Magento_Paypal
+"AVS Street Match","Coincidencia AVS de Calle",module,Magento_Paypal
 "AVS zip","Zip AVS",module,Magento_Paypal
 Chargeback,"Devolución del importe",module,Magento_Paypal
 Complaint,Reclamación,module,Magento_Paypal
@@ -2802,7 +2810,9 @@ Name,Nombre,module,Magento_Reports
 "Times Deleted","Veces eliminado",module,Magento_Reports
 Reports,Informes,module,Magento_Reports
 "Customers by Number of Orders","Clientes por número de pedidos",module,Magento_Reports
+"Downloads Report","Informe de descargas",module,Magento_Reports
 "Low Stock","Existencia baja",module,Magento_Reports
+"Low Stock Report","Informe de Stock bajo",module,Magento_Reports
 "Products Most Viewed Report","Bericht meistgesehene Artikel",module,Magento_Reports
 Review,Reseña,module,Magento_Reports
 Reviews,Reseñas,module,Magento_Reports
@@ -2836,6 +2846,7 @@ Bestsellers,"Mejor vendidos",module,Magento_Reports
 "Add to Cart","Añadir al carrito",module,Magento_Reports
 "In stock",Disponible,module,Magento_Reports
 "Out of stock","No está disponible",module,Magento_Reports
+"Add to Wish List","Añadir a la Lista de Deseos",module,Magento_Reports
 "Add to Compare","Añadir para comparar",module,Magento_Reports
 "Recently Compared","Comparados recientemente",module,Magento_Reports
 "Learn More","Saber más",module,Magento_Reports
@@ -2889,6 +2900,7 @@ Websites,"Sitios web",module,Magento_Review
 "Rating Information","Información sobre la puntuación",module,Magento_Review
 "Product Reviews","Reseñas de artículo",module,Magento_Review
 "Pending product review(s)","Reseñas pendientes para el artículo",module,Magento_Review
+"Review: %1 <br/>","Reseña: %1 <br/>",module,Magento_Review
 "Store: %1 <br/>","Tienda: %1 <br/>",module,Magento_Review
 "Pending Reviews RSS","RSS de reseñas pendientes",module,Magento_Review
 "Reviews %1","Reseñas %1",module,Magento_Review
@@ -3657,6 +3669,7 @@ Ship,Enviar,module,Magento_Shipping
 "Shipment Total","Envío Total",module,Magento_Shipping
 "Shipment Comments","Comentarios del envío",module,Magento_Shipping
 "Comment Text","Texto del comentario",module,Magento_Shipping
+"Shipment Options","Opciones de envío",module,Magento_Shipping
 "Create Shipping Label","Crear etiqueta de envío",module,Magento_Shipping
 "Append Comments","Anexar comentarios",module,Magento_Shipping
 "Email Copy of Shipment","Enviar una copia del envío por correo electrónico",module,Magento_Shipping
@@ -4482,6 +4495,7 @@ OK,Aceptar,module,Magento_Catalog
 "Incl. Tax","Impuestos incl.",module,Magento_ConfigurableProduct
 Done,Hecho,module,Magento_ConfigurableProduct
 "We could not detect a size.","No hemos podido detectar un tamaño.",module,Magento_ConfigurableProduct
+"Generate Products","Generar productos",module,Magento_ConfigurableProduct
 "Are you sure you want to do this?","¿Está seguro que desea hacer esto?",module,Magento_Customer
 "Are you sure you want to delete this address?","¿Realmente quiere borrar esta dirección?",module,Magento_Customer
 "We could not detect a size.","No hemos podido detectar un tamaño.",module,Magento_Downloadable
@@ -4492,6 +4506,7 @@ Done,Hecho,module,Magento_Integration
 "Please choose a payment method.","Por favor, elija un método de pago.",module,Magento_Multishipping
 "Video Error","Error video",module,Magento_ProductVideo
 "Unknown video type","Tipo de video desconocido",module,Magento_ProductVideo
+"Invalid video url","Url del video no válida",module,Magento_ProductVideo
 "Youtube API key is invalid","YouTube API key no es válido",module,Magento_ProductVideo
 "Video not found","Video no encontrado",module,Magento_ProductVideo
 Save,Guardar,module,Magento_ProductVideo
@@ -5032,6 +5047,7 @@ ZIP,C.P.,module,Magento_Customer
 "Customer Since","Cliente desde",module,Magento_Customer
 "Confirmed email","Correo electrónico confirmado",module,Magento_Customer
 "Tax VAT Number","Número de VAT",module,Magento_Customer
+"Billing Firstname","Nombre de facturación",module,Magento_Customer
 "Billing Lastname","Apellido para facturación",module,Magento_Customer
 "First Name",Nombre,module,Magento_Customer
 "Last Name",Apellidos,module,Magento_Customer
@@ -5165,6 +5181,7 @@ Updated,Actualizado,module,Magento_Indexer
 "Cleanup Settings","Ajustes de limpieza",module,Magento_Integration
 "Cleanup Probability","Probabilidad de limpieza",module,Magento_Integration
 "Expiration Period","Periodo de expiración",module,Magento_Integration
+"Consumer Settings","Configuración del consumidor",module,Magento_Integration
 Status,Estatus,module,Magento_Integration
 "Layered Navigation","Navegación en capas",module,Magento_LayeredNavigation
 "Display Product Count","Mostrar el número de artículo",module,Magento_LayeredNavigation
@@ -5452,6 +5469,7 @@ Dashboard,Panel,module,Magento_Reports
 "Compared Products List Template","Comparados artículos - Plantilla lista",module,Magento_Reports
 Average,Promedio,module,Magento_Reports
 "Stock Quantity","Cantidad de stock",module,Magento_Reports
+"Ordered Quantity","Cantidad pedida",module,Magento_Reports
 Guest,Visitante,module,Magento_Reports
 Action,Acción,module,Magento_Reports
 "Last Review","Última revisión",module,Magento_Reports
@@ -5615,6 +5633,7 @@ Enabled,Habilitado,module,Magento_Sitemap
 "Last Generated","Última vez que se generó",module,Magento_Sitemap
 Action,Acción,module,Magento_Sitemap
 Configuration,Configuración,module,Magento_Store
+"Collections Data","Datos de la Colección",module,Magento_Store
 "Reflection Data","Datos de reflexión",module,Magento_Store
 "Swatches per Product","Muestras por producto",module,Magento_Swatches
 "Tax Classes","Clases de impuestos",module,Magento_Tax
