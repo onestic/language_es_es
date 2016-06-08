@@ -4639,6 +4639,7 @@ Enabled,Habilitado,module,Magento_Sitemap
 "Link for Google","Enlace para Google",module,Magento_Sitemap
 "Last Generated","Última vez que se generó",module,Magento_Sitemap
 Action,Acción,module,Magento_Sitemap
+"Page blocks HTML.","HTML de Bloques de página.",module,Magento_Store
 "Collections Data","Datos de la Colección",module,Magento_Store
 "Swatches per Product","Muestras por producto",module,Magento_Swatches
 "Tax Classes","Clases de impuestos",module,Magento_Tax
@@ -4683,6 +4684,7 @@ Empty,Vacío,module,Magento_Theme
 "This will be included before head closing tag in page HTML.","Esto se incluirá antes de la etiqueta de cierre de cabecera en el HTML de la página.",module,Magento_Theme
 "Display Demo Store Notice","Mostrar noticia ""tienda de demonstración""",module,Magento_Theme
 "Default Robots","Robots (predeterminado)",module,Magento_Theme
+"Reset to Defaults","Restablecer valores predeterminados",module,Magento_Theme
 Header,Encabezado,module,Magento_Theme
 "Logo Image","Logo imagen",module,Magento_Theme
 "Logo Image Alt","Texto alternativo al logotipo",module,Magento_Theme
