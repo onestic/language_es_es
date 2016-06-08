@@ -3376,6 +3376,7 @@ State/Province,Estado/Provincia,module,Magento_Sales
 "Zip/Postal Code","Código Postal",module,Magento_Sales
 "New Orders","Nuevos pedidos",module,Magento_Sales
 "Order #%1 created at %2","Pedido nº %1 creado el %2",module,Magento_Sales
+"Notified Date: %1","Fecha de notificación: %1",module,Magento_Sales
 "Comment: %1<br/>","Comentario: %1 <br/>",module,Magento_Sales
 "Total: %1<br/>","Total: %1 <br/>",module,Magento_Sales
 "Order # %1 Notification(s)","Pedido nº %1 notificaciones",module,Magento_Sales
@@ -3392,6 +3393,7 @@ Closed,Cerrado,module,Magento_Sales
 New,Nuevo,module,Magento_Sales
 "test message","mensaje de prueba",module,Magento_Sales
 View,Ver,module,Magento_Sales
+"Group was removed","Grupo fue eliminado",module,Magento_Sales
 "Changing address information will not recalculate shipping, tax or other order amount.","El cambio de la información de la dirección no efectua calcular de nuevo los gastos del envío, de impuestos ni el total del pedido.",module,Magento_Sales
 "Comment Text","Texto del comentario",module,Magento_Sales
 "Notify Customer by Email","Notificar al cliente por correo electrónico",module,Magento_Sales
@@ -3453,6 +3455,7 @@ Item,Articulo,module,Magento_Sales
 "Memo Total","Total de memo",module,Magento_Sales
 "Credit Memo History","Historial de facturas rectificadas",module,Magento_Sales
 "Credit Memo Totals","Totales de factura rectificada",module,Magento_Sales
+"Customer Name: %1","Nombre del cliente: %1",module,Magento_Sales
 "Gift Message","Mensaje de regalo",module,Magento_Sales
 From:,Desde:,module,Magento_Sales
 To:,Hasta:,module,Magento_Sales
@@ -3901,6 +3904,7 @@ product,artículo,module,Magento_Tax
 "No such entity","Ninguna tal entidad",module,Magento_Tax
 "Excl. Tax","Impuestos NO Incl.",module,Magento_Tax
 Note:,Nota:,module,Magento_Tax
+"An error occurred","Se produjo un error",module,Magento_Tax
 Save,Guardar,module,Magento_Tax
 "Add New Class","Añadir nueva clase fiscal",module,Magento_Tax
 "Grand Total Excl. Tax","Total sin incluir impuestos",module,Magento_Tax
@@ -5680,9 +5684,11 @@ Empty,Vacío,module,Magento_Theme
 "This will be included before head closing tag in page HTML.","Esto se incluirá antes de la etiqueta de cierre de cabecera en el HTML de la página.",module,Magento_Theme
 "Display Demo Store Notice","Mostrar noticia ""tienda de demonstración""",module,Magento_Theme
 "Default Robots","Robots (predeterminado)",module,Magento_Theme
+"Reset to Defaults","Restablecer valores predeterminados",module,Magento_Theme
 Header,Encabezado,module,Magento_Theme
 "Logo Image","Logo imagen",module,Magento_Theme
 "Logo Image Width","Ancho de la imagen de logotipo",module,Magento_Theme
+"Logo Image Height","Altura de la imagen de logotipo",module,Magento_Theme
 "Logo Image Alt","Texto alternativo al logotipo",module,Magento_Theme
 "Welcome Text","Texto de bienvenida",module,Magento_Theme
 Footer,"Pie de página",module,Magento_Theme
