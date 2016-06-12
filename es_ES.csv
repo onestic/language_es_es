@@ -1350,6 +1350,7 @@ Role,Rol,module,Magento_ConfigurableProduct
 "Select attribute","Seleccione el atributo",module,Magento_ConfigurableProduct
 Select,Seleccionar,module,Magento_ConfigurableProduct
 Price,Precio,module,Magento_ConfigurableProduct
+"Skip price at this time","Saltear precio en esta ocasión",module,Magento_ConfigurableProduct
 Quantity,Cantidad,module,Magento_ConfigurableProduct
 "Selected Attributes:","Atributos seleccionados:",module,Magento_ConfigurableProduct
 "Step 4: Summary","Paso 4: Resumen",module,Magento_ConfigurableProduct
@@ -1516,6 +1517,7 @@ Download,Descarga,module,Magento_Customer
 "Please enter a new password.","Por favor, introduzca una nueva contraseña.",module,Magento_Customer
 "You updated your password.","Actualizó su contraseña.",module,Magento_Customer
 "You saved the address.","Guardó la dirección.",module,Magento_Customer
+"No customer ID defined.","Ningún ID de cliente definido.",module,Magento_Customer
 Customers,Clientes,module,Magento_Customer
 "New Group","Nuevo grupo",module,Magento_Customer
 "New Customer Groups","Nuevos grupos de clientes",module,Magento_Customer
@@ -1529,6 +1531,7 @@ Customers,Clientes,module,Magento_Customer
 "Online Customers","Clientes en línea",module,Magento_Customer
 "Customers Now Online","Los clientes ahora en línea",module,Magento_Customer
 "Login successful.","Inicio de sesión exitoso.",module,Magento_Customer
+"No confirmation needed.","No se necesita la confirmación.",module,Magento_Customer
 "Account already active","Cuenta ya activa",module,Magento_Customer
 "This account is not confirmed.","Esta cuenta no está confirmada.",module,Magento_Customer
 "Please enter the first name.","Introduzca el nombre.",module,Magento_Customer
@@ -1695,6 +1698,7 @@ WARNING:,ADVERTENCIA:,module,Magento_Directory
 "Please correct the country code: %1.","Por favor, corregir el código del país: %1.",module,Magento_Directory
 "Country and Format Type combination should be unique","La combinación de tipo de formato y país debe ser única",module,Magento_Directory
 "Please correct the rates received","Por favor corregir las tarifas recibidas",module,Magento_Directory
+"Please select a region, state or province.","Por favor seleccione región, estado o provincia.",module,Magento_Directory
 Currency,Moneda,module,Magento_Directory
 "Your current currency is: %1.","La moneda actual es: %1.",module,Magento_Directory
 Continue,Continuar,module,Magento_Directory
@@ -1808,6 +1812,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Unknown parameter","Parámetro desconocido",module,Magento_Eav
 "Invalid default decimal value","Valor decimal por defecto no válido",module,Magento_Eav
 "Invalid default date","Fecha por defecto no válida",module,Magento_Eav
+"Invalid entity supplied","Se suministró una entidad no válida",module,Magento_Eav
 "Invalid date","Fecha no válida",module,Magento_Eav
 "Empty attribute code","Código de atributo vacío",module,Magento_Eav
 "No options found.","No hay opciones encontradas.",module,Magento_Eav
@@ -2030,6 +2035,7 @@ Status,Estatus,module,Magento_ImportExport
 "Download full report","Descargar informe completo",module,Magento_ImportExport
 "Begin export of %1","Comenzar la exportación de %1",module,Magento_ImportExport
 "Exported %1 rows.","Se han exportado %1 filas.",module,Magento_ImportExport
+"The export is finished.","La exportación ha terminado.",module,Magento_ImportExport
 "Entity is unknown","Entidad desconocida",module,Magento_ImportExport
 "Destination file is not writable","No se puede escribir en el archivo de destino",module,Magento_ImportExport
 "Begin data validation","Inicie la validación de los datos.",module,Magento_ImportExport
@@ -2040,6 +2046,7 @@ label,etiqueta,module,Magento_ImportExport
 Add/Update,Añadir/actualizar,module,Magento_ImportExport
 Replace,Reemplazar,module,Magento_ImportExport
 Delete,Borrar,module,Magento_ImportExport
+"Add/Update Complex Data","Añadir/actualizar datos complejos",module,Magento_ImportExport
 "Delete Entities","Borrar Entidades",module,Magento_ImportExport
 "Custom Action","Acción personalizada",module,Magento_ImportExport
 "Error message","Mensaje de error",module,Magento_ImportExport
@@ -2092,6 +2099,7 @@ Active,Activo,module,Magento_Integration
 "Invalid Callback URL","Llamada URL inválida",module,Magento_Integration
 "Invalid Rejected Callback URL","Llamada URL rechazada inválida",module,Magento_Integration
 "Verifier is invalid","Verificador no es válido",module,Magento_Integration
+"Invalid token to except","Código no válido para excepción",module,Magento_Integration
 "Are you sure ?","¿Está seguro?",module,Magento_Integration
 "Available APIs","APIs disponibles",module,Magento_Integration
 "Resource Access","Zugriff auf Ressource",module,Magento_Integration
@@ -2193,9 +2201,11 @@ Price,Precio,module,Magento_Msrp
 "Select Address","Seleccionar dirección",module,Magento_Multishipping
 "Add New Address","Agregar nueva dirección",module,Magento_Multishipping
 "Back to Billing Information","Volver a información de facturación",module,Magento_Multishipping
+"Please select a shipping address for applicable items.","Por favor, seleccione una dirección de envío para los artículos aplicables.",module,Magento_Multishipping
 Product,Producto,module,Magento_Multishipping
 Qty,Cantidad,module,Magento_Multishipping
 "Send To","Senden an",module,Magento_Multishipping
+"A shipping selection is not applicable.","Una selección de envío no es aplicable.",module,Magento_Multishipping
 Actions,Acciones,module,Magento_Multishipping
 "Remove Item","Eliminar elemento",module,Magento_Multishipping
 "Remove item","Quitar artículo",module,Magento_Multishipping
@@ -2208,8 +2218,12 @@ Change,Cambio,module,Magento_Multishipping
 "Payment Method","Método de pago",module,Magento_Multishipping
 "Go to Review Your Order","Ir a revisar su pedido",module,Magento_Multishipping
 "Back to Shipping Information","Zurück zur Lieferadresse",module,Magento_Multishipping
+"Other items in your order","Otros artículos en su pedido",module,Magento_Multishipping
 "Edit Items","Artikel bearbeiten",module,Magento_Multishipping
+"Shipping is not applicable.","Envío no está disponible.",module,Magento_Multishipping
 "Product Name","Nombre del producto",module,Magento_Multishipping
+"Check Out with Multiple Addresses","Finalizar compra con multiples direcciones",module,Magento_Multishipping
+"Address %1 <span>of %2</span>","Dirección %1 <span>de %2</span>",module,Magento_Multishipping
 "Shipping To","Versenden an",module,Magento_Multishipping
 "Shipping Method","Método de envío",module,Magento_Multishipping
 "Incl. Tax","Impuestos incl.",module,Magento_Multishipping
@@ -2220,6 +2234,7 @@ Price,Precio,module,Magento_Multishipping
 Items,Artículos,module,Magento_Multishipping
 "Grand Total:",Gesamtbetrag:,module,Magento_Multishipping
 "Submitting order information...","Enviando la información del pedido...",module,Magento_Multishipping
+"Sorry, no quotes are available for this order right now.","Lo sentimos, no hay cotizaciones disponibles para este pedido en este momento.",module,Magento_Multishipping
 "Continue to Billing Information","Weiter zur Rechnungsadresse",module,Magento_Multishipping
 "Back to Select Addresses","Zurück zur Adressauswahl",module,Magento_Multishipping
 "Thank you for your purchase!","Gracias por su compra!",module,Magento_Multishipping
@@ -2291,6 +2306,7 @@ Cancelled,Cancelado,module,Magento_Newsletter
 "Not Sent","No enviado",module,Magento_Newsletter
 Sending,Enviando,module,Magento_Newsletter
 Paused,"En pausa",module,Magento_Newsletter
+"Duplicate template code","Duplicado del código de la plantilla",module,Magento_Newsletter
 "Choose Store View:","Ladenansicht wählen:",module,Magento_Newsletter
 "Newsletter Message Preview","Vista previa del boletín informativo",module,Magento_Newsletter
 "Add to Queue","Añadir a la cola",module,Magento_Newsletter
@@ -2322,6 +2338,13 @@ Region/State,Región/Provincia,module,Magento_OfflineShipping
 None,Ninguno,module,Magento_OfflineShipping
 "Per Order","Por pedido",module,Magento_OfflineShipping
 "Per Item","Pro Artikel",module,Magento_OfflineShipping
+"Please correct Table Rates File Format.","Por favor corrige el formato de archivo de la Tabla de Tarifas.",module,Magento_OfflineShipping
+"Something went wrong while importing table rates.","Algo salió mal al importar la tabla de tarifas.",module,Magento_OfflineShipping
+"Please correct Table Rates format in the Row #%1.","Corregir el formato de la tabla de tarifas de la fila #%1.",module,Magento_OfflineShipping
+"Please correct Country ""%1"" in the Row #%2.","Por favor corregir país ""%1"" en la fila #%2.",module,Magento_OfflineShipping
+"Please correct Region/State ""%1"" in the Row #%2.","Por favor corrija Región/Estado ""%1"" en la fila #%2.",module,Magento_OfflineShipping
+"Please correct %1 ""%2"" in the Row #%3.","Por favor corrija %1 ""%2"" en la fila #%3.",module,Magento_OfflineShipping
+"Please correct Shipping Price ""%1"" in the Row #%2.","Por favor corrija el precio de envió ""%1"" en la fila #%2.",module,Magento_OfflineShipping
 "Free Shipping","Transporte gratuito",module,Magento_OfflineShipping
 "For matching items only","Sólo para artículos correspondientes",module,Magento_OfflineShipping
 "For shipment with matching items","Para envíos con artículos correspondientes",module,Magento_OfflineShipping
@@ -2850,6 +2873,7 @@ Name,Nombre,module,Magento_Reports
 "Wish Lists","Listas de deseo",module,Magento_Reports
 "Wish List Purchase","Compra de lista de deseos",module,Magento_Reports
 "Times Deleted","Veces eliminado",module,Magento_Reports
+"Index type is not valid","Tipo de índice no es válido",module,Magento_Reports
 Reports,Informes,module,Magento_Reports
 "New Accounts Report","Informe de Cuentas Nuevas",module,Magento_Reports
 "Customers by Number of Orders","Clientes por número de pedidos",module,Magento_Reports
@@ -3391,7 +3415,9 @@ Returned,Devuelto,module,Magento_Sales
 Partial,Parcial,module,Magento_Sales
 Mixed,Mixto,module,Magento_Sales
 "Registered a Void notification.","Recibido una noticia vacía.",module,Magento_Sales
+"We refunded %1 online.","Devolvimos %1 en línea.",module,Magento_Sales
 "Canceled order online","Pedido cancelado en línea",module,Magento_Sales
+"Canceled order offline","Pedido cancelado fuera de línea",module,Magento_Sales
 "Approved the payment online.","El pago ha sido aprobado a distancia.",module,Magento_Sales
 "There is no need to approve this payment.","No hay necesidad de aprobar este pago.",module,Magento_Sales
 "Registered update about approved payment.","Recibido una actualización acerca de un pago aprobado.",module,Magento_Sales
@@ -3431,6 +3457,7 @@ State/Province,Estado/Provincia,module,Magento_Sales
 "Street Address",Domicilio,module,Magento_Sales
 "Phone Number","Numero de teléfono",module,Magento_Sales
 "Zip/Postal Code","Código Postal",module,Magento_Sales
+"Cannot save track:\n%1","No se puede guardar la pista:\n%1",module,Magento_Sales
 "New Orders","Nuevos pedidos",module,Magento_Sales
 "Order #%1 created at %2","Pedido nº %1 creado el %2",module,Magento_Sales
 "Details for %1 #%2","Detalles para %1 # %2",module,Magento_Sales
@@ -3683,6 +3710,7 @@ Print,Imprimir,module,Magento_Shipping
 Shipments,Albaranes,module,Magento_Shipping
 "Cannot add tracking number.","No se puede agregar el número de seguimiento.",module,Magento_Shipping
 "An error occurred while creating shipping label.","Ha ocurrido un error al crear la etiqueta de envío.",module,Magento_Shipping
+"You sent the shipment.","Ha realizado el envío.",module,Magento_Shipping
 "Cannot send shipment information.","No puede enviar la información del envío.",module,Magento_Shipping
 "There are no shipping labels related to selected orders.","No existen etiquetas de envío vinculadas a los pedidos seleccionados.",module,Magento_Shipping
 "New Shipment","Nuevo envío",module,Magento_Shipping
@@ -4013,12 +4041,14 @@ Theme,Plantilla,module,Magento_Theme
 "Insert File","Insertar archivo",module,Magento_Theme
 "New Folder Name:","Nuevo nombre de carpeta:",module,Magento_Theme
 "Storage Root","Raíz de almacenamiento",module,Magento_Theme
+"You deleted the theme.","Ha eliminado el tema.",module,Magento_Theme
 "File not found: ""%1"".","No se encontró el archivo: ""%1"".",module,Magento_Theme
 "You saved the theme.","Guardaste el tema.",module,Magento_Theme
 "Invalid type","Tipo no válido",module,Magento_Theme
 label,etiqueta,module,Magento_Theme
 "-- Please Select --",--Seleccione--,module,Magento_Theme
 Copy,Copiar,module,Magento_Theme
+"Theme id should be set","Id de tema debe establecerse",module,Magento_Theme
 "localized exception","excepción localizada",module,Magento_Theme
 "Test Label","Etiqueta de prueba",module,Magento_Theme
 Phrase,Frase,module,Magento_Theme
@@ -4165,6 +4195,7 @@ Custom,Personalizado,module,Magento_UrlRewrite
 "Temporary (302)","(302) Temporal",module,Magento_UrlRewrite
 "Permanent (301)","(301) Permanente",module,Magento_UrlRewrite
 "Request Path for Specified Store","Solicitud de ruta para la tienda especificada",module,Magento_UrlRewrite
+"Custom storage message","Mensaje personalizado de la tienda",module,Magento_UrlRewrite
 "Select Category","Seleccione categoría",module,Magento_UrlRewrite
 Back,Volver,module,Magento_User
 Reset,Restablecer,module,Magento_User
@@ -5102,6 +5133,7 @@ Contacts,Contactos,module,Magento_Contact
 "Password Options","Opciones de contraseña",module,Magento_Customer
 "Forgot Email Template","Plantilla para recordatorio de correo electrónico",module,Magento_Customer
 "Remind Email Template","Plantilla para el correo electrónico de recordatorio",module,Magento_Customer
+"Reset Password Template","Plantilla para restablecer contraseña",module,Magento_Customer
 "Please enter a number 1 or greater in this field.","Por favor, introduzca número 1 o mayor en este campo.",module,Magento_Customer
 "Name and Address Options","Opciones de nombre y dirección",module,Magento_Customer
 "Leave empty for default (2). Valid range: 1-4","Dejar en blanco por defecto (2). Rango válido: 1-4",module,Magento_Customer
@@ -5142,6 +5174,7 @@ ZIP,C.P.,module,Magento_Customer
 "Last Name",Apellidos,module,Magento_Customer
 "Last Activity","Última actividad",module,Magento_Customer
 "Customer Information","Información del cliente",module,Magento_Customer
+"Send Welcome Email From","Enviar correo de bienvenida desde",module,Magento_Customer
 Addresses,Direcciones,module,Magento_Customer
 "Account Dashboard","Cuenta Panel de control",module,Magento_Customer
 "Edit Account Information","Editar información de la cuenta",module,Magento_Customer
@@ -5192,6 +5225,7 @@ Service,Servicio,module,Magento_Directory
 "Zip/Postal Code is Optional for","Código Postal es opcional para",module,Magento_Directory
 "State Options","Opciones de estado",module,Magento_Directory
 "State is Required for","Estado es necesario para",module,Magento_Directory
+"Allow to Choose State if It is Optional for Country","Permiten elegir estado si es opcional para el país",module,Magento_Directory
 "Weight Unit","Unidad de peso",module,Magento_Directory
 "Downloadable Product Options","Opciones de artículo descargable",module,Magento_Downloadable
 "Order Item Status to Enable Downloads","Estado de artículo pedido para habilitar descargas",module,Magento_Downloadable
@@ -5421,6 +5455,7 @@ Import,Importar,module,Magento_OfflineShipping
 "Proxy Port","Puerto proxy",module,Magento_Paypal
 "Enable this Solution","Habilitar esta solución",module,Magento_Paypal
 "Enable PayPal Credit","Habilitar crédito de PayPal",module,Magento_Paypal
+"Advertise PayPal Credit","Anuncian crédito PayPal",module,Magento_Paypal
 "Publisher ID","ID de editor",module,Magento_Paypal
 "Required to display a banner","Necesario para mostrar un banner",module,Magento_Paypal
 "Get Publisher ID from PayPal","Obtenga la ID del editor de PayPal",module,Magento_Paypal
@@ -5744,6 +5779,7 @@ Configuration,Configuración,module,Magento_Store
 "Blocks HTML output","Salida de bloques HTML",module,Magento_Store
 "Collections Data","Datos de la Colección",module,Magento_Store
 "Reflection Data","Datos de reflexión",module,Magento_Store
+"Database DDL operations","Operaciones DDL de la base de datos",module,Magento_Store
 "Swatches per Product","Muestras por producto",module,Magento_Swatches
 "Tax Classes","Clases de impuestos",module,Magento_Tax
 "Tax Class for Shipping","Clase de impuestos para envíos",module,Magento_Tax
@@ -5848,6 +5884,7 @@ Debug,Depurar,module,Magento_Ups
 Action,Acción,module,Magento_UrlRewrite
 Edit,Editar,module,Magento_UrlRewrite
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Plantilla de correo electrónico elegido basado en suplencia de tema cuando está seleccionada la opción ""Predeterminado"".",module,Magento_User
+"Lockout Time (minutes)","Tiempo de bloqueo (minutos)",module,Magento_User
 "Password Change","Cambio de contraseña",module,Magento_User
 Unlock,Desbloquear,module,Magento_User
 Username,"Nombre de Usuario",module,Magento_User
