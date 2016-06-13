@@ -1223,6 +1223,8 @@ Customers,Clientes,module,Magento_Customer
 "Please correct this email address: ""%1"".","Por favor correge esta dirección de correo electrónico: ""%1"".",module,Magento_Customer
 Admin,Administrar,module,Magento_Customer
 "Attribute object is undefined","Objeto de campo indefinido",module,Magento_Customer
+"""%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Customer
+"""%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Customer
 label,etiqueta,module,Magento_Customer
 "Customer Group","Grupo del cliente",module,Magento_Customer
 "PHP SOAP extension is required.","Se requiere la extensión PHP SOAP",module,Magento_Customer
@@ -1234,6 +1236,7 @@ Customer,Cliente,module,Magento_Customer
 "Last Logged In:","Letzte Anmeldung:",module,Magento_Customer
 "Last Logged In (%1):","Última sesión iniciada (%1):",module,Magento_Customer
 "Confirmed email:","Bestätigte eMail-Adresse:",module,Magento_Customer
+"Account Created on (%1):","Cuenta creada en (%1):",module,Magento_Customer
 "Account Created in:","Kundenkonto angelegt in:",module,Magento_Customer
 "Customer Group:",Kundengruppe:,module,Magento_Customer
 "Default Billing Address","Dirección de facturación por defecto",module,Magento_Customer
@@ -1430,6 +1433,8 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Input type ""%value%"" not found in the input types list.","El tipo de entrada ""%value%"" no se encuentra en la lista de tipos de entrada.",module,Magento_Eav
 "Attribute object is undefined","Objeto de campo indefinido",module,Magento_Eav
 "Entity object is undefined","Objeto de entidad indefinido",module,Magento_Eav
+"""%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Eav
+"""%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Eav
 "Entity is not initialized","La entidad no está inicializada",module,Magento_Eav
 "Unknown parameter","Parámetro desconocido",module,Magento_Eav
 "Invalid default decimal value","Valor decimal por defecto no válido",module,Magento_Eav
@@ -2347,11 +2352,13 @@ Reports,Informes,module,Magento_Reports
 "Downloads Report","Informe de descargas",module,Magento_Reports
 "Low Stock","Existencia baja",module,Magento_Reports
 "Low Stock Report","Informe de Stock bajo",module,Magento_Reports
+"Ordered Products Report","Informe de productos ordenados",module,Magento_Reports
 "Products Most Viewed Report","Bericht meistgesehene Artikel",module,Magento_Reports
 "Product Views Report","Repoprte de productos vistos",module,Magento_Reports
 Review,Reseña,module,Magento_Reports
 Reviews,Reseñas,module,Magento_Reports
 "Customers Report","Informe de clientes",module,Magento_Reports
+"Customer Reviews Report","Informe de reseñas del cliente",module,Magento_Reports
 "Product Reviews Report","Informe de comentarios del producto",module,Magento_Reports
 "Product Reviews","Reseñas de artículo",module,Magento_Reports
 Details,Detalles,module,Magento_Reports
@@ -2441,9 +2448,11 @@ Reviews,Reseñas,module,Magento_Review
 "Please select review(s).","Por favor, seleccione revisión(es).",module,Magento_Review
 "You saved the review.","Guardaste la revisión.",module,Magento_Review
 "The review was removed by another user or does not exist.","La reseña no existe o fue eliminada por otro usuario.",module,Magento_Review
+"You deleted the rating.","Borró la calificación.",module,Magento_Review
 Ratings,Calificaciones,module,Magento_Review
 "You saved the rating.","Guardaste la calificación.",module,Magento_Review
 "My Product Reviews","Reseñas de mi artículo",module,Magento_Review
+"Storage key was not set","No se ha establecido la clave de almacenamiento",module,Magento_Review
 Approved,Aprobado,module,Magento_Review
 Pending,Pendiente,module,Magento_Review
 "Not Approved","No aprobado",module,Magento_Review
@@ -2669,6 +2678,8 @@ Quantity,Cantidad,module,Magento_Sales
 "Recently Viewed","Vistos recientemente",module,Magento_Sales
 "Wish List",Favoritos,module,Magento_Sales
 "Order Totals","Total del pedido",module,Magento_Sales
+"Shipping Incl. Tax (%1)","Envío incluido impuestos (%1)",module,Magento_Sales
+"Shipping Excl. Tax (%1)","Envío no incluido impuestos (%1)",module,Magento_Sales
 "New Credit Memo for Invoice #%1","Factura rectificada para la factura nº %1",module,Magento_Sales
 "New Credit Memo for Order #%1","Factura rectificada para el pedido nº %1",module,Magento_Sales
 "Refund Shipping (Incl. Tax)","Reembolso del envío (impuestos incl.)",module,Magento_Sales
@@ -2831,6 +2842,7 @@ Partial,Parcial,module,Magento_Sales
 Mixed,Mixto,module,Magento_Sales
 "Registered a Void notification.","Recibido una noticia vacía.",module,Magento_Sales
 "We refunded %1 online.","Devolvimos %1 en línea.",module,Magento_Sales
+"We refunded %1 offline.","Devolvimos %1 fuera de línea.",module,Magento_Sales
 "Canceled order online","Pedido cancelado en línea",module,Magento_Sales
 "Canceled order offline","Pedido cancelado fuera de línea",module,Magento_Sales
 "Approved the payment online.","El pago ha sido aprobado a distancia.",module,Magento_Sales
@@ -2841,6 +2853,7 @@ Mixed,Mixto,module,Magento_Sales
 "Voided authorization.","Autorización anulada.",module,Magento_Sales
 "Amount: %1.","Cantidad: %1.",module,Magento_Sales
 "Transaction ID: ""%1""","Identificador de la transacción: ""%1""",module,Magento_Sales
+"Authorized amount of %1","Importe autorizado de %1",module,Magento_Sales
 "Ordered amount of %1","Cantidad ordenada de %1",module,Magento_Sales
 "Payment transactions disallow storing objects.","Las operaciones de pago no permiten almacenar objetos.",module,Magento_Sales
 "Set order for existing transactions not allowed","No se le permite configurar un pedido de una transacción existente.",module,Magento_Sales
@@ -3214,6 +3227,8 @@ Priority,Prioridad,module,Magento_Tax
 "Tax rates at the same priority are added, others are compounded.","Las tarifas tributarias con la misma prioridad son añadidas, las demás son compuestas.",module,Magento_Tax
 "Sort Order","Orden de aparición",module,Magento_Tax
 "Add New Tax Class","Añadir nueva clase fiscal",module,Magento_Tax
+"Shipping Incl. Tax (%1)","Envío incluido impuestos (%1)",module,Magento_Tax
+"Shipping Excl. Tax (%1)","Envío no incluido impuestos (%1)",module,Magento_Tax
 "Subtotal (Excl.Tax)","Subtotal (excl. impuestos)",module,Magento_Tax
 "Subtotal (Incl.Tax)","Subtotal (incl. impuestos)",module,Magento_Tax
 "Shipping & Handling (Excl.Tax)","Envío y servicio (impuestos no incluídos)",module,Magento_Tax
@@ -4232,6 +4247,7 @@ Service,Servicio,module,Magento_Directory
 "Use Content-Disposition","Utilizar Contenido-Disposición",module,Magento_Downloadable
 "Disable Guest Checkout if Cart Contains Downloadable Items","Deshabilitar la facturación para visitantes si el carrito contiene artículos descargables",module,Magento_Downloadable
 "Guest checkout will only work with shareable.","La facturación con visitantes sólo funcionará si se puede compartir.",module,Magento_Downloadable
+"EAV types and attributes","Atributos y tipos EAV",module,Magento_Eav
 "Entity types declaration cache.","Caché de declaración de tipos de entidad.",module,Magento_Eav
 "No Templates Found","No se encontraron plantillas",module,Magento_Email
 Added,Añadido,module,Magento_Email
@@ -4677,6 +4693,7 @@ Created,Creado,module,Magento_Sales
 "Print Shipping Labels","Imprimir etiquetas de envío",module,Magento_Sales
 "Purchase Date","Fecha de compra",module,Magento_Sales
 "Grand Total (Base)","Gran Total (Base)",module,Magento_Sales
+"Grand Total (Purchased)","Gran Total (comprado)",module,Magento_Sales
 "PDF Invoices","Facturas PDF",module,Magento_Sales
 "Search Engine","Motor de búsqueda",module,Magento_Search
 "Email to a Friend","Escribir correo electrónico a un amigo",module,Magento_SendFriend
@@ -4700,6 +4717,7 @@ City,Ciudad,module,Magento_Shipping
 Frequency,Frecuencia,module,Magento_Sitemap
 Priority,Prioridad,module,Magento_Sitemap
 "Products Options","Opciones de artículos",module,Magento_Sitemap
+"Add Images into Sitemap","Añadir imágenes al mapa del sitio",module,Magento_Sitemap
 "CMS Pages Options","Opciones de páginas de CMS (sistema de gestión de contenidos)",module,Magento_Sitemap
 "Generation Settings","Ajuste generacinal",module,Magento_Sitemap
 Enabled,Habilitado,module,Magento_Sitemap
