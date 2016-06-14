@@ -6,10 +6,10 @@ This translation is usefull for people living in the Spain (España).
 For our other language packs look at the [Magento2Translations](http://magento2translations.github.io/) page.
 
 # Version & progress
-This translation is generated from the branch [Head](https://crowdin.com/project/magento-2/es-ES#/Head) at Crowdin and based on the Magento 2.0.7 sourcefiles.
-There have been  6006 strings translated of the 7782 strings in the Magento source.
+This translation is generated from the branch [Head](https://crowdin.com/project/magento-2/es-ES#/Head) at Crowdin and based on the Magento  sourcefiles.
+There have been  64 strings translated of the 7782 strings in the Magento source.
 
-Translation progress:![Progress](http://progressed.io/bar/77)
+Translation progress:![Progress](http://progressed.io/bar/1)
 
 # Instalation
 ## Via composer
