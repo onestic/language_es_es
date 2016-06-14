@@ -1206,6 +1206,7 @@ Customers,Clientes,module,Magento_Customer
 "Edit Group","Editar grupo",module,Magento_Customer
 "Edit Customer Groups","Editar grupos del cliente",module,Magento_Customer
 "Please select customer(s).","Bitte wählen Sie entsprechende Kunden aus.",module,Magento_Customer
+"You deleted the customer.","Ha eliminado el cliente.",module,Magento_Customer
 "Manage Customers","Gestionar clientes",module,Magento_Customer
 "You saved the customer.","Ha guardado el cliente.",module,Magento_Customer
 "This account is not confirmed.","Esta cuenta no está confirmada.",module,Magento_Customer
@@ -1216,6 +1217,7 @@ Customers,Clientes,module,Magento_Customer
 "Please enter the zip/postal code.","Por favor, introduzca el código postal.",module,Magento_Customer
 "Please enter the country.","Por favor, ingrese el país.",module,Magento_Customer
 "Please enter the state/province.","Por favor, introduzca el estado/provincia.",module,Magento_Customer
+"""%1"" is a required value.","""%1"" es un valor necesario.",module,Magento_Customer
 "Per Website","Por sitio web",module,Magento_Customer
 "Billing Address","Dirección de facturación",module,Magento_Customer
 "Shipping Address","Dirección de envío",module,Magento_Customer
@@ -1225,6 +1227,8 @@ Admin,Administrar,module,Magento_Customer
 "Attribute object is undefined","Objeto de campo indefinido",module,Magento_Customer
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Customer
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Customer
+"""%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Customer
+"""%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Customer
 label,etiqueta,module,Magento_Customer
 "Customer Group","Grupo del cliente",module,Magento_Customer
 "PHP SOAP extension is required.","Se requiere la extensión PHP SOAP",module,Magento_Customer
@@ -1435,6 +1439,9 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Entity object is undefined","Objeto de entidad indefinido",module,Magento_Eav
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Eav
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Eav
+"""%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Eav
+"""%1"" is a required value.","""%1"" es un valor necesario.",module,Magento_Eav
+"""%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Eav
 "Entity is not initialized","La entidad no está inicializada",module,Magento_Eav
 "Unknown parameter","Parámetro desconocido",module,Magento_Eav
 "Invalid default decimal value","Valor decimal por defecto no válido",module,Magento_Eav
@@ -1629,6 +1636,7 @@ Status,Estatus,module,Magento_ImportExport
 "Destination file is not writable","No se puede escribir en el archivo de destino",module,Magento_ImportExport
 "in rows","en filas",module,Magento_ImportExport
 "Begin data validation","Inicie la validación de los datos.",module,Magento_ImportExport
+"Please specify a source.","Por favor especifique una fuente.",module,Magento_ImportExport
 "Cannot get autoincrement value","No se puede obtener un incremento automático del valor",module,Magento_ImportExport
 "-- Please Select --",--Seleccione--,module,Magento_ImportExport
 label,etiqueta,module,Magento_ImportExport
@@ -2620,6 +2628,7 @@ is,es,module,Magento_SalesRule
 "less than","menor que",module,Magento_SalesRule
 "is one of","es uno de",module,Magento_SalesRule
 "is not one of","no es uno de",module,Magento_SalesRule
+"Some coupons are invalid.","Algunos cupones no son válidos.",module,Magento_SalesRule
 "Credit Memos","Facturas rectificadas",module,Magento_Sales
 Orders,Pedidos,module,Magento_Sales
 Invoices,Facturas,module,Magento_Sales
@@ -2802,6 +2811,7 @@ Sales,Ventas,module,Magento_Sales
 "You voided the credit memo.","Se anula la factura rectificada.",module,Magento_Sales
 "The order no longer exists.","Es pedido ya no existe.",module,Magento_Sales
 "Edit Order","Editar pedido",module,Magento_Sales
+"You sent the order email.","Envió el correo electrónico de la orden.",module,Magento_Sales
 "You canceled the invoice.","Ha cancelado la factura.",module,Magento_Sales
 "Invoice canceling error","Error al cancelar la factura",module,Magento_Sales
 "The invoice has been captured.","La factura ha sido capturada.",module,Magento_Sales
@@ -2812,6 +2822,7 @@ Sales,Ventas,module,Magento_Sales
 "Cannot update item quantity.","No se puede actualizar la cantidad de artículos.",module,Magento_Sales
 "The invoice has been voided.","La factura ha sido anulada.",module,Magento_Sales
 "Invoice voiding error","Error al anular la factura",module,Magento_Sales
+"We canceled %1 order(s).","Hemos cancelado %1 orden(es).",module,Magento_Sales
 "No order(s) were put on hold.","Ningún pedido fue puesto en suspenso.",module,Magento_Sales
 "There are no printable documents related to selected orders.","No hay documentos para imprimir relacionados con los pedidos seleccionados.",module,Magento_Sales
 "The payment has been accepted.","El pago se ha aceptado.",module,Magento_Sales
@@ -2847,6 +2858,7 @@ Mixed,Mixto,module,Magento_Sales
 "Canceled order offline","Pedido cancelado fuera de línea",module,Magento_Sales
 "Approved the payment online.","El pago ha sido aprobado a distancia.",module,Magento_Sales
 "There is no need to approve this payment.","No hay necesidad de aprobar este pago.",module,Magento_Sales
+"Denied the payment online","Denegado el pago en línea",module,Magento_Sales
 "Registered update about approved payment.","Recibido una actualización acerca de un pago aprobado.",module,Magento_Sales
 "Registered update about denied payment.","Recibido una actualización acerca de un pago denegado.",module,Magento_Sales
 "There is no update for the payment.","No hay actualizaciones para este pago.",module,Magento_Sales
@@ -3096,6 +3108,7 @@ Product,Producto,module,Magento_Shipping
 Weight,Peso,module,Magento_Shipping
 "Qty Ordered","Cantidad pedida",module,Magento_Shipping
 Qty,Cantidad,module,Magento_Shipping
+"No detail for number ""%1""","Ningún detalle para el número ""%1""",module,Magento_Shipping
 "Per Order","Por pedido",module,Magento_Shipping
 "Per Package","Por paquete",module,Magento_Shipping
 Fixed,Fijo,module,Magento_Shipping
@@ -3310,6 +3323,7 @@ Manage,Gestionar,module,Magento_Theme
 "Theme JavaScript","Tema JavaScript",module,Magento_Theme
 "Upload JS Files","Subir archivos JS",module,Magento_Theme
 "JS Editor","Editor de JS",module,Magento_Theme
+"Allowed file types *.js.","Tipos de archivo permitidos *.js.",module,Magento_Theme
 Theme,Plantilla,module,Magento_Theme
 "Media Storage","Almacenamiento de medios",module,Magento_Theme
 "Create Folder","Crear Carpeta",module,Magento_Theme
@@ -4835,6 +4849,7 @@ Action,Acción,module,Magento_UrlRewrite
 Edit,Editar,module,Magento_UrlRewrite
 "Reset Password Template","Plantilla para restablecer contraseña",module,Magento_User
 "Lockout Time (minutes)","Tiempo de bloqueo (minutos)",module,Magento_User
+"Password Lifetime (days)","Tiempo de vida de password (dias)",module,Magento_User
 "Password Change","Cambio de contraseña",module,Magento_User
 Unlock,Desbloquear,module,Magento_User
 Username,"Nombre de Usuario",module,Magento_User
