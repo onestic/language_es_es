@@ -1590,6 +1590,7 @@ Select,Seleccionar,module,Magento_ConfigurableProduct
 Price,Precio,module,Magento_ConfigurableProduct
 "Skip price at this time","Saltear precio en esta ocasión",module,Magento_ConfigurableProduct
 Quantity,Cantidad,module,Magento_ConfigurableProduct
+"Skip quantity at this time","Saltear cantidad en esta ocasión",module,Magento_ConfigurableProduct
 "Step 1: Select Attributes","Paso 1: Seleccionarlos atributos",module,Magento_ConfigurableProduct
 "Selected Attributes:","Atributos seleccionados:",module,Magento_ConfigurableProduct
 "Step 4: Summary","Paso 4: Resumen",module,Magento_ConfigurableProduct
@@ -1604,6 +1605,7 @@ Actions,Acciones,module,Magento_ConfigurableProduct
 "Upload Image","Subir imagen",module,Magento_ConfigurableProduct
 "Upload image","Subir imagen",module,Magento_ConfigurableProduct
 "No Image","Sin imagen",module,Magento_ConfigurableProduct
+"Choose a different Product","Elige un producto diferente",module,Magento_ConfigurableProduct
 "Remove Product","Eliminar artículo",module,Magento_ConfigurableProduct
 Confirm,Confirmar,module,Magento_ConfigurableProduct
 Cancel,Cancelar,module,Magento_ConfigurableProduct
@@ -1797,6 +1799,7 @@ Customers,Clientes,module,Magento_Customer
 "%1 doesn't extend \Magento\Customer\CustomerData\SectionSourceInterface","%1 no extiende a \Magento\Customer\CustomerData\SectionSourceInterface",module,Magento_Customer
 "No confirmation needed.","No se necesita la confirmación.",module,Magento_Customer
 "Account already active","Cuenta ya activa",module,Magento_Customer
+"Invalid confirmation token","Token de confirmación no válido",module,Magento_Customer
 "This account is not confirmed.","Esta cuenta no está confirmada.",module,Magento_Customer
 "The password doesn't match this account.","La contraseña no coincide con la de esta cuenta.",module,Magento_Customer
 "The password can't begin or end with a space.","La contraseña no puede comenzar ni terminar con un espacio.",module,Magento_Customer
@@ -1821,6 +1824,7 @@ Customers,Clientes,module,Magento_Customer
 "Please enter a gender.","Introduce un género.",module,Magento_Customer
 Admin,Administrar,module,Magento_Customer
 "Attribute object is undefined","Objeto de campo indefinido",module,Magento_Customer
+"""%1"" invalid type entered.","""%1"" tipo introducido inválido.",module,Magento_Customer
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Customer
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Customer
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Customer
@@ -2098,11 +2102,13 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Input type ""%value%"" not found in the input types list.","El tipo de entrada ""%value%"" no se encuentra en la lista de tipos de entrada.",module,Magento_Eav
 "Attribute object is undefined","Objeto de campo indefinido",module,Magento_Eav
 "Entity object is undefined","Objeto de entidad indefinido",module,Magento_Eav
+"""%1"" invalid type entered.","""%1"" tipo introducido inválido.",module,Magento_Eav
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Eav
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Eav
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Eav
 """%1"" is a required value.","""%1"" es un valor necesario.",module,Magento_Eav
 """%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Eav
+"Cannot save attributeGroup","No se puede guardar attributeGroup",module,Magento_Eav
 "Cannot save attribute","No se puede guardar el atributo",module,Magento_Eav
 "Cannot delete attribute.","No se puede eliminar el atributo.",module,Magento_Eav
 "Entity is not initialized","La entidad no está inicializada",module,Magento_Eav
@@ -2126,6 +2132,7 @@ label,etiqueta,module,Magento_Eav
 "Invalid attribute type","Tipo de atributo no válido",module,Magento_Eav
 "Invalid joint fields","Campos combinados no válidos",module,Magento_Eav
 "Data integrity: No header row found for attribute","Integridad de datos: No se ha encontrado una línea de encabezamiento para el campo",module,Magento_Eav
+"Invalid attribute name: %1","Nombre de atributo no válido: %1",module,Magento_Eav
 "Invalid form type.","Tipo de forma no válido",module,Magento_Eav
 "Invalid EAV attribute","Atributo de EAV inválido",module,Magento_Eav
 "Attribute with the same code","Atributo con el mismo código",module,Magento_Eav
@@ -2346,6 +2353,7 @@ Status,Estatus,module,Magento_ImportExport
 "Data validation is failed. Please fix errors and re-upload the file..","La validación de datos falló. Por favor, corregir errores y volver a subir el archivo..",module,Magento_ImportExport
 "File is valid! To start import process press ""Import"" button","El archivo no es correcto. Para empezar el proceso de importación pulse el botón ""Importar"".",module,Magento_ImportExport
 "The file is valid, but we can't import it for some reason.","El archivo es válido, pero no podemos importarlo por alguna razón.",module,Magento_ImportExport
+"The file was not uploaded.","No se ha cargado el archivo.",module,Magento_ImportExport
 "Show more","Ver más",module,Magento_ImportExport
 "Additional data","Informacion adicional",module,Magento_ImportExport
 "Download full report","Descargar informe completo",module,Magento_ImportExport
@@ -2358,9 +2366,11 @@ Status,Estatus,module,Magento_ImportExport
 "We can't determine the attribute filter type.","No se puede determinar el tipo de filtro de atributos.",module,Magento_ImportExport
 "Entity is unknown","Entidad desconocida",module,Magento_ImportExport
 "We can't identify this file format.","No podemos identificar este formato de archivo.",module,Magento_ImportExport
+"Please specify the writer.","Por favor especifique el escritor.",module,Magento_ImportExport
 "Destination file is not writable","No se puede escribir en el archivo de destino",module,Magento_ImportExport
 "Data validation is failed. Please fix errors and re-upload the file.","La validación de datos falló. Por favor, corregir errores y volver a subir el archivo.",module,Magento_ImportExport
 "in rows","en filas",module,Magento_ImportExport
+"The import was successful.","La importación fue un éxito.",module,Magento_ImportExport
 "Begin data validation","Inicie la validación de los datos.",module,Magento_ImportExport
 "Source file coping failed","Falla al copiar la fuente de archivo",module,Magento_ImportExport
 "The source is not set.","La fuente no esta establecida.",module,Magento_ImportExport
@@ -2622,6 +2632,7 @@ Sender,Remitente,module,Magento_Newsletter
 "Template Type","Tipo de plantilla",module,Magento_Newsletter
 Action,Acción,module,Magento_Newsletter
 "Queue Newsletter","Cola de Boletín",module,Magento_Newsletter
+"Newsletter Problems Report","Informes de problemas del boletín informativo",module,Magento_Newsletter
 "Newsletter Problem Reports","Informes de problemas del boletín informativo",module,Magento_Newsletter
 "Newsletter Queue","Cola del boletín informativo",module,Magento_Newsletter
 "Edit Queue","Editar la cola de tareas",module,Magento_Newsletter
@@ -2633,6 +2644,7 @@ Subscribers,Suscriptores,module,Magento_Newsletter
 "New Template","Nueva plantilla",module,Magento_Newsletter
 "Create Newsletter Template","Crear plantilla para el boletín de informativo",module,Magento_Newsletter
 "Newsletter Subscription","Suscripción al boletín informativo",module,Magento_Newsletter
+"We saved the subscription.","Se guardó la suscripción.",module,Magento_Newsletter
 "Your subscription has been confirmed.","Su suscripción ha sido confirmada.",module,Magento_Newsletter
 "This email address is already assigned to another user.","Esta dirección de correo ya se asignó a otro usuario.",module,Magento_Newsletter
 "Please enter a valid email address.","Por favor, ingrese una dirección de correo electrónico válida.",module,Magento_Newsletter
@@ -2827,6 +2839,7 @@ Never,Nunca,module,Magento_Paypal
 "We'll authorize the amount of %1 as soon as the payment gateway approves it.","Autorizaremos la cantidad de %1 tan pronto como el Gateway de pago aprueba.",module,Magento_Paypal
 "The maximum number of child authorizations is reached.","Se ha alcanzado el número máximo de autorizaciones infantiles.",module,Magento_Paypal
 "PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.","PayPal no podrá procesar órdenes con un saldo pendiente en ceros. Para finalizar su compra, por favor pasar por el proceso de pago estándar.",module,Magento_Paypal
+"A payer is not identified.","El pagador no se ha identificado.",module,Magento_Paypal
 "Last Transaction ID","Última Identificación de Transacción",module,Magento_Paypal
 "This customer didn't include a confirmed address.","El cliente no incluyó una dirección confirmada.",module,Magento_Paypal
 "The payment is authorized but not settled.","El pago se ha autorizado, pero no se ha realizado.",module,Magento_Paypal
@@ -2865,6 +2878,7 @@ Never,Nunca,module,Magento_Paypal
 "CVV2 Check Result by PayPal","Resultado de comprobación CVV2 por PayPal",module,Magento_Paypal
 "AVS Street Match","Coincidencia AVS de Calle",module,Magento_Paypal
 "AVS zip","Zip AVS",module,Magento_Paypal
+"International AVS response","Respuesta internacional AVS",module,Magento_Paypal
 "Buyer's Tax ID","Tax ID de comprador",module,Magento_Paypal
 "Buyer's Tax ID Type","Tipo de identificación fiscal del comprador",module,Magento_Paypal
 Chargeback,"Devolución del importe",module,Magento_Paypal
@@ -3516,6 +3530,7 @@ Priority,Prioridad,module,Magento_SalesRule
 Rule,Regla,module,Magento_SalesRule
 Start,Comenzar,module,Magento_SalesRule
 End,Fin,module,Magento_SalesRule
+"%1 - Discounts and Coupons","%1 - Descuentos y cupones",module,Magento_SalesRule
 Coupons/Discounts,Cupones/descuentos,module,Magento_SalesRule
 Promotions,Promociones,module,Magento_SalesRule
 "You deleted the rule.","Ha eliminado la regla.",module,Magento_SalesRule
@@ -3785,6 +3800,7 @@ Sales,Ventas,module,Magento_Sales
 "Edit Order","Editar pedido",module,Magento_Sales
 "You sent the order email.","Envió el correo electrónico de la orden.",module,Magento_Sales
 "We can't send the email order right now.","No podemos enviar el correo electrónico de pedido en estos momentos.",module,Magento_Sales
+"You put the order on hold.","Poner la orden en espera.",module,Magento_Sales
 "You canceled the invoice.","Ha cancelado la factura.",module,Magento_Sales
 "Invoice canceling error","Error al cancelar la factura",module,Magento_Sales
 "The invoice has been captured.","La factura ha sido capturada.",module,Magento_Sales
@@ -3809,6 +3825,7 @@ Sales,Ventas,module,Magento_Sales
 "Create New Order Status","Nuevo estado de pedido",module,Magento_Sales
 "We can't add the order status right now.","No podemos agregar el estado del pedido en este momento.",module,Magento_Sales
 "Can't unhold order.","No se puede reiniciar la orden.",module,Magento_Sales
+"The order was not on hold.","La orden no estaba en espera.",module,Magento_Sales
 "The payment has been voided.","El pago ha sido anulado.",module,Magento_Sales
 "We can't void the payment right now.","No podemos anular el pago ahora mismo.",module,Magento_Sales
 "The transaction details have been updated.","Se han actualizado los detalles de la transacción.",module,Magento_Sales
@@ -3839,6 +3856,7 @@ Pending,Pendiente,module,Magento_Sales
 Refunded,Reembolsado,module,Magento_Sales
 Canceled,Cancelado,module,Magento_Sales
 "Unknown State","Estado desconocido",module,Magento_Sales
+"Could not save credit memo","No se puede guardar la nota de crédito",module,Magento_Sales
 Paid,Pagado,module,Magento_Sales
 "ID required","ID requerida",module,Magento_Sales
 "Unknown Status","Estatus desconocido",module,Magento_Sales
@@ -4108,6 +4126,7 @@ Store,Tienda,module,Magento_Search
 "Please select searches.","Por favor seleccione búsquedas.",module,Magento_Search
 Reports,Informes,module,Magento_Search
 "Search Terms Report","Informe de términos de búsqueda",module,Magento_Search
+"You saved the search term.","Guardaste el término de búsqueda.",module,Magento_Search
 "Your search query can't be longer than %1, so we shortened your query.","La consulta de búsqueda no puede ser más larga que %1, por lo que se acortó su solicitud.",module,Magento_Search
 "Search entire store here...","Busque aquí por toda la tienda...",module,Magento_Search
 "There are no search terms available.","No hay términos de búsqueda disponibles.",module,Magento_Search
@@ -4461,6 +4480,7 @@ Tax,Impuestos,module,Magento_Tax
 "Invalid attribute %1","Atributo %1 inválido",module,Magento_Tax
 Code,Código,module,Magento_Tax
 "Invalid type supplied","Tipo inválido suministrado",module,Magento_Tax
+"Class name and class type","Nombre de la clase y tipo de clase",module,Magento_Tax
 "Grand Total (Excl. Tax)","Total general (sin impuestos)",module,Magento_Tax
 "Grand Total (Incl. Tax)","Total general (con impuestos)",module,Magento_Tax
 "Shipping (Excl. Tax)","Envío (impuestos no incluídos)",module,Magento_Tax
@@ -4508,6 +4528,7 @@ Manage,Gestionar,module,Magento_Theme
 "Upload Fonts","Subir fuentes",module,Magento_Theme
 "Fonts Assets","Activos de fuentes",module,Magento_Theme
 "Edit custom.css","Editar custom.css",module,Magento_Theme
+"Allowed file types *.css.","Tipos de archivo permitidos *.css.",module,Magento_Theme
 "This file will replace the current custom.css file and can't be more than 2 MB.","Este archivo reemplazará el archivo actual custom.css y no puede ser de más de 2 MB.",module,Magento_Theme
 "Max file size to upload %1M","Tamaño máximo del archivo a subir %1M",module,Magento_Theme
 "CSS Editor","Editor CSS",module,Magento_Theme
@@ -4519,6 +4540,7 @@ Manage,Gestionar,module,Magento_Theme
 "Copy of %1","Copia de %1",module,Magento_Theme
 "Max image size %1M","Tamaño de imagen máximo %1M",module,Magento_Theme
 "Theme JavaScript","Tema JavaScript",module,Magento_Theme
+"Select JS Files to Upload","Selecciona archivo JS para subir",module,Magento_Theme
 "Upload JS Files","Subir archivos JS",module,Magento_Theme
 "JS Editor","Editor de JS",module,Magento_Theme
 "Allowed file types *.js.","Tipos de archivo permitidos *.js.",module,Magento_Theme
@@ -4533,6 +4555,8 @@ Theme,Plantilla,module,Magento_Theme
 "You deleted the theme.","Ha eliminado el tema.",module,Magento_Theme
 "File not found: ""%1"".","No se encontró el archivo: ""%1"".",module,Magento_Theme
 "We can't find file.","No podemos encontrar el archivo.",module,Magento_Theme
+"We cannot find theme ""%1"".","No podemos encontrar el tema ""%1"".",module,Magento_Theme
+"We cannot find the theme.","No podemos encontrar el tema.",module,Magento_Theme
 "You saved the theme.","Guardaste el tema.",module,Magento_Theme
 "We can't upload the CSS file right now.","No podemos subir el archivo CSS en este momento.",module,Magento_Theme
 "We can't upload the JS file right now.","No podemos subir el archivo JS en este momento.",module,Magento_Theme
@@ -4556,6 +4580,7 @@ exception,excepción,module,Magento_Theme
 Remove,Eliminar,module,Magento_Theme
 "Report All Bugs","Informar de todos los errores",module,Magento_Theme
 "JavaScript seems to be disabled in your browser.","Parece que JavaScript está deshabilitado en su navegador.",module,Magento_Theme
+"Items %1 to %2 of %3 total","Artículos %1 al %2 de %3 totales",module,Magento_Theme
 "%1 Item","%1 artículo",module,Magento_Theme
 "%1 Item(s)","%1 artículo(s)",module,Magento_Theme
 Page,Página,module,Magento_Theme
@@ -5073,6 +5098,7 @@ Items,Artículos,module,Magento_Checkout
 "Welcome to %store_name.","Bienvenido a %store_name.",module,Magento_Customer
 Password:,Contraseña:,module,Magento_Customer
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","¿Olvidó la contraseña de su cuenta? Haga clic <a href=""%reset_url""> aquí</a> para restablecerla.",module,Magento_Customer
+"Check the status of orders","Compruebe el estado de los pedidos",module,Magento_Customer
 "View past orders","Ver órdenes anteriores",module,Magento_Customer
 "Confirm Your Account","Confirmar tu cuenta",module,Magento_Customer
 "The password for your account has been successfully changed.","La contraseña de su cuenta se ha cambiado correctamente.",module,Magento_Customer
@@ -5189,6 +5215,7 @@ Ok,Aceptar,module,Magento_Sales
 "No white space please","Sin espacio en blanco por favor",module,Magento_Ui
 "Please enter a valid credit card number.","Por favor, introduzca un número de tarjeta de crédito válido.",module,Magento_Ui
 "Invalid format.","Formato inválido.",module,Magento_Ui
+"HTML tags are not allowed.","No se admite tags de HTML.",module,Magento_Ui
 "Please select an option.","Por favor, selecciona una opción.",module,Magento_Ui
 "Empty Value.","Valor vacío.",module,Magento_Ui
 "Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.","Por favor, introduzca un número de teléfono válido. Por ejemplo (123) 456-7890 ó 123-456-7890.",module,Magento_Ui
@@ -5895,6 +5922,7 @@ Updated,Actualizado,module,Magento_Indexer
 "Cleanup Probability","Probabilidad de limpieza",module,Magento_Integration
 "Expiration Period","Periodo de expiración",module,Magento_Integration
 "Consumer Settings","Configuración del consumidor",module,Magento_Integration
+"Integrations Configuration","Configuración de integraciones",module,Magento_Integration
 "Integration configuration file.","Archivo de configuración de integración.",module,Magento_Integration
 "Integrations API configuration file.","Archivo de configuración de integraciones API.",module,Magento_Integration
 "No Integrations Found","No se encontraron integraciones",module,Magento_Integration
@@ -6357,6 +6385,7 @@ Region/State,Región/Provincia,module,Magento_Shipping
 City,Ciudad,module,Magento_Shipping
 "Street Address","Dirección postal (Calle, Nº de Casa, Código Postal)",module,Magento_Shipping
 "Street Address Line 2","Dirección postal, segunda línea",module,Magento_Shipping
+"Shipping Policy Parameters","Parámetros de la política de envío",module,Magento_Shipping
 "Shipping Policy","Política de Envío",module,Magento_Shipping
 "Shipping Methods","Métodos de envío",module,Magento_Shipping
 "Categories Options","Opciones de categorias",module,Magento_Sitemap
@@ -6412,6 +6441,7 @@ Configuration,Configuración,module,Magento_Store
 "Display Prices","Mostrar precios",module,Magento_Tax
 "Display Subtotal","Mostrar Subtotal",module,Magento_Tax
 "Display Shipping Amount","Mostrar importe de envío",module,Magento_Tax
+"Include Tax In Order Total","Includir impuestos al total",module,Magento_Tax
 "Display Full Tax Summary","Mostrar Resumen de impuestos",module,Magento_Tax
 "Display Zero Tax Subtotal","Mostrar el subtotal aunque sea cero",module,Magento_Tax
 "Orders, Invoices, Credit Memos Display Settings","Ajustes de visualización para pedidos, facturas y facturas rectificativas",module,Magento_Tax
