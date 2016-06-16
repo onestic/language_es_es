@@ -1225,6 +1225,7 @@ Customers,Clientes,module,Magento_Customer
 "Please correct this email address: ""%1"".","Por favor correge esta dirección de correo electrónico: ""%1"".",module,Magento_Customer
 Admin,Administrar,module,Magento_Customer
 "Attribute object is undefined","Objeto de campo indefinido",module,Magento_Customer
+"""%1"" invalid type entered.","""%1"" tipo introducido inválido.",module,Magento_Customer
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Customer
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Customer
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Customer
@@ -1437,6 +1438,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Input type ""%value%"" not found in the input types list.","El tipo de entrada ""%value%"" no se encuentra en la lista de tipos de entrada.",module,Magento_Eav
 "Attribute object is undefined","Objeto de campo indefinido",module,Magento_Eav
 "Entity object is undefined","Objeto de entidad indefinido",module,Magento_Eav
+"""%1"" invalid type entered.","""%1"" tipo introducido inválido.",module,Magento_Eav
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Eav
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Eav
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Eav
@@ -1458,6 +1460,7 @@ label,etiqueta,module,Magento_Eav
 "Invalid attribute type","Tipo de atributo no válido",module,Magento_Eav
 "Invalid joint fields","Campos combinados no válidos",module,Magento_Eav
 "Data integrity: No header row found for attribute","Integridad de datos: No se ha encontrado una línea de encabezamiento para el campo",module,Magento_Eav
+"Invalid attribute name: %1","Nombre de atributo no válido: %1",module,Magento_Eav
 "Invalid form type.","Tipo de forma no válido",module,Magento_Eav
 "Invalid EAV attribute","Atributo de EAV inválido",module,Magento_Eav
 "Attribute with the same code","Atributo con el mismo código",module,Magento_Eav
@@ -1822,6 +1825,7 @@ Updated,Actualizado,module,Magento_Newsletter
 Sender,Remitente,module,Magento_Newsletter
 "Template Type","Tipo de plantilla",module,Magento_Newsletter
 Action,Acción,module,Magento_Newsletter
+"Newsletter Problems Report","Informes de problemas del boletín informativo",module,Magento_Newsletter
 "Newsletter Problem Reports","Informes de problemas del boletín informativo",module,Magento_Newsletter
 "Newsletter Queue","Cola del boletín informativo",module,Magento_Newsletter
 "Edit Queue","Editar la cola de tareas",module,Magento_Newsletter
@@ -1832,6 +1836,7 @@ Subscribers,Suscriptores,module,Magento_Newsletter
 "New Template","Nueva plantilla",module,Magento_Newsletter
 "Create Newsletter Template","Crear plantilla para el boletín de informativo",module,Magento_Newsletter
 "Newsletter Subscription","Suscripción al boletín informativo",module,Magento_Newsletter
+"We saved the subscription.","Se guardó la suscripción.",module,Magento_Newsletter
 "Your subscription has been confirmed.","Su suscripción ha sido confirmada.",module,Magento_Newsletter
 "This email address is already assigned to another user.","Esta dirección de correo ya se asignó a otro usuario.",module,Magento_Newsletter
 "Please enter a valid email address.","Por favor, ingrese una dirección de correo electrónico válida.",module,Magento_Newsletter
@@ -2812,6 +2817,7 @@ Sales,Ventas,module,Magento_Sales
 "The order no longer exists.","Es pedido ya no existe.",module,Magento_Sales
 "Edit Order","Editar pedido",module,Magento_Sales
 "You sent the order email.","Envió el correo electrónico de la orden.",module,Magento_Sales
+"You put the order on hold.","Poner la orden en espera.",module,Magento_Sales
 "You canceled the invoice.","Ha cancelado la factura.",module,Magento_Sales
 "Invoice canceling error","Error al cancelar la factura",module,Magento_Sales
 "The invoice has been captured.","La factura ha sido capturada.",module,Magento_Sales
@@ -2828,6 +2834,7 @@ Sales,Ventas,module,Magento_Sales
 "The payment has been accepted.","El pago se ha aceptado.",module,Magento_Sales
 "The payment has been denied.","El pago ha sido denegado.",module,Magento_Sales
 "Create New Order Status","Nuevo estado de pedido",module,Magento_Sales
+"The order was not on hold.","La orden no estaba en espera.",module,Magento_Sales
 "The payment has been voided.","El pago ha sido anulado.",module,Magento_Sales
 "The transaction details have been updated.","Se han actualizado los detalles de la transacción.",module,Magento_Sales
 "Orders and Returns","Pedidos y devoluciones",module,Magento_Sales
@@ -3311,6 +3318,7 @@ Manage,Gestionar,module,Magento_Theme
 "Upload Fonts","Subir fuentes",module,Magento_Theme
 "Fonts Assets","Activos de fuentes",module,Magento_Theme
 "Edit custom.css","Editar custom.css",module,Magento_Theme
+"Allowed file types *.css.","Tipos de archivo permitidos *.css.",module,Magento_Theme
 "Max file size to upload %1M","Tamaño máximo del archivo a subir %1M",module,Magento_Theme
 "CSS Editor","Editor CSS",module,Magento_Theme
 "Theme Settings","Ajustes de tema",module,Magento_Theme
@@ -3321,6 +3329,7 @@ Manage,Gestionar,module,Magento_Theme
 "Copy of %1","Copia de %1",module,Magento_Theme
 "Max image size %1M","Tamaño de imagen máximo %1M",module,Magento_Theme
 "Theme JavaScript","Tema JavaScript",module,Magento_Theme
+"Select JS Files to Upload","Selecciona archivo JS para subir",module,Magento_Theme
 "Upload JS Files","Subir archivos JS",module,Magento_Theme
 "JS Editor","Editor de JS",module,Magento_Theme
 "Allowed file types *.js.","Tipos de archivo permitidos *.js.",module,Magento_Theme
@@ -3334,6 +3343,8 @@ Theme,Plantilla,module,Magento_Theme
 "Storage Root","Raíz de almacenamiento",module,Magento_Theme
 "You deleted the theme.","Ha eliminado el tema.",module,Magento_Theme
 "File not found: ""%1"".","No se encontró el archivo: ""%1"".",module,Magento_Theme
+"We cannot find theme ""%1"".","No podemos encontrar el tema ""%1"".",module,Magento_Theme
+"We cannot find the theme.","No podemos encontrar el tema.",module,Magento_Theme
 "You saved the theme.","Guardaste el tema.",module,Magento_Theme
 label,etiqueta,module,Magento_Theme
 "-- Please Select --",--Seleccione--,module,Magento_Theme
@@ -3343,6 +3354,7 @@ Copy,Copiar,module,Magento_Theme
 Remove,Eliminar,module,Magento_Theme
 "Report All Bugs","Informar de todos los errores",module,Magento_Theme
 "JavaScript seems to be disabled in your browser.","Parece que JavaScript está deshabilitado en su navegador.",module,Magento_Theme
+"Items %1 to %2 of %3 total","Artículos %1 al %2 de %3 totales",module,Magento_Theme
 "%1 Item","%1 artículo",module,Magento_Theme
 "%1 Item(s)","%1 artículo(s)",module,Magento_Theme
 Page,Página,module,Magento_Theme
@@ -4324,6 +4336,7 @@ Updated,Actualizado,module,Magento_Indexer
 "Cleanup Probability","Probabilidad de limpieza",module,Magento_Integration
 "Expiration Period","Periodo de expiración",module,Magento_Integration
 "Consumer Settings","Configuración del consumidor",module,Magento_Integration
+"Integrations Configuration","Configuración de integraciones",module,Magento_Integration
 "Integration configuration file.","Archivo de configuración de integración.",module,Magento_Integration
 "No Integrations Found","No se encontraron integraciones",module,Magento_Integration
 Status,Estatus,module,Magento_Integration
@@ -4726,6 +4739,7 @@ Region/State,Región/Provincia,module,Magento_Shipping
 City,Ciudad,module,Magento_Shipping
 "Street Address","Dirección postal (Calle, Nº de Casa, Código Postal)",module,Magento_Shipping
 "Street Address Line 2","Dirección postal, segunda línea",module,Magento_Shipping
+"Shipping Policy Parameters","Parámetros de la política de envío",module,Magento_Shipping
 "Shipping Methods","Métodos de envío",module,Magento_Shipping
 "Categories Options","Opciones de categorias",module,Magento_Sitemap
 Frequency,Frecuencia,module,Magento_Sitemap
