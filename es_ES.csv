@@ -1083,6 +1083,7 @@ Name,Nombre,module,Magento_ConfigurableProduct
 Weight,Peso,module,Magento_ConfigurableProduct
 "Upload Image","Subir imagen",module,Magento_ConfigurableProduct
 "No Image","Sin imagen",module,Magento_ConfigurableProduct
+"Choose Affected Attribute Set","Elija conjunto de atributo afectado",module,Magento_ConfigurableProduct
 Confirm,Confirmar,module,Magento_ConfigurableProduct
 Cancel,Cancelar,module,Magento_ConfigurableProduct
 "* Required Fields","* Campos obligatorios",module,Magento_Contact
@@ -1227,6 +1228,7 @@ Admin,Administrar,module,Magento_Customer
 "Attribute object is undefined","Objeto de campo indefinido",module,Magento_Customer
 """%1"" invalid type entered.","""%1"" tipo introducido inválido.",module,Magento_Customer
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Customer
+"""%1"" is not a valid hostname.","""%1"" no es un nombre de host válido.",module,Magento_Customer
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Customer
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Customer
 """%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Customer
@@ -1450,8 +1452,10 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Invalid default date","Fecha por defecto no válida",module,Magento_Eav
 "Invalid entity supplied","Se suministró una entidad no válida",module,Magento_Eav
 "Invalid date","Fecha no válida",module,Magento_Eav
+"Attribute set name is empty.","Nombre del conjunto de atributos está vacío.",module,Magento_Eav
 "No options found.","No hay opciones encontradas.",module,Magento_Eav
 label,etiqueta,module,Magento_Eav
+"Invalid entity supplied: %1","Se suministró una entidad no válida: %1",module,Magento_Eav
 "Attempt to add an invalid object","Intento de añadir un objeto inválido",module,Magento_Eav
 "Joint field or attribute expression with this alias is already declared","Ya se ha declarado un campo combinado o una expresión de atributos con este alias",module,Magento_Eav
 "Invalid alias, already exists in joint attributes","Alias inválido, ya existe en los atributos unidos.",module,Magento_Eav
@@ -1519,6 +1523,7 @@ City,Ciudad,module,Magento_Email
 "Store Contact Information","Tienda Información de contacto",module,Magento_Email
 "Template Variables","Plantillas Variables",module,Magento_Email
 "Duplicate Of Template Name","Duplicado del nombre de plantilla",module,Magento_Email
+"Requested invalid store ""%1""","Tienda solicitada ""%1"" inválida",module,Magento_Email
 "Invalid sender data","Datos de remitente inválidos",module,Magento_Email
 "Load default template","Standardvorlage laden",module,Magento_Email
 Template,Plantilla,module,Magento_Email
@@ -1635,6 +1640,7 @@ Status,Estatus,module,Magento_ImportExport
 "in rows:","en filas:",module,Magento_ImportExport
 "Begin export of %1","Comenzar la exportación de %1",module,Magento_ImportExport
 "Exported %1 rows.","Se han exportado %1 filas.",module,Magento_ImportExport
+"Please provide filter data.","Por favor proporcione datos de filtro.",module,Magento_ImportExport
 "Entity is unknown","Entidad desconocida",module,Magento_ImportExport
 "Destination file is not writable","No se puede escribir en el archivo de destino",module,Magento_ImportExport
 "in rows","en filas",module,Magento_ImportExport
@@ -1837,6 +1843,7 @@ Subscribers,Suscriptores,module,Magento_Newsletter
 "Create Newsletter Template","Crear plantilla para el boletín de informativo",module,Magento_Newsletter
 "Newsletter Subscription","Suscripción al boletín informativo",module,Magento_Newsletter
 "We saved the subscription.","Se guardó la suscripción.",module,Magento_Newsletter
+"We removed the subscription.","Quitamos la suscripción.",module,Magento_Newsletter
 "Your subscription has been confirmed.","Su suscripción ha sido confirmada.",module,Magento_Newsletter
 "This email address is already assigned to another user.","Esta dirección de correo ya se asignó a otro usuario.",module,Magento_Newsletter
 "Please enter a valid email address.","Por favor, ingrese una dirección de correo electrónico válida.",module,Magento_Newsletter
@@ -1968,9 +1975,11 @@ Sales,Ventas,module,Magento_Paypal
 "Express Checkout and Order have been canceled.","El pedido y la Caja Express se han cancelado.",module,Magento_Paypal
 "Express Checkout has been canceled.","La Caja Express se ha cancelado.",module,Magento_Paypal
 "PayPal response hasn't required fields.","La respuesta de PayPal no tiene campos obligatorios.",module,Magento_Paypal
+"The reference ID is not set.","No se estableció el ID de referencia.",module,Magento_Paypal
 "Unable to save Billing Agreement:","No se puede guardar el contrato de facturación:",module,Magento_Paypal
 Active,Activo,module,Magento_Paypal
 Canceled,Cancelado,module,Magento_Paypal
+"The customer ID is not set.","No se ha establecido la Id. del cliente.",module,Magento_Paypal
 "We prefer PayPal (150 X 60)","Preferimos PayPal (150 X 60)",module,Magento_Paypal
 "We prefer PayPal (150 X 40)","Preferimos PayPal (150 X 40)",module,Magento_Paypal
 "Now accepting PayPal (150 X 60)","Ahora se acepta Paypal (150 X 60)",module,Magento_Paypal
@@ -1993,6 +2002,7 @@ Never,Nunca,module,Magento_Paypal
 "API Signature","Firma API",module,Magento_Paypal
 "API Certificate","Certificdo API",module,Magento_Paypal
 "Ordered amount of %1","Cantidad ordenada de %1",module,Magento_Paypal
+"The authorized amount is %1.","El monto autorizado es %1.",module,Magento_Paypal
 "The maximum number of child authorizations is reached.","Se ha alcanzado el número máximo de autorizaciones infantiles.",module,Magento_Paypal
 "Last Transaction ID","Última Identificación de Transacción",module,Magento_Paypal
 "The payment is authorized but not settled.","El pago se ha autorizado, pero no se ha realizado.",module,Magento_Paypal
@@ -2355,6 +2365,7 @@ Customers,Clientes,module,Magento_Reports
 Carts,Carritos,module,Magento_Reports
 Name,Nombre,module,Magento_Reports
 "Wish Lists","Listas de deseo",module,Magento_Reports
+"Wish List vs. Regular Order","Lista de deseos vs. pedido regular",module,Magento_Reports
 "Times Deleted","Veces eliminado",module,Magento_Reports
 "Index type is not valid","Tipo de índice no es válido",module,Magento_Reports
 Reports,Informes,module,Magento_Reports
@@ -2389,6 +2400,7 @@ Coupons,Cupones,module,Magento_Reports
 "Customer Shopping Carts","Carros de compras del cliente",module,Magento_Reports
 "Products in Carts","Artikel in Warenkörben",module,Magento_Reports
 Statistics,Estadísticas,module,Magento_Reports
+"No report code is specified.","No especificado ningún código de informe.",module,Magento_Reports
 "Recent statistics have been updated.","Neueste Statistiken sind aktualisiert worden.",module,Magento_Reports
 "Order Taxes Report Grouped by Tax Rates","Impuestos del pedido agrupados por tasas de impuestos",module,Magento_Reports
 "Total Invoiced VS Paid Report","Total facturado VS Informe de pago",module,Magento_Reports
@@ -2435,6 +2447,8 @@ Delete,Borrar,module,Magento_Review
 "Update Status","Actualizar estado",module,Magento_Review
 Customer,Cliente,module,Magento_Review
 "Pending Reviews","Reseñas pendientes",module,Magento_Review
+"All Reviews of Customer `%1`","Todas las reseñas del cliente '%1'",module,Magento_Review
+"All Reviews of Product `%1`","Todas las opiniones de producto '%1'",module,Magento_Review
 "All Reviews","Todas las reseñas",module,Magento_Review
 Name,Nombre,module,Magento_Review
 "Product Store Name","Nombre de la tienda",module,Magento_Review
@@ -2456,6 +2470,7 @@ Websites,"Sitios web",module,Magento_Review
 "Product Reviews","Reseñas de artículo",module,Magento_Review
 "Pending Reviews RSS","RSS de reseñas pendientes",module,Magento_Review
 Reviews,Reseñas,module,Magento_Review
+"The review has been deleted.","Se eliminó la reseña.",module,Magento_Review
 "Customer Reviews","Reseñas de cliente",module,Magento_Review
 "Edit Review","Editar Comentarios",module,Magento_Review
 "Please select review(s).","Por favor, seleccione revisión(es).",module,Magento_Review
@@ -2588,6 +2603,7 @@ Promotions,Promociones,module,Magento_SalesRule
 "Rule is not defined","Regla no definida",module,Magento_SalesRule
 "Invalid data provided","Datos no válidos",module,Magento_SalesRule
 Catalog,Catálogo,module,Magento_SalesRule
+"The wrong rule is specified.","Regla especificada incorrecta.",module,Magento_SalesRule
 Alphanumeric,Alfanumérico,module,Magento_SalesRule
 Alphabetical,Alfabético,module,Magento_SalesRule
 Numeric,Numérico,module,Magento_SalesRule
@@ -2799,6 +2815,7 @@ Value,Valor,module,Magento_Sales
 Unassign,"Sin asignar",module,Magento_Sales
 Sales,Ventas,module,Magento_Sales
 "This order no longer exists.","Es pedido ya no existe.",module,Magento_Sales
+"We cannot add order history.","No podemos agregar historial de pedido.",module,Magento_Sales
 "You canceled the order.","Ha cancelado el pedido.",module,Magento_Sales
 "The coupon code has been accepted.","El código del cupón se ha aceptado",module,Magento_Sales
 "Quote item id is not received.","No se recibió la id de la cita del artículo.",module,Magento_Sales
@@ -2873,6 +2890,7 @@ Mixed,Mixto,module,Magento_Sales
 "Amount: %1.","Cantidad: %1.",module,Magento_Sales
 "Transaction ID: ""%1""","Identificador de la transacción: ""%1""",module,Magento_Sales
 "Authorized amount of %1","Importe autorizado de %1",module,Magento_Sales
+"Captured amount of %1 online","Cantidad capturada de %1 en línea",module,Magento_Sales
 "Ordered amount of %1","Cantidad ordenada de %1",module,Magento_Sales
 "Payment transactions disallow storing objects.","Las operaciones de pago no permiten almacenar objetos.",module,Magento_Sales
 "Set order for existing transactions not allowed","No se le permite configurar un pedido de una transacción existente.",module,Magento_Sales
@@ -3245,6 +3263,7 @@ Name,Nombre,module,Magento_Tax
 "Tax Rate","Tarifa de impuestos",module,Magento_Tax
 Priority,Prioridad,module,Magento_Tax
 "Tax rates at the same priority are added, others are compounded.","Las tarifas tributarias con la misma prioridad son añadidas, las demás son compuestas.",module,Magento_Tax
+"Calculate Off Subtotal Only","Calcular sólo del subtotal",module,Magento_Tax
 "Sort Order","Orden de aparición",module,Magento_Tax
 "Add New Tax Class","Añadir nueva clase fiscal",module,Magento_Tax
 "Shipping Incl. Tax (%1)","Envío incluido impuestos (%1)",module,Magento_Tax
@@ -3342,6 +3361,7 @@ Theme,Plantilla,module,Magento_Theme
 "New Folder Name:","Nuevo nombre de carpeta:",module,Magento_Theme
 "Storage Root","Raíz de almacenamiento",module,Magento_Theme
 "You deleted the theme.","Ha eliminado el tema.",module,Magento_Theme
+"We cannot delete the theme.","No podemos eliminar el tema.",module,Magento_Theme
 "File not found: ""%1"".","No se encontró el archivo: ""%1"".",module,Magento_Theme
 "We cannot find theme ""%1"".","No podemos encontrar el tema ""%1"".",module,Magento_Theme
 "We cannot find the theme.","No podemos encontrar el tema.",module,Magento_Theme
@@ -3535,6 +3555,7 @@ Permissions,Permisos,module,Magento_User
 "An error occurred while deleting this role.","Ocurrió un error al eliminar esta función.",module,Magento_User
 "Edit Role","Editar Funcion",module,Magento_User
 "New Role","Nueva función",module,Magento_User
+"This role no longer exists.","Este rol ya no existe.",module,Magento_User
 "You saved the role.","Guardó el rol.",module,Magento_User
 "An error occurred while saving this role.","Error al guardar esta funcion.",module,Magento_User
 "You saved the user.","Se ha guardado el usuario.",module,Magento_User
@@ -3767,6 +3788,7 @@ OK,Aceptar,module,Magento_Catalog
 "Add Selected Products","Añadir artículos seleccionados",module,Magento_GroupedProduct
 Allow,Permitir,module,Magento_Integration
 Done,Hecho,module,Magento_Integration
+"Sorry, something went wrong.","Lo sentimos, algo salió mal.",module,Magento_Paypal
 "Add Products","Añadir artículos",module,Magento_Sales
 Ok,Aceptar,module,Magento_Sales
 "Use HTTPS to Get Feed","Utilizar HTTPS para obtener el feed",module,Magento_AdminNotification
@@ -4165,6 +4187,7 @@ Contacts,Contactos,module,Magento_Contact
 "Validation Error Group","Error de validación al grupo",module,Magento_Customer
 "Validate on Each Transaction","Validar en cada transacción",module,Magento_Customer
 "Default Value for Disable Automatic Group Changes Based on VAT ID","Valor para Disable Automatic Group Changes Based on VAT ID (predeterminado)",module,Magento_Customer
+"Show VAT Number on Storefront","Mostrar el número VAT en el Frontend",module,Magento_Customer
 "Default Email Domain","Dominio de correo electrónico (predeterminado)",module,Magento_Customer
 "Default Welcome Email","Correo de bienvenida (predeterminado)",module,Magento_Customer
 "Email Sender","Remitente de correo electrónico",module,Magento_Customer
@@ -4740,6 +4763,7 @@ City,Ciudad,module,Magento_Shipping
 "Street Address","Dirección postal (Calle, Nº de Casa, Código Postal)",module,Magento_Shipping
 "Street Address Line 2","Dirección postal, segunda línea",module,Magento_Shipping
 "Shipping Policy Parameters","Parámetros de la política de envío",module,Magento_Shipping
+"Apply custom Shipping Policy","Aplicar política de envío personalizada",module,Magento_Shipping
 "Shipping Methods","Métodos de envío",module,Magento_Shipping
 "Categories Options","Opciones de categorias",module,Magento_Sitemap
 Frequency,Frecuencia,module,Magento_Sitemap
@@ -4754,6 +4778,7 @@ Enabled,Habilitado,module,Magento_Sitemap
 "Error Email Template","Error en la plantilla del mensaje",module,Magento_Sitemap
 "Start Time","Tiempo de inicio",module,Magento_Sitemap
 "Sitemap File Limits","Límites de archivo de mapa del sitio",module,Magento_Sitemap
+"Maximum No of URLs Per File","Máximo No de URLs por archivo",module,Magento_Sitemap
 "Maximum File Size","Tamaño máximo de archivo",module,Magento_Sitemap
 "File size in bytes.","Tamaño del archivo en bytes.",module,Magento_Sitemap
 "Link for Google","Enlace para Google",module,Magento_Sitemap
