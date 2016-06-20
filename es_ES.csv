@@ -1973,6 +1973,7 @@ Others,Otros,module,Magento_Dhl
 "The response is in wrong format.","La respuesta tiene un formato incorrecto.",module,Magento_Dhl
 "Error #%1 : %2","Error #%1: %2",module,Magento_Dhl
 "We had to skip DHL method %1 because we couldn't find exchange rate %2 (Base Currency).","Tuvimos que saltar el método DHL %1 porque no pudimos encontrar el tipo de cambio %2 (moneda Base).",module,Magento_Dhl
+"Zero shipping charge for '%1'","Cero costo de envío para '%1'",module,Magento_Dhl
 "There is no items in this order","No hay artículos en este pedido",module,Magento_Dhl
 "Please, specify origin country","Por favor, indicar país de origen",module,Magento_Dhl
 Documents,Documentos,module,Magento_Dhl
@@ -2033,12 +2034,14 @@ Unlimited,Ilimitado,module,Magento_Downloadable
 "Please specify product link(s).","Por favor, especifique el(los) enlace(s) de artículo.",module,Magento_Downloadable
 "Provided sample information is invalid.","La información de ejemplo proporcionada no es válida.",module,Magento_Downloadable
 "Invalid sample type.","Tipo de muestra inválido.",module,Magento_Downloadable
+"Sample title cannot be empty.","Título de la muestra no puede estar vacío.",module,Magento_Downloadable
 "Provided downloadable sample is not related to given product.","La muestra descargable proporcionada no está relacionada con el producto.",module,Magento_Downloadable
 attachment,"documento adjunto",module,Magento_Downloadable
 inline,"en línea",module,Magento_Downloadable
 Pending,Pendiente,module,Magento_Downloadable
 Invoiced,Facturado,module,Magento_Downloadable
 sample,Muestra,module,Magento_Downloadable
+"Is this downloadable Product?","¿Es este producto descargable?",module,Magento_Downloadable
 "[STORE VIEW]","[VISTA DE TIENDA]",module,Magento_Downloadable
 Title,Título,module,Magento_Downloadable
 "Use Default Value","Usar valor por defecto",module,Magento_Downloadable
@@ -2114,6 +2117,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Entity object is undefined","Objeto de entidad indefinido",module,Magento_Eav
 """%1"" invalid type entered.","""%1"" tipo introducido inválido.",module,Magento_Eav
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Eav
+"""%1"" is not a valid hostname.","""%1"" no es un nombre de host válido.",module,Magento_Eav
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Eav
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Eav
 """%1"" is a required value.","""%1"" es un valor necesario.",module,Magento_Eav
@@ -2146,6 +2150,7 @@ label,etiqueta,module,Magento_Eav
 "Invalid joint fields","Campos combinados no válidos",module,Magento_Eav
 "Data integrity: No header row found for attribute","Integridad de datos: No se ha encontrado una línea de encabezamiento para el campo",module,Magento_Eav
 "Invalid attribute name: %1","Nombre de atributo no válido: %1",module,Magento_Eav
+"The form code is not defined.","El código de formulario no está definido.",module,Magento_Eav
 "Invalid form type.","Tipo de forma no válido",module,Magento_Eav
 "Invalid EAV attribute","Atributo de EAV inválido",module,Magento_Eav
 "Attribute with the same code","Atributo con el mismo código",module,Magento_Eav
@@ -2189,6 +2194,7 @@ Unknown,Desconocido,module,Magento_Email
 "New System Template","Neue Systemvorlage",module,Magento_Email
 "Email Templates","Plantillas de correo electrónico",module,Magento_Email
 "Email Preview","Vista previa del correo electrónico",module,Magento_Email
+"You saved the email template.","Ha guardado la plantilla de email.",module,Magento_Email
 "Area is already set","La área ya esta establecida",module,Magento_Email
 "Base Unsecure URL","Dirección URL básica insegura",module,Magento_Email
 "Base Secure URL","Dirección URL básica segura",module,Magento_Email
@@ -2211,6 +2217,7 @@ City,Ciudad,module,Magento_Email
 "Street Address 2","Dirección postal 2",module,Magento_Email
 "Store Contact Information","Tienda Información de contacto",module,Magento_Email
 "Template Variables","Plantillas Variables",module,Magento_Email
+"Please enter a template name.","Por favor, ingrese un nombre de plantilla.",module,Magento_Email
 "Duplicate Of Template Name","Duplicado del nombre de plantilla",module,Magento_Email
 "Requested invalid store ""%1""","Tienda solicitada ""%1"" inválida",module,Magento_Email
 "<pre> %1 </pre>",<pre>%1</pre>,module,Magento_Email
@@ -2460,6 +2467,7 @@ Active,Activo,module,Magento_Integration
 "Consumer key has expired","La clave de consumidor ha caducado",module,Magento_Integration
 "Token is already being used","El token ya está en uso",module,Magento_Integration
 "Token is not an access token","El token no es un token de acceso",module,Magento_Integration
+"Access token has been revoked","Token de acceso se ha revocado",module,Magento_Integration
 "Verifier is invalid","Verificador no es válido",module,Magento_Integration
 "Consumer with ID '%1' does not exist.","Consumidor con ID '%1' no existe.",module,Magento_Integration
 "Invalid token to except","Código no válido para excepción",module,Magento_Integration
@@ -2941,6 +2949,7 @@ Dispute,Conflicto,module,Magento_Paypal
 "N/A. Merchant has indicated that CVV2 is not present on card","No disponible. El comerciante ha notificado que su tarjeta no tiene CVV2.",module,Magento_Paypal
 "Note: %1","Nota: %1",module,Magento_Paypal
 "Invalid method %1::%2(%3)","Método inválido %1::%2(%3)",module,Magento_Paypal
+"Transaction has been declined","La operación ha sido declinada",module,Magento_Paypal
 "We can't issue a refund transaction because there is no capture transaction.","No podemos emitir una transacción de reembolso porque no hay ninguna operación de captura.",module,Magento_Paypal
 "Report Date","Fecha del informe",module,Magento_Paypal
 "Merchant Account","Cuenta del comerciante",module,Magento_Paypal
