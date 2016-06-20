@@ -1335,6 +1335,7 @@ Others,Otros,module,Magento_Dhl
 "Jumbo box","Buzón Jumbo",module,Magento_Dhl
 "The response is in wrong format.","La respuesta tiene un formato incorrecto.",module,Magento_Dhl
 "Error #%1 : %2","Error #%1: %2",module,Magento_Dhl
+"Zero shipping charge for '%1'","Cero costo de envío para '%1'",module,Magento_Dhl
 "There is no items in this order","No hay artículos en este pedido",module,Magento_Dhl
 "Please, specify origin country","Por favor, indicar país de origen",module,Magento_Dhl
 Documents,Documentos,module,Magento_Dhl
@@ -1442,6 +1443,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Entity object is undefined","Objeto de entidad indefinido",module,Magento_Eav
 """%1"" invalid type entered.","""%1"" tipo introducido inválido.",module,Magento_Eav
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Eav
+"""%1"" is not a valid hostname.","""%1"" no es un nombre de host válido.",module,Magento_Eav
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Eav
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Eav
 """%1"" is a required value.","""%1"" es un valor necesario.",module,Magento_Eav
