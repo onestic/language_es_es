@@ -3416,6 +3416,7 @@ Websites,"Sitios web",module,Magento_Review
 "Summary of review: %1 <br/>","Resumen del examen: %1 <br/>",module,Magento_Review
 "Review: %1 <br/>","Reseña: %1 <br/>",module,Magento_Review
 "Store: %1 <br/>","Tienda: %1 <br/>",module,Magento_Review
+"Product: ""%1"" reviewed by: %2","Producto: ""%1"" valorado por: %2",module,Magento_Review
 "Pending Reviews RSS","RSS de reseñas pendientes",module,Magento_Review
 "Reviews %1","Reseñas %1",module,Magento_Review
 Reviews,Reseñas,module,Magento_Review
@@ -4393,6 +4394,7 @@ Monthly,Mensualmente,module,Magento_Sitemap
 Yearly,Anualmente,module,Magento_Sitemap
 Never,Nunca,module,Magento_Sitemap
 "File handler unreachable","Controlador de archivo inalcanzable",module,Magento_Sitemap
+"Please define a correct path.","Por favor defina una ruta correcta.",module,Magento_Sitemap
 None,Ninguno,module,Magento_Sitemap
 "Base Only","Base solamente",module,Magento_Sitemap
 All,Todo,module,Magento_Sitemap
@@ -6490,6 +6492,7 @@ Configuration,Configuración,module,Magento_Store
 "Swatches per Product","Muestras por producto",module,Magento_Swatches
 "Tax Classes","Clases de impuestos",module,Magento_Tax
 "Tax Class for Shipping","Clase de impuestos para envíos",module,Magento_Tax
+"Default Tax Class for Product","Clase de impuesto predeterminada de producto",module,Magento_Tax
 "Calculation Settings","Ajustes de cálculo",module,Magento_Tax
 "Tax Calculation Method Based On","Método de cálculo tributario basado en",module,Magento_Tax
 "Tax Calculation Based On","Cálculo tributario basado en",module,Magento_Tax
