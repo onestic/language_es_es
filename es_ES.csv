@@ -2859,6 +2859,7 @@ Sales,Ventas,module,Magento_Sales
 "The invoice has been voided.","La factura ha sido anulada.",module,Magento_Sales
 "Invoice voiding error","Error al anular la factura",module,Magento_Sales
 "%1 order(s) cannot be canceled.","No se puede cancelar %1 pedidos.",module,Magento_Sales
+"You cannot cancel the order(s).","No podemos cancelar este/estos pedido(s).",module,Magento_Sales
 "We canceled %1 order(s).","Hemos cancelado %1 orden(es).",module,Magento_Sales
 "No order(s) were put on hold.","Ningún pedido fue puesto en suspenso.",module,Magento_Sales
 "There are no printable documents related to selected orders.","No hay documentos para imprimir relacionados con los pedidos seleccionados.",module,Magento_Sales
