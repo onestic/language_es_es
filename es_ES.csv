@@ -1474,7 +1474,7 @@ Details,Detalles,module,Magento_Cms
 "Collapse All","Desplegar todo",module,Magento_Cms
 "Expand All","Abrir todos",module,Magento_Cms
 "Default Config","Configuración por defecto",module,Magento_Config
-"Save Config","Konfiguration speichern",module,Magento_Config
+"Save Config","Guardar configuración",module,Magento_Config
 [WEBSITE],[WEBSEITE],module,Magento_Config
 "[STORE VIEW]","[VISTA DE TIENDA]",module,Magento_Config
 "Use Default","Verwende Voreinstellungen",module,Magento_Config
@@ -1539,7 +1539,7 @@ Specified,Especificado,module,Magento_Config
 test,prueba,module,Magento_Config
 "Add after","Hinzufügen nach",module,Magento_Config
 Delete,Borrar,module,Magento_Config
-"Current Configuration Scope:","Aktueller Konfigurationsbereich:",module,Magento_Config
+"Current Configuration Scope:","Alcance actual de configuración:",module,Magento_Config
 Stores,Tiendas,module,Magento_Config
 "Add configurable attributes to the current Attribute Set (""%1"")","Añadir atributos configurables a la configuración de atributo actual (""%1"")",module,Magento_ConfigurableProduct
 "Add configurable attributes to the new Attribute Set based on current","Añadir atributos configurables para el nuevo Conjunto de Atributos basados en el actual",module,Magento_ConfigurableProduct
@@ -2190,7 +2190,7 @@ Reset,Restablecer,module,Magento_Email
 "Load Template","Vorlage laden",module,Magento_Email
 "Edit Email Template","eMail-Vorlage bearbeiten",module,Magento_Email
 "New Email Template","Neue eMail-Vorlage",module,Magento_Email
-"Default Config","Konfiguration (voreingestellt)",module,Magento_Email
+"Default Config","Configuración por defecto",module,Magento_Email
 "Template Information","Información de la plantilla",module,Magento_Email
 "Currently Used For","Actualmente utilizada para",module,Magento_Email
 "Template Name","Nombre de plantilla",module,Magento_Email
@@ -3095,9 +3095,9 @@ Customer,Cliente,module,Magento_Paypal
 "Created At","Creado en",module,Magento_Paypal
 "Updated At","Actualicado el",module,Magento_Paypal
 here,aquí,module,Magento_Paypal
-"To use PayPal Payments Advanced, you must configure  your PayPal Payments Advanced account on the PayPal website.","Wenn Sie PayPal-Payments-Advanced verwenden möchten, müssen Sie Ihr PayPal-Payments-Advanced-Konto auf der PayPal-Webseite konfigurieren.",module,Magento_Paypal
+"To use PayPal Payments Advanced, you must configure  your PayPal Payments Advanced account on the PayPal website.","Para utilizar PayPal Payments Advanced, debe configurar su cuenta de PayPal Payments Advanced en el sitio web de PayPal.",module,Magento_Paypal
 "Once you log into your PayPal Advanced account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","Nachdem Sie in Ihr erweitertes PayPal-Konto eingeloggt sind, navigieren Sie zum Menü Service-Einstellungen - gehostete Checkout-Seiten  - Set Up-Menü und legen Sie die unten beschriebenen Optionen an",module,Magento_Paypal
-"To use PayPal Payflow Link, you must configure your PayPal Payflow Link account on the PayPal website.","Wenn Sie PayPal-Payflow-Link verwenden möchten, müssen Sie Ihr PayPal-Payflow-Link-Konto auf der PayPal-Webseite konfigurieren.",module,Magento_Paypal
+"To use PayPal Payflow Link, you must configure your PayPal Payflow Link account on the PayPal website.","Para utilizar PayPal Payflow Link, debe configurar su cuenta de PayPal Payflow Link en la Web de PayPal.",module,Magento_Paypal
 "Once you log into your PayPal Payflow Link account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","Nachdem Sie in Ihr Konto PayPal Payflow Link eingeloggt sind, navigieren Sie zum Menü Service-Einstellungen - gehostete Checkout-Seiten  - Set Up-Menü und legen Sie die unten beschriebenen Optionen an",module,Magento_Paypal
 "Agreement Information","Información del acuerdo",module,Magento_Paypal
 "Reference ID:","ID de referencia:",module,Magento_Paypal
@@ -4280,6 +4280,7 @@ Print,Imprimir,module,Magento_Shipping
 Shipments,Albaranes,module,Magento_Shipping
 "We can't initialize shipment for adding tracking number.","No podemos inicializar envío para agregar el número de seguimiento.",module,Magento_Shipping
 "Cannot add tracking number.","No se puede agregar el número de seguimiento.",module,Magento_Shipping
+"You created the shipping label.","Ha creado una etiqueta de envío.",module,Magento_Shipping
 "An error occurred while creating shipping label.","Ha ocurrido un error al crear la etiqueta de envío.",module,Magento_Shipping
 "You sent the shipment.","Ha realizado el envío.",module,Magento_Shipping
 "Cannot send shipment information.","No puede enviar la información del envío.",module,Magento_Shipping
@@ -5319,6 +5320,7 @@ Delete,Borrar,module,Magento_ProductVideo
 Ok,Aceptar,module,Magento_Sales
 "We could not detect a size.","No hemos podido detectar un tamaño.",module,Magento_Theme
 "Go to Details Page","Ir a la página de detalles",module,Magento_Ui
+"Please enter {0} words or less.","Introduce {0} palabras o menos.",module,Magento_Ui
 "Letters only please","Sólo las letras por favor",module,Magento_Ui
 "No white space please","Sin espacio en blanco por favor",module,Magento_Ui
 "Please enter a correct date","Por favor introduzca una fecha correcta",module,Magento_Ui
@@ -5793,7 +5795,7 @@ Enable,Activado,module,Magento_Cms
 "Field 3.1","Campo 3.1",module,Magento_Config
 "Field 3.1.1","Campo 3.1.1",module,Magento_Config
 "Field 4","Campo 4",module,Magento_Config
-"Configurable Product Image","Abbildung für konfigurierbaren Artikel",module,Magento_ConfigurableProduct
+"Configurable Product Image","Imagen de producto configurable",module,Magento_ConfigurableProduct
 Select...,Seleccionar...,module,Magento_ConfigurableProduct
 Status,Estatus,module,Magento_ConfigurableProduct
 Thumbnail,Miniatura,module,Magento_ConfigurableProduct
@@ -6521,6 +6523,7 @@ Enabled,Habilitado,module,Magento_Sitemap
 "Maximum No of URLs Per File","Máximo No de URLs por archivo",module,Magento_Sitemap
 "Maximum File Size","Tamaño máximo de archivo",module,Magento_Sitemap
 "File size in bytes.","Tamaño del archivo en bytes.",module,Magento_Sitemap
+"Enable Submission to Robots.txt","Habilitar envío de Robots.txt",module,Magento_Sitemap
 "Link for Google","Enlace para Google",module,Magento_Sitemap
 "Last Generated","Última vez que se generó",module,Magento_Sitemap
 Action,Acción,module,Magento_Sitemap
