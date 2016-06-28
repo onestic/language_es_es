@@ -2195,9 +2195,9 @@ Customer,Cliente,module,Magento_Paypal
 "Created At","Creado en",module,Magento_Paypal
 "Updated At","Actualicado el",module,Magento_Paypal
 here,aquí,module,Magento_Paypal
-"To use PayPal Payments Advanced, you must configure  your PayPal Payments Advanced account on the PayPal website.","Wenn Sie PayPal-Payments-Advanced verwenden möchten, müssen Sie Ihr PayPal-Payments-Advanced-Konto auf der PayPal-Webseite konfigurieren.",module,Magento_Paypal
+"To use PayPal Payments Advanced, you must configure  your PayPal Payments Advanced account on the PayPal website.","Para utilizar PayPal Payments Advanced, debe configurar su cuenta de PayPal Payments Advanced en el sitio web de PayPal.",module,Magento_Paypal
 "Once you log into your PayPal Advanced account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","Nachdem Sie in Ihr erweitertes PayPal-Konto eingeloggt sind, navigieren Sie zum Menü Service-Einstellungen - gehostete Checkout-Seiten  - Set Up-Menü und legen Sie die unten beschriebenen Optionen an",module,Magento_Paypal
-"To use PayPal Payflow Link, you must configure your PayPal Payflow Link account on the PayPal website.","Wenn Sie PayPal-Payflow-Link verwenden möchten, müssen Sie Ihr PayPal-Payflow-Link-Konto auf der PayPal-Webseite konfigurieren.",module,Magento_Paypal
+"To use PayPal Payflow Link, you must configure your PayPal Payflow Link account on the PayPal website.","Para utilizar PayPal Payflow Link, debe configurar su cuenta de PayPal Payflow Link en la Web de PayPal.",module,Magento_Paypal
 "Once you log into your PayPal Payflow Link account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","Nachdem Sie in Ihr Konto PayPal Payflow Link eingeloggt sind, navigieren Sie zum Menü Service-Einstellungen - gehostete Checkout-Seiten  - Set Up-Menü und legen Sie die unten beschriebenen Optionen an",module,Magento_Paypal
 "Agreement Information","Información del acuerdo",module,Magento_Paypal
 "Reference ID:","ID de referencia:",module,Magento_Paypal
@@ -3114,6 +3114,7 @@ Print,Imprimir,module,Magento_Shipping
 "Please enter a tracking number.","Por favor, introduzca un número de seguimiento.",module,Magento_Shipping
 Shipments,Albaranes,module,Magento_Shipping
 "Cannot add tracking number.","No se puede agregar el número de seguimiento.",module,Magento_Shipping
+"You created the shipping label.","Ha creado una etiqueta de envío.",module,Magento_Shipping
 "An error occurred while creating shipping label.","Ha ocurrido un error al crear la etiqueta de envío.",module,Magento_Shipping
 "You sent the shipment.","Ha realizado el envío.",module,Magento_Shipping
 "Cannot send shipment information.","No puede enviar la información del envío.",module,Magento_Shipping
@@ -4176,7 +4177,7 @@ Template,Plantilla,module,Magento_Cms
 "CMS Static Block","Statischer Block",module,Magento_Cms
 "Contents of a Static Block","Inhalte eines statischen Blocks",module,Magento_Cms
 "CMS Static Block Default Template","Statischer Block - Standardvorlage",module,Magento_Cms
-"Configurable Product Image","Abbildung für konfigurierbaren Artikel",module,Magento_ConfigurableProduct
+"Configurable Product Image","Imagen de producto configurable",module,Magento_ConfigurableProduct
 Contacts,Contactos,module,Magento_Contact
 "Contact Us","Contacte con nosotros",module,Magento_Contact
 "Enable Contact Us","Habilitar contacte con nosotros",module,Magento_Contact
@@ -4802,6 +4803,7 @@ Enabled,Habilitado,module,Magento_Sitemap
 "Maximum No of URLs Per File","Máximo No de URLs por archivo",module,Magento_Sitemap
 "Maximum File Size","Tamaño máximo de archivo",module,Magento_Sitemap
 "File size in bytes.","Tamaño del archivo en bytes.",module,Magento_Sitemap
+"Enable Submission to Robots.txt","Habilitar envío de Robots.txt",module,Magento_Sitemap
 "Link for Google","Enlace para Google",module,Magento_Sitemap
 "Last Generated","Última vez que se generó",module,Magento_Sitemap
 Action,Acción,module,Magento_Sitemap
