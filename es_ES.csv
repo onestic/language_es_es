@@ -470,6 +470,7 @@ Always,Siempre,module,Magento_Captcha
 "In Stock","En existencias",module,Magento_CatalogInventory
 "Out of Stock","Fuera de existencias",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","Por favor corregir la cantidad de algunos productos.",module,Magento_CatalogInventory
+"The most you may purchase is %1.","Lo más que puede comprar es %1.",module,Magento_CatalogInventory
 "Only %1 left","Sólo queda %1",module,Magento_CatalogInventory
 "Product Name","Nombre del producto",module,Magento_CatalogInventory
 Qty,Cantidad,module,Magento_CatalogInventory
@@ -1450,6 +1451,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Eav
 """%1"" is a required value.","""%1"" es un valor necesario.",module,Magento_Eav
 """%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Eav
+"""%1"" is not a valid image format","""%1"" no es un formato de imagen válido",module,Magento_Eav
 "Entity is not initialized","La entidad no está inicializada",module,Magento_Eav
 "Unknown parameter","Parámetro desconocido",module,Magento_Eav
 "Invalid default decimal value","Valor decimal por defecto no válido",module,Magento_Eav
