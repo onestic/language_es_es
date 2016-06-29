@@ -634,6 +634,7 @@ Always,Siempre,module,Magento_Captcha
 "Stock Item with id ""%1"" does not exist.","El producto con id ""%1"" no existe.",module,Magento_CatalogInventory
 "Product with SKU ""%1"" does not exist","El producto con SKU ""%1"" no existe",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","Por favor corregir la cantidad de algunos productos.",module,Magento_CatalogInventory
+"The most you may purchase is %1.","Lo más que puede comprar es %1.",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","No tenemos tantos ""%1"" como usted pidió, pero pondremos como pedido pendiente las/los %2 restantes.",module,Magento_CatalogInventory
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","No tenemos ""%1"" de la cantidad solicitada, pondremos como pedido pendiente los/las %2 restantes.",module,Magento_CatalogInventory
 "Only %1 left","Sólo queda %1",module,Magento_CatalogInventory
@@ -1564,6 +1565,7 @@ Summary,Resumen,module,Magento_ConfigurableProduct
 "Product already has this option","El producto ya tiene esta opción",module,Magento_ConfigurableProduct
 "Only implemented for configurable product: %1","Implementado sólo para producto configurable: %1",module,Magento_ConfigurableProduct
 "Option label is not specified.","No se especifica la etiqueta Opción.",module,Magento_ConfigurableProduct
+"Option values are not specified.","No se especifican valores de opción.",module,Magento_ConfigurableProduct
 "The configurable product does not have any variation attribute.","El producto configurable no tiene ningún atributo de variación.",module,Magento_ConfigurableProduct
 "Product with id ""%1"" does not exist.","El producto con id ""%1"" no existe.",module,Magento_ConfigurableProduct
 "Products ""%1"" and %2 have the same set of attribute values.","Los productos ""%1"" y ""%2"" tienen el mismo valor en sus atributos.",module,Magento_ConfigurableProduct
@@ -1807,6 +1809,7 @@ Customers,Clientes,module,Magento_Customer
 "Page not found.","Página no encontrada.",module,Magento_Customer
 "Online Customers","Clientes en línea",module,Magento_Customer
 "Customers Now Online","Los clientes ahora en línea",module,Magento_Customer
+"Please define Wish List item ID.","Defina el ID del artículo de la Lista de Deseos.",module,Magento_Customer
 "Please load Wish List item.","Por favor cargar elemento de la lista de deseos.",module,Magento_Customer
 "Login successful.","Inicio de sesión exitoso.",module,Magento_Customer
 "%1 doesn't extend \Magento\Customer\CustomerData\SectionSourceInterface","%1 no extiende a \Magento\Customer\CustomerData\SectionSourceInterface",module,Magento_Customer
@@ -1854,6 +1857,7 @@ label,etiqueta,module,Magento_Customer
 "Cannot delete group.","No se puede eliminar el grupo.",module,Magento_Customer
 "PHP SOAP extension is required.","Se requiere la extensión PHP SOAP",module,Magento_Customer
 "VAT Number is valid.","Número de VAT es inválido.",module,Magento_Customer
+"Please enter a valid VAT number.","Especifique un número TAX/VAT válido.",module,Magento_Customer
 "Your VAT ID was successfully validated.","Su ID de IVA se ha validado correctamente.",module,Magento_Customer
 "You will be charged tax.","Se le cargarán los impuestos.",module,Magento_Customer
 "You will not be charged tax.","No se le cargarán los impuestos.",module,Magento_Customer
@@ -2135,6 +2139,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Eav
 """%1"" is a required value.","""%1"" es un valor necesario.",module,Magento_Eav
 """%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Eav
+"""%1"" is not a valid image format","""%1"" no es un formato de imagen válido",module,Magento_Eav
 "Cannot save attributeGroup","No se puede guardar attributeGroup",module,Magento_Eav
 "Wrong attribute set id provided","El Id del conjunto de atributos proporcionado es incorrecto",module,Magento_Eav
 "Attribute set not found: %1","Conjunto de atributos no encontrado: %1",module,Magento_Eav
@@ -2178,6 +2183,7 @@ label,etiqueta,module,Magento_Eav
 "Wrong attribute group ID","ID de grupo de atributos es erróneo",module,Magento_Eav
 "AttributeSet does not exist.","El Conjunto de atributos no existe.",module,Magento_Eav
 hello,hola,module,Magento_Eav
+"Some internal exception message.","Algun mensaje de la excepción interna.",module,Magento_Eav
 "Add New Template","Agregar Nueva Plantilla",module,Magento_Email
 "Transactional Emails","Correos electrónicos transaccionales",module,Magento_Email
 Back,Volver,module,Magento_Email
