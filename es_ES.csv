@@ -529,6 +529,7 @@ Always,Siempre,module,Magento_Captcha
 "Stock Item with id ""%1"" does not exist.","El producto con id ""%1"" no existe.",module,Magento_CatalogInventory
 "Product with SKU ""%1"" does not exist","El producto con SKU ""%1"" no existe",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","Por favor corregir la cantidad de algunos productos.",module,Magento_CatalogInventory
+"The most you may purchase is %1.","Lo más que puede comprar es %1.",module,Magento_CatalogInventory
 "Only %1 left","Sólo queda %1",module,Magento_CatalogInventory
 "Product availability","Disponibilidad del producto",module,Magento_CatalogInventory
 "Product Name","Nombre del producto",module,Magento_CatalogInventory
@@ -1337,6 +1338,7 @@ Summary,Resumen,module,Magento_ConfigurableProduct
 "Option with id ""%1"" not found","Opción con id ""%1"" no encontrado",module,Magento_ConfigurableProduct
 "Only implemented for configurable product: %1","Implementado sólo para producto configurable: %1",module,Magento_ConfigurableProduct
 "Option label is not specified.","No se especifica la etiqueta Opción.",module,Magento_ConfigurableProduct
+"Option values are not specified.","No se especifican valores de opción.",module,Magento_ConfigurableProduct
 "You need to choose options for your item.","Tiene que elegir opciones para su ítem.",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products. You cannot remove it from the attribute set.","Este atributo se utiliza en artículos configurables. No es posible eliminarlo del conjunto de atributos.",module,Magento_ConfigurableProduct
 "Associated Products","Artículos asociados",module,Magento_ConfigurableProduct
@@ -1549,6 +1551,7 @@ Customers,Clientes,module,Magento_Customer
 "Page not found.","Página no encontrada.",module,Magento_Customer
 "Online Customers","Clientes en línea",module,Magento_Customer
 "Customers Now Online","Los clientes ahora en línea",module,Magento_Customer
+"Please define Wish List item ID.","Defina el ID del artículo de la Lista de Deseos.",module,Magento_Customer
 "Please load Wish List item.","Por favor cargar elemento de la lista de deseos.",module,Magento_Customer
 "Login successful.","Inicio de sesión exitoso.",module,Magento_Customer
 "No confirmation needed.","No se necesita la confirmación.",module,Magento_Customer
@@ -1586,6 +1589,7 @@ label,etiqueta,module,Magento_Customer
 "Cannot delete group.","No se puede eliminar el grupo.",module,Magento_Customer
 "PHP SOAP extension is required.","Se requiere la extensión PHP SOAP",module,Magento_Customer
 "VAT Number is valid.","Número de VAT es inválido.",module,Magento_Customer
+"Please enter a valid VAT number.","Especifique un número TAX/VAT válido.",module,Magento_Customer
 "Your VAT ID was successfully validated.","Su ID de IVA se ha validado correctamente.",module,Magento_Customer
 "You will be charged tax.","Se le cargarán los impuestos.",module,Magento_Customer
 "You will not be charged tax.","No se le cargarán los impuestos.",module,Magento_Customer
@@ -1856,6 +1860,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Eav
 """%1"" is a required value.","""%1"" es un valor necesario.",module,Magento_Eav
 """%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Eav
+"""%1"" is not a valid image format","""%1"" no es un formato de imagen válido",module,Magento_Eav
 "Cannot save attributeGroup","No se puede guardar attributeGroup",module,Magento_Eav
 "Wrong attribute set id provided","El Id del conjunto de atributos proporcionado es incorrecto",module,Magento_Eav
 "Attribute set not found: %1","Conjunto de atributos no encontrado: %1",module,Magento_Eav
@@ -1896,6 +1901,7 @@ label,etiqueta,module,Magento_Eav
 "Wrong attribute group ID","ID de grupo de atributos es erróneo",module,Magento_Eav
 "AttributeSet does not exist.","El Conjunto de atributos no existe.",module,Magento_Eav
 hello,hola,module,Magento_Eav
+"Some internal exception message.","Algun mensaje de la excepción interna.",module,Magento_Eav
 "Add New Template","Agregar Nueva Plantilla",module,Magento_Email
 "Transactional Emails","Correos electrónicos transaccionales",module,Magento_Email
 Back,Volver,module,Magento_Email
