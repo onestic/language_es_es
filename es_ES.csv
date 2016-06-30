@@ -454,9 +454,9 @@ Year,Año,module,Magento_Braintree
 "There was an error capturing the transaction: %1.","Hubo un error en la captura de la transacción: %1.",module,Magento_Braintree
 "This refund is for a partial amount but the Transaction has not settled.","Este reembolso es una cantidad parcial pero la transacción no se ha establecido.",module,Magento_Braintree
 "Please wait 24 hours before trying to issue a partial refund.","Por favor espere 24 horas antes de emitir un reembolso parcial.",module,Magento_Braintree
-"There was an error refunding the transaction: %1.","Hubo un error de devolución de la transacción: %1.",module,Magento_Braintree
-"Some transactions are already settled or voided and cannot be voided.","Algunas transacciones ya se han cancelado o anulado y no pueden ser anuladas.",module,Magento_Braintree
-"Voided capture.","Captura de anuladas.",module,Magento_Braintree
+"There was an error refunding the transaction: %1.","Hubo un error en la devolución de la transacción: %1.",module,Magento_Braintree
+"Some transactions are already settled or voided and cannot be voided.","Algunas transacciones ya se han acordado o anulado y no pueden ser anuladas.",module,Magento_Braintree
+"Voided capture.","Captura anulada.",module,Magento_Braintree
 "There was an error voiding the transaction: %1.","Hubo un error de anulación de la transacción: %1.",module,Magento_Braintree
 Invoice,Factura,module,Magento_Braintree
 Shipment,Envío,module,Magento_Braintree
@@ -2045,7 +2045,7 @@ Unlimited,Ilimitado,module,Magento_Downloadable
 "Provided link information is invalid.","Información de enlace proporcionado no es válido.",module,Magento_Downloadable
 "Invalid link type.","Tipo de vínculo no válido.",module,Magento_Downloadable
 "Link title cannot be empty.","Título del enlace no puede estar vacío.",module,Magento_Downloadable
-"Provided downloadable link is not related to given product.","La muestra descargable proporcionada no está relacionada con el producto.",module,Magento_Downloadable
+"Provided downloadable link is not related to given product.","El link descargable no esta relacionado con el producto.",module,Magento_Downloadable
 "Please specify product link(s).","Por favor, especifique el(los) enlace(s) de artículo.",module,Magento_Downloadable
 "Provided sample information is invalid.","La información de ejemplo proporcionada no es válida.",module,Magento_Downloadable
 "Invalid sample type.","Tipo de muestra inválido.",module,Magento_Downloadable
@@ -2184,6 +2184,7 @@ label,etiqueta,module,Magento_Eav
 "AttributeSet does not exist.","El Conjunto de atributos no existe.",module,Magento_Eav
 hello,hola,module,Magento_Eav
 "Some internal exception message.","Algun mensaje de la excepción interna.",module,Magento_Eav
+"The value of attribute not valid","El valor del atributo no es válido",module,Magento_Eav
 "Add New Template","Agregar Nueva Plantilla",module,Magento_Email
 "Transactional Emails","Correos electrónicos transaccionales",module,Magento_Email
 Back,Volver,module,Magento_Email
@@ -2409,6 +2410,7 @@ Status,Estatus,module,Magento_ImportExport
 "Please enter a correct entity.","Introduce una entidad correcta.",module,Magento_ImportExport
 "Please correct the file format.","Por favor corregir el formato del archivo.",module,Magento_ImportExport
 "Begin export of %1","Comenzar la exportación de %1",module,Magento_ImportExport
+"There is no data for the export.","No hay datos para exportar.",module,Magento_ImportExport
 "Exported %1 rows.","Se han exportado %1 filas.",module,Magento_ImportExport
 "The export is finished.","La exportación ha terminado.",module,Magento_ImportExport
 "Please provide filter data.","Por favor proporcione datos de filtro.",module,Magento_ImportExport
@@ -2483,6 +2485,7 @@ Reauthorize,Reautorizar,module,Magento_Integration
 "The integration was not saved.","La integración no se guardó.",module,Magento_Integration
 "You did not sign in correctly or your account is temporarily disabled.","Usted no se inscribió correctamente o su cuenta se ha desactivado temporalmente.",module,Magento_Integration
 "This user has no tokens.","Este usuario no tiene tokens.",module,Magento_Integration
+"The tokens could not be revoked.","Los tokens no pudieron ser revocados.",module,Magento_Integration
 "This customer has no tokens.","Este cliente no tiene tokens.",module,Magento_Integration
 Inactive,Inactivo,module,Magento_Integration
 Active,Activo,module,Magento_Integration
@@ -2800,7 +2803,7 @@ Yes,Sí,module,Magento_Payment
 "Expiration Date","Fecha de vencimiento",module,Magento_Payment
 "Card Verification Number","Número de verificación de tarjeta",module,Magento_Payment
 "Switch/Solo/Maestro Only","Switch/Solo/Maestro únicamente",module,Magento_Payment
-"Issue Number","Número de caso",module,Magento_Payment
+"Issue Number","Número de emisión",module,Magento_Payment
 "Start Date","Fecha inicio",module,Magento_Payment
 "Please Select","Por favor, seleccione",module,Magento_Payment
 "We'll ask for your payment details before you place an order.","Te pediremos pedir los datos de pago antes de hacer un pedido.",module,Magento_Payment
@@ -3225,6 +3228,7 @@ Shipping,Envío,module,Magento_Quote
 "Some item options or their combination are not currently available.","Algunas opciones de artículo, o su combinación, no están disponibles actualmente.",module,Magento_Quote
 "Cart %1 doesn't contain item  %2","Carrito %1 no contiene el producto %2",module,Magento_Quote
 "Could not save quote","No se pueden guardar el estimado",module,Magento_Quote
+"Could not remove item from quote","No se pudo remover elemento del presupuesto",module,Magento_Quote
 "Invalid customer id %1","%1 ID de cliente inválido",module,Magento_Quote
 "Invalid address id %1","Dirección no válida id %1",module,Magento_Quote
 "Cannot create quote","No se puede crear cotización",module,Magento_Quote
@@ -3422,6 +3426,7 @@ Delete,Borrar,module,Magento_Review
 "Are you sure?","¿Seguro que quiere continuar?",module,Magento_Review
 "Update Status","Actualizar estado",module,Magento_Review
 Customer,Cliente,module,Magento_Review
+"Pending Reviews of Customer `%1`","Reseñas pendientes del cliente `%1`",module,Magento_Review
 "Pending Reviews","Reseñas pendientes",module,Magento_Review
 "All Reviews of Customer `%1`","Todas las reseñas del cliente '%1'",module,Magento_Review
 "All Reviews of Product `%1`","Todas las opiniones de producto '%1'",module,Magento_Review
@@ -3910,6 +3915,7 @@ Sales,Ventas,module,Magento_Sales
 "We can't add the order status right now.","No podemos agregar el estado del pedido en este momento.",module,Magento_Sales
 "Can't unhold order.","No se puede reiniciar la orden.",module,Magento_Sales
 "The order was not on hold.","La orden no estaba en espera.",module,Magento_Sales
+"You saved the gift card message.","Ha guardado el mensaje de la tarjeta de regalo.",module,Magento_Sales
 "The payment has been voided.","El pago ha sido anulado.",module,Magento_Sales
 "We can't void the payment right now.","No podemos anular el pago ahora mismo.",module,Magento_Sales
 "The transaction details have been updated.","Se han actualizado los detalles de la transacción.",module,Magento_Sales
@@ -3991,6 +3997,7 @@ Products,Productos,module,Magento_Sales
 Qty,Cantidad,module,Magento_Sales
 Tax,Impuestos,module,Magento_Sales
 "Total (inc)","Total (incl.)",module,Magento_Sales
+"An item object is not specified.","No se especifica un item object.",module,Magento_Sales
 "A PDF object is not specified.","Objeto PDF no especificado.",module,Magento_Sales
 "Excl. Tax","Impuestos NO Incl.",module,Magento_Sales
 "Incl. Tax","Impuestos incl.",module,Magento_Sales
@@ -4567,6 +4574,7 @@ Tax,Impuestos,module,Magento_Tax
 "We can't delete this tax class right now.","No podemos borrar esta clase de impuestos en este momento.",module,Magento_Tax
 "We can't save this tax class right now.","No podemos guardar esta clase de impuesto en este momento.",module,Magento_Tax
 "Maximum zip code length is 9.","La longitud máximo del código zip es de 9.",module,Magento_Tax
+"Use digits only for the zip code.","Use sólo dígitos para el código postal.",module,Magento_Tax
 "Range To should be equal or greater than Range From.","El rango superior debe ser igual o superior al rango inferior.",module,Magento_Tax
 "This class no longer exists.","Esta clase ya no existe.",module,Magento_Tax
 "Custom price if available","Precio individual si está disponible",module,Magento_Tax
@@ -4666,6 +4674,7 @@ Theme,Plantilla,module,Magento_Theme
 "Sorry, something went wrong. That's all we know.","Lo sentimos, algo salió mal. Eso es todo lo que sabemos.",module,Magento_Theme
 "Invalid type","Tipo no válido",module,Magento_Theme
 "Exception does not contain field '%1'","Excepción no contiene campo '%1'",module,Magento_Theme
+"Invalid regular expression: ""%1"".","Expresión regular inválida: ""%1"".",module,Magento_Theme
 label,etiqueta,module,Magento_Theme
 "-- Please Select --",--Seleccione--,module,Magento_Theme
 "The start date can't follow the end date.","La fecha de inicio no puede después la fecha de finalización.",module,Magento_Theme
@@ -5327,6 +5336,7 @@ Ok,Aceptar,module,Magento_Sales
 "We could not detect a size.","No hemos podido detectar un tamaño.",module,Magento_Theme
 "Go to Details Page","Ir a la página de detalles",module,Magento_Ui
 "Please enter {0} words or less.","Introduce {0} palabras o menos.",module,Magento_Ui
+"Please enter at least {0} words.","Por favor ingrese al menos {0} palabras.",module,Magento_Ui
 "Letters only please","Sólo las letras por favor",module,Magento_Ui
 "No white space please","Sin espacio en blanco por favor",module,Magento_Ui
 "Please enter a correct date","Por favor introduzca una fecha correcta",module,Magento_Ui
@@ -6529,6 +6539,7 @@ Enabled,Habilitado,module,Magento_Sitemap
 "Maximum No of URLs Per File","Máximo No de URLs por archivo",module,Magento_Sitemap
 "Maximum File Size","Tamaño máximo de archivo",module,Magento_Sitemap
 "File size in bytes.","Tamaño del archivo en bytes.",module,Magento_Sitemap
+"Search Engine Submission Settings","Configuración de inscripción a motores de búsqueda",module,Magento_Sitemap
 "Enable Submission to Robots.txt","Habilitar envío de Robots.txt",module,Magento_Sitemap
 "Link for Google","Enlace para Google",module,Magento_Sitemap
 "Last Generated","Última vez que se generó",module,Magento_Sitemap
@@ -6618,6 +6629,7 @@ Copyright,"Derechos de autor",module,Magento_Theme
 "Translation Strategy","Estrategia de traducción",module,Magento_Translation
 Translations,Traducciones,module,Magento_Translation
 "Translation files.","Archivos de traducción.",module,Magento_Translation
+"Log JS Errors to Session Storage","Registrar errores JS a almacenaje de sesión",module,Magento_Ui
 ui/grid/filters/elements/select,ui/cuadrícula/filtros/elementos/seleccionar,module,Magento_Ui
 Action,Acción,module,Magento_Ui
 "Access License Number","Número de licencia de acceso",module,Magento_Ups
