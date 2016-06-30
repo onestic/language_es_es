@@ -356,7 +356,7 @@ Country,País,module,Magento_Braintree
 "Selected payment type is not allowed for billing country.","El tipo de pago seleccionado no está permitido para el país de facturación.",module,Magento_Braintree
 "Please try again later","Por favor, inténtalo más tarde",module,Magento_Braintree
 "Please wait 24 hours before trying to issue a partial refund.","Por favor espere 24 horas antes de emitir un reembolso parcial.",module,Magento_Braintree
-"Some transactions are already settled or voided and cannot be voided.","Algunas transacciones ya se han cancelado o anulado y no pueden ser anuladas.",module,Magento_Braintree
+"Some transactions are already settled or voided and cannot be voided.","Algunas transacciones ya se han acordado o anulado y no pueden ser anuladas.",module,Magento_Braintree
 "Invalid Customer ID provided","ID de cliente proporcionado no válido",module,Magento_Braintree
 "Payment Information","Información de pago",module,Magento_Braintree
 "Add new card","Agregar nueva tarjeta",module,Magento_Braintree
@@ -1938,7 +1938,7 @@ Yes,Sí,module,Magento_Payment
 "Expiration Date","Fecha de vencimiento",module,Magento_Payment
 "Card Verification Number","Número de verificación de tarjeta",module,Magento_Payment
 "Switch/Solo/Maestro Only","Switch/Solo/Maestro únicamente",module,Magento_Payment
-"Issue Number","Número de caso",module,Magento_Payment
+"Issue Number","Número de emisión",module,Magento_Payment
 "Start Date","Fecha inicio",module,Magento_Payment
 "--Please Select--","--Por favor seleccione--",module,Magento_Payment
 "Card Verification Number Visual Reference",Kartenprüfnummer,module,Magento_Payment
@@ -2458,6 +2458,7 @@ Delete,Borrar,module,Magento_Review
 "Are you sure?","¿Seguro que quiere continuar?",module,Magento_Review
 "Update Status","Actualizar estado",module,Magento_Review
 Customer,Cliente,module,Magento_Review
+"Pending Reviews of Customer `%1`","Reseñas pendientes del cliente `%1`",module,Magento_Review
 "Pending Reviews","Reseñas pendientes",module,Magento_Review
 "All Reviews of Customer `%1`","Todas las reseñas del cliente '%1'",module,Magento_Review
 "All Reviews of Product `%1`","Todas las opiniones de producto '%1'",module,Magento_Review
@@ -2924,6 +2925,7 @@ Products,Productos,module,Magento_Sales
 "Total (ex)","Total (excl.)",module,Magento_Sales
 Qty,Cantidad,module,Magento_Sales
 "Total (inc)","Total (incl.)",module,Magento_Sales
+"An item object is not specified.","No se especifica un item object.",module,Magento_Sales
 "A PDF object is not specified.","Objeto PDF no especificado.",module,Magento_Sales
 "Excl. Tax","Impuestos NO Incl.",module,Magento_Sales
 "Incl. Tax","Impuestos incl.",module,Magento_Sales
@@ -3388,6 +3390,7 @@ Theme,Plantilla,module,Magento_Theme
 "We cannot find theme ""%1"".","No podemos encontrar el tema ""%1"".",module,Magento_Theme
 "We cannot find the theme.","No podemos encontrar el tema.",module,Magento_Theme
 "You saved the theme.","Guardaste el tema.",module,Magento_Theme
+"Invalid regular expression: ""%1"".","Expresión regular inválida: ""%1"".",module,Magento_Theme
 label,etiqueta,module,Magento_Theme
 "-- Please Select --",--Seleccione--,module,Magento_Theme
 Copy,Copiar,module,Magento_Theme
@@ -4805,6 +4808,7 @@ Enabled,Habilitado,module,Magento_Sitemap
 "Maximum No of URLs Per File","Máximo No de URLs por archivo",module,Magento_Sitemap
 "Maximum File Size","Tamaño máximo de archivo",module,Magento_Sitemap
 "File size in bytes.","Tamaño del archivo en bytes.",module,Magento_Sitemap
+"Search Engine Submission Settings","Configuración de inscripción a motores de búsqueda",module,Magento_Sitemap
 "Enable Submission to Robots.txt","Habilitar envío de Robots.txt",module,Magento_Sitemap
 "Link for Google","Enlace para Google",module,Magento_Sitemap
 "Last Generated","Última vez que se generó",module,Magento_Sitemap
@@ -4876,6 +4880,7 @@ Copyright,"Derechos de autor",module,Magento_Theme
 "Translation Strategy","Estrategia de traducción",module,Magento_Translation
 Translations,Traducciones,module,Magento_Translation
 "Translation files.","Archivos de traducción.",module,Magento_Translation
+"Log JS Errors to Session Storage","Registrar errores JS a almacenaje de sesión",module,Magento_Ui
 "Access License Number","Número de licencia de acceso",module,Magento_Ups
 "Enabled for Checkout","Habilitado para el proceso de pago",module,Magento_Ups
 "Allowed Methods","Métodos permitidos",module,Magento_Ups
