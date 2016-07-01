@@ -1063,6 +1063,7 @@ Pages,Páginas,module,Magento_Cms
 "Disabled Completely","Komplett deaktiviert",module,Magento_Cms
 "A block identifier with the same properties already exists in the selected store.","Ein Block-Bezeichner mit denselben Eigenschaften existiert bereits in dem ausgewählten Laden.",module,Magento_Cms
 "The page URL key contains capital letters or disallowed symbols.","Der URL-Bezeichner dieser Seite enthält Großbuchstaben oder unerlaubte Symbole.",module,Magento_Cms
+"We cannot create a new directory.","No podemos crear un nuevo directorio.",module,Magento_Cms
 "We cannot delete directory %1.","No podemos borrar directorio %1.",module,Magento_Cms
 "No files found","Keine Dateien gefunden",module,Magento_Cms
 "Browse Files...","Dateien durchsuchen ...",module,Magento_Cms
@@ -1199,6 +1200,7 @@ Download,Descarga,module,Magento_Customer
 "Your password reset link has expired.","Su enlace de restablecimiento de contraseña ha caducado.",module,Magento_Customer
 "Account Information","Información de la cuenta",module,Magento_Customer
 "Invalid input","Entrada no válida",module,Magento_Customer
+"Please correct the email address.","Por favor, corregir el email.",module,Magento_Customer
 "Please enter your email.","Por favor, introduzca su dirección de correo electrónico.",module,Magento_Customer
 "My Account","Mi Cuenta",module,Magento_Customer
 "Invalid login or password.","Inicio de Sesión o Contraseña Inválida.",module,Magento_Customer
@@ -1234,6 +1236,7 @@ Admin,Administrar,module,Magento_Customer
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Customer
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Customer
 """%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Customer
+"""%1"" is not a valid image format.","""%1"" no es un formato de imagen válido.",module,Magento_Customer
 label,etiqueta,module,Magento_Customer
 "Customer Group","Grupo del cliente",module,Magento_Customer
 "Customer Group already exists.","Grupo de clientes ya existe.",module,Magento_Customer
@@ -1452,6 +1455,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 """%1"" is a required value.","""%1"" es un valor necesario.",module,Magento_Eav
 """%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Eav
 """%1"" is not a valid image format","""%1"" no es un formato de imagen válido",module,Magento_Eav
+"Invalid entity_type specified: %1","Se especificó un entity_type inválido: %1",module,Magento_Eav
 "Entity is not initialized","La entidad no está inicializada",module,Magento_Eav
 "Unknown parameter","Parámetro desconocido",module,Magento_Eav
 "Invalid default decimal value","Valor decimal por defecto no válido",module,Magento_Eav
@@ -1985,6 +1989,7 @@ Sales,Ventas,module,Magento_Paypal
 "PayPal Express Checkout Token does not exist.","El símbolo para la Salida Express con Paypal no existe.",module,Magento_Paypal
 "Express Checkout and Order have been canceled.","El pedido y la Caja Express se han cancelado.",module,Magento_Paypal
 "Express Checkout has been canceled.","La Caja Express se ha cancelado.",module,Magento_Paypal
+"Unable to cancel Express Checkout","No se ha podido cancelar Express Checkout",module,Magento_Paypal
 "PayPal response hasn't required fields.","La respuesta de PayPal no tiene campos obligatorios.",module,Magento_Paypal
 "The reference ID is not set.","No se estableció el ID de referencia.",module,Magento_Paypal
 "Unable to save Billing Agreement:","No se puede guardar el contrato de facturación:",module,Magento_Paypal
@@ -4596,6 +4601,7 @@ User,Usuario,module,Magento_Paypal
 "URL method for Cancel URL and Return URL","Método de URL para URL de cancelación y URL de retorno",module,Magento_Paypal
 "Payflow Link (Includes Express Checkout)","Enlace de Payflow (incluido Pago exprés)",module,Magento_Paypal
 "Connect your merchant account with a PCI-compliant gateway that lets customers pay without leaving your site.","Conecta su cuenta de minorista con una pasarela que cumple con la normativa PCI y que permite a los clientes pagar sin abandonar su sitio.",module,Magento_Paypal
+"Payflow Link and Express Checkout","Payflow Link y Express Checkout",module,Magento_Paypal
 "Email Associated with PayPal Merchant Account (Optional)","Correo electrónico asociado con la cuenta de minorista de PayPal (opcional)",module,Magento_Paypal
 "If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.","Si no ha configurado diversos usuarios en su cuenta, vuelva a introducir el nombre de usuario del vendedor/minorista aquí.",module,Magento_Paypal
 "Enable Payflow Link","Habilitar el enlace de Payflow",module,Magento_Paypal
