@@ -1458,6 +1458,7 @@ Pages,Páginas,module,Magento_Cms
 "Disabled Completely","Komplett deaktiviert",module,Magento_Cms
 "A block identifier with the same properties already exists in the selected store.","Ein Block-Bezeichner mit denselben Eigenschaften existiert bereits in dem ausgewählten Laden.",module,Magento_Cms
 "The page URL key contains capital letters or disallowed symbols.","Der URL-Bezeichner dieser Seite enthält Großbuchstaben oder unerlaubte Symbole.",module,Magento_Cms
+"We cannot create a new directory.","No podemos crear un nuevo directorio.",module,Magento_Cms
 "We cannot delete directory %1.","No podemos borrar directorio %1.",module,Magento_Cms
 "We can't upload the file right now.","No se puede cargar el archivo en estos momentos.",module,Magento_Cms
 "We can't delete root directory %1 right now.","No se puede eliminar el directorio raíz %1 en estos momentos.",module,Magento_Cms
@@ -1555,6 +1556,7 @@ Configurations,Configuración,module,Magento_ConfigurableProduct
 Summary,Resumen,module,Magento_ConfigurableProduct
 "Choose an Option...","Elegir una opción...",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products.","Este atributo se utiliza en artículos configurables.",module,Magento_ConfigurableProduct
+"Product has been already attached","El producto ya se adjunto",module,Magento_ConfigurableProduct
 "Product with specified sku: %1 is not a configurable product","Producto con el sku: %1 no es un producto configurable",module,Magento_ConfigurableProduct
 "Requested option doesn't exist","La opción solicitada no existe",module,Magento_ConfigurableProduct
 "Requested option doesn't exist: %1","La opción solicitada no existe: %1",module,Magento_ConfigurableProduct
@@ -1586,7 +1588,9 @@ Summary,Resumen,module,Magento_ConfigurableProduct
 "Based on your selections <span class=""new-products-count"" data-bind=""text:countVariations""></span>
         new products will be created. Use this step to customize images and price for your new products.","Basado en sus selecciones <span class=""new-products-count"" data-bind=""text:countVariations""></span> se crearán nuevos productos. Utilice este paso para personalizar imágenes y precio de sus nuevos productos.",module,Magento_ConfigurableProduct
 Images,Imágenes,module,Magento_ConfigurableProduct
+"Skip image uploading at this time","Omitir subir imagen en esta ocasión",module,Magento_ConfigurableProduct
 "Browse Files...","Dateien durchsuchen ...",module,Magento_ConfigurableProduct
+"Browse to find or drag image here","Selecciona o arrastra la imagen aquí",module,Magento_ConfigurableProduct
 "Remove image","Quitar imagen",module,Magento_ConfigurableProduct
 "Edit role","Editar rol",module,Magento_ConfigurableProduct
 Hidden,Oculto,module,Magento_ConfigurableProduct
@@ -1780,6 +1784,7 @@ Download,Descarga,module,Magento_Customer
 "Please enter new password.","Por favor, introduzca una nueva contraseña.",module,Magento_Customer
 "Confirm your new password.","Confirme su nueva contraseña.",module,Magento_Customer
 "Something went wrong while changing the password.","Algo salió mal al cambiar la contraseña.",module,Magento_Customer
+"Please correct the email address.","Por favor, corregir el email.",module,Magento_Customer
 "We're unable to send the password reset email.","No se puede enviar el correo electrónico para restablecer la contraseña.",module,Magento_Customer
 "Please enter your email.","Por favor, introduzca su dirección de correo electrónico.",module,Magento_Customer
 "My Account","Mi Cuenta",module,Magento_Customer
@@ -1850,6 +1855,7 @@ Admin,Administrar,module,Magento_Customer
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Customer
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Customer
 """%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Customer
+"""%1"" is not a valid image format.","""%1"" no es un formato de imagen válido.",module,Magento_Customer
 label,etiqueta,module,Magento_Customer
 "Please enter a customer email.","Por favor, introduzca un email de cliente.",module,Magento_Customer
 "Customer Group","Grupo del cliente",module,Magento_Customer
@@ -1997,6 +2003,7 @@ Documents,Documentos,module,Magento_Dhl
 "Unable to retrieve tracking","No se puede recuperar el seguimiento.",module,Magento_Dhl
 "Response is in the wrong format","La respuesta está en el formato incorrecto",module,Magento_Dhl
 "No packages for request","No hay paquetes que solicitar",module,Magento_Dhl
+"Unable to retrieve shipping label","No se puede recuperar la etiqueta de envío",module,Magento_Dhl
 "Non documents","No documentos",module,Magento_Dhl
 None,Ninguno,module,Magento_Dhl
 State/Province,Estado/Provincia,module,Magento_Directory
@@ -2145,6 +2152,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Attribute set not found: %1","Conjunto de atributos no encontrado: %1",module,Magento_Eav
 "Cannot save attribute","No se puede guardar el atributo",module,Magento_Eav
 "Cannot delete attribute.","No se puede eliminar el atributo.",module,Magento_Eav
+"Invalid entity_type specified: %1","Se especificó un entity_type inválido: %1",module,Magento_Eav
 "Entity is not initialized","La entidad no está inicializada",module,Magento_Eav
 "Unknown parameter","Parámetro desconocido",module,Magento_Eav
 "The attribute code '%1' is reserved by system. Please try another attribute code","El código de atributo '%s' está reservado por el sistema. Por favor, prueba con otro código de atributo.",module,Magento_Eav
@@ -2723,6 +2731,7 @@ Paused,"En pausa",module,Magento_Newsletter
 "Newsletter Message Preview","Vista previa del boletín informativo",module,Magento_Newsletter
 "Add to Queue","Añadir a la cola",module,Magento_Newsletter
 "Are you sure that you want to strip all tags?","¿Realmente quiere desaplicar todas las etiquetas?",module,Magento_Newsletter
+"Please enter a new template name.","Por favor, ingrese un nuevo nombre de plantilla.",module,Magento_Newsletter
 "Sign Up for Our Newsletter:","Inscríbase a nuestro boletín de noticias:",module,Magento_Newsletter
 "Enter your email address","Introduzca su dirección de correo electrónico",module,Magento_Newsletter
 Subscribe,Suscribirse,module,Magento_Newsletter
@@ -2866,6 +2875,7 @@ Sales,Ventas,module,Magento_Paypal
 "PayPal Express Checkout Token does not exist.","El símbolo para la Salida Express con Paypal no existe.",module,Magento_Paypal
 "Express Checkout and Order have been canceled.","El pedido y la Caja Express se han cancelado.",module,Magento_Paypal
 "Express Checkout has been canceled.","La Caja Express se ha cancelado.",module,Magento_Paypal
+"Unable to cancel Express Checkout","No se ha podido cancelar Express Checkout",module,Magento_Paypal
 "We can't place the order.","No se puede realizar el pedido.",module,Magento_Paypal
 "We can't process Express Checkout approval.","No podemos procesar la aprobación de Express Checkout.",module,Magento_Paypal
 "We can't initialize Express Checkout review.","No podemos inicializar la revisión de Checkout Express.",module,Magento_Paypal
@@ -3384,7 +3394,9 @@ Bestsellers,"Mejor vendidos",module,Magento_Reports
 "Most Viewed Products Report","Informe de artículos más vistos",module,Magento_Reports
 "Show By","Mostrar por",module,Magento_Reports
 "Select Date","Seleccionar fechas",module,Magento_Reports
+"Customers that have Wish List: %1","Clientes que tienen lista de deseos: %1",module,Magento_Reports
 "Number of Wish Lists: %1","Número de listas de deseos: %1",module,Magento_Reports
+"Number of Wish List referrals: %1","Número de referidos en listas de deseos: %1",module,Magento_Reports
 "Show Report For:","Bericht anzeigen für:",module,Magento_Reports
 "All Websites","Todos sitios web",module,Magento_Reports
 "Recently Viewed","Vistos recientemente",module,Magento_Reports
@@ -6296,6 +6308,7 @@ User,Usuario,module,Magento_Paypal
 "URL method for Cancel URL and Return URL","Método de URL para URL de cancelación y URL de retorno",module,Magento_Paypal
 "Payflow Link (Includes Express Checkout)","Enlace de Payflow (incluido Pago exprés)",module,Magento_Paypal
 "Connect your merchant account with a PCI-compliant gateway that lets customers pay without leaving your site.","Conecta su cuenta de minorista con una pasarela que cumple con la normativa PCI y que permite a los clientes pagar sin abandonar su sitio.",module,Magento_Paypal
+"Payflow Link and Express Checkout","Payflow Link y Express Checkout",module,Magento_Paypal
 "Email Associated with PayPal Merchant Account (Optional)","Correo electrónico asociado con la cuenta de minorista de PayPal (opcional)",module,Magento_Paypal
 "If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.","Si no ha configurado diversos usuarios en su cuenta, vuelva a introducir el nombre de usuario del vendedor/minorista aquí.",module,Magento_Paypal
 "Enable Payflow Link","Habilitar el enlace de Payflow",module,Magento_Paypal
@@ -6316,6 +6329,7 @@ User,Usuario,module,Magento_Paypal
 "Reject Transaction if:","Rechazar la transacción si:",module,Magento_Paypal
 "AVS Street Does Not Match","Calle AVS no coincide",module,Magento_Paypal
 "AVS Zip Does Not Match","AVS Zip no coincide",module,Magento_Paypal
+"Card Security Code Does Not Match","Código de seguridad de la tarjeta no coincide",module,Magento_Paypal
 "Payflow Pro (Includes Express Checkout)","Payflow Pro (incluido Pago exprés)",module,Magento_Paypal
 "Payflow Pro and Express Checkout","Payflow Pro y Pago exprés",module,Magento_Paypal
 "Persistent Shopping Cart","Carrito de compras persistente",module,Magento_Persistent
