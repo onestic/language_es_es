@@ -2525,6 +2525,7 @@ Summary,Resumen,module,Magento_Review
 "Back to Main Product Info","Volver a información principal del artículo",module,Magento_Review
 "Average Customer Rating","Valoración media de clientes",module,Magento_Review
 "Product Rating:","Valoración de artículo:",module,Magento_Review
+"Product Review (submitted on %1):","Reseña de producto (enviada el %1):",module,Magento_Review
 "Back to Product Reviews","Volver a reseñas de artículo",module,Magento_Review
 "Miscellaneous Feeds","Fuentes varias",module,Magento_Rss
 "Get Feed","Obtener fuente",module,Magento_Rss
@@ -2620,6 +2621,7 @@ Promotions,Promociones,module,Magento_SalesRule
 "New Cart Price Rule","Nueva regla de precio de carrito",module,Magento_SalesRule
 "Rule is not defined","Regla no definida",module,Magento_SalesRule
 "Invalid data provided","Datos no válidos",module,Magento_SalesRule
+"%1 coupon(s) have been generated.","Se han generado %1 cupones.",module,Magento_SalesRule
 Catalog,Catálogo,module,Magento_SalesRule
 "The wrong rule is specified.","Regla especificada incorrecta.",module,Magento_SalesRule
 Alphanumeric,Alfanumérico,module,Magento_SalesRule
@@ -2869,7 +2871,9 @@ Sales,Ventas,module,Magento_Sales
 "%1 order(s) cannot be canceled.","No se puede cancelar %1 pedidos.",module,Magento_Sales
 "You cannot cancel the order(s).","No podemos cancelar este/estos pedido(s).",module,Magento_Sales
 "We canceled %1 order(s).","Hemos cancelado %1 orden(es).",module,Magento_Sales
+"%1 order(s) were not put on hold.","%1 pedidos no fueron puestos en espera.",module,Magento_Sales
 "No order(s) were put on hold.","Ningún pedido fue puesto en suspenso.",module,Magento_Sales
+"You have put %1 order(s) on hold.","Ha puesto %1 pedidos en espera.",module,Magento_Sales
 "There are no printable documents related to selected orders.","No hay documentos para imprimir relacionados con los pedidos seleccionados.",module,Magento_Sales
 "The payment has been accepted.","El pago se ha aceptado.",module,Magento_Sales
 "The payment has been denied.","El pago ha sido denegado.",module,Magento_Sales
