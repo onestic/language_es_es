@@ -469,6 +469,7 @@ Always,Siempre,module,Magento_Captcha
 "Allow Qty Below 0 and Notify Customer","Permitir cantidad menor que 0 y notificar al cliente",module,Magento_CatalogInventory
 "In Stock","En existencias",module,Magento_CatalogInventory
 "Out of Stock","Fuera de existencias",module,Magento_CatalogInventory
+"The fewest you may purchase is %1.","Lo menos que puede comprar es %1.",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","Por favor corregir la cantidad de algunos productos.",module,Magento_CatalogInventory
 "The most you may purchase is %1.","Lo más que puede comprar es %1.",module,Magento_CatalogInventory
 "Only %1 left","Sólo queda %1",module,Magento_CatalogInventory
@@ -1232,10 +1233,13 @@ Admin,Administrar,module,Magento_Customer
 "Attribute object is undefined","Objeto de campo indefinido",module,Magento_Customer
 """%1"" invalid type entered.","""%1"" tipo introducido inválido.",module,Magento_Customer
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Customer
+"""%1"" is not a valid email address.","""%1"" no es una dirección válida de email.",module,Magento_Customer
 """%1"" is not a valid hostname.","""%1"" no es un nombre de host válido.",module,Magento_Customer
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Customer
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Customer
+"""%1"" is not a valid file extension.","""%1"" no es una extensión de archivo válida.",module,Magento_Customer
 """%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Customer
+"""%1"" exceeds the allowed file size.","""%1"" supera el tamaño de archivo permitido.",module,Magento_Customer
 """%1"" is not a valid image format.","""%1"" no es un formato de imagen válido.",module,Magento_Customer
 label,etiqueta,module,Magento_Customer
 "Customer Group","Grupo del cliente",module,Magento_Customer
@@ -1342,6 +1346,8 @@ Others,Otros,module,Magento_Dhl
 "The response is in wrong format.","La respuesta tiene un formato incorrecto.",module,Magento_Dhl
 "Error #%1 : %2","Error #%1: %2",module,Magento_Dhl
 "Zero shipping charge for '%1'","Cero costo de envío para '%1'",module,Magento_Dhl
+"Cannot identify measure unit for %1","No se puede identificar la unidad de medida para %1",module,Magento_Dhl
+"Cannot identify weight unit for %1","No se puede identificar la unidad de peso para %1",module,Magento_Dhl
 "There is no items in this order","No hay artículos en este pedido",module,Magento_Dhl
 "Please, specify origin country","Por favor, indicar país de origen",module,Magento_Dhl
 Documents,Documentos,module,Magento_Dhl
@@ -1449,11 +1455,14 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Entity object is undefined","Objeto de entidad indefinido",module,Magento_Eav
 """%1"" invalid type entered.","""%1"" tipo introducido inválido.",module,Magento_Eav
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Eav
+"""%1"" is not a valid email address.","""%1"" no es una dirección válida de email.",module,Magento_Eav
 """%1"" is not a valid hostname.","""%1"" no es un nombre de host válido.",module,Magento_Eav
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Eav
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Eav
 """%1"" is a required value.","""%1"" es un valor necesario.",module,Magento_Eav
+"""%1"" is not a valid file extension.","""%1"" no es una extensión de archivo válida.",module,Magento_Eav
 """%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Eav
+"""%1"" exceeds the allowed file size.","""%1"" supera el tamaño de archivo permitido.",module,Magento_Eav
 """%1"" is not a valid image format","""%1"" no es un formato de imagen válido",module,Magento_Eav
 "Invalid entity_type specified: %1","Se especificó un entity_type inválido: %1",module,Magento_Eav
 "Entity is not initialized","La entidad no está inicializada",module,Magento_Eav
@@ -1461,6 +1470,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Invalid default decimal value","Valor decimal por defecto no válido",module,Magento_Eav
 "Invalid default date","Fecha por defecto no válida",module,Magento_Eav
 "Invalid entity supplied","Se suministró una entidad no válida",module,Magento_Eav
+"Invalid backend model specified: %1","Modelo de backend especificado inválido: %1",module,Magento_Eav
 "Invalid date","Fecha no válida",module,Magento_Eav
 "Attribute set name is empty.","Nombre del conjunto de atributos está vacío.",module,Magento_Eav
 "No options found.","No hay opciones encontradas.",module,Magento_Eav
@@ -1658,6 +1668,7 @@ Status,Estatus,module,Magento_ImportExport
 "Destination file is not writable","No se puede escribir en el archivo de destino",module,Magento_ImportExport
 "in rows","en filas",module,Magento_ImportExport
 "Begin data validation","Inicie la validación de los datos.",module,Magento_ImportExport
+"Please enter a correct entity model","Introduce un modelo de entidad correcto",module,Magento_ImportExport
 "Please specify a source.","Por favor especifique una fuente.",module,Magento_ImportExport
 "Cannot get autoincrement value","No se puede obtener un incremento automático del valor",module,Magento_ImportExport
 "-- Please Select --",--Seleccione--,module,Magento_ImportExport
@@ -1867,6 +1878,7 @@ Cancelled,Cancelado,module,Magento_Newsletter
 "Not Sent","No enviado",module,Magento_Newsletter
 Sending,Enviando,module,Magento_Newsletter
 Paused,"En pausa",module,Magento_Newsletter
+"There are no subscribers selected.","No hay suscriptores seleccionados.",module,Magento_Newsletter
 "You selected an invalid queue.","Elegiste una cola inválida.",module,Magento_Newsletter
 "Duplicate template code","Duplicado del código de la plantilla",module,Magento_Newsletter
 "Choose Store View:","Ladenansicht wählen:",module,Magento_Newsletter
@@ -2185,6 +2197,7 @@ Void,Nulo,module,Magento_Paypal
 "eBay Auction Payment","Pago de subasta de eBay",module,Magento_Paypal
 "Header (center)","Cabecera (centro)",module,Magento_Paypal
 "Sidebar (right)","Barra lateral (derecha)",module,Magento_Paypal
+"Near PayPal Credit checkout button","Cerca del botón de pedido de crédito paypal",module,Magento_Paypal
 "--Please Select--",--Seleccione--,module,Magento_Paypal
 Daily,Diario,module,Magento_Paypal
 "Every 3 days","Cada 3 días",module,Magento_Paypal
@@ -2934,6 +2947,7 @@ Products,Productos,module,Magento_Sales
 "Total (ex)","Total (excl.)",module,Magento_Sales
 Qty,Cantidad,module,Magento_Sales
 "Total (inc)","Total (incl.)",module,Magento_Sales
+"The order object is not specified.","El objeto del pedido no está especificado.",module,Magento_Sales
 "An item object is not specified.","No se especifica un item object.",module,Magento_Sales
 "A PDF object is not specified.","Objeto PDF no especificado.",module,Magento_Sales
 "Excl. Tax","Impuestos NO Incl.",module,Magento_Sales
@@ -3403,6 +3417,7 @@ Theme,Plantilla,module,Magento_Theme
 label,etiqueta,module,Magento_Theme
 "-- Please Select --",--Seleccione--,module,Magento_Theme
 Copy,Copiar,module,Magento_Theme
+"The JS file must be less than %1M.","El archivo JS debe ser menor que %1M.",module,Magento_Theme
 "We found no files.","No se encontró ningún archivo.",module,Magento_Theme
 "Browse Files","Examinar archivos",module,Magento_Theme
 Remove,Eliminar,module,Magento_Theme
@@ -3577,6 +3592,7 @@ Role,Rol,module,Magento_User
 "User Info","Información de usuario",module,Magento_User
 "User Role","Funcion del usuario",module,Magento_User
 "Your password reset link has expired.","Su enlace de restablecimiento de contraseña ha caducado.",module,Magento_User
+"Please correct this email address:","Por favor, corregir el email:",module,Magento_User
 "Locked Users","Usuarios bloqueados",module,Magento_User
 "Unlocked %1 user(s).","Desbloqueo de %1 usuarios.",module,Magento_User
 System,"Gestionar sistema",module,Magento_User
@@ -4237,6 +4253,7 @@ Contacts,Contactos,module,Magento_Contact
 "Recovery Link Expiration Period (days)","Periodo de caducidad del enlace de recuperación (en días)",module,Magento_Customer
 "Please enter a number 1 or greater in this field.","Por favor, introduzca número 1 o mayor en este campo.",module,Magento_Customer
 "Name and Address Options","Opciones de nombre y dirección",module,Magento_Customer
+"Number of Lines in a Street Address","Cantidad de líneas de la dirección",module,Magento_Customer
 "Leave empty for default (2). Valid range: 1-4","Dejar en blanco por defecto (2). Rango válido: 1-4",module,Magento_Customer
 "Show Prefix","Mostrar prefijo",module,Magento_Customer
 "The title that goes before name (Mr., Mrs., etc.)","El título que va antes del nombre (señor, señorita, etc.)",module,Magento_Customer
