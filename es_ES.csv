@@ -2970,6 +2970,7 @@ Email,"Correo electrónico",module,Magento_Sales
 State/Province,Estado/Provincia,module,Magento_Sales
 "Street Address",Domicilio,module,Magento_Sales
 "Zip/Postal Code","Código Postal",module,Magento_Sales
+"We cannot create an empty shipment.","No se puede crear un envio vacío.",module,Magento_Sales
 "VAT Request Identifier","Identificador de petición de IVA",module,Magento_Sales
 "VAT Request Date","Fecha de petición de IVA",module,Magento_Sales
 "Pending Payment","Pago pendiente",module,Magento_Sales
@@ -3425,6 +3426,7 @@ Theme,Plantilla,module,Magento_Theme
 label,etiqueta,module,Magento_Theme
 "-- Please Select --",--Seleccione--,module,Magento_Theme
 Copy,Copiar,module,Magento_Theme
+"The CSS file must be less than %1M.","El archivo CSS debe ser menor que %1M.",module,Magento_Theme
 "The JS file must be less than %1M.","El archivo JS debe ser menor que %1M.",module,Magento_Theme
 "We found no files.","No se encontró ningún archivo.",module,Magento_Theme
 "Browse Files","Examinar archivos",module,Magento_Theme
@@ -4831,6 +4833,7 @@ City,Ciudad,module,Magento_Shipping
 "Categories Options","Opciones de categorias",module,Magento_Sitemap
 Frequency,Frecuencia,module,Magento_Sitemap
 Priority,Prioridad,module,Magento_Sitemap
+"Valid values range from 0.0 to 1.0.","Rango de los valores admitidos: desde 0.0 hasta 1.0.",module,Magento_Sitemap
 "Products Options","Opciones de artículos",module,Magento_Sitemap
 "Add Images into Sitemap","Añadir imágenes al mapa del sitio",module,Magento_Sitemap
 "CMS Pages Options","Opciones de páginas de CMS (sistema de gestión de contenidos)",module,Magento_Sitemap
