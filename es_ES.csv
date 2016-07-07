@@ -2738,6 +2738,7 @@ Subscribers,Suscriptores,module,Magento_Newsletter
 "We saved the subscription.","Se guardó la suscripción.",module,Magento_Newsletter
 "We removed the subscription.","Quitamos la suscripción.",module,Magento_Newsletter
 "Your subscription has been confirmed.","Su suscripción ha sido confirmada.",module,Magento_Newsletter
+"This is an invalid subscription ID.","Este es un ID de suscripción inválido.",module,Magento_Newsletter
 "This email address is already assigned to another user.","Esta dirección de correo ya se asignó a otro usuario.",module,Magento_Newsletter
 "Please enter a valid email address.","Por favor, ingrese una dirección de correo electrónico válida.",module,Magento_Newsletter
 "Thank you for your subscription.","Gracias por suscribirse.",module,Magento_Newsletter
@@ -2907,6 +2908,7 @@ Sales,Ventas,module,Magento_Paypal
 "We can't contact the PayPal gateway.","No podemos establecer contacto con el gateway de PayPal.",module,Magento_Paypal
 "I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.","Lo sentimos, pero no hemos podido procesar su pago. Por favor, introduzca otro método de pago o póngase en contacto con nosotros si necesita ayuda.",module,Magento_Paypal
 "I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.","Lo sentimos, pero no hemos podido finalizar su transacción. Por favor, póngase en contacto con nosotros si necesita ayuda.",module,Magento_Paypal
+"The payment method code is not set.","No se estableció el código de método de pago.",module,Magento_Paypal
 "The reference ID is not set.","No se estableció el ID de referencia.",module,Magento_Paypal
 "Unable to save Billing Agreement:","No se puede guardar el contrato de facturación:",module,Magento_Paypal
 Active,Activo,module,Magento_Paypal
@@ -3017,6 +3019,7 @@ Dispute,Conflicto,module,Magento_Paypal
 "Note: %1","Nota: %1",module,Magento_Paypal
 "Invalid method %1::%2(%3)","Método inválido %1::%2(%3)",module,Magento_Paypal
 "Transaction has been declined","La operación ha sido declinada",module,Magento_Paypal
+"We cannot send the new order email.","No podemos enviar el email de nueva orden.",module,Magento_Paypal
 "We can't issue a refund transaction because there is no capture transaction.","No podemos emitir una transacción de reembolso porque no hay ninguna operación de captura.",module,Magento_Paypal
 "Report Date","Fecha del informe",module,Magento_Paypal
 "Merchant Account","Cuenta del comerciante",module,Magento_Paypal
@@ -3423,6 +3426,7 @@ Bestsellers,"Mejor vendidos",module,Magento_Reports
 "Customers that have Wish List: %1","Clientes que tienen lista de deseos: %1",module,Magento_Reports
 "Number of Wish Lists: %1","Número de listas de deseos: %1",module,Magento_Reports
 "Number of Wish List referrals: %1","Número de referidos en listas de deseos: %1",module,Magento_Reports
+"Number of Wish List conversions: %1","Número de conversiones en listas de deseos: %1",module,Magento_Reports
 "Show Report For:","Bericht anzeigen für:",module,Magento_Reports
 "All Websites","Todos sitios web",module,Magento_Reports
 "Recently Viewed","Vistos recientemente",module,Magento_Reports
@@ -3924,6 +3928,7 @@ Sales,Ventas,module,Magento_Sales
 "Edit Order","Editar pedido",module,Magento_Sales
 "You sent the order email.","Envió el correo electrónico de la orden.",module,Magento_Sales
 "We can't send the email order right now.","No podemos enviar el correo electrónico de pedido en estos momentos.",module,Magento_Sales
+"You have not put the order on hold.","No ha puesto la orden en espera.",module,Magento_Sales
 "You put the order on hold.","Poner la orden en espera.",module,Magento_Sales
 "You canceled the invoice.","Ha cancelado la factura.",module,Magento_Sales
 "Invoice canceling error","Error al cancelar la factura",module,Magento_Sales
@@ -4034,14 +4039,17 @@ Authorization,Autorización,module,Magento_Sales
 "Total Shipping Charges","Gastos de envío",module,Magento_Sales
 Title,Título,module,Magento_Sales
 Number,Número,module,Magento_Sales
+"We found an invalid renderer model.","Encontramos un modelo de renderizado no válido.",module,Magento_Sales
 Products,Productos,module,Magento_Sales
 "Total (ex)","Total (excl.)",module,Magento_Sales
 Qty,Cantidad,module,Magento_Sales
 Tax,Impuestos,module,Magento_Sales
 "Total (inc)","Total (incl.)",module,Magento_Sales
 "The order object is not specified.","El objeto del pedido no está especificado.",module,Magento_Sales
+"The source object is not specified.","El objeto fuente no está especificado.",module,Magento_Sales
 "An item object is not specified.","No se especifica un item object.",module,Magento_Sales
 "A PDF object is not specified.","Objeto PDF no especificado.",module,Magento_Sales
+"A PDF page object is not specified.","Objeto de página PDF no especificado.",module,Magento_Sales
 "Excl. Tax","Impuestos NO Incl.",module,Magento_Sales
 "Incl. Tax","Impuestos incl.",module,Magento_Sales
 title,Título,module,Magento_Sales
@@ -4050,6 +4058,7 @@ title,Título,module,Magento_Sales
 "Could not save shipment","No se puede guardar el envío",module,Magento_Sales
 "The last status can't be unassigned from its current state.","El último estado no puede ser desasignado desde su estado actual.",module,Magento_Sales
 "Status can't be unassigned, because it is used by existing order(s).","Estado no puede ser desasignado, ya que es utilizado por los pedidos existentes.",module,Magento_Sales
+"We cannot determine the field name.","No se puede determinar el nombre del campo.",module,Magento_Sales
 City,Cuidad,module,Magento_Sales
 Company,Empresa,module,Magento_Sales
 Country,País,module,Magento_Sales
@@ -6410,6 +6419,7 @@ Dashboard,Panel,module,Magento_Reports
 "Number of Products to display","Número de artículos, que estan mostrados",module,Magento_Reports
 "Viewed Products Grid Template","Ver plantilla de cuadrícula de artículos vistos",module,Magento_Reports
 "Viewed Products List Template","Ver plantilla de lista de artículos vistos",module,Magento_Reports
+"Viewed Products Names Only Template","Plantilla de sólo nombres de productos vistos",module,Magento_Reports
 "Recently Compared Products","Productos Comparados Recientemente",module,Magento_Reports
 "List of Products Recently Compared and Removed from the Compare List by Visitor","Lista de artículos comparada y eliminada recientemente de la lista de comparación por el visitante",module,Magento_Reports
 "Compared Products Grid Template","Comparados artículos - Plantilla cuadrícula",module,Magento_Reports
