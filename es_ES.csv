@@ -1794,6 +1794,7 @@ Download,Descarga,module,Magento_Customer
 "Please enter your email.","Por favor, introduzca su dirección de correo electrónico.",module,Magento_Customer
 "My Account","Mi Cuenta",module,Magento_Customer
 "Invalid login or password.","Inicio de Sesión o Contraseña Inválida.",module,Magento_Customer
+"A login and a password are required.","Se requieren nombre de usuario y contraseña.",module,Magento_Customer
 "Please enter a new password.","Por favor, introduzca una nueva contraseña.",module,Magento_Customer
 "You updated your password.","Actualizó su contraseña.",module,Magento_Customer
 "You deleted the address.","Borró la dirección.",module,Magento_Customer
@@ -1804,6 +1805,7 @@ Download,Descarga,module,Magento_Customer
 "You have revoked the customer's tokens.","Revocaste los tokens del cliente.",module,Magento_Customer
 "We can't find a customer to revoke.","No se puede encontrar un cliente para revocar.",module,Magento_Customer
 "You deleted the customer group.","Ha eliminado el grupo de clientes.",module,Magento_Customer
+"The customer group no longer exists.","El grupo de clientes, ya no existe.",module,Magento_Customer
 Customers,Clientes,module,Magento_Customer
 "New Group","Nuevo grupo",module,Magento_Customer
 "New Customer Groups","Nuevos grupos de clientes",module,Magento_Customer
@@ -1822,6 +1824,7 @@ Customers,Clientes,module,Magento_Customer
 "Please define Wish List item ID.","Defina el ID del artículo de la Lista de Deseos.",module,Magento_Customer
 "Please load Wish List item.","Por favor cargar elemento de la lista de deseos.",module,Magento_Customer
 "Login successful.","Inicio de sesión exitoso.",module,Magento_Customer
+"""%1"" section source is not supported","no se admite la fuente de la sección ""%1""",module,Magento_Customer
 "%1 doesn't extend \Magento\Customer\CustomerData\SectionSourceInterface","%1 no extiende a \Magento\Customer\CustomerData\SectionSourceInterface",module,Magento_Customer
 "No confirmation needed.","No se necesita la confirmación.",module,Magento_Customer
 "Account already active","Cuenta ya activa",module,Magento_Customer
@@ -2180,6 +2183,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Attribute %1 doesn't work with options","Atributo %1 no funciona con las opciones",module,Magento_Eav
 "Cannot save attribute %1","No se puede guardar el atributo %1",module,Magento_Eav
 "Attribute %1 doesn't have any option","Atributo %1 no tiene ninguna opción",module,Magento_Eav
+"Cannot load options for attribute %1","No se pueden cargar opciones de atributo %1",module,Magento_Eav
 "Attribute set name is empty.","Nombre del conjunto de atributos está vacío.",module,Magento_Eav
 "No options found.","No hay opciones encontradas.",module,Magento_Eav
 label,etiqueta,module,Magento_Eav
@@ -2199,6 +2203,7 @@ label,etiqueta,module,Magento_Eav
 "Invalid form type.","Tipo de forma no válido",module,Magento_Eav
 "Invalid EAV attribute","Atributo de EAV inválido",module,Magento_Eav
 "Attribute with the same code","Atributo con el mismo código",module,Magento_Eav
+"The storefront label is not defined.","La etiqueta de la tienda no está definida.",module,Magento_Eav
 "Default option value is not defined","El valor por defecto para la opción no está definido",module,Magento_Eav
 "Form Element with the same attribute","Formar elemento con el mismo atributo",module,Magento_Eav
 "Form Fieldset with the same code","Formar conjunto de campos con el mismo código",module,Magento_Eav
@@ -2267,6 +2272,7 @@ City,Ciudad,module,Magento_Email
 "Template Variables","Plantillas Variables",module,Magento_Email
 "Please enter a template name.","Por favor, ingrese un nombre de plantilla.",module,Magento_Email
 "Duplicate Of Template Name","Duplicado del nombre de plantilla",module,Magento_Email
+"Invalid transactional email code: %1","Código de email transaccional invalido: %1",module,Magento_Email
 "Requested invalid store ""%1""","Tienda solicitada ""%1"" inválida",module,Magento_Email
 """file"" parameter must be specified","se debe especificar el parámetro ""file""",module,Magento_Email
 "<pre> %1 </pre>",<pre>%1</pre>,module,Magento_Email
@@ -2276,6 +2282,7 @@ City,Ciudad,module,Magento_Email
 Title,Título,module,Magento_Email
 "Load default template","Standardvorlage laden",module,Magento_Email
 Template,Plantilla,module,Magento_Email
+"Are you sure you want to strip tags?","¿Seguro que deseas retirar las etiquetas?",module,Magento_Email
 "Change Encryption Key","Cambiar clave de cifrado",module,Magento_EncryptionKey
 "Encryption Key","Clave de cifrado",module,Magento_EncryptionKey
 "New Encryption Key","Nueva clave de cifrado",module,Magento_EncryptionKey
@@ -2433,6 +2440,7 @@ Status,Estatus,module,Magento_ImportExport
 "in rows:","en filas:",module,Magento_ImportExport
 "Make sure your file isn't more than %1M.","Asegúrese que el archivo no sea de más de %1M.",module,Magento_ImportExport
 "We can't provide the upload settings right now.","No podemos mostrar la configuración de carga de archivos.",module,Magento_ImportExport
+"Please enter a correct entity model.","Introduce un modelo de entidad correcto.",module,Magento_ImportExport
 "Please enter a correct entity.","Introduce una entidad correcta.",module,Magento_ImportExport
 "Please correct the file format.","Por favor corregir el formato del archivo.",module,Magento_ImportExport
 "Begin export of %1","Comenzar la exportación de %1",module,Magento_ImportExport
@@ -2448,6 +2456,7 @@ Status,Estatus,module,Magento_ImportExport
 "Data validation is failed. Please fix errors and re-upload the file.","La validación de datos falló. Por favor, corregir errores y volver a subir el archivo.",module,Magento_ImportExport
 "in rows","en filas",module,Magento_ImportExport
 "The validation is complete.","La validación esta completa.",module,Magento_ImportExport
+"This file does not contain any data.","El archivo no contiene datos.",module,Magento_ImportExport
 "The import was successful.","La importación fue un éxito.",module,Magento_ImportExport
 "Begin data validation","Inicie la validación de los datos.",module,Magento_ImportExport
 "Import data validation is complete.","Validación de datos de importación completada.",module,Magento_ImportExport
@@ -2529,6 +2538,7 @@ Active,Activo,module,Magento_Integration
 "Verifier is not the correct length","Verificador no tiene la longitud correcta",module,Magento_Integration
 "Token is not the correct length","Token no es de la longitud correcta",module,Magento_Integration
 "Specified token does not exist","Token especificado no existe",module,Magento_Integration
+"A consumer with ID %1 does not exist","Consumidor con ID %1 no existe",module,Magento_Integration
 "Consumer with ID '%1' does not exist.","Consumidor con ID '%1' no existe.",module,Magento_Integration
 "Invalid token to except","Código no válido para excepción",module,Magento_Integration
 "No permissions requested","No hay permisos solicitados",module,Magento_Integration
@@ -3017,6 +3027,7 @@ Dispute,Conflicto,module,Magento_Paypal
 "N/A. The merchant has not implemented CVV2 code handling","No disponible. El comerciante no ha implementado la gestión del código CVV2.",module,Magento_Paypal
 "N/A. Merchant has indicated that CVV2 is not present on card","No disponible. El comerciante ha notificado que su tarjeta no tiene CVV2.",module,Magento_Paypal
 "Note: %1","Nota: %1",module,Magento_Paypal
+"Unable to fetch transaction details.","No se puede obtener detalles de la transacción.",module,Magento_Paypal
 "Invalid method %1::%2(%3)","Método inválido %1::%2(%3)",module,Magento_Paypal
 "Transaction has been declined","La operación ha sido declinada",module,Magento_Paypal
 "We cannot send the new order email.","No podemos enviar el email de nueva orden.",module,Magento_Paypal
@@ -3962,6 +3973,7 @@ Sales,Ventas,module,Magento_Sales
 "We can't add the order status right now.","No podemos agregar el estado del pedido en este momento.",module,Magento_Sales
 "Can't unhold order.","No se puede reiniciar la orden.",module,Magento_Sales
 "The order was not on hold.","La orden no estaba en espera.",module,Magento_Sales
+"Exception occurred during order load","Se produjo una excepción durante la carga de la orden",module,Magento_Sales
 "You saved the gift card message.","Ha guardado el mensaje de la tarjeta de regalo.",module,Magento_Sales
 "The payment has been voided.","El pago ha sido anulado.",module,Magento_Sales
 "We can't void the payment right now.","No podemos anular el pago ahora mismo.",module,Magento_Sales
@@ -4402,6 +4414,7 @@ Qty,Cantidad,module,Magento_Shipping
 "Per Package","Por paquete",module,Magento_Shipping
 Fixed,Fijo,module,Magento_Shipping
 Percent,Porcentaje,module,Magento_Shipping
+"Tracking information is unavailable.","Información de rastreo no está disponible.",module,Magento_Shipping
 message,mensaje,module,Magento_Shipping
 "Email has not been sent","Correo electrónico no ha sido enviado",module,Magento_Shipping
 "Payment &amp; Shipping Method","Pago y método de envío",module,Magento_Shipping
@@ -4628,6 +4641,7 @@ Tax,Impuestos,module,Magento_Tax
 "New Rule","Nueva regla",module,Magento_Tax
 "You saved the tax rule.","Se ha guardo la regla fiscal.",module,Magento_Tax
 "We can't save this tax rule right now.","No podemos guardar esta regla de impuesto en este momento.",module,Magento_Tax
+"Invalid name of tax class specified.","Nombre especificado de clase de impuestos inválido.",module,Magento_Tax
 "We can't delete this tax class right now.","No podemos borrar esta clase de impuestos en este momento.",module,Magento_Tax
 "We can't save this tax class right now.","No podemos guardar esta clase de impuesto en este momento.",module,Magento_Tax
 "Maximum zip code length is 9.","La longitud máximo del código zip es de 9.",module,Magento_Tax
@@ -4728,6 +4742,7 @@ Theme,Plantilla,module,Magento_Theme
 "This theme is not editable.","El tema no es editable.",module,Magento_Theme
 "You saved the theme.","Guardaste el tema.",module,Magento_Theme
 "We can't upload the CSS file right now.","No podemos subir el archivo CSS en este momento.",module,Magento_Theme
+"We cannot find a theme with id ""%1"".","No podemos encontrar un tema con el id ""%1"".",module,Magento_Theme
 "We can't upload the JS file right now.","No podemos subir el archivo JS en este momento.",module,Magento_Theme
 "Sorry, something went wrong. That's all we know.","Lo sentimos, algo salió mal. Eso es todo lo que sabemos.",module,Magento_Theme
 "Invalid type","Tipo no válido",module,Magento_Theme
@@ -5404,6 +5419,8 @@ Ok,Aceptar,module,Magento_Sales
 "Please enter a correct date","Por favor introduzca una fecha correcta",module,Magento_Ui
 "Vul hier een geldige datum in.","Por favor introduzca una fecha válida.",module,Magento_Ui
 "Please specify a valid phone number","Por favor especifique un teléfono válido",module,Magento_Ui
+"Please specify a valid mobile number","Por favor especifique un teléfono movil válido",module,Magento_Ui
+"Please enter at least {0} characters","Por favor ingrese al menos {0} caracteres",module,Magento_Ui
 "Please enter a valid credit card number.","Por favor, introduzca un número de tarjeta de crédito válido.",module,Magento_Ui
 "Please enter a valid IP v4 address.","Por favor introduzca una dirección IP v4 válida.",module,Magento_Ui
 "Please enter a valid IP v6 address.","Por favor introduzca una dirección de IP v6 válida.",module,Magento_Ui
@@ -6426,10 +6443,12 @@ Dashboard,Panel,module,Magento_Reports
 "Viewed Products Grid Template","Ver plantilla de cuadrícula de artículos vistos",module,Magento_Reports
 "Viewed Products List Template","Ver plantilla de lista de artículos vistos",module,Magento_Reports
 "Viewed Products Names Only Template","Plantilla de sólo nombres de productos vistos",module,Magento_Reports
+"Viewed Products Images Only Template","Plantilla de sólo imagenes de productos vistos",module,Magento_Reports
 "Recently Compared Products","Productos Comparados Recientemente",module,Magento_Reports
 "List of Products Recently Compared and Removed from the Compare List by Visitor","Lista de artículos comparada y eliminada recientemente de la lista de comparación por el visitante",module,Magento_Reports
 "Compared Products Grid Template","Comparados artículos - Plantilla cuadrícula",module,Magento_Reports
 "Compared Products List Template","Comparados artículos - Plantilla lista",module,Magento_Reports
+"Compared Product Names Only Template","Plantilla de sólo nombres de productos comparados",module,Magento_Reports
 Average,Promedio,module,Magento_Reports
 "Stock Quantity","Cantidad de stock",module,Magento_Reports
 "Ordered Quantity","Cantidad pedida",module,Magento_Reports
@@ -6700,6 +6719,7 @@ Copyright,"Derechos de autor",module,Magento_Theme
 Translations,Traducciones,module,Magento_Translation
 "Translation files.","Archivos de traducción.",module,Magento_Translation
 "Log JS Errors to Session Storage","Registrar errores JS a almacenaje de sesión",module,Magento_Ui
+"Log JS Errors to Session Storage Key","Registrar errores JS a Session Storage Key",module,Magento_Ui
 ui/grid/filters/elements/select,ui/cuadrícula/filtros/elementos/seleccionar,module,Magento_Ui
 Action,Acción,module,Magento_Ui
 "Access License Number","Número de licencia de acceso",module,Magento_Ups
