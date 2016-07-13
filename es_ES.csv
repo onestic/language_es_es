@@ -1215,6 +1215,8 @@ Customers,Clientes,module,Magento_Customer
 "Please select customer(s).","Bitte wählen Sie entsprechende Kunden aus.",module,Magento_Customer
 "You deleted the customer.","Ha eliminado el cliente.",module,Magento_Customer
 "Manage Customers","Gestionar clientes",module,Magento_Customer
+"A total of %1 record(s) were updated.","Un total de %1 registro(s) fueron actualizados.",module,Magento_Customer
+"A total of %1 record(s) were deleted.","Un total de %1 registros fueron eliminados.",module,Magento_Customer
 "You saved the customer.","Ha guardado el cliente.",module,Magento_Customer
 "This account is not confirmed.","Esta cuenta no está confirmada.",module,Magento_Customer
 "Please enter the first name.","Introduzca el nombre.",module,Magento_Customer
@@ -1234,6 +1236,7 @@ Admin,Administrar,module,Magento_Customer
 "Attribute object is undefined","Objeto de campo indefinido",module,Magento_Customer
 """%1"" invalid type entered.","""%1"" tipo introducido inválido.",module,Magento_Customer
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Customer
+"""%1"" contains non-numeric characters.","""%1"" contiene caracteres no numéricos.",module,Magento_Customer
 """%1"" is not a valid email address.","""%1"" no es una dirección válida de email.",module,Magento_Customer
 """%1"" is not a valid hostname.","""%1"" no es un nombre de host válido.",module,Magento_Customer
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Customer
@@ -1456,6 +1459,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Entity object is undefined","Objeto de entidad indefinido",module,Magento_Eav
 """%1"" invalid type entered.","""%1"" tipo introducido inválido.",module,Magento_Eav
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Eav
+"""%1"" contains non-numeric characters.","""%1"" contiene caracteres no numéricos.",module,Magento_Eav
 """%1"" is not a valid email address.","""%1"" no es una dirección válida de email.",module,Magento_Eav
 """%1"" is not a valid hostname.","""%1"" no es un nombre de host válido.",module,Magento_Eav
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Eav
@@ -1524,6 +1528,7 @@ Unknown,Desconocido,module,Magento_Email
 "New System Template","Neue Systemvorlage",module,Magento_Email
 "Email Templates","Plantillas de correo electrónico",module,Magento_Email
 "Email Preview","Vista previa del correo electrónico",module,Magento_Email
+"This email template no longer exists.","Esta plantilla de correo electrónico ya no existe.",module,Magento_Email
 "Base Unsecure URL","Dirección URL básica insegura",module,Magento_Email
 "Base Secure URL","Dirección URL básica segura",module,Magento_Email
 "General Contact Name","Contacto general - nombre",module,Magento_Email
@@ -1866,6 +1871,7 @@ Action,Acción,module,Magento_Newsletter
 "Newsletter Subscribers","Suscriptores del boletín informativo",module,Magento_Newsletter
 Newsletter,"Boletín informativo",module,Magento_Newsletter
 Subscribers,Suscriptores,module,Magento_Newsletter
+"A total of %1 record(s) were updated.","Un total de %1 registro(s) fueron actualizados.",module,Magento_Newsletter
 "Edit Template","Editar la plantilla",module,Magento_Newsletter
 "New Template","Nueva plantilla",module,Magento_Newsletter
 "Create Newsletter Template","Crear plantilla para el boletín de informativo",module,Magento_Newsletter
@@ -2201,6 +2207,7 @@ Reversal,Inversión,module,Magento_Paypal
 Void,Nulo,module,Magento_Paypal
 "WorldLink Withdrawal","Retirada de Fondos WorldLink",module,Magento_Paypal
 "eBay Auction Payment","Pago de subasta de eBay",module,Magento_Paypal
+"The PayPal certificate file is empty.","El archivo de certificado PayPal está vacío.",module,Magento_Paypal
 "Header (center)","Cabecera (centro)",module,Magento_Paypal
 "Sidebar (right)","Barra lateral (derecha)",module,Magento_Paypal
 "Near PayPal Credit checkout button","Cerca del botón de pedido de crédito paypal",module,Magento_Paypal
@@ -2646,6 +2653,8 @@ Catalog,Catálogo,module,Magento_SalesRule
 Alphanumeric,Alfanumérico,module,Magento_SalesRule
 Alphabetical,Alfabético,module,Magento_SalesRule
 Numeric,Numérico,module,Magento_SalesRule
+"Specified rule does not allow coupons","Regla especificada no permite cupones",module,Magento_SalesRule
+"Error occurred when saving coupon: %1","Error al guardar el cupón: %1",module,Magento_SalesRule
 "Discount (%1)","Descuento (%1)",module,Magento_SalesRule
 Discount,Descuento,module,Magento_SalesRule
 "Coupon with the same code","Cupón con el mismo código",module,Magento_SalesRule
@@ -2689,6 +2698,7 @@ is,es,module,Magento_SalesRule
 "is one of","es uno de",module,Magento_SalesRule
 "is not one of","no es uno de",module,Magento_SalesRule
 "Some coupons are invalid.","Algunos cupones no son válidos.",module,Magento_SalesRule
+"Item totals are not set for the rule.","No se han establecido totales de artículo para la regla.",module,Magento_SalesRule
 "Credit Memos","Facturas rectificadas",module,Magento_Sales
 Orders,Pedidos,module,Magento_Sales
 Invoices,Facturas,module,Magento_Sales
@@ -2898,6 +2908,7 @@ Sales,Ventas,module,Magento_Sales
 "The payment has been accepted.","El pago se ha aceptado.",module,Magento_Sales
 "The payment has been denied.","El pago ha sido denegado.",module,Magento_Sales
 "Create New Order Status","Nuevo estado de pedido",module,Magento_Sales
+"You have unassigned the order status.","Ha desasignado el estado del pedido.",module,Magento_Sales
 "The order was not on hold.","La orden no estaba en espera.",module,Magento_Sales
 "Exception occurred during order load","Se produjo una excepción durante la carga de la orden",module,Magento_Sales
 "The payment has been voided.","El pago ha sido anulado.",module,Magento_Sales
@@ -2906,6 +2917,7 @@ Sales,Ventas,module,Magento_Sales
 Home,Inicio,module,Magento_Sales
 "Go to Home Page","Ir a inicio",module,Magento_Sales
 "There is an error in one of the option rows.","Hay un error en una de las opciones de las filas.",module,Magento_Sales
+"This payment method is not available.","Este método de pago no está disponible.",module,Magento_Sales
 "A hold action is not available.","Una acción de retención no está disponible.",module,Magento_Sales
 "You cannot remove the hold.","No se puede reactivar.",module,Magento_Sales
 "We cannot cancel this order.","No podemos cancelar este pedido.",module,Magento_Sales
@@ -4699,6 +4711,7 @@ Dashboard,Panel,module,Magento_Reports
 "Compared Products Grid Template","Comparados artículos - Plantilla cuadrícula",module,Magento_Reports
 "Compared Products List Template","Comparados artículos - Plantilla lista",module,Magento_Reports
 "Compared Product Names Only Template","Plantilla de sólo nombres de productos comparados",module,Magento_Reports
+"Compared Product Images Only Template","Plantilla de sólo imágenes de productos comparados",module,Magento_Reports
 Average,Promedio,module,Magento_Reports
 "Stock Quantity","Cantidad de stock",module,Magento_Reports
 "Ordered Quantity","Cantidad pedida",module,Magento_Reports
