@@ -639,6 +639,7 @@ Always,Siempre,module,Magento_Captcha
 "The most you may purchase is %1.","Lo más que puede comprar es %1.",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","No tenemos tantos ""%1"" como usted pidió, pero pondremos como pedido pendiente las/los %2 restantes.",module,Magento_CatalogInventory
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","No tenemos ""%1"" de la cantidad solicitada, pondremos como pedido pendiente los/las %2 restantes.",module,Magento_CatalogInventory
+"Decimal qty increments is not allowed.","No se permiten incrementos decimales de cantidad.",module,Magento_CatalogInventory
 "Only %1 left","Sólo queda %1",module,Magento_CatalogInventory
 "Product availability","Disponibilidad del producto",module,Magento_CatalogInventory
 "Product Name","Nombre del producto",module,Magento_CatalogInventory
@@ -1455,6 +1456,7 @@ Blocks,Bloques,module,Magento_Cms
 "Edit Page","Seite bearbeiten",module,Magento_Cms
 Pages,Páginas,module,Magento_Cms
 "You saved this page.","Ha guardado la página.",module,Magento_Cms
+"CMS Block with id ""%1"" does not exist.","El bloque CMS con id ""%1"" no existe.",module,Magento_Cms
 "Enabled by Default","Aktiviert (voreingestellt)",module,Magento_Cms
 "Disabled by Default","Deaktiviert (voreingestellt)",module,Magento_Cms
 "Disabled Completely","Komplett deaktiviert",module,Magento_Cms
@@ -1506,6 +1508,7 @@ System,"Gestionar sistema",module,Magento_Config
 "We can't save the Cron expression.","No se puede guardar la expresión Cron.",module,Magento_Config
 "Sorry, we haven't installed the default display currency you selected.","Lo sentimos, no hemos instalado la moneda de visualización por defecto seleccionada.",module,Magento_Config
 "Sorry, the default display currency you selected is not available in allowed currencies.","La moneda de visualización predeterminada seleccionada no está disponible en monedas permitidas.",module,Magento_Config
+"Please correct the email address: ""%1"".","Por favor corrige esta dirección de correo electrónico: ""%1"".",module,Magento_Config
 "Maximum sender name length is 255. Please correct your settings.","Maximale Absender-Länge beträgt 255 Zeichen. Bitte korrigieren Sie Ihre Einstellungen.",module,Magento_Config
 "The file you're uploading exceeds the server size limit of %1 kilobytes.","El archivo que está subiendo supera el límite de tamaño del servidor de %1 kilobytes.",module,Magento_Config
 "The base directory to upload file is not specified.","El directorio base para cargar el archivo no ha sido especificado.",module,Magento_Config
@@ -1593,6 +1596,7 @@ Summary,Resumen,module,Magento_ConfigurableProduct
 "Based on your selections <span class=""new-products-count"" data-bind=""text:countVariations""></span>
         new products will be created. Use this step to customize images and price for your new products.","Basado en sus selecciones <span class=""new-products-count"" data-bind=""text:countVariations""></span> se crearán nuevos productos. Utilice este paso para personalizar imágenes y precio de sus nuevos productos.",module,Magento_ConfigurableProduct
 Images,Imágenes,module,Magento_ConfigurableProduct
+"Apply single set of images to all SKUs","Aplicar un solo conjunto de imágenes a todos los SKU",module,Magento_ConfigurableProduct
 "Skip image uploading at this time","Omitir subir imagen en esta ocasión",module,Magento_ConfigurableProduct
 "Browse Files...","Dateien durchsuchen ...",module,Magento_ConfigurableProduct
 "Browse to find or drag image here","Selecciona o arrastra la imagen aquí",module,Magento_ConfigurableProduct
@@ -2171,13 +2175,16 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 """%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Eav
 """%1"" exceeds the allowed file size.","""%1"" supera el tamaño de archivo permitido.",module,Magento_Eav
 """%1"" is not a valid image format","""%1"" no es un formato de imagen válido",module,Magento_Eav
+"""%1"" cannot contain more than %2 lines.","""%1"" no puede contener más de %2 líneas.",module,Magento_Eav
 "Cannot save attributeGroup","No se puede guardar attributeGroup",module,Magento_Eav
 "Group with id ""%1"" does not exist.","El grupo con id ""%1"" no existe.",module,Magento_Eav
+"Cannot delete attributeGroup with id %1","No se puede eliminar attributeGroup con id %1",module,Magento_Eav
 "Wrong attribute set id provided","El Id del conjunto de atributos proporcionado es incorrecto",module,Magento_Eav
 "Attribute set not found: %1","Conjunto de atributos no encontrado: %1",module,Magento_Eav
 "System attribute can not be deleted","No se puede eliminar el atributo de sistema",module,Magento_Eav
 "Cannot save attribute","No se puede guardar el atributo",module,Magento_Eav
 "Cannot delete attribute.","No se puede eliminar el atributo.",module,Magento_Eav
+"Attribute with id ""%1"" does not exist.","Atributo con el id ""%1"" no existe.",module,Magento_Eav
 "Invalid entity_type specified: %1","Se especificó un entity_type inválido: %1",module,Magento_Eav
 "Entity is not initialized","La entidad no está inicializada",module,Magento_Eav
 "Unknown parameter","Parámetro desconocido",module,Magento_Eav
@@ -2186,6 +2193,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Invalid default date","Fecha por defecto no válida",module,Magento_Eav
 "Invalid entity supplied","Se suministró una entidad no válida",module,Magento_Eav
 "Invalid backend model specified: %1","Modelo de backend especificado inválido: %1",module,Magento_Eav
+"The value of attribute ""%1"" must be set","El valor del atributo ""%1"" debe establecerse",module,Magento_Eav
 "Invalid date","Fecha no válida",module,Magento_Eav
 "Empty attribute code","Código de atributo vacío",module,Magento_Eav
 "Attribute %1 doesn't work with options","Atributo %1 no funciona con las opciones",module,Magento_Eav
@@ -2216,6 +2224,7 @@ label,etiqueta,module,Magento_Eav
 "Form Element with the same attribute","Formar elemento con el mismo atributo",module,Magento_Eav
 "Form Fieldset with the same code","Formar conjunto de campos con el mismo código",module,Magento_Eav
 "Form Type with the same code","Formar tipo con el mismo código",module,Magento_Eav
+"The value of attribute ""%1"" is invalid.","El valor del atributo ""%1"" no es válido.",module,Magento_Eav
 "Wrong entity ID","ID de entidad es erróneo",module,Magento_Eav
 "Wrong attribute set ID","ID de conjunto de atributos es erróneo",module,Magento_Eav
 "Wrong attribute group ID","ID de grupo de atributos es erróneo",module,Magento_Eav
@@ -2258,6 +2267,7 @@ Unknown,Desconocido,module,Magento_Email
 "This email template no longer exists.","Esta plantilla de correo electrónico ya no existe.",module,Magento_Email
 "You saved the email template.","Ha guardado la plantilla de email.",module,Magento_Email
 "Area is already set","La área ya esta establecida",module,Magento_Email
+"Design config must have area and store.","La configuración de diseño debe tener un área y una tienda.",module,Magento_Email
 "Base Unsecure URL","Dirección URL básica insegura",module,Magento_Email
 "Base Secure URL","Dirección URL básica segura",module,Magento_Email
 "General Contact Name","Contacto general - nombre",module,Magento_Email
@@ -2467,7 +2477,9 @@ Status,Estatus,module,Magento_ImportExport
 "in rows","en filas",module,Magento_ImportExport
 "The validation is complete.","La validación esta completa.",module,Magento_ImportExport
 "This file does not contain any data.","El archivo no contiene datos.",module,Magento_ImportExport
+"Begin import of ""%1"" with ""%2"" behavior","Comenzar la importación de ""%1"" con el comportamiento ""%2""",module,Magento_ImportExport
 "The import was successful.","La importación fue un éxito.",module,Magento_ImportExport
+"The file you uploaded has no extension.","El archivo que subiste no tiene ninguna extensión.",module,Magento_ImportExport
 "Begin data validation","Inicie la validación de los datos.",module,Magento_ImportExport
 "Import data validation is complete.","Validación de datos de importación completada.",module,Magento_ImportExport
 "The behavior token for %1 is invalid.","El token de comportamiento para %1 es inválido.",module,Magento_ImportExport
@@ -2756,6 +2768,7 @@ Subscribers,Suscriptores,module,Magento_Newsletter
 "Edit Template","Editar la plantilla",module,Magento_Newsletter
 "New Template","Nueva plantilla",module,Magento_Newsletter
 "Create Newsletter Template","Crear plantilla para el boletín de informativo",module,Magento_Newsletter
+"The newsletter template has been saved.","Se ha guardado la plantilla de boletín de noticias.",module,Magento_Newsletter
 "Newsletter Subscription","Suscripción al boletín informativo",module,Magento_Newsletter
 "We saved the subscription.","Se guardó la suscripción.",module,Magento_Newsletter
 "We removed the subscription.","Quitamos la suscripción.",module,Magento_Newsletter
@@ -2763,6 +2776,7 @@ Subscribers,Suscriptores,module,Magento_Newsletter
 "This is an invalid subscription ID.","Este es un ID de suscripción inválido.",module,Magento_Newsletter
 "This email address is already assigned to another user.","Esta dirección de correo ya se asignó a otro usuario.",module,Magento_Newsletter
 "Please enter a valid email address.","Por favor, ingrese una dirección de correo electrónico válida.",module,Magento_Newsletter
+"The confirmation request has been sent.","La solicitud de confirmación ha sido enviada.",module,Magento_Newsletter
 "Thank you for your subscription.","Gracias por suscribirse.",module,Magento_Newsletter
 "You unsubscribed.","Ha cancelado la suscripción.",module,Magento_Newsletter
 Sent,Enviado,module,Magento_Newsletter
@@ -2914,6 +2928,7 @@ Close,Cerrar,module,Magento_Paypal
 Reports,Informes,module,Magento_Paypal
 Sales,Ventas,module,Magento_Paypal
 "View Transaction","Ver transacción",module,Magento_Paypal
+"We fetched %1 report rows from ""%2@%3.""","Se obtuvieron %1 filas de los reportes de ""%2@%3""",module,Magento_Paypal
 "We couldn't finish the billing agreement wizard.","El asistente de acuerdos de facturación no ha podido finalizar.",module,Magento_Paypal
 "We can't start the billing agreement wizard.","El asistente de acuerdos de facturación no ha podido iniciarse.",module,Magento_Paypal
 "Billing Agreement # %1","Acuerdo de pago nº %1",module,Magento_Paypal
@@ -5309,6 +5324,7 @@ Items,Artículos,module,Magento_Checkout
 "Comment: %comment","Comentario: %comment",module,Magento_Contact
 "Welcome to %store_name.","Bienvenido a %store_name.",module,Magento_Customer
 Password:,Contraseña:,module,Magento_Customer
+"Password you set when creating account","Contraseña que ingresaste al crear la cuenta",module,Magento_Customer
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","¿Olvidó la contraseña de su cuenta? Haga clic <a href=""%reset_url""> aquí</a> para restablecerla.",module,Magento_Customer
 "When you sign in to your account, you will be able to:","Cuando inicie sesión en su cuenta, usted será capaz de:",module,Magento_Customer
 "Proceed through checkout faster","Procede a través del checkout más rápido",module,Magento_Customer
@@ -5963,6 +5979,7 @@ Contacts,Contactos,module,Magento_Contact
 "Default Email Domain","Dominio de correo electrónico (predeterminado)",module,Magento_Customer
 "Default Welcome Email","Correo de bienvenida (predeterminado)",module,Magento_Customer
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Plantilla de correo electrónico elegido basado en suplencia de tema cuando está seleccionada la opción ""Predeterminado"".",module,Magento_Customer
+"Default Welcome Email Without Password","Correo de bienvenida sin contraseña predeterminado",module,Magento_Customer
 "Email Sender","Remitente de correo electrónico",module,Magento_Customer
 "Require Emails Confirmation","Solicitar confirmación por correo electrónico",module,Magento_Customer
 "Confirmation Link Email","Enlace de confirmación para el correo electrónico",module,Magento_Customer
