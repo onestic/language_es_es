@@ -1476,6 +1476,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Invalid default date","Fecha por defecto no válida",module,Magento_Eav
 "Invalid entity supplied","Se suministró una entidad no válida",module,Magento_Eav
 "Invalid backend model specified: %1","Modelo de backend especificado inválido: %1",module,Magento_Eav
+"The value of attribute ""%1"" must be set","El valor del atributo ""%1"" debe establecerse",module,Magento_Eav
 "Invalid date","Fecha no válida",module,Magento_Eav
 "Attribute set name is empty.","Nombre del conjunto de atributos está vacío.",module,Magento_Eav
 "No options found.","No hay opciones encontradas.",module,Magento_Eav
@@ -1674,6 +1675,7 @@ Status,Estatus,module,Magento_ImportExport
 "Entity is unknown","Entidad desconocida",module,Magento_ImportExport
 "Destination file is not writable","No se puede escribir en el archivo de destino",module,Magento_ImportExport
 "in rows","en filas",module,Magento_ImportExport
+"Begin import of ""%1"" with ""%2"" behavior","Comenzar la importación de ""%1"" con el comportamiento ""%2""",module,Magento_ImportExport
 "Begin data validation","Inicie la validación de los datos.",module,Magento_ImportExport
 "Please enter a correct entity model","Introduce un modelo de entidad correcto",module,Magento_ImportExport
 "Please specify a source.","Por favor especifique una fuente.",module,Magento_ImportExport
@@ -1875,6 +1877,7 @@ Subscribers,Suscriptores,module,Magento_Newsletter
 "Edit Template","Editar la plantilla",module,Magento_Newsletter
 "New Template","Nueva plantilla",module,Magento_Newsletter
 "Create Newsletter Template","Crear plantilla para el boletín de informativo",module,Magento_Newsletter
+"The newsletter template has been saved.","Se ha guardado la plantilla de boletín de noticias.",module,Magento_Newsletter
 "Newsletter Subscription","Suscripción al boletín informativo",module,Magento_Newsletter
 "We saved the subscription.","Se guardó la suscripción.",module,Magento_Newsletter
 "We removed the subscription.","Quitamos la suscripción.",module,Magento_Newsletter
@@ -1882,6 +1885,7 @@ Subscribers,Suscriptores,module,Magento_Newsletter
 "This is an invalid subscription ID.","Este es un ID de suscripción inválido.",module,Magento_Newsletter
 "This email address is already assigned to another user.","Esta dirección de correo ya se asignó a otro usuario.",module,Magento_Newsletter
 "Please enter a valid email address.","Por favor, ingrese una dirección de correo electrónico válida.",module,Magento_Newsletter
+"The confirmation request has been sent.","La solicitud de confirmación ha sido enviada.",module,Magento_Newsletter
 "Thank you for your subscription.","Gracias por suscribirse.",module,Magento_Newsletter
 Sent,Enviado,module,Magento_Newsletter
 Cancelled,Cancelado,module,Magento_Newsletter
@@ -4268,6 +4272,7 @@ Contacts,Contactos,module,Magento_Contact
 "Show VAT Number on Storefront","Mostrar el número VAT en el Frontend",module,Magento_Customer
 "Default Email Domain","Dominio de correo electrónico (predeterminado)",module,Magento_Customer
 "Default Welcome Email","Correo de bienvenida (predeterminado)",module,Magento_Customer
+"Default Welcome Email Without Password","Correo de bienvenida sin contraseña predeterminado",module,Magento_Customer
 "Email Sender","Remitente de correo electrónico",module,Magento_Customer
 "Require Emails Confirmation","Solicitar confirmación por correo electrónico",module,Magento_Customer
 "Confirmation Link Email","Enlace de confirmación para el correo electrónico",module,Magento_Customer
