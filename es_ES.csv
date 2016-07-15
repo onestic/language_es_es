@@ -2480,6 +2480,7 @@ Status,Estatus,module,Magento_ImportExport
 "Begin import of ""%1"" with ""%2"" behavior","Comenzar la importación de ""%1"" con el comportamiento ""%2""",module,Magento_ImportExport
 "The import was successful.","La importación fue un éxito.",module,Magento_ImportExport
 "The file you uploaded has no extension.","El archivo que subiste no tiene ninguna extensión.",module,Magento_ImportExport
+"The source file moving process failed.","El proceso de traslado de archivo fuente falló.",module,Magento_ImportExport
 "Begin data validation","Inicie la validación de los datos.",module,Magento_ImportExport
 "Import data validation is complete.","Validación de datos de importación completada.",module,Magento_ImportExport
 "The behavior token for %1 is invalid.","El token de comportamiento para %1 es inválido.",module,Magento_ImportExport
@@ -2494,6 +2495,7 @@ label,etiqueta,module,Magento_ImportExport
 Add/Update,Añadir/actualizar,module,Magento_ImportExport
 Replace,Reemplazar,module,Magento_ImportExport
 Delete,Borrar,module,Magento_ImportExport
+"Note: Product IDs will be regenerated.","Nota: IDs de producto a serán regenerados.",module,Magento_ImportExport
 "Add/Update Complex Data","Añadir/actualizar datos complejos",module,Magento_ImportExport
 "Delete Entities","Borrar Entidades",module,Magento_ImportExport
 "Custom Action","Acción personalizada",module,Magento_ImportExport
@@ -2539,6 +2541,7 @@ Edit,Editar,module,Magento_Integration
 Activate,Activar,module,Magento_Integration
 Reauthorize,Reautorizar,module,Magento_Integration
 "This integration no longer exists.","Esta integración no existe.",module,Magento_Integration
+"The integration '%1' has been deleted.","La integración '%1' ha sido eliminada.",module,Magento_Integration
 "View ""%1"" Integration","Ver integración de ""%1""",module,Magento_Integration
 "Edit ""%1"" Integration","Editar la integración de ""%1""",module,Magento_Integration
 "The integration '%1' has been saved.","La integración '%1' ha sido guardada.",module,Magento_Integration
@@ -2553,10 +2556,12 @@ Active,Activo,module,Magento_Integration
 "Integration with ID '%1' does not exist.","Integración con ID '%1' no existe.",module,Magento_Integration
 "Invalid Callback URL","Llamada URL inválida",module,Magento_Integration
 "Invalid Rejected Callback URL","Llamada URL rechazada inválida",module,Magento_Integration
+"An error occurred validating the nonce","Un error ocurrió validando el nonce",module,Magento_Integration
 "Consumer key has expired","La clave de consumidor ha caducado",module,Magento_Integration
 "Token is already being used","El token ya está en uso",module,Magento_Integration
 "Token is not an access token","El token no es un token de acceso",module,Magento_Integration
 "Access token has been revoked","Token de acceso se ha revocado",module,Magento_Integration
+"Consumer key is not the correct length","El token de consumidor no es de la longitud correcta",module,Magento_Integration
 "Verifier is invalid","Verificador no es válido",module,Magento_Integration
 "Verifier is not the correct length","Verificador no tiene la longitud correcta",module,Magento_Integration
 "Token is not the correct length","Token no es de la longitud correcta",module,Magento_Integration
@@ -2762,6 +2767,7 @@ Action,Acción,module,Magento_Newsletter
 "Newsletter Subscribers","Suscriptores del boletín informativo",module,Magento_Newsletter
 Newsletter,"Boletín informativo",module,Magento_Newsletter
 Subscribers,Suscriptores,module,Magento_Newsletter
+"Please select one or more subscribers.","Por favor, seleccione uno o más suscriptores.",module,Magento_Newsletter
 "Total of %1 record(s) were deleted.","Total de %1 registros fueron borrados.",module,Magento_Newsletter
 "A total of %1 record(s) were updated.","Un total de %1 registro(s) fueron actualizados.",module,Magento_Newsletter
 "We can't delete this template right now.","No podemos borrar esta plantilla en este momento.",module,Magento_Newsletter
