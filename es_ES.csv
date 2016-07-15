@@ -1722,6 +1722,7 @@ Edit,Editar,module,Magento_Integration
 Activate,Activar,module,Magento_Integration
 Reauthorize,Reautorizar,module,Magento_Integration
 "This integration no longer exists.","Esta integración no existe.",module,Magento_Integration
+"The integration '%1' has been deleted.","La integración '%1' ha sido eliminada.",module,Magento_Integration
 "View ""%1"" Integration","Ver integración de ""%1""",module,Magento_Integration
 "Edit ""%1"" Integration","Editar la integración de ""%1""",module,Magento_Integration
 "The integration was not saved.","La integración no se guardó.",module,Magento_Integration
@@ -1873,6 +1874,7 @@ Action,Acción,module,Magento_Newsletter
 "Newsletter Subscribers","Suscriptores del boletín informativo",module,Magento_Newsletter
 Newsletter,"Boletín informativo",module,Magento_Newsletter
 Subscribers,Suscriptores,module,Magento_Newsletter
+"Please select one or more subscribers.","Por favor, seleccione uno o más suscriptores.",module,Magento_Newsletter
 "A total of %1 record(s) were updated.","Un total de %1 registro(s) fueron actualizados.",module,Magento_Newsletter
 "Edit Template","Editar la plantilla",module,Magento_Newsletter
 "New Template","Nueva plantilla",module,Magento_Newsletter
