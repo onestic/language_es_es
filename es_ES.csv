@@ -1896,6 +1896,7 @@ Sending,Enviando,module,Magento_Newsletter
 Paused,"En pausa",module,Magento_Newsletter
 "There are no subscribers selected.","No hay suscriptores seleccionados.",module,Magento_Newsletter
 "You selected an invalid queue.","Elegiste una cola inválida.",module,Magento_Newsletter
+"We cannot mark as received subscriber.","No se puede marcar como suscriptor recibido.",module,Magento_Newsletter
 "Duplicate template code","Duplicado del código de la plantilla",module,Magento_Newsletter
 "Choose Store View:","Ladenansicht wählen:",module,Magento_Newsletter
 "Newsletter Message Preview","Vista previa del boletín informativo",module,Magento_Newsletter
@@ -2019,12 +2020,14 @@ Sales,Ventas,module,Magento_Paypal
 "Express Checkout has been canceled.","La Caja Express se ha cancelado.",module,Magento_Paypal
 "Unable to cancel Express Checkout","No se ha podido cancelar Express Checkout",module,Magento_Paypal
 "PayPal response hasn't required fields.","La respuesta de PayPal no tiene campos obligatorios.",module,Magento_Paypal
+"PayPal gateway has rejected request. %1","La puerta de enlace de PayPal ha rechazado la solicitud. %1",module,Magento_Paypal
 "The payment method code is not set.","No se estableció el código de método de pago.",module,Magento_Paypal
 "The reference ID is not set.","No se estableció el ID de referencia.",module,Magento_Paypal
 "Unable to save Billing Agreement:","No se puede guardar el contrato de facturación:",module,Magento_Paypal
 Active,Activo,module,Magento_Paypal
 Canceled,Cancelado,module,Magento_Paypal
 "The customer ID is not set.","No se ha establecido la Id. del cliente.",module,Magento_Paypal
+"The PayPal certificate does not exist.","Certificado PayPal no existe.",module,Magento_Paypal
 "We prefer PayPal (150 X 60)","Preferimos PayPal (150 X 60)",module,Magento_Paypal
 "We prefer PayPal (150 X 40)","Preferimos PayPal (150 X 40)",module,Magento_Paypal
 "Now accepting PayPal (150 X 60)","Ahora se acepta Paypal (150 X 60)",module,Magento_Paypal
@@ -2933,6 +2936,7 @@ Refunded,Reembolsado,module,Magento_Sales
 Canceled,Cancelado,module,Magento_Sales
 "Unknown State","Estado desconocido",module,Magento_Sales
 Paid,Pagado,module,Magento_Sales
+"We cannot register an existing invoice","No podemos registrar una factura existente",module,Magento_Sales
 "Unknown Status","Estatus desconocido",module,Magento_Sales
 Ordered,"Pedido realizado.",module,Magento_Sales
 Shipped,Enviado,module,Magento_Sales
@@ -2982,6 +2986,7 @@ Qty,Cantidad,module,Magento_Sales
 "Excl. Tax","Impuestos NO Incl.",module,Magento_Sales
 "Incl. Tax","Impuestos incl.",module,Magento_Sales
 title,Título,module,Magento_Sales
+"We cannot register an existing shipment","No se puede registrar un envío existente",module,Magento_Sales
 "We cannot determine the field name.","No se puede determinar el nombre del campo.",module,Magento_Sales
 City,Cuidad,module,Magento_Sales
 Company,Empresa,module,Magento_Sales
@@ -3635,6 +3640,7 @@ Permissions,Permisos,module,Magento_User
 "You deleted the user.","Ha eliminado el usuario.",module,Magento_User
 "This user no longer exists.","Este usuario ya no existe.",module,Magento_User
 "Edit User","Editar usuario",module,Magento_User
+"You cannot delete self-assigned roles.","No se pueden eliminar roles auto asignados.",module,Magento_User
 "You deleted the role.","Ha eliminado el rol.",module,Magento_User
 "An error occurred while deleting this role.","Ocurrió un error al eliminar esta función.",module,Magento_User
 "Edit Role","Editar Funcion",module,Magento_User
@@ -3875,6 +3881,7 @@ Done,Hecho,module,Magento_Integration
 "Sorry, something went wrong.","Lo sentimos, algo salió mal.",module,Magento_Paypal
 "Add Products","Añadir artículos",module,Magento_Sales
 Ok,Aceptar,module,Magento_Sales
+"We don't recognize this file extension.","No reconocemos esta extensión de archivo.",module,Magento_Theme
 "Use HTTPS to Get Feed","Utilizar HTTPS para obtener el feed",module,Magento_AdminNotification
 "Update Frequency","Frecuencia de actualización",module,Magento_AdminNotification
 "Last Update","Última actualización",module,Magento_AdminNotification
@@ -4643,6 +4650,7 @@ Schedule,Programa,module,Magento_Paypal
 "Page Background Color","Color del fondo de página",module,Magento_Paypal
 "Payments Advanced (Includes Express Checkout)","Payments avanzado (incluido pago exprés)",module,Magento_Paypal
 "Accept payments with a PCI-compliant checkout that keeps customers on your site.","Acepte pagos según la normativa PCI en procesos de compra en línea con el objetivo de que los clientes permanezcan en su sitio durante dicho proceso.",module,Magento_Paypal
+"Payments Advanced and Express Checkout","Pago avanzado y Express Checkout",module,Magento_Paypal
 Partner,Socio,module,Magento_Paypal
 Vendor,Vendedor,module,Magento_Paypal
 User,Usuario,module,Magento_Paypal
