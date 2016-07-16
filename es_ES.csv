@@ -2792,6 +2792,7 @@ Sending,Enviando,module,Magento_Newsletter
 Paused,"En pausa",module,Magento_Newsletter
 "There are no subscribers selected.","No hay suscriptores seleccionados.",module,Magento_Newsletter
 "You selected an invalid queue.","Elegiste una cola inválida.",module,Magento_Newsletter
+"We cannot mark as received subscriber.","No se puede marcar como suscriptor recibido.",module,Magento_Newsletter
 "Duplicate template code","Duplicado del código de la plantilla",module,Magento_Newsletter
 "Choose Store View:","Ladenansicht wählen:",module,Magento_Newsletter
 "Newsletter Message Preview","Vista previa del boletín informativo",module,Magento_Newsletter
@@ -2949,6 +2950,7 @@ Sales,Ventas,module,Magento_Paypal
 "We can't update shipping method.","No se puede actualizar el método de envío.",module,Magento_Paypal
 "We can't start Express Checkout.","No podemos iniciar Express Checkout.",module,Magento_Paypal
 "We can't contact the PayPal gateway.","No podemos establecer contacto con el gateway de PayPal.",module,Magento_Paypal
+"PayPal gateway has rejected request. %1","La puerta de enlace de PayPal ha rechazado la solicitud. %1",module,Magento_Paypal
 "I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.","Lo sentimos, pero no hemos podido procesar su pago. Por favor, introduzca otro método de pago o póngase en contacto con nosotros si necesita ayuda.",module,Magento_Paypal
 "I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.","Lo sentimos, pero no hemos podido finalizar su transacción. Por favor, póngase en contacto con nosotros si necesita ayuda.",module,Magento_Paypal
 "The payment method code is not set.","No se estableció el código de método de pago.",module,Magento_Paypal
@@ -2957,6 +2959,7 @@ Sales,Ventas,module,Magento_Paypal
 Active,Activo,module,Magento_Paypal
 Canceled,Cancelado,module,Magento_Paypal
 "The customer ID is not set.","No se ha establecido la Id. del cliente.",module,Magento_Paypal
+"The PayPal certificate does not exist.","Certificado PayPal no existe.",module,Magento_Paypal
 "We prefer PayPal (150 X 60)","Preferimos PayPal (150 X 60)",module,Magento_Paypal
 "We prefer PayPal (150 X 40)","Preferimos PayPal (150 X 40)",module,Magento_Paypal
 "Now accepting PayPal (150 X 60)","Ahora se acepta Paypal (150 X 60)",module,Magento_Paypal
@@ -2984,6 +2987,7 @@ Never,Nunca,module,Magento_Paypal
 "The maximum number of child authorizations is reached.","Se ha alcanzado el número máximo de autorizaciones infantiles.",module,Magento_Paypal
 "PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.","PayPal no podrá procesar órdenes con un saldo pendiente en ceros. Para finalizar su compra, por favor pasar por el proceso de pago estándar.",module,Magento_Paypal
 "A payer is not identified.","El pagador no se ha identificado.",module,Magento_Paypal
+"Cannot get secure form URL from PayPal","No puedes obtener la URL de la forma segura de PayPal",module,Magento_Paypal
 "Last Transaction ID","Última Identificación de Transacción",module,Magento_Paypal
 "This customer didn't include a confirmed address.","El cliente no incluyó una dirección confirmada.",module,Magento_Paypal
 "The payment is authorized but not settled.","El pago se ha autorizado, pero no se ha realizado.",module,Magento_Paypal
@@ -4003,6 +4007,7 @@ Sales,Ventas,module,Magento_Sales
 "The payment has been denied.","El pago ha sido denegado.",module,Magento_Sales
 "Transaction has been approved.","La transacción ha sido aprobada.",module,Magento_Sales
 "Transaction has been voided/declined.","La operación ha sido declinada.",module,Magento_Sales
+"There is no update for the transaction.","No existe actualización para la transacción.",module,Magento_Sales
 "We can't update the payment right now.","No podemos actualizar el pago en este momento.",module,Magento_Sales
 "You assigned the order status.","Ha asignado el estado del pedido.",module,Magento_Sales
 "We can't find this order status.","No podemos encontrar este estado de orden.",module,Magento_Sales
@@ -4052,6 +4057,7 @@ Canceled,Cancelado,module,Magento_Sales
 "Could not delete credit memo","No se puede eliminar la nota de crédito",module,Magento_Sales
 "Could not save credit memo","No se puede guardar la nota de crédito",module,Magento_Sales
 Paid,Pagado,module,Magento_Sales
+"We cannot register an existing invoice","No podemos registrar una factura existente",module,Magento_Sales
 "ID required","ID requerida",module,Magento_Sales
 "Unknown Status","Estatus desconocido",module,Magento_Sales
 Ordered,"Pedido realizado.",module,Magento_Sales
@@ -4075,6 +4081,7 @@ Mixed,Mixto,module,Magento_Sales
 "Voided authorization.","Autorización anulada.",module,Magento_Sales
 "Amount: %1.","Cantidad: %1.",module,Magento_Sales
 "Transaction ID: ""%1""","Identificador de la transacción: ""%1""",module,Magento_Sales
+"The payment disallows storing objects.","El pago no permite almacenar objetos.",module,Magento_Sales
 "Authorized amount of %1","Importe autorizado de %1",module,Magento_Sales
 "Captured amount of %1 online","Cantidad capturada de %1 en línea",module,Magento_Sales
 "Ordered amount of %1","Cantidad ordenada de %1",module,Magento_Sales
@@ -4105,6 +4112,7 @@ Tax,Impuestos,module,Magento_Sales
 "Excl. Tax","Impuestos NO Incl.",module,Magento_Sales
 "Incl. Tax","Impuestos incl.",module,Magento_Sales
 title,Título,module,Magento_Sales
+"We cannot register an existing shipment","No se puede registrar un envío existente",module,Magento_Sales
 "Please enter a tracking number.","Por favor, introduzca un número de seguimiento.",module,Magento_Sales
 "Could not delete shipment","No se puede eliminar el envío",module,Magento_Sales
 "Could not save shipment","No se puede guardar el envío",module,Magento_Sales
@@ -5016,6 +5024,7 @@ Permissions,Permisos,module,Magento_User
 "Edit User","Editar usuario",module,Magento_User
 "You have revoked the user's tokens.","Revocaste los tokens del cliente.",module,Magento_User
 "We can't find a user to revoke.","No se puede encontrar un cliente para revocar.",module,Magento_User
+"You cannot delete self-assigned roles.","No se pueden eliminar roles auto asignados.",module,Magento_User
 "You deleted the role.","Ha eliminado el rol.",module,Magento_User
 "An error occurred while deleting this role.","Ocurrió un error al eliminar esta función.",module,Magento_User
 "Edit Role","Editar Funcion",module,Magento_User
@@ -6408,6 +6417,7 @@ Schedule,Programa,module,Magento_Paypal
 "Page Background Color","Color del fondo de página",module,Magento_Paypal
 "Payments Advanced (Includes Express Checkout)","Payments avanzado (incluido pago exprés)",module,Magento_Paypal
 "Accept payments with a PCI-compliant checkout that keeps customers on your site.","Acepte pagos según la normativa PCI en procesos de compra en línea con el objetivo de que los clientes permanezcan en su sitio durante dicho proceso.",module,Magento_Paypal
+"Payments Advanced and Express Checkout","Pago avanzado y Express Checkout",module,Magento_Paypal
 Partner,Socio,module,Magento_Paypal
 Vendor,Vendedor,module,Magento_Paypal
 User,Usuario,module,Magento_Paypal
