@@ -1237,6 +1237,7 @@ Admin,Administrar,module,Magento_Customer
 """%1"" invalid type entered.","""%1"" tipo introducido inválido.",module,Magento_Customer
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Customer
 """%1"" contains non-numeric characters.","""%1"" contiene caracteres no numéricos.",module,Magento_Customer
+"""%1"" contains non-alphabetic characters.","""%1"" contiene caracteres no alfabéticos.",module,Magento_Customer
 """%1"" is not a valid email address.","""%1"" no es una dirección válida de email.",module,Magento_Customer
 """%1"" is not a valid hostname.","""%1"" no es un nombre de host válido.",module,Magento_Customer
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Customer
@@ -1460,6 +1461,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 """%1"" invalid type entered.","""%1"" tipo introducido inválido.",module,Magento_Eav
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Eav
 """%1"" contains non-numeric characters.","""%1"" contiene caracteres no numéricos.",module,Magento_Eav
+"""%1"" contains non-alphabetic characters.","""%1"" contiene caracteres no alfabéticos.",module,Magento_Eav
 """%1"" is not a valid email address.","""%1"" no es una dirección válida de email.",module,Magento_Eav
 """%1"" is not a valid hostname.","""%1"" no es un nombre de host válido.",module,Magento_Eav
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Eav
@@ -1726,6 +1728,7 @@ Reauthorize,Reautorizar,module,Magento_Integration
 "View ""%1"" Integration","Ver integración de ""%1""",module,Magento_Integration
 "Edit ""%1"" Integration","Editar la integración de ""%1""",module,Magento_Integration
 "The integration was not saved.","La integración no se guardó.",module,Magento_Integration
+"The integration '%1' has been activated.","La integración '%1' ha sido activada.",module,Magento_Integration
 Inactive,Inactivo,module,Magento_Integration
 Active,Activo,module,Magento_Integration
 "Invalid Callback URL","Llamada URL inválida",module,Magento_Integration
@@ -4234,6 +4237,7 @@ Details,Detalles,module,Magento_Catalog
 "Browser Capabilities Detection","Detectar las capacidades del navegador",module,Magento_Cms
 "Redirect to CMS-page if Cookies are Disabled","Zur CMS-Seite weiterleiten, wenn Cookies deaktiviert sind.",module,Magento_Cms
 "Show Notice if JavaScript is Disabled","Hinweis zeigen, wenn JavaScript deaktiviert ist",module,Magento_Cms
+"Show Notice if Local Storage is Disabled","Mostrar aviso si está deshabilitado el almacenamiento Local",module,Magento_Cms
 "WYSIWYG Options","WYSIWYG Optionen",module,Magento_Cms
 "Enable WYSIWYG Editor","WYSIWYG-Editor aktivieren",module,Magento_Cms
 "CMS Page Link",CMS-Seitenlink,module,Magento_Cms
