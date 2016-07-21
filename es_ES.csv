@@ -1599,6 +1599,7 @@ Admin,Administrar,module,Magento_Customer
 """%1"" invalid type entered.","""%1"" tipo introducido inválido.",module,Magento_Customer
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Customer
 """%1"" contains non-numeric characters.","""%1"" contiene caracteres no numéricos.",module,Magento_Customer
+"""%1"" contains non-alphabetic characters.","""%1"" contiene caracteres no alfabéticos.",module,Magento_Customer
 """%1"" is not a valid email address.","""%1"" no es una dirección válida de email.",module,Magento_Customer
 """%1"" is not a valid hostname.","""%1"" no es un nombre de host válido.",module,Magento_Customer
 """%1"" uses too many characters.","""%1"" utiliza demasiados caracteres.",module,Magento_Customer
@@ -1660,6 +1661,7 @@ Change,Cambio,module,Magento_Customer
 "Contact Information","Información del contacto",module,Magento_Customer
 "Change Password","Cambiar la contraseña",module,Magento_Customer
 Newsletters,"Boletines informativos",module,Magento_Customer
+"You subscribe to ""General Subscription"".","Usted se suscribe a ""Suscripción General"".",module,Magento_Customer
 or,o,module,Magento_Customer
 "Default Addresses","Direcciones (predeterminado)",module,Magento_Customer
 "Change Billing Address","Cambiar la dirección de facturación",module,Magento_Customer
@@ -1886,6 +1888,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 """%1"" invalid type entered.","""%1"" tipo introducido inválido.",module,Magento_Eav
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Eav
 """%1"" contains non-numeric characters.","""%1"" contiene caracteres no numéricos.",module,Magento_Eav
+"""%1"" contains non-alphabetic characters.","""%1"" contiene caracteres no alfabéticos.",module,Magento_Eav
 """%1"" is not a valid email address.","""%1"" no es una dirección válida de email.",module,Magento_Eav
 """%1"" is not a valid hostname.","""%1"" no es un nombre de host válido.",module,Magento_Eav
 """%1"" uses too many characters.","""%1"" utiliza demasiados caracteres.",module,Magento_Eav
@@ -1906,6 +1909,8 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Cannot save attribute","No se puede guardar el atributo",module,Magento_Eav
 "Cannot delete attribute.","No se puede eliminar el atributo.",module,Magento_Eav
 "Attribute with id ""%1"" does not exist.","Atributo con el id ""%1"" no existe.",module,Magento_Eav
+"There was an error saving attribute set.","Hubo un error al guardar el conjunto de atributos.",module,Magento_Eav
+"Default attribute set can not be deleted","No se puede eliminar el conjunto de atributo predeterminado",module,Magento_Eav
 "Invalid entity_type specified: %1","Se especificó un entity_type inválido: %1",module,Magento_Eav
 "Entity is not initialized","La entidad no está inicializada",module,Magento_Eav
 "Unknown parameter","Parámetro desconocido",module,Magento_Eav
@@ -2171,6 +2176,7 @@ Status,Estatus,module,Magento_ImportExport
 "Entity is unknown","Entidad desconocida",module,Magento_ImportExport
 "Please specify the writer.","Por favor especifique el escritor.",module,Magento_ImportExport
 "Destination file is not writable","No se puede escribir en el archivo de destino",module,Magento_ImportExport
+"The header column names are already set.","Nombres de los encabezados de las columnas ya estan establecidos.",module,Magento_ImportExport
 "The validation is complete.","La validación esta completa.",module,Magento_ImportExport
 "This file does not contain any data.","El archivo no contiene datos.",module,Magento_ImportExport
 "Begin import of ""%1"" with ""%2"" behavior","Comenzar la importación de ""%1"" con el comportamiento ""%2""",module,Magento_ImportExport
@@ -2240,6 +2246,7 @@ Reauthorize,Reautorizar,module,Magento_Integration
 "View ""%1"" Integration","Ver integración de ""%1""",module,Magento_Integration
 "Edit ""%1"" Integration","Editar la integración de ""%1""",module,Magento_Integration
 "The integration was not saved.","La integración no se guardó.",module,Magento_Integration
+"The integration '%1' has been activated.","La integración '%1' ha sido activada.",module,Magento_Integration
 "You did not sign in correctly or your account is temporarily disabled.","Usted no se inscribió correctamente o su cuenta se ha desactivado temporalmente.",module,Magento_Integration
 "This user has no tokens.","Este usuario no tiene tokens.",module,Magento_Integration
 "The tokens could not be revoked.","Los tokens no pudieron ser revocados.",module,Magento_Integration
@@ -2256,6 +2263,7 @@ Active,Activo,module,Magento_Integration
 "Consumer key is not the correct length","El token de consumidor no es de la longitud correcta",module,Magento_Integration
 "Verifier is invalid","Verificador no es válido",module,Magento_Integration
 "Verifier is not the correct length","Verificador no tiene la longitud correcta",module,Magento_Integration
+"A consumer with the ID %1 does not exist","Consumidor con ID %1 no existe",module,Magento_Integration
 "Token is not the correct length","Token no es de la longitud correcta",module,Magento_Integration
 "Specified token does not exist","Token especificado no existe",module,Magento_Integration
 "A consumer with ID %1 does not exist","Consumidor con ID %1 no existe",module,Magento_Integration
@@ -4968,6 +4976,7 @@ Ok,Aceptar,module,Magento_Sales
 "Go to Details Page","Ir a la página de detalles",module,Magento_Ui
 "Please enter {0} words or less.","Introduce {0} palabras o menos.",module,Magento_Ui
 "Please enter at least {0} words.","Por favor ingrese al menos {0} palabras.",module,Magento_Ui
+"Please enter between {0} and {1} words.","Introduce entre {0} y {1} palabras.",module,Magento_Ui
 "Letters or punctuation only please","Letras o signos de puntuación solamente",module,Magento_Ui
 "Letters only please","Sólo las letras por favor",module,Magento_Ui
 "No white space please","Sin espacio en blanco por favor",module,Magento_Ui
@@ -5393,6 +5402,7 @@ Payment,Pago,module,Magento_Checkout
 "Browser Capabilities Detection","Detectar las capacidades del navegador",module,Magento_Cms
 "Redirect to CMS-page if Cookies are Disabled","Zur CMS-Seite weiterleiten, wenn Cookies deaktiviert sind.",module,Magento_Cms
 "Show Notice if JavaScript is Disabled","Hinweis zeigen, wenn JavaScript deaktiviert ist",module,Magento_Cms
+"Show Notice if Local Storage is Disabled","Mostrar aviso si está deshabilitado el almacenamiento Local",module,Magento_Cms
 "WYSIWYG Options","WYSIWYG Optionen",module,Magento_Cms
 "Enable WYSIWYG Editor","WYSIWYG-Editor aktivieren",module,Magento_Cms
 "CMS Page Link",CMS-Seitenlink,module,Magento_Cms
