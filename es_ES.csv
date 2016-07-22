@@ -533,6 +533,7 @@ Always,Siempre,module,Magento_Captcha
 "Please correct the quantity for some products.","Por favor corregir la cantidad de algunos productos.",module,Magento_CatalogInventory
 "The most you may purchase is %1.","Lo más que puede comprar es %1.",module,Magento_CatalogInventory
 "Decimal qty increments is not allowed.","No se permiten incrementos decimales de cantidad.",module,Magento_CatalogInventory
+"%1 is available to buy in increments of %2","%1 está disponible para comprar en incrementos de %2",module,Magento_CatalogInventory
 "Only %1 left","Sólo queda %1",module,Magento_CatalogInventory
 "Product availability","Disponibilidad del producto",module,Magento_CatalogInventory
 "Product Name","Nombre del producto",module,Magento_CatalogInventory
@@ -1230,6 +1231,7 @@ Preview,"Vista previa",module,Magento_Cms
 "Insert File","Datei einfügen",module,Magento_Cms
 "New Folder Name:","Neuer Verzeichnisname:",module,Magento_Cms
 "Are you sure you want to delete this folder?","¿Está seguro de que desea eliminar esta carpeta?",module,Magento_Cms
+"Are you sure you want to delete this file?","¿Está seguro que desea eliminar este archivo?",module,Magento_Cms
 "Images (%1)","Imágenes (%1)",module,Magento_Cms
 "Storage Root","Hauptverzeichnis des Speichers",module,Magento_Cms
 Home,"Página de inicio",module,Magento_Cms
@@ -1239,11 +1241,13 @@ Home,"Página de inicio",module,Magento_Cms
 "Edit Block","Block bearbeiten",module,Magento_Cms
 Blocks,Bloques,module,Magento_Cms
 "Please correct the data sent.","Por favor corrija los datos enviados.",module,Magento_Cms
+"A total of %1 record(s) have been deleted.","Un total de %1 registros han sido borrados.",module,Magento_Cms
 "You saved the block.","Guardaste el bloque.",module,Magento_Cms
 "The page has been deleted.","Die Seite wurde gelöscht.",module,Magento_Cms
 "This page no longer exists.","Diese Seite existiert nicht mehr.",module,Magento_Cms
 "Edit Page","Seite bearbeiten",module,Magento_Cms
 Pages,Páginas,module,Magento_Cms
+"A total of %1 record(s) have been enabled.","Se han habilitado un total de %1 registros.",module,Magento_Cms
 "CMS Block with id ""%1"" does not exist.","El bloque CMS con id ""%1"" no existe.",module,Magento_Cms
 "Enabled by Default","Aktiviert (voreingestellt)",module,Magento_Cms
 "Disabled by Default","Deaktiviert (voreingestellt)",module,Magento_Cms
@@ -1345,6 +1349,7 @@ Summary,Resumen,module,Magento_ConfigurableProduct
 "Cannot delete variations from product: %1","No se puede eliminar las variaciones del producto: %1",module,Magento_ConfigurableProduct
 "Cannot delete option with id: %1","No se puede eliminar opción con id %1",module,Magento_ConfigurableProduct
 "Option with id ""%1"" not found","Opción con id ""%1"" no encontrado",module,Magento_ConfigurableProduct
+"Something went wrong while saving option.","Algo salió mal al guardar la opción.",module,Magento_ConfigurableProduct
 "Only implemented for configurable product: %1","Implementado sólo para producto configurable: %1",module,Magento_ConfigurableProduct
 "Option attribute ID is not specified.","No se especifica el ID de atributo de opción.",module,Magento_ConfigurableProduct
 "Option label is not specified.","No se especifica la etiqueta Opción.",module,Magento_ConfigurableProduct
@@ -1534,6 +1539,7 @@ Download,Descarga,module,Magento_Customer
 "Create New Customer Account","Crear nueva cuenta de cliente",module,Magento_Customer
 "Date of Birth","Fecha de nacimiento",module,Magento_Customer
 "Bad request.","Solicitud incorrecta.",module,Magento_Customer
+"There was an error confirming the account","Hubo un problema al confirmar la cuenta",module,Magento_Customer
 "Thank you for registering with %1.","Gracias por registrarse en %1.",module,Magento_Customer
 "This email does not require confirmation.","Este mensaje de correo electrónico no requiere confirmación.",module,Magento_Customer
 "Wrong email.","Se especificó una dirección de correo electrónico incorrecta.",module,Magento_Customer
@@ -1594,6 +1600,7 @@ Customers,Clientes,module,Magento_Customer
 "Billing Address","Dirección de facturación",module,Magento_Customer
 "Shipping Address","Dirección de envío",module,Magento_Customer
 "-- Please Select --",--Seleccione--,module,Magento_Customer
+"Please enter a valid password reset token.","Introduzca un token para restablecer contraseña válido.",module,Magento_Customer
 Admin,Administrar,module,Magento_Customer
 "Attribute object is undefined","Objeto de campo indefinido",module,Magento_Customer
 """%1"" invalid type entered.","""%1"" tipo introducido inválido.",module,Magento_Customer
@@ -1605,6 +1612,7 @@ Admin,Administrar,module,Magento_Customer
 """%1"" uses too many characters.","""%1"" utiliza demasiados caracteres.",module,Magento_Customer
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Customer
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Customer
+"""%1"" does not fit the entered date format.","""%1"" no se ajusta al formato de fecha introducido.",module,Magento_Customer
 """%1"" is not a valid file extension.","""%1"" no es una extensión de archivo válida.",module,Magento_Customer
 """%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Customer
 """%1"" exceeds the allowed file size.","""%1"" supera el tamaño de archivo permitido.",module,Magento_Customer
@@ -1903,6 +1911,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Cannot save attributeGroup","No se puede guardar attributeGroup",module,Magento_Eav
 "Group with id ""%1"" does not exist.","El grupo con id ""%1"" no existe.",module,Magento_Eav
 "Cannot delete attributeGroup with id %1","No se puede eliminar attributeGroup con id %1",module,Magento_Eav
+"AttributeSet with id ""%1"" does not exist.","AttributeSet con id ""%1"" no existe.",module,Magento_Eav
 "Wrong attribute set id provided","El Id del conjunto de atributos proporcionado es incorrecto",module,Magento_Eav
 "Attribute set not found: %1","Conjunto de atributos no encontrado: %1",module,Magento_Eav
 "System attribute can not be deleted","No se puede eliminar el atributo de sistema",module,Magento_Eav
@@ -1937,6 +1946,7 @@ label,etiqueta,module,Magento_Eav
 "Invalid joint fields","Campos combinados no válidos",module,Magento_Eav
 "Data integrity: No header row found for attribute","Integridad de datos: No se ha encontrado una línea de encabezamiento para el campo",module,Magento_Eav
 "Invalid attribute name: %1","Nombre de atributo no válido: %1",module,Magento_Eav
+"The current module pathname is undefined.","Ruta de acceso de módulo actual está indefinida.",module,Magento_Eav
 "The form code is not defined.","El código de formulario no está definido.",module,Magento_Eav
 "The entity instance is not defined.","Instancia de la entidad no está definida.",module,Magento_Eav
 "Invalid form type.","Tipo de forma no válido",module,Magento_Eav
@@ -2632,6 +2642,7 @@ Sales,Ventas,module,Magento_Paypal
 Active,Activo,module,Magento_Paypal
 Canceled,Cancelado,module,Magento_Paypal
 "The customer ID is not set.","No se ha establecido la Id. del cliente.",module,Magento_Paypal
+"The Billing Agreement status is not set.","No se ha establecido el estado del acuerdo de facturación.",module,Magento_Paypal
 "The PayPal certificate does not exist.","Certificado PayPal no existe.",module,Magento_Paypal
 "We prefer PayPal (150 X 60)","Preferimos PayPal (150 X 60)",module,Magento_Paypal
 "We prefer PayPal (150 X 40)","Preferimos PayPal (150 X 40)",module,Magento_Paypal
@@ -2730,6 +2741,7 @@ Dispute,Conflicto,module,Magento_Paypal
 "N/A. The merchant has not implemented CVV2 code handling","No disponible. El comerciante no ha implementado la gestión del código CVV2.",module,Magento_Paypal
 "N/A. Merchant has indicated that CVV2 is not present on card","No disponible. El comerciante ha notificado que su tarjeta no tiene CVV2.",module,Magento_Paypal
 "Note: %1","Nota: %1",module,Magento_Paypal
+"You notified customer about invoice #%1.","Cliente notificado de la factura #%1.",module,Magento_Paypal
 "Unable to fetch transaction details.","No se puede obtener detalles de la transacción.",module,Magento_Paypal
 "Transaction has been declined","La operación ha sido declinada",module,Magento_Paypal
 "We cannot send the new order email.","No podemos enviar el email de nueva orden.",module,Magento_Paypal
@@ -3856,6 +3868,7 @@ Comment,Comentario,module,Magento_Sales
 "Notification Not Applicable","Notificación no disponible",module,Magento_Sales
 "Order & Account Information","Información del pedido y de la cuenta",module,Magento_Sales
 "The order confirmation email was sent","El email de confirmación del pedido fue enviado",module,Magento_Sales
+"The order confirmation email is not sent","El correo electrónico de confirmación del pedido no se ha enviado",module,Magento_Sales
 "Order Date","Fecha del pedido",module,Magento_Sales
 "Order Date (%1)","Fecha de la orden (%1)",module,Magento_Sales
 "Purchased From","Comprado de",module,Magento_Sales
@@ -4257,6 +4270,7 @@ Tax,Impuestos,module,Magento_Tax
 "New Tax Rate","Nueva tarifa de impuesto",module,Magento_Tax
 "Tax Zones and Rates","Zonas de impuestos y tarifas",module,Magento_Tax
 "You deleted the tax rate.","Se ha eliminado la tarifa fiscal.",module,Magento_Tax
+"Something went wrong deleting this rate.","Algo salió mal al eliminar esta tarifa.",module,Magento_Tax
 "Edit Tax Rate","Editar indicador de impuesto",module,Magento_Tax
 "You saved the tax rate.","Se ha guardado la tarifa fiscal.",module,Magento_Tax
 "Tax Rules","Reglas de impuestos",module,Magento_Tax
@@ -4371,6 +4385,7 @@ Copy,Copiar,module,Magento_Theme
 "Theme id should be set","Id de tema debe establecerse",module,Magento_Theme
 "The CSS file must be less than %1M.","El archivo CSS debe ser menor que %1M.",module,Magento_Theme
 "The JS file must be less than %1M.","El archivo JS debe ser menor que %1M.",module,Magento_Theme
+"We found a directory with the same name.","Encontramos un directorio con el mismo nombre.",module,Magento_Theme
 "localized exception","excepción localizada",module,Magento_Theme
 "Test Label","Etiqueta de prueba",module,Magento_Theme
 Phrase,Frase,module,Magento_Theme
@@ -4565,6 +4580,7 @@ Role,Rol,module,Magento_User
 "User Information","Información de usuario",module,Magento_User
 "User Info","Información de usuario",module,Magento_User
 "User Role","Funcion del usuario",module,Magento_User
+"Please correct the password reset token.","Por favor corrija el token para resetear el password.",module,Magento_User
 "Your password reset link has expired.","Su enlace de restablecimiento de contraseña ha caducado.",module,Magento_User
 "Please correct this email address:","Por favor, corregir el email:",module,Magento_User
 "Please enter an email address.","Por favor introduce una dirección de correo.",module,Magento_User
@@ -6017,6 +6033,7 @@ Enable,Activado,module,Magento_Sales
 Dashboard,Panel,module,Magento_Sales
 "Use Aggregated Data","Utilizar datos agregados",module,Magento_Sales
 "Orders Cron Settings","Configuración de Cron de órdenes",module,Magento_Sales
+"Pending Payment Order Lifetime (minutes)","Tiempo de vida de pedido con pago pendiente (minutos)",module,Magento_Sales
 "Sales Emails","Correos de Ventas",module,Magento_Sales
 "Asynchronous sending","Envío asincrónico",module,Magento_Sales
 Enabled,Habilitado,module,Magento_Sales
