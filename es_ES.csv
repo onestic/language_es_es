@@ -1244,10 +1244,12 @@ Admin,Administrar,module,Magento_Customer
 """%1"" is not a valid hostname.","""%1"" no es un nombre de host válido.",module,Magento_Customer
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Customer
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Customer
+"""%1"" does not fit the entered date format.","""%1"" no se ajusta al formato de fecha introducido.",module,Magento_Customer
 """%1"" is not a valid file extension.","""%1"" no es una extensión de archivo válida.",module,Magento_Customer
 """%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Customer
 """%1"" exceeds the allowed file size.","""%1"" supera el tamaño de archivo permitido.",module,Magento_Customer
 """%1"" is not a valid image format.","""%1"" no es un formato de imagen válido.",module,Magento_Customer
+"""%1"" width exceeds allowed value of %2 px.","""%1"" ancho excede el valor permitido de %2 px.",module,Magento_Customer
 label,etiqueta,module,Magento_Customer
 "Customer Group","Grupo del cliente",module,Magento_Customer
 "Customer Group already exists.","Grupo de clientes ya existe.",module,Magento_Customer
@@ -1468,11 +1470,13 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 """%1"" is not a valid hostname.","""%1"" no es un nombre de host válido.",module,Magento_Eav
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Eav
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Eav
+"""%1"" does not fit the entered date format.","""%1"" no se ajusta al formato de fecha introducido.",module,Magento_Eav
 """%1"" is a required value.","""%1"" es un valor necesario.",module,Magento_Eav
 """%1"" is not a valid file extension.","""%1"" no es una extensión de archivo válida.",module,Magento_Eav
 """%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Eav
 """%1"" exceeds the allowed file size.","""%1"" supera el tamaño de archivo permitido.",module,Magento_Eav
 """%1"" is not a valid image format","""%1"" no es un formato de imagen válido",module,Magento_Eav
+"""%1"" width exceeds allowed value of %2 px.","""%1"" ancho excede el valor permitido de %2 px.",module,Magento_Eav
 "Invalid entity_type specified: %1","Se especificó un entity_type inválido: %1",module,Magento_Eav
 "Entity is not initialized","La entidad no está inicializada",module,Magento_Eav
 "Unknown parameter","Parámetro desconocido",module,Magento_Eav
@@ -1481,6 +1485,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Invalid entity supplied","Se suministró una entidad no válida",module,Magento_Eav
 "Invalid backend model specified: %1","Modelo de backend especificado inválido: %1",module,Magento_Eav
 "The value of attribute ""%1"" must be set","El valor del atributo ""%1"" debe establecerse",module,Magento_Eav
+"The value of attribute ""%1"" must be unique","El valor del atributo ""%1"" debe ser único",module,Magento_Eav
 "Invalid date","Fecha no válida",module,Magento_Eav
 "Attribute set name is empty.","Nombre del conjunto de atributos está vacío.",module,Magento_Eav
 "No options found.","No hay opciones encontradas.",module,Magento_Eav
