@@ -1885,6 +1885,7 @@ Admin,Administrar,module,Magento_Customer
 """%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Customer
 """%1"" exceeds the allowed file size.","""%1"" supera el tamaño de archivo permitido.",module,Magento_Customer
 """%1"" is not a valid image format.","""%1"" no es un formato de imagen válido.",module,Magento_Customer
+"""%1"" width exceeds allowed value of %2 px.","""%1"" ancho excede el valor permitido de %2 px.",module,Magento_Customer
 label,etiqueta,module,Magento_Customer
 "Please enter a customer email.","Por favor, introduzca un email de cliente.",module,Magento_Customer
 "Customer Group","Grupo del cliente",module,Magento_Customer
@@ -1955,6 +1956,7 @@ Address,Dirección,module,Magento_Customer
 "VAT Number","Número de IVA",module,Magento_Customer
 City,Ciudad,module,Magento_Customer
 State/Province,Estado/Provincia,module,Magento_Customer
+"Please select a region, state or province.","Por favor seleccione región, estado o provincia.",module,Magento_Customer
 "Zip/Postal Code","Código Postal",module,Magento_Customer
 Country,País,module,Magento_Customer
 "Use as my default billing address","Utilice como mi dirección de facturación por defecto",module,Magento_Customer
@@ -2181,11 +2183,13 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 """%1"" uses too many characters.","""%1"" utiliza demasiados caracteres.",module,Magento_Eav
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Eav
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Eav
+"""%1"" does not fit the entered date format.","""%1"" no se ajusta al formato de fecha introducido.",module,Magento_Eav
 """%1"" is a required value.","""%1"" es un valor necesario.",module,Magento_Eav
 """%1"" is not a valid file extension.","""%1"" no es una extensión de archivo válida.",module,Magento_Eav
 """%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Eav
 """%1"" exceeds the allowed file size.","""%1"" supera el tamaño de archivo permitido.",module,Magento_Eav
 """%1"" is not a valid image format","""%1"" no es un formato de imagen válido",module,Magento_Eav
+"""%1"" width exceeds allowed value of %2 px.","""%1"" ancho excede el valor permitido de %2 px.",module,Magento_Eav
 """%1"" cannot contain more than %2 lines.","""%1"" no puede contener más de %2 líneas.",module,Magento_Eav
 "Cannot save attributeGroup","No se puede guardar attributeGroup",module,Magento_Eav
 "Group with id ""%1"" does not exist.","El grupo con id ""%1"" no existe.",module,Magento_Eav
@@ -2199,6 +2203,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Attribute with id ""%1"" does not exist.","Atributo con el id ""%1"" no existe.",module,Magento_Eav
 "There was an error saving attribute set.","Hubo un error al guardar el conjunto de atributos.",module,Magento_Eav
 "Default attribute set can not be deleted","No se puede eliminar el conjunto de atributo predeterminado",module,Magento_Eav
+"There was an error deleting attribute set.","Hubo un error al eliminar el conjunto de atributos.",module,Magento_Eav
 "Invalid entity_type specified: %1","Se especificó un entity_type inválido: %1",module,Magento_Eav
 "Entity is not initialized","La entidad no está inicializada",module,Magento_Eav
 "Unknown parameter","Parámetro desconocido",module,Magento_Eav
@@ -2208,6 +2213,7 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Invalid entity supplied","Se suministró una entidad no válida",module,Magento_Eav
 "Invalid backend model specified: %1","Modelo de backend especificado inválido: %1",module,Magento_Eav
 "The value of attribute ""%1"" must be set","El valor del atributo ""%1"" debe establecerse",module,Magento_Eav
+"The value of attribute ""%1"" must be unique","El valor del atributo ""%1"" debe ser único",module,Magento_Eav
 "Invalid date","Fecha no válida",module,Magento_Eav
 "Empty attribute code","Código de atributo vacío",module,Magento_Eav
 "Attribute %1 doesn't work with options","Atributo %1 no funciona con las opciones",module,Magento_Eav
@@ -2487,6 +2493,7 @@ Status,Estatus,module,Magento_ImportExport
 "Entity is unknown","Entidad desconocida",module,Magento_ImportExport
 "We can't identify this file format.","No podemos identificar este formato de archivo.",module,Magento_ImportExport
 "Please specify the writer.","Por favor especifique el escritor.",module,Magento_ImportExport
+"The destination directory is not writable.","No se puede escribir en el directorio de destino.",module,Magento_ImportExport
 "Destination file is not writable","No se puede escribir en el archivo de destino",module,Magento_ImportExport
 "The header column names are already set.","Nombres de los encabezados de las columnas ya estan establecidos.",module,Magento_ImportExport
 "Data validation is failed. Please fix errors and re-upload the file.","La validación de datos falló. Por favor, corregir errores y volver a subir el archivo.",module,Magento_ImportExport
@@ -2584,6 +2591,7 @@ Active,Activo,module,Magento_Integration
 "A consumer with the ID %1 does not exist","Consumidor con ID %1 no existe",module,Magento_Integration
 "Token is not the correct length","Token no es de la longitud correcta",module,Magento_Integration
 "Specified token does not exist","Token especificado no existe",module,Magento_Integration
+"A token with consumer ID %1 does not exist","El token con el ID de consumidor %1 no existe",module,Magento_Integration
 "A consumer with ID %1 does not exist","Consumidor con ID %1 no existe",module,Magento_Integration
 "Consumer with ID '%1' does not exist.","Consumidor con ID '%1' no existe.",module,Magento_Integration
 "Invalid token to except","Código no válido para excepción",module,Magento_Integration
@@ -6059,6 +6067,7 @@ Contacts,Contactos,module,Magento_Contact
 Group,Grupo,module,Magento_Customer
 "Add New Customer","Nuevo cliente",module,Magento_Customer
 "Delete items","Eliminar elementos",module,Magento_Customer
+"Are you sure to delete selected customers?","¿Está seguro de borrar a los clientes seleccionados?",module,Magento_Customer
 "Subscribe to Newsletter","Suscribir al boletín informativo",module,Magento_Customer
 "Unsubscribe from Newsletter","Cancelar suscripción al boletín informativo",module,Magento_Customer
 "Assign a Customer Group","Asignar un grupo de clientes",module,Magento_Customer
@@ -6077,6 +6086,7 @@ ZIP,C.P.,module,Magento_Customer
 "Customer Information","Información del cliente",module,Magento_Customer
 "Send Welcome Email From","Enviar correo de bienvenida desde",module,Magento_Customer
 Addresses,Direcciones,module,Magento_Customer
+"Are you sure you want to delete this item?","¿Está seguro de que desea borrar este elemento?",module,Magento_Customer
 "Account Dashboard","Cuenta Panel de control",module,Magento_Customer
 "Edit Account Information","Editar información de la cuenta",module,Magento_Customer
 "Password forgotten","Recordatorio de contraseña",module,Magento_Customer
