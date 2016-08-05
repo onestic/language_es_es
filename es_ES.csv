@@ -2190,6 +2190,7 @@ Status,Estatus,module,Magento_ImportExport
 "The export is finished.","La exportación ha terminado.",module,Magento_ImportExport
 "Please provide filter data.","Por favor proporcione datos de filtro.",module,Magento_ImportExport
 "Entity is unknown","Entidad desconocida",module,Magento_ImportExport
+"Please correct the value for ""%1"" column.","Por favor corrija el valor de columna ""%1"".",module,Magento_ImportExport
 "Please specify the writer.","Por favor especifique el escritor.",module,Magento_ImportExport
 "The destination directory is not writable.","No se puede escribir en el directorio de destino.",module,Magento_ImportExport
 "Destination file is not writable","No se puede escribir en el archivo de destino",module,Magento_ImportExport
@@ -2287,6 +2288,7 @@ Active,Activo,module,Magento_Integration
 "A consumer with ID %1 does not exist","Consumidor con ID %1 no existe",module,Magento_Integration
 "Invalid token to except","Código no válido para excepción",module,Magento_Integration
 "Integration with ID '%1' doesn't exist.","Integración con ID '%1' no existe.",module,Magento_Integration
+"A token with consumer ID 0 does not exist","El token con el ID de consumidor 0 no existe",module,Magento_Integration
 "No permissions requested","No hay permisos solicitados",module,Magento_Integration
 "Are you sure ?","¿Está seguro?",module,Magento_Integration
 "Available APIs","APIs disponibles",module,Magento_Integration
@@ -2485,6 +2487,7 @@ Subscribers,Suscriptores,module,Magento_Newsletter
 "Please select one or more subscribers.","Por favor, seleccione uno o más suscriptores.",module,Magento_Newsletter
 "Total of %1 record(s) were deleted.","Total de %1 registros fueron borrados.",module,Magento_Newsletter
 "A total of %1 record(s) were updated.","Un total de %1 registro(s) fueron actualizados.",module,Magento_Newsletter
+"The newsletter template has been deleted.","Se ha eliminado la plantilla de boletín de noticias.",module,Magento_Newsletter
 "Edit Template","Editar la plantilla",module,Magento_Newsletter
 "New Template","Nueva plantilla",module,Magento_Newsletter
 "Create Newsletter Template","Crear plantilla para el boletín de informativo",module,Magento_Newsletter
@@ -2749,6 +2752,7 @@ Dispute,Conflicto,module,Magento_Paypal
 "N/A. The merchant has not implemented CVV2 code handling","No disponible. El comerciante no ha implementado la gestión del código CVV2.",module,Magento_Paypal
 "N/A. Merchant has indicated that CVV2 is not present on card","No disponible. El comerciante ha notificado que su tarjeta no tiene CVV2.",module,Magento_Paypal
 "Note: %1","Nota: %1",module,Magento_Paypal
+"IPN ""%1"". Case type ""%2"". Case ID ""%3"" %4","IPN ""%1"". Tipo de caso ""%2"". ID de caso ""%3"" %4",module,Magento_Paypal
 "You notified customer about invoice #%1.","Cliente notificado de la factura #%1.",module,Magento_Paypal
 "Unable to fetch transaction details.","No se puede obtener detalles de la transacción.",module,Magento_Paypal
 "Transaction has been declined","La operación ha sido declinada",module,Magento_Paypal
@@ -3224,6 +3228,7 @@ Reviews,Reseñas,module,Magento_Review
 Ratings,Calificaciones,module,Magento_Review
 "You saved the rating.","Guardaste la calificación.",module,Magento_Review
 "My Product Reviews","Reseñas de mi artículo",module,Magento_Review
+"You submitted your review for moderation.","Usted presentó su reseña a moderación.",module,Magento_Review
 "Storage key was not set","No se ha establecido la clave de almacenamiento",module,Magento_Review
 Approved,Aprobado,module,Magento_Review
 Pending,Pendiente,module,Magento_Review
@@ -5989,6 +5994,7 @@ Dashboard,Panel,module,Magento_Reports
 "Number of Products to display","Número de artículos, que estan mostrados",module,Magento_Reports
 "Viewed Products Grid Template","Ver plantilla de cuadrícula de artículos vistos",module,Magento_Reports
 "Viewed Products List Template","Ver plantilla de lista de artículos vistos",module,Magento_Reports
+"Viewed Products Images and Names Template","Plantilla de imagenes y nombres de productos vistos",module,Magento_Reports
 "Viewed Products Names Only Template","Plantilla de sólo nombres de productos vistos",module,Magento_Reports
 "Viewed Products Images Only Template","Plantilla de sólo imagenes de productos vistos",module,Magento_Reports
 "Recently Compared Products","Productos Comparados Recientemente",module,Magento_Reports
