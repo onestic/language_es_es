@@ -1886,6 +1886,7 @@ Newsletter,"Boletín informativo",module,Magento_Newsletter
 Subscribers,Suscriptores,module,Magento_Newsletter
 "Please select one or more subscribers.","Por favor, seleccione uno o más suscriptores.",module,Magento_Newsletter
 "A total of %1 record(s) were updated.","Un total de %1 registro(s) fueron actualizados.",module,Magento_Newsletter
+"The newsletter template has been deleted.","Se ha eliminado la plantilla de boletín de noticias.",module,Magento_Newsletter
 "Edit Template","Editar la plantilla",module,Magento_Newsletter
 "New Template","Nueva plantilla",module,Magento_Newsletter
 "Create Newsletter Template","Crear plantilla para el boletín de informativo",module,Magento_Newsletter
@@ -2129,6 +2130,7 @@ Dispute,Conflicto,module,Magento_Paypal
 "N/A. The merchant has not implemented CVV2 code handling","No disponible. El comerciante no ha implementado la gestión del código CVV2.",module,Magento_Paypal
 "N/A. Merchant has indicated that CVV2 is not present on card","No disponible. El comerciante ha notificado que su tarjeta no tiene CVV2.",module,Magento_Paypal
 "Note: %1","Nota: %1",module,Magento_Paypal
+"IPN ""%1"". Case type ""%2"". Case ID ""%3"" %4","IPN ""%1"". Tipo de caso ""%2"". ID de caso ""%3"" %4",module,Magento_Paypal
 "You notified customer about invoice #%1.","Cliente notificado de la factura #%1.",module,Magento_Paypal
 "We cannot send the new order email.","No podemos enviar el email de nueva orden.",module,Magento_Paypal
 "Report Date","Fecha del informe",module,Magento_Paypal
@@ -4735,6 +4737,7 @@ Dashboard,Panel,module,Magento_Reports
 "Number of Products to display","Número de artículos, que estan mostrados",module,Magento_Reports
 "Viewed Products Grid Template","Ver plantilla de cuadrícula de artículos vistos",module,Magento_Reports
 "Viewed Products List Template","Ver plantilla de lista de artículos vistos",module,Magento_Reports
+"Viewed Products Images and Names Template","Plantilla de imagenes y nombres de productos vistos",module,Magento_Reports
 "Viewed Products Names Only Template","Plantilla de sólo nombres de productos vistos",module,Magento_Reports
 "Viewed Products Images Only Template","Plantilla de sólo imagenes de productos vistos",module,Magento_Reports
 "Recently Compared Products","Productos Comparados Recientemente",module,Magento_Reports
