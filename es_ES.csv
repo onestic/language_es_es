@@ -1681,7 +1681,7 @@ or,o,module,Magento_Customer
 "Delete Address","Borrar dirección",module,Magento_Customer
 "* Required Fields","* Campos obligatorios",module,Magento_Customer
 Company,Empresa,module,Magento_Customer
-"Phone Number",Telefonnummer,module,Magento_Customer
+"Phone Number","Número de teléfono",module,Magento_Customer
 Address,Dirección,module,Magento_Customer
 "Street Address","Dirección postal (Calle, Nº de Casa, Código Postal)",module,Magento_Customer
 "Street Address %1","Dirección %1",module,Magento_Customer
