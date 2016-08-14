@@ -3722,8 +3722,10 @@ Mixed,Mixto,module,Magento_Sales
 "Ordered amount of %1","Cantidad ordenada de %1",module,Magento_Sales
 "Payment transactions disallow storing objects.","Las operaciones de pago no permiten almacenar objetos.",module,Magento_Sales
 "Set order for existing transactions not allowed","No se le permite configurar un pedido de una transacción existente.",module,Magento_Sales
+"At minimum, you need to set a payment ID.","Como mínimo, es necesario establecer una ID de pago.",module,Magento_Sales
 Order,Pedido,module,Magento_Sales
 Authorization,Autorización,module,Magento_Sales
+"Please set a proper payment and order id.","Establezca un ID de pago y de orden adecuado.",module,Magento_Sales
 "Please enter a Transaction ID.","Introduzca un ID de transacción.",module,Magento_Sales
 "Sold to:","Vendido a:",module,Magento_Sales
 "Ship to:","Enviar a:",module,Magento_Sales
@@ -3776,6 +3778,7 @@ State/Province,Estado/Provincia,module,Magento_Sales
 "Order # %1 Notification(s)","Pedido nº %1 notificaciones",module,Magento_Sales
 "You can not cancel Credit Memo","No puede cancelar factura rectificada",module,Magento_Sales
 "Could not cancel creditmemo","No se puede cancelar la nota de crédito",module,Magento_Sales
+"The most money available to refund is %1.","La mayor cantidad de dinero disponible para devolución es %1.",module,Magento_Sales
 "VAT Request Identifier","Identificador de petición de IVA",module,Magento_Sales
 "VAT Request Date","Fecha de petición de IVA",module,Magento_Sales
 "Pending Payment","Pago pendiente",module,Magento_Sales
@@ -3932,6 +3935,7 @@ Actions,Acciones,module,Magento_Sales
 "Qty Invoiced","Cantidad facturada",module,Magento_Sales
 Close,Cerrar,module,Magento_Sales
 "About Your Order","Acerca de su pedido",module,Magento_Sales
+"<span class=""label"">Order Date:</span> %1","<span class=""label""> Fecha de pedido:</span> %1",module,Magento_Sales
 "Refund #%1","Reembolso nº %1",module,Magento_Sales
 "Shipment #%1","Albarán nº %1",module,Magento_Sales
 "Qty Shipped","Cantidad enviada",module,Magento_Sales
@@ -5926,6 +5930,7 @@ User,Usuario,module,Magento_Paypal
 "PayPal recommends you set up an additional User on your account at manager.paypal.com, instead of entering your admin username and password here. This will enhance your security and prevent service interruptions if you later change your password. If you do not want to set up an additional User, you can re-enter your Merchant Login here.","PayPal recomienda que configure otro usuario en su cuenta en manager.paypal.com, en lugar de introducir su nombre de usuario de administrador y su contraseña aquí. Esto mejorará el grado de seguridad y evitará interrupciones del servicio si cambia la contraseña posteriormente. Si no desea configurar otro usuario, puede volver a introducir su nombre de usuario minorista aquí.",module,Magento_Paypal
 "Test Mode","Modo de prueba",module,Magento_Paypal
 "Use Proxy","Utilizar Proxy",module,Magento_Paypal
+"Basic Settings - PayPal Payments Advanced","Ajustes básicos: Pagos avanzados con PayPal",module,Magento_Paypal
 "It is recommended to set this value to ""Debit or Credit Card"" per store views.","Se recomienda fijar este valor en ""Tarjeta de débito o crédito"" por vistas de tienda.",module,Magento_Paypal
 "CVV Entry is Editable","La entrada de CVV es editable.",module,Magento_Paypal
 "Require CVV Entry","Requiere el código de seguridad de la tarjeta",module,Magento_Paypal
@@ -6301,6 +6306,7 @@ Debug,Depurar,module,Magento_Ups
 Action,Acción,module,Magento_UrlRewrite
 Edit,Editar,module,Magento_UrlRewrite
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Plantilla de correo electrónico elegido basado en suplencia de tema cuando está seleccionada la opción ""Predeterminado"".",module,Magento_User
+"Maximum Login Failures to Lockout Account","Cantidad de fallas máximas de inicio de sesión para bloquear cuenta",module,Magento_User
 "Lockout Time (minutes)","Tiempo de bloqueo (minutos)",module,Magento_User
 "Password Lifetime (days)","Tiempo de vida de password (dias)",module,Magento_User
 "Password Change","Cambio de contraseña",module,Magento_User
