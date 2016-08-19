@@ -5394,7 +5394,7 @@ Template,Plantilla,module,Magento_Catalog
 Enable,Activado,module,Magento_Catalog
 Disable,Desactivar,module,Magento_Catalog
 "Update attributes","Actualizar atributos",module,Magento_Catalog
-none,ninguno,module,Magento_Catalog
+none,ninguna,module,Magento_Catalog
 Overview,"Vista general",module,Magento_Catalog
 Details,Detalles,module,Magento_Catalog
 "Enable Terms and Conditions","Habilitar términos y condiciones",module,Magento_CheckoutAgreements
