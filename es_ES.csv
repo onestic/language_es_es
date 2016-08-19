@@ -4220,7 +4220,7 @@ Template,Plantilla,module,Magento_Catalog
 "Category Link Block Template","Modelo del bloque de enlaces de categorías",module,Magento_Catalog
 "Category Link Inline Template","Modelo de enlaces en línea a categorías",module,Magento_Catalog
 "Change status","Cambiar estado",module,Magento_Catalog
-none,ninguno,module,Magento_Catalog
+none,ninguna,module,Magento_Catalog
 Overview,"Vista general",module,Magento_Catalog
 Details,Detalles,module,Magento_Catalog
 "Enable Terms and Conditions","Habilitar términos y condiciones",module,Magento_CheckoutAgreements
