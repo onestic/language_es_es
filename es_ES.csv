@@ -275,6 +275,7 @@ System,Sistema,module,Magento_Backend
 "Store view doesn't exist","La vista de tienda no existe",module,Magento_Backend
 "Before modifying the store view code please make sure it is not used in index.php.","Antes de modificar el código de vista de la tienda por favor, asegúrese de que no se utiliza en index.php.",module,Magento_Backend
 "You saved the website.","Se guardó el sitio web.",module,Magento_Backend
+"An inactive store view cannot be saved as default store view","Una vista de tienda inactiva no puede ser guardada como vista de tienda predeterminada",module,Magento_Backend
 "You saved the store.","Se guardó la tienda.",module,Magento_Backend
 "The default store cannot be disabled","No se puede deshabilitar la tienda predeterminada",module,Magento_Backend
 "You saved the store view.","Se guardó la vista de tienda.",module,Magento_Backend
@@ -310,6 +311,7 @@ password,contraseña,module,Magento_Backend
 "All Websites","Todos los sitios web",module,Magento_Backend
 "Reload Data","Recargar datos",module,Magento_Backend
 "Browse Files...","Buscar archivos...",module,Magento_Backend
+"Copyright &copy; %1 Magento Commerce Inc. All rights reserved.","Copyright &copy; %1 Magento Commerce Inc. Todos los derechos reservados.",module,Magento_Backend
 "Magento Admin Panel","Panel de administración de Magento",module,Magento_Backend
 "Account Setting","Configuración de la cuenta",module,Magento_Backend
 "Customer View","Vista de cliente",module,Magento_Backend
@@ -427,6 +429,7 @@ Country,País,module,Magento_Braintree
 "Braintree Settlement Report","Informe de acuerdos de Braintree",module,Magento_Braintree
 "Sorry, but something went wrong","Lo sentimos, pero algo salió mal",module,Magento_Braintree
 "We can't initialize checkout.","No se puede iniciar el cobro.",module,Magento_Braintree
+"No authorization transaction to proceed capture.","No hay ninguna transacción de autorización para proceder a la captura.",module,Magento_Braintree
 "Braintree error response.","Respuesta de error de Braintree.",module,Magento_Braintree
 "Payment method nonce can't be retrieved.","Forma de pago nonce no puede ser recuperada.",module,Magento_Braintree
 "Wrong transaction status","Estado de transacción incorrecto",module,Magento_Braintree
@@ -462,6 +465,7 @@ Credit,Crédito,module,Magento_Braintree
 "Expiration Date","Fecha de vencimiento",module,Magento_Braintree
 "Please, enter valid Expiration Date","Ingrese una fecha de vencimiento válida",module,Magento_Braintree
 "Card Verification Number","Número de verificación de tarjeta",module,Magento_Braintree
+"Please, enter valid Card Verification Number","Por favor, indique el número de verificación de tarjeta válido",module,Magento_Braintree
 ending,finalizando,module,Magento_Braintree
 expires,expira,module,Magento_Braintree
 "Percent Discount","Porcentaje de descuento",module,Magento_Bundle
@@ -504,6 +508,7 @@ Separately,"Por separado",module,Magento_Bundle
 "We can't add this item to your shopping cart right now.","No podemos añadir este artículo a su carrito de compras ahora mismo.",module,Magento_Bundle
 N/A,N/D,module,Magento_Bundle
 Percent,Porcentaje,module,Magento_Bundle
+"We can't save custom-defined options for bundles with dynamic pricing.","No podemos guardar opciones personalizadas para conjuntos con precio dinámico.",module,Magento_Bundle
 Cancel,Cancelar,module,Magento_Bundle
 "Add Selected Products","Añadir productos seleccionados",module,Magento_Bundle
 "Add Option","Agregar opción",module,Magento_Bundle
@@ -616,12 +621,16 @@ Always,Siempre,module,Magento_Captcha
 "Stock with id ""%1"" does not exist.","Stock con id ""%1"" no existe.",module,Magento_CatalogInventory
 "Unable to remove Stock with id ""%1""","No se puede quitar Stock con el id ""%1""",module,Magento_CatalogInventory
 "Unable to save Stock Status","No se puede guardar el estado del Stock",module,Magento_CatalogInventory
+"Unable to remove Stock Status for product %1","No se puede eliminar el estado de existencias del producto %1",module,Magento_CatalogInventory
+"Not all of your products are available in the requested quantity.","No todos sus productos están disponibles en la cantidad solicitada.",module,Magento_CatalogInventory
 "Product with SKU ""%1"" does not exist","El producto con SKU ""%1"" no existe",module,Magento_CatalogInventory
 "The fewest you may purchase is %1.","Lo menos que puede comprar es %1.",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","Por favor corregir la cantidad de algunos productos.",module,Magento_CatalogInventory
 "The most you may purchase is %1.","Lo más que puede comprar es %1.",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","No tenemos tantos ""%1"" como usted pidió, pero pondremos como pedido pendiente las/los %2 restantes.",module,Magento_CatalogInventory
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","No tenemos ""%1"" de la cantidad solicitada, pondremos como pedido pendiente los/las %2 restantes.",module,Magento_CatalogInventory
+"You can buy %1 only in quantities of %2 at a time.","Usted solo puede comprar %1 en cantidades de %2 de una vez.",module,Magento_CatalogInventory
+"You can buy this product only in quantities of %1 at a time.","Solo puede comprar este producto en cantidades de %1 de una vez.",module,Magento_CatalogInventory
 "Decimal qty increments is not allowed.","No se permiten incrementos decimales de cantidad.",module,Magento_CatalogInventory
 "Stock Status","Estado de existencias",module,Magento_CatalogInventory
 Quantity,Cantidad,module,Magento_CatalogInventory
@@ -924,6 +933,7 @@ Catalog,Catálogo,module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","Ya existe un atributo con el mismo código (%1).",module,Magento_Catalog
 "You duplicated the product.","Se duplico el producto.",module,Magento_Catalog
 "This product doesn't exist.","Este producto no existe.",module,Magento_Catalog
+"Invalid product id. Should be numeric value greater than 0","Identificación del producto no válida. Debe ser un valor numérico mayor que 0",module,Magento_Catalog
 Products,Productos,module,Magento_Catalog
 "A group with the same name already exists.","Ya existe un grupo con el mismo nombre.",module,Magento_Catalog
 "Something went wrong while saving this group.","Algo salió mal al guardar este grupo.",module,Magento_Catalog
@@ -959,6 +969,7 @@ All,Todo,module,Magento_Catalog
 "Sorry, but we can't find the new parent category you selected.","Lo sentimos, no podemos encontrar la nueva categoría principal que ha seleccionado.",module,Magento_Catalog
 "Sorry, but we can't find the new category you selected.","Lo sentimos, no podemos encontrar la nueva categoría que ha seleccionado.",module,Magento_Catalog
 "We can't move the category because the parent category name matches the child category name.","Nos no podemos mover la categoría porque el nombre de la categoría de principal coincide con el nombre de la subcategoría.",module,Magento_Catalog
+"Something went wrong while getting the image url.","Algo salió mal al obtener la url de la imagen.",module,Magento_Catalog
 "Can't delete root category.","No se puede eliminar la categoría raíz.",module,Magento_Catalog
 "The value of attribute ""%1"" must be unique.","El valor del atributo ""%1"" debe ser único.",module,Magento_Catalog
 "Default Product Listing Sort by does not exist in Available Product Listing Sort By.","El orden predeterminado del listado de artículos no existe en los listados de artículos disponibles.",module,Magento_Catalog
@@ -1092,6 +1103,7 @@ Search,Buscar,module,Magento_Catalog
 "Unknown link type: %1","Tipo de vínculo desconocido: %1",module,Magento_Catalog
 "Provided link type ""%1"" does not exist","El tipo de vínculo proveído ""%1"" no existe",module,Magento_Catalog
 "Invalid data provided for linked products","Datos proveídos no válidos para productos vinculados",module,Magento_Catalog
+"Product with SKU '%1' is not linked to product with SKU '%2'","El producto con SKU '%1' no está vinculado al producto con SKU '%2'",module,Magento_Catalog
 "Product %1 doesn't have linked %2 as %3","El artículo %1 no tiene un vínculo %2 como %3",module,Magento_Catalog
 "Requested product doesn't exist","El producto solicitado no existe",module,Magento_Catalog
 "Requested product does not support images.","El producto solicitado no es compatible con imágenes.",module,Magento_Catalog
@@ -1781,11 +1793,14 @@ Download,Descarga,module,Magento_Customer
 "Edit Customer Group ""%1""","Editar grupo del cliente ""%1""",module,Magento_Customer
 "Group Information","Información del grupo",module,Magento_Customer
 "Group Name","Nombre del grupo",module,Magento_Customer
+"Maximum length must be less then %1 characters.","Longitud máxima debe ser menor de %1 caracteres.",module,Magento_Customer
 "Tax Class","Clase impositiva",module,Magento_Customer
+"The customer is now assigned to Customer Group %s.","El cliente está ahora asignado al grupo de clientes %s.",module,Magento_Customer
 "Would you like to change the Customer Group for this order?","¿Desea cambiar el grupo de clientes para este pedido?",module,Magento_Customer
 "The VAT ID is valid.","El ID de IVA es válido.",module,Magento_Customer
 "The VAT ID entered (%s) is not a valid VAT ID.","El ID de IVA introducido (%s) no es un ID de IVA válido.",module,Magento_Customer
 "The VAT ID is valid. The current Customer Group will be used.","El ID de IVA es válido. Se utilizará el grupo de cliente actual.",module,Magento_Customer
+"The VAT ID is valid but no Customer Group is assigned for it.","El identificador de IVA es válido pero no se encuentra asignado a ningún grupo de Clientes.",module,Magento_Customer
 "Validate VAT Number","Validar número de IVA",module,Magento_Customer
 "Customer Login","Inicio de sesión de cliente",module,Magento_Customer
 "Create New Customer Account","Crear nueva cuenta de cliente",module,Magento_Customer
@@ -6045,6 +6060,7 @@ Debug,Depurar,module,Magento_Braintree
 "Threshold Amount","Monto del umbral",module,Magento_Braintree
 "Verify for Applicable Countries","Verificar para los países aplicables",module,Magento_Braintree
 "Verify for Specific Countries","Verificar para países específicos",module,Magento_Braintree
+"Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Aplique filtros para obtener resultados. Sólo los 100 primeros registros se mostrarán en la cuadrícula; podrá descargar la versión completa del informe en formato .csv.",module,Magento_Braintree
 Select...,Seleccionar...,module,Magento_Braintree
 Status,Estado,module,Magento_Braintree
 "Transaction Type","Tipo de transacción",module,Magento_Braintree
@@ -6085,6 +6101,7 @@ Inventory,Inventario,module,Magento_CatalogInventory
 "Display Out of Stock Products","Visualizar los artículos agotados",module,Magento_CatalogInventory
 "Products will still be shown by direct product URLs.","Los artículos se seguirán mostrando por URL de artículo directa.",module,Magento_CatalogInventory
 "Only X left Threshold","Quedan X en almacén desde",module,Magento_CatalogInventory
+"Display Products Availability in Stock on Storefront","Ver la disponibilidad de productos en stock en la tienda",module,Magento_CatalogInventory
 "Product Stock Options","Opciones de existencias de artículo",module,Magento_CatalogInventory
 "Manage Stock","Gestionar existencias",module,Magento_CatalogInventory
 Backorders,"Pedidos pendientes",module,Magento_CatalogInventory
@@ -6256,6 +6273,8 @@ Small,Pequeño,module,Magento_Catalog
 "Attribute Label","Etiqueta de atributo",module,Magento_Catalog
 "Catalog Input Type for Store Owner","Tipo de entrada de catálogo para el dueño de la tienda",module,Magento_Catalog
 Values,Valores,module,Magento_Catalog
+"Add this attribute to the list of column options in the product grid.","Añadir este atributo a la lista de opciones de la columna en la cuadrícula de producto.",module,Magento_Catalog
+"Add this attribute to the list of filter options in the product grid.","Añadir este atributo a la lista de opciones de filtro en la cuadrícula de producto.",module,Magento_Catalog
 System,Sistema,module,Magento_Catalog
 "All Store Views","Todas las vistas de la tienda",module,Magento_Catalog
 "Delete items","Eliminar elementos",module,Magento_Catalog
