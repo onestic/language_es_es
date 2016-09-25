@@ -469,6 +469,7 @@ Always,Siempre,module,Magento_Captcha
 "Allow Qty Below 0 and Notify Customer","Permitir cantidad menor que 0 y notificar al cliente",module,Magento_CatalogInventory
 "In Stock","En existencias",module,Magento_CatalogInventory
 "Out of Stock","Fuera de existencias",module,Magento_CatalogInventory
+"Not all of your products are available in the requested quantity.","No todos sus productos están disponibles en la cantidad solicitada.",module,Magento_CatalogInventory
 "The fewest you may purchase is %1.","Lo menos que puede comprar es %1.",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","Por favor corregir la cantidad de algunos productos.",module,Magento_CatalogInventory
 "The most you may purchase is %1.","Lo más que puede comprar es %1.",module,Magento_CatalogInventory
