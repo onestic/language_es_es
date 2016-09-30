@@ -707,6 +707,7 @@ List,Lista,module,Magento_CatalogSearch
 "up to %1","hasta %1",module,Magento_CatalogSearch
 Category,Categoría,module,Magento_CatalogSearch
 "%1 and above","%1 y superior",module,Magento_CatalogSearch
+"Sorry, something went wrong. You can find out more in the error log.","Lo sentimos, algo salió mal. Encontrarás más información en el registro de errores.",module,Magento_CatalogSearch
 "Bucket does not exist","Bucket no existe",module,Magento_CatalogSearch
 Product,Producto,module,Magento_CatalogSearch
 "Search Settings","Ajustes de búsqueda",module,Magento_CatalogSearch
@@ -1457,15 +1458,19 @@ Blocks,Bloques,module,Magento_Cms
 "Please correct the data sent.","Por favor corrija los datos enviados.",module,Magento_Cms
 "A total of %1 record(s) have been deleted.","Un total de %1 registros han sido borrados.",module,Magento_Cms
 "You saved the block.","Guardaste el bloque.",module,Magento_Cms
+"Something went wrong while saving the block.","Algo salió mal al guardar el bloque.",module,Magento_Cms
 "The page has been deleted.","Die Seite wurde gelöscht.",module,Magento_Cms
 "We can't find a page to delete.","No podemos encontrar una página para eliminarla.",module,Magento_Cms
 "This page no longer exists.","Diese Seite existiert nicht mehr.",module,Magento_Cms
 "Edit Page","Seite bearbeiten",module,Magento_Cms
 "New Page","Neue Seite",module,Magento_Cms
 Pages,Páginas,module,Magento_Cms
+"Something went wrong while saving the page.","Algo salió mal al guardar la página.",module,Magento_Cms
+"A total of %1 record(s) have been disabled.","Se han deshabilitado un total de %1 registro(s).",module,Magento_Cms
 "A total of %1 record(s) have been enabled.","Se han habilitado un total de %1 registros.",module,Magento_Cms
 "Page Title",Seitentitel,module,Magento_Cms
 "You saved the page.","Ha guardado la página.",module,Magento_Cms
+"Make sure that static block content does not reference the block itself.","Asegúrese de que contenido de bloque estático no hace referencia a el propio bloque.",module,Magento_Cms
 "CMS Block with id ""%1"" does not exist.","El bloque CMS con id ""%1"" no existe.",module,Magento_Cms
 "Enabled by Default","Aktiviert (voreingestellt)",module,Magento_Cms
 "Disabled by Default","Deaktiviert (voreingestellt)",module,Magento_Cms
@@ -1475,6 +1480,8 @@ Pages,Páginas,module,Magento_Cms
 "Could not delete the page: %1","No se puede eliminar la página: %1",module,Magento_Cms
 "A block identifier with the same properties already exists in the selected store.","Ein Block-Bezeichner mit denselben Eigenschaften existiert bereits in dem ausgewählten Laden.",module,Magento_Cms
 "The page URL key contains capital letters or disallowed symbols.","Der URL-Bezeichner dieser Seite enthält Großbuchstaben oder unerlaubte Symbole.",module,Magento_Cms
+"Please rename the folder using only letters, numbers, underscores and dashes.","Por favor, cambia el nombre de la carpeta usando sólo letras, números, guiones bajos y guiones.",module,Magento_Cms
+"We found a directory with the same name. Please try another folder name.","Encontramos una carpeta con el mismo nombre. Por favor, intente otro nombre para la carpeta.",module,Magento_Cms
 "We cannot create a new directory.","No podemos crear un nuevo directorio.",module,Magento_Cms
 "We cannot delete directory %1.","No podemos borrar directorio %1.",module,Magento_Cms
 "We can't upload the file right now.","No se puede cargar el archivo en estos momentos.",module,Magento_Cms
@@ -1488,6 +1495,7 @@ Delete,Borrar,module,Magento_Cms
 "Delete ${ $.$data.title }","Eliminar ${ $.$data.title }",module,Magento_Cms
 "Are you sure you wan't to delete a ${ $.$data.title } record?","¿Está seguro que desea eliminar un registro ${ $.$data.title } $?",module,Magento_Cms
 "Delete ""${ $.$data.title }""","Eliminar ""${ $.$data.title }""",module,Magento_Cms
+"Are you sure you wan't to delete a ""${ $.$data.title }"" record?","¿Está seguro que desea eliminar un registro ""${ $.$data.title }""?",module,Magento_Cms
 View,Ver,module,Magento_Cms
 "No files found","Keine Dateien gefunden",module,Magento_Cms
 "Browse Files...","Dateien durchsuchen ...",module,Magento_Cms
@@ -5303,6 +5311,7 @@ Type,Tipo,module,Magento_Vault
 ending,fin,module,Magento_Vault
 Actions,Acciones,module,Magento_Vault
 Delete,Eliminar,module,Magento_Vault
+"Consumer is not authorized to access %resources","El cliente no tiene permiso para acceder a %resources",module,Magento_Webapi
 "Operation allowed only in HTTPS","Operación permitida solamente en HTTPS",module,Magento_Webapi
 "Cannot perform GET operation with store code 'all'","No se puede realizar la operación GET con el código de tienda 'all'",module,Magento_Webapi
 "Request does not match any route.","Solicitud no coincide con ninguna ruta.",module,Magento_Webapi
@@ -5460,6 +5469,7 @@ Edit,Editar,module,Magento_Wishlist
 "Add to Compare","Añadir para comparar",module,Magento_Wishlist
 "This Wish List has no Items","Los favoritos no tienen artículos",module,Magento_Wishlist
 "%1 has been added to your Wish List.","%1 se ha agregado a su lista de deseos.",module,Magento_Wishlist
+"Click <a href=""%1"">here</a> to continue shopping.","Haga clic <a href=""%1""> aquí</a> para continuar comprando.",module,Magento_Wishlist
 "See Details","Ver información",module,Magento_Wishlist
 "Options Details","Detalles de las opciones",module,Magento_Wishlist
 "RSS link to %1's wishlist","Enlace RSS a la lista de deseos de %1",module,Magento_Wishlist
@@ -6342,6 +6352,7 @@ Template,Plantilla,module,Magento_Cms
 "Enable Block","Activar bloque",module,Magento_Cms
 "Block Title",Blocktitel,module,Magento_Cms
 "Delete items","Eliminar elementos",module,Magento_Cms
+"Are you sure you wan't to delete selected items?","¿Está seguro que desea eliminar los elementos seleccionados?",module,Magento_Cms
 "Page Information",Seiteninformation,module,Magento_Cms
 "Enable Page","Activar página",module,Magento_Cms
 Content,Contenido,module,Magento_Cms
