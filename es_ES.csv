@@ -1061,11 +1061,14 @@ Blocks,Bloques,module,Magento_Cms
 "This page no longer exists.","Diese Seite existiert nicht mehr.",module,Magento_Cms
 "Edit Page","Seite bearbeiten",module,Magento_Cms
 Pages,Páginas,module,Magento_Cms
+"Something went wrong while saving the page.","Algo salió mal al guardar la página.",module,Magento_Cms
+"Make sure that static block content does not reference the block itself.","Asegúrese de que contenido de bloque estático no hace referencia a el propio bloque.",module,Magento_Cms
 "Enabled by Default","Aktiviert (voreingestellt)",module,Magento_Cms
 "Disabled by Default","Deaktiviert (voreingestellt)",module,Magento_Cms
 "Disabled Completely","Komplett deaktiviert",module,Magento_Cms
 "A block identifier with the same properties already exists in the selected store.","Ein Block-Bezeichner mit denselben Eigenschaften existiert bereits in dem ausgewählten Laden.",module,Magento_Cms
 "The page URL key contains capital letters or disallowed symbols.","Der URL-Bezeichner dieser Seite enthält Großbuchstaben oder unerlaubte Symbole.",module,Magento_Cms
+"We found a directory with the same name. Please try another folder name.","Encontramos una carpeta con el mismo nombre. Por favor, intente otro nombre para la carpeta.",module,Magento_Cms
 "We cannot create a new directory.","No podemos crear un nuevo directorio.",module,Magento_Cms
 "We cannot delete directory %1.","No podemos borrar directorio %1.",module,Magento_Cms
 "No files found","Keine Dateien gefunden",module,Magento_Cms
