@@ -1600,6 +1600,8 @@ Summary,Resumen,module,Magento_ConfigurableProduct
 "Option attribute ID is not specified.","No se especifica el ID de atributo de opción.",module,Magento_ConfigurableProduct
 "Option label is not specified.","No se especifica la etiqueta Opción.",module,Magento_ConfigurableProduct
 "Option values are not specified.","No se especifican valores de opción.",module,Magento_ConfigurableProduct
+"Product with id ""%1"" does not contain required attribute ""%2"".","El producto con ID ""%1"" no contiene el atributo obligatorio ""%2"".",module,Magento_ConfigurableProduct
+"Products ""%1"" and ""%2"" have the same set of attribute values.","Los productos ""%1"" y ""%2"" tienen el mismo conjunto de atributos.",module,Magento_ConfigurableProduct
 "You can't add the item to shopping cart.","No puedes añadir el artículo al carrito de la compra.",module,Magento_ConfigurableProduct
 "You need to choose options for your item.","Tiene que elegir opciones para su ítem.",module,Magento_ConfigurableProduct
 "Type %1 is not an instance of %2","Tipo %1 no es una instancia de %2",module,Magento_ConfigurableProduct
