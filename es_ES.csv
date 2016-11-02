@@ -1201,18 +1201,23 @@ Download,Descarga,module,Magento_Customer
 "Create New Customer Account","Crear nueva cuenta de cliente",module,Magento_Customer
 "Date of Birth","Fecha de nacimiento",module,Magento_Customer
 "Bad request.","Solicitud incorrecta.",module,Magento_Customer
+"This confirmation key is invalid or has expired.","Esta clave de confirmación no es válido o ha caducado.",module,Magento_Customer
 "There was an error confirming the account","Hubo un problema al confirmar la cuenta",module,Magento_Customer
 "Thank you for registering with %1.","Gracias por registrarse en %1.",module,Magento_Customer
 "This email does not require confirmation.","Este mensaje de correo electrónico no requiere confirmación.",module,Magento_Customer
 "Wrong email.","Se especificó una dirección de correo electrónico incorrecta.",module,Magento_Customer
 "Your password reset link has expired.","Su enlace de restablecimiento de contraseña ha caducado.",module,Magento_Customer
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Ya existe una cuenta con esta dirección de correo electrónico. Si está seguro de que esa es su dirección de correo electrónico, <a href=""%1"">pulse aquí</a> para conseguir su contraseña y acceder a su cuenta.",module,Magento_Customer
 "Account Information","Información de la cuenta",module,Magento_Customer
 "Invalid input","Entrada no válida",module,Magento_Customer
 "Please correct the email address.","Por favor, corregir el email.",module,Magento_Customer
 "Please enter your email.","Por favor, introduzca su dirección de correo electrónico.",module,Magento_Customer
+"If there is an account associated with %1 you will receive an email with a link to reset your password.","Si hay una cuenta asociada a %1 recibirá un correo electrónico con un enlace para restablecer tu contraseña.",module,Magento_Customer
 "My Account","Mi Cuenta",module,Magento_Customer
 "Invalid login or password.","Inicio de Sesión o Contraseña Inválida.",module,Magento_Customer
+"New Password and Confirm New Password values didn't match.","Los valores de ""Nueva contraseña"" y ""confirmar nueva contraseña"" no coinciden.",module,Magento_Customer
 "No customer ID defined.","Ningún ID de cliente definido.",module,Magento_Customer
+"Please correct the quote items and try again.","Por favor, corrija los campos de cita y vuelve a intentarlo.",module,Magento_Customer
 "The customer group no longer exists.","El grupo de clientes, ya no existe.",module,Magento_Customer
 Customers,Clientes,module,Magento_Customer
 "New Group","Nuevo grupo",module,Magento_Customer
@@ -1239,9 +1244,11 @@ Customers,Clientes,module,Magento_Customer
 "Shipping Address","Dirección de envío",module,Magento_Customer
 "-- Please Select --",--Seleccione--,module,Magento_Customer
 "Please correct this email address: ""%1"".","Por favor correge esta dirección de correo electrónico: ""%1"".",module,Magento_Customer
+"The password can not begin or end with a space.","La contraseña no puede comenzar ni terminar con un espacio.",module,Magento_Customer
 Admin,Administrar,module,Magento_Customer
 "Attribute object is undefined","Objeto de campo indefinido",module,Magento_Customer
 """%1"" invalid type entered.","""%1"" tipo introducido inválido.",module,Magento_Customer
+"""%1"" contains non-alphabetic or non-numeric characters.","""%1"" contiene caracteres que no son números ni letras.",module,Magento_Customer
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Customer
 """%1"" contains non-numeric characters.","""%1"" contiene caracteres no numéricos.",module,Magento_Customer
 """%1"" contains non-alphabetic characters.","""%1"" contiene caracteres no alfabéticos.",module,Magento_Customer
@@ -1250,11 +1257,17 @@ Admin,Administrar,module,Magento_Customer
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Customer
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Customer
 """%1"" does not fit the entered date format.","""%1"" no se ajusta al formato de fecha introducido.",module,Magento_Customer
+"Please enter a valid date between %1 and %2 at %3.","Por favor introduzca una fecha válida entre %1 y %2 en %3.",module,Magento_Customer
+"Please enter a valid date equal to or greater than %1 at %2.","Por favor introduzca una fecha válida igual o mayor que %1 en %2.",module,Magento_Customer
+"Please enter a valid date less than or equal to %1 at %2.","Por favor introduzca una fecha válida menos o igual a %1 en %2.",module,Magento_Customer
 """%1"" is not a valid file extension.","""%1"" no es una extensión de archivo válida.",module,Magento_Customer
 """%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Customer
 """%1"" exceeds the allowed file size.","""%1"" supera el tamaño de archivo permitido.",module,Magento_Customer
 """%1"" is not a valid image format.","""%1"" no es un formato de imagen válido.",module,Magento_Customer
 """%1"" width exceeds allowed value of %2 px.","""%1"" ancho excede el valor permitido de %2 px.",module,Magento_Customer
+"""%1"" height exceeds allowed value of %2 px.","""%1"" altura excede el valor permitido de %2 px.",module,Magento_Customer
+"""%1"" length must be equal or greater than %2 characters.","""%1"" longitud debe ser igual o mayor que %2 caracteres.",module,Magento_Customer
+"""%1"" length must be equal or less than %2 characters.","La longitud de ""%1"" debe ser igual o menor a los caracteres de %2.",module,Magento_Customer
 label,etiqueta,module,Magento_Customer
 "Customer Group","Grupo del cliente",module,Magento_Customer
 "Customer Group already exists.","Grupo de clientes ya existe.",module,Magento_Customer
@@ -1366,6 +1379,7 @@ Others,Otros,module,Magento_Dhl
 "Please, specify origin country","Por favor, indicar país de origen",module,Magento_Dhl
 Documents,Documentos,module,Magento_Dhl
 "Non Documents","No documentos",module,Magento_Dhl
+"Height, width and length should be equal or greater than %1","Altura, anchura y longitud deben ser igual o mayor que %1",module,Magento_Dhl
 "Wrong Region","Región incorrecta",module,Magento_Dhl
 "Unable to retrieve tracking","No se puede recuperar el seguimiento.",module,Magento_Dhl
 "Response is in the wrong format","La respuesta está en el formato incorrecto",module,Magento_Dhl
@@ -1543,6 +1557,7 @@ Unknown,Desconocido,module,Magento_Email
 "New System Template","Neue Systemvorlage",module,Magento_Email
 "Email Templates","Plantillas de correo electrónico",module,Magento_Email
 "Email Preview","Vista previa del correo electrónico",module,Magento_Email
+"An error occurred. The email template can not be opened for preview.","Se ha producido un error. La plantilla de correo electrónico no se puede abrir para vista previa.",module,Magento_Email
 "This email template no longer exists.","Esta plantilla de correo electrónico ya no existe.",module,Magento_Email
 "Base Unsecure URL","Dirección URL básica insegura",module,Magento_Email
 "Base Secure URL","Dirección URL básica segura",module,Magento_Email
@@ -1680,7 +1695,9 @@ Import/Export,Importar/Exportar,module,Magento_ImportExport
 Status,Estatus,module,Magento_ImportExport
 "Import successfully done","Importación realizada correctamente",module,Magento_ImportExport
 "File is valid! To start import process press ""Import"" button","El archivo no es correcto. Para empezar el proceso de importación pulse el botón ""Importar"".",module,Magento_ImportExport
+"Checked rows: %1, checked entities: %2, invalid rows: %3, total errors: %4","Controlar filas: %1, entidades marcadas: %2, filas no válidas: %3, total errores: %4",module,Magento_ImportExport
 "in rows:","en filas:",module,Magento_ImportExport
+"The input entity code is not equal to entity adapter code.","El código de la entidad de entrada no es igual al código adaptador de la entidad.",module,Magento_ImportExport
 "Please enter a correct entity.","Introduce una entidad correcta.",module,Magento_ImportExport
 "Please correct the file format.","Por favor corregir el formato del archivo.",module,Magento_ImportExport
 "Begin export of %1","Comenzar la exportación de %1",module,Magento_ImportExport
@@ -1692,8 +1709,10 @@ Status,Estatus,module,Magento_ImportExport
 "Begin import of ""%1"" with ""%2"" behavior","Comenzar la importación de ""%1"" con el comportamiento ""%2""",module,Magento_ImportExport
 "Begin data validation","Inicie la validación de los datos.",module,Magento_ImportExport
 "Please enter a correct entity model","Introduce un modelo de entidad correcto",module,Magento_ImportExport
+"Adapter must be an instance of \Magento\ImportExport\Model\Import\AbstractSource","Adaptador debe ser una instancia de \Magento\ImportExport\Model\Import\AbstractSource",module,Magento_ImportExport
 "Please specify a source.","Por favor especifique una fuente.",module,Magento_ImportExport
 "Cannot get autoincrement value","No se puede obtener un incremento automático del valor",module,Magento_ImportExport
+"Error in data structure: %1 values are mixed","Error en la estructura de datos: valores %1 se mezclan",module,Magento_ImportExport
 "-- Please Select --",--Seleccione--,module,Magento_ImportExport
 label,etiqueta,module,Magento_ImportExport
 Add/Update,Añadir/actualizar,module,Magento_ImportExport
@@ -1882,10 +1901,13 @@ Updated,Actualizado,module,Magento_Newsletter
 Sender,Remitente,module,Magento_Newsletter
 "Template Type","Tipo de plantilla",module,Magento_Newsletter
 Action,Acción,module,Magento_Newsletter
+"We unsubscribed the people you identified.","Hemos desuscrito a las personas que has identificado.",module,Magento_Newsletter
+"The problems you identified have been deleted.","Los problemas identificados han sido eliminados.",module,Magento_Newsletter
 "Newsletter Problems Report","Informes de problemas del boletín informativo",module,Magento_Newsletter
 "Newsletter Problem Reports","Informes de problemas del boletín informativo",module,Magento_Newsletter
 "Newsletter Queue","Cola del boletín informativo",module,Magento_Newsletter
 "Edit Queue","Editar la cola de tareas",module,Magento_Newsletter
+"Please correct the newsletter template and try again.","Por favor, corrige el template de la newsletter y vuelve a probar.",module,Magento_Newsletter
 "Newsletter Subscribers","Suscriptores del boletín informativo",module,Magento_Newsletter
 Newsletter,"Boletín informativo",module,Magento_Newsletter
 Subscribers,Suscriptores,module,Magento_Newsletter
@@ -1897,14 +1919,18 @@ Subscribers,Suscriptores,module,Magento_Newsletter
 "Create Newsletter Template","Crear plantilla para el boletín de informativo",module,Magento_Newsletter
 "The newsletter template has been saved.","Se ha guardado la plantilla de boletín de noticias.",module,Magento_Newsletter
 "Newsletter Subscription","Suscripción al boletín informativo",module,Magento_Newsletter
+"Something went wrong while saving your subscription.","Algo ha fallado mientras grabábamos tu suscripción.",module,Magento_Newsletter
 "We saved the subscription.","Se guardó la suscripción.",module,Magento_Newsletter
 "We removed the subscription.","Quitamos la suscripción.",module,Magento_Newsletter
 "Your subscription has been confirmed.","Su suscripción ha sido confirmada.",module,Magento_Newsletter
+"This is an invalid subscription confirmation code.","El código de confirmación de suscripción es incorrecto.",module,Magento_Newsletter
 "This is an invalid subscription ID.","Este es un ID de suscripción inválido.",module,Magento_Newsletter
 "This email address is already assigned to another user.","Esta dirección de correo ya se asignó a otro usuario.",module,Magento_Newsletter
 "Please enter a valid email address.","Por favor, ingrese una dirección de correo electrónico válida.",module,Magento_Newsletter
 "The confirmation request has been sent.","La solicitud de confirmación ha sido enviada.",module,Magento_Newsletter
 "Thank you for your subscription.","Gracias por suscribirse.",module,Magento_Newsletter
+"There was a problem with the subscription: %1","Hubo un problema tu suscripción: %1",module,Magento_Newsletter
+"Something went wrong with the subscription.","Algo fallo con la suscripción.",module,Magento_Newsletter
 Sent,Enviado,module,Magento_Newsletter
 Cancelled,Cancelado,module,Magento_Newsletter
 "Not Sent","No enviado",module,Magento_Newsletter
@@ -2026,16 +2052,24 @@ Close,Cerrar,module,Magento_Paypal
 "Incl. Tax","Impuestos incl.",module,Magento_Paypal
 "Billing Information","Información de facturación",module,Magento_Paypal
 "Shipping Information","Información de envío",module,Magento_Paypal
+"Please specify the correct billing agreement ID and try again.","Por favor, especifique el ID de acuerdo facturación correcto y vuelva a intentarlo.",module,Magento_Paypal
 "You canceled the billing agreement.","Se ha cancelado el acuerdo de facturación.",module,Magento_Paypal
 "You deleted the billing agreement.","Se ha eliminado el acuerdo de facturación.",module,Magento_Paypal
 Reports,Informes,module,Magento_Paypal
 Sales,Ventas,module,Magento_Paypal
 "View Transaction","Ver transacción",module,Magento_Paypal
+"We found nothing to fetch because of an empty configuration.","No hemos encontrado nada para buscar debido a falta de configuración.",module,Magento_Paypal
+"The billing agreement ""%1"" has been canceled.","El acuerdo de facturación ""%1"" se ha cancelado.",module,Magento_Paypal
+"The billing agreement ""%1"" has been created.","El acuerdo de facturación ""%1"" se ha creado.",module,Magento_Paypal
 "PayPal Express Checkout Token does not exist.","El símbolo para la Salida Express con Paypal no existe.",module,Magento_Paypal
+"A wrong PayPal Express Checkout Token is specified.","Se ha especificado incorrectamente un Token de PayPal Express Checkout.",module,Magento_Paypal
 "Express Checkout and Order have been canceled.","El pedido y la Caja Express se han cancelado.",module,Magento_Paypal
 "Express Checkout has been canceled.","La Caja Express se ha cancelado.",module,Magento_Paypal
 "Unable to cancel Express Checkout","No se ha podido cancelar Express Checkout",module,Magento_Paypal
+"Your payment has been declined. Please try again.","Su pago ha sido rechazado. Por favor, inténtelo de nuevo.",module,Magento_Paypal
+"Requested payment method does not match with order.","La forma de pago seleccionada no coincide con el pedido.",module,Magento_Paypal
 "PayPal response hasn't required fields.","La respuesta de PayPal no tiene campos obligatorios.",module,Magento_Paypal
+"Something went wrong while processing your order.","Algo salió mal durante el procesamiento de su pedido.",module,Magento_Paypal
 "PayPal gateway has rejected request. %1","La puerta de enlace de PayPal ha rechazado la solicitud. %1",module,Magento_Paypal
 "The payment method code is not set.","No se estableció el código de método de pago.",module,Magento_Paypal
 "The reference ID is not set.","No se estableció el ID de referencia.",module,Magento_Paypal
@@ -2066,6 +2100,7 @@ Never,Nunca,module,Magento_Paypal
 "IPN (Instant Payment Notification) Only","Nur IPN (Sofortzahlungsbenachrichtigung)",module,Magento_Paypal
 "API Signature","Firma API",module,Magento_Paypal
 "API Certificate","Certificdo API",module,Magento_Paypal
+"The ordering amount of %1 is pending approval on the payment gateway.","La cantidad de pedidos de %1 está pendiente de aprobación en la pasarela de pago.",module,Magento_Paypal
 "Ordered amount of %1","Cantidad ordenada de %1",module,Magento_Paypal
 "The authorized amount is %1.","El monto autorizado es %1.",module,Magento_Paypal
 "The maximum number of child authorizations is reached.","Se ha alcanzado el número máximo de autorizaciones infantiles.",module,Magento_Paypal
@@ -2075,6 +2110,7 @@ Never,Nunca,module,Magento_Paypal
 "The payment is pending because it was made to an email address that is not yet registered or confirmed.","El pago está pendiente porque se ha realizado a una dirección de mail que todavía no se ha registrado o confirmado.",module,Magento_Paypal
 "The merchant account is not yet verified.","Todavía no se ha verificado la cuenta de vendedor.",module,Magento_Paypal
 "The payment was made via credit card. In order to receive funds merchant must upgrade account to Business or Premier status.","El pago se ha realizado mediante tarjeta de crédito. Para recibir los fondos el vendedor tiene que actualizar la cuenta a estado Business o Premier.",module,Magento_Paypal
+"Sorry, but something went wrong. Please contact PayPal customer service.","Lo sentimos, pero algo salió mal. Por favor, póngase en contacto con servicio al cliente de PayPal.",module,Magento_Paypal
 "A reversal has occurred on this transaction due to a chargeback by your customer.","Se ha producido una revocación en esta transacción a causa de una cancelación de cargo por parte del cliente.",module,Magento_Paypal
 "A reversal has occurred on this transaction due to your customer triggering a money-back guarantee.","Se ha producido una revocación en esta transacción a causa de que el cliente ha puesto en marcha la garantía de devolución del dinero.",module,Magento_Paypal
 "A reversal has occurred on this transaction due to a complaint about the transaction from your customer.","Se ha producido una revocación en esta transacción a causa de una queja acerca de la misma por parte del cliente.",module,Magento_Paypal
@@ -2106,6 +2142,7 @@ Chargeback,"Devolución del importe",module,Magento_Paypal
 Complaint,Reclamación,module,Magento_Paypal
 Dispute,Conflicto,module,Magento_Paypal
 "Matched Address only (no ZIP)","Sólo dirección correspondiente (no CP)",module,Magento_Paypal
+"Matched Address only (no ZIP) International","Una coincidencia de dirección única (sin código postal) internacional",module,Magento_Paypal
 "No Details matched","No ha habido coincidencias",module,Magento_Paypal
 "No Details matched. International","Los detalles no coinciden. Internacional",module,Magento_Paypal
 "Exact Match. Address and Postal Code. International","Coincidencia exacta. Dirección y Código Postal. Internacional",module,Magento_Paypal
@@ -2136,8 +2173,14 @@ Dispute,Conflicto,module,Magento_Paypal
 "N/A. Merchant has indicated that CVV2 is not present on card","No disponible. El comerciante ha notificado que su tarjeta no tiene CVV2.",module,Magento_Paypal
 "Note: %1","Nota: %1",module,Magento_Paypal
 "IPN ""%1"". Case type ""%2"". Case ID ""%3"" %4","IPN ""%1"". Tipo de caso ""%2"". ID de caso ""%3"" %4",module,Magento_Paypal
+"IPN ""%1"". A dispute has been resolved and closed. %2 Transaction amount %3.","IPN ""%1"". Se ha resuelto y cerrado un conflicto. %2 Cantidad de la transacción %3.",module,Magento_Paypal
 "You notified customer about invoice #%1.","Cliente notificado de la factura #%1.",module,Magento_Paypal
+"IPN ""%1"". %2 Transaction amount %3. Transaction ID: ""%4""","IPN ""%1"". %2 La cantidad de la transacción es %3. ID de la transacción: ""%4""",module,Magento_Paypal
+"You notified customer about creditmemo #%1.","Se le ha notificado al ciente sobre la nota de crédito #%1.",module,Magento_Paypal
 "We cannot send the new order email.","No podemos enviar el email de nueva orden.",module,Magento_Paypal
+"You cannot void a verification transaction.","No se puede anular una operación de comprobación.",module,Magento_Paypal
+"You need an authorization transaction to void.","Necesita una transacción de autorización para anular.",module,Magento_Paypal
+"We cannot create a target file for reading reports.","No podemos crear un archivo de destino para la lectura de informes.",module,Magento_Paypal
 "Report Date","Fecha del informe",module,Magento_Paypal
 "Merchant Account","Cuenta del comerciante",module,Magento_Paypal
 "Transaction ID","Número identificativo de la transacción",module,Magento_Paypal
@@ -2335,10 +2378,13 @@ Shipping,Envío,module,Magento_Quote
 "Item qty declaration error","Error en la cantidad del artículo",module,Magento_Quote
 "Some of the products below do not have all the required options.","Alguno de los siguientes artículos no cumple con todas las opciones requeridas.",module,Magento_Quote
 "Something went wrong during the item options declaration.","Algo salió mal durante la declaración de opciones de artículo.",module,Magento_Quote
+"We found an item options declaration error.","Hemos encontrado un error de declaración en las opciones de artículo.",module,Magento_Quote
 "Some of the selected options are not currently available.","Algunas de las opciones seleccionadas no están disponibles actualmente.",module,Magento_Quote
 "Selected option(s) or their combination is not currently available.","La opción seleccionada, o su combinación, no está disponible actualmente.",module,Magento_Quote
 "Some item options or their combination are not currently available.","Algunas opciones de artículo, o su combinación, no están disponibles actualmente.",module,Magento_Quote
+"Please check the shipping address information. %1","Por favor compruebe la información de la dirección de envío. %1",module,Magento_Quote
 "Please specify a shipping method.","Por favor, especifique un modo de envío.",module,Magento_Quote
+"Please check the billing address information. %1","Por favor compruebe la información de la dirección de envío. %1",module,Magento_Quote
 "Please select a valid payment method.","Por favor, seleccione un modo de pago válido.",module,Magento_Quote
 "Store Credit","Crédito de tienda",module,Magento_Quote
 Discount,Descuento,module,Magento_Quote
@@ -2473,6 +2519,7 @@ Coupons,Cupones,module,Magento_Reports
 Statistics,Estadísticas,module,Magento_Reports
 "No report code is specified.","No especificado ningún código de informe.",module,Magento_Reports
 "Recent statistics have been updated.","Neueste Statistiken sind aktualisiert worden.",module,Magento_Reports
+"The product type filter specified is incorrect.","El filtro de tipo de producto especificado es incorrecto.",module,Magento_Reports
 "Order Taxes Report Grouped by Tax Rates","Impuestos del pedido agrupados por tasas de impuestos",module,Magento_Reports
 "Total Invoiced VS Paid Report","Total facturado VS Informe de pago",module,Magento_Reports
 "Promotion Coupons Usage Report","Informe de utilización de cupones de promoción",module,Magento_Reports
@@ -2543,10 +2590,14 @@ Websites,"Sitios web",module,Magento_Review
 "Pending Reviews RSS","RSS de reseñas pendientes",module,Magento_Review
 Reviews,Reseñas,module,Magento_Review
 "The review has been deleted.","Se eliminó la reseña.",module,Magento_Review
+"Something went wrong  deleting this review.","Algo salió mal en borrar esta revisión.",module,Magento_Review
 "Customer Reviews","Reseñas de cliente",module,Magento_Review
 "Edit Review","Editar Comentarios",module,Magento_Review
 "Please select review(s).","Por favor, seleccione revisión(es).",module,Magento_Review
+"A total of %1 record(s) have been deleted.","Se han actualizado un total de %1 registro(s).",module,Magento_Review
+"A total of %1 record(s) have been updated.","Se han actualizado un total de %1 registro(s).",module,Magento_Review
 "You saved the review.","Guardaste la revisión.",module,Magento_Review
+"Something went wrong while saving this review.","Algo salió mal al guardar este evento.",module,Magento_Review
 "The review was removed by another user or does not exist.","La reseña no existe o fue eliminada por otro usuario.",module,Magento_Review
 "You deleted the rating.","Borró la calificación.",module,Magento_Review
 Ratings,Calificaciones,module,Magento_Review
@@ -2676,12 +2727,16 @@ Promotions,Promociones,module,Magento_SalesRule
 "Rule is not defined","Regla no definida",module,Magento_SalesRule
 "Invalid data provided","Datos no válidos",module,Magento_SalesRule
 "%1 coupon(s) have been generated.","Se han generado %1 cupones.",module,Magento_SalesRule
+"Something went wrong while generating coupons. Please review the log and try again.","Algo salió mal y generar cupones. Por favor, revise el registro y vuelva a intentarlo.",module,Magento_SalesRule
 Catalog,Catálogo,module,Magento_SalesRule
 "The wrong rule is specified.","Regla especificada incorrecta.",module,Magento_SalesRule
 Alphanumeric,Alfanumérico,module,Magento_SalesRule
 Alphabetical,Alfabético,module,Magento_SalesRule
 Numeric,Numérico,module,Magento_SalesRule
+"We cannot create the requested Coupon Qty. Please check your settings and try again.","No podemos crear en el Cant de cupón solicitado. Por favor, compruebe su configuración e intente nuevamente.",module,Magento_SalesRule
 "Specified rule does not allow coupons","Regla especificada no permite cupones",module,Magento_SalesRule
+"Specified rule only allows auto generated coupons","Regla especificada sólo permite cupones de auto generado",module,Magento_SalesRule
+"Specified rule does not allow auto generated coupons","Regla especificada no permite cupones de auto generado",module,Magento_SalesRule
 "Error occurred when saving coupon: %1","Error al guardar el cupón: %1",module,Magento_SalesRule
 "Discount (%1)","Descuento (%1)",module,Magento_SalesRule
 Discount,Descuento,module,Magento_SalesRule
@@ -2715,6 +2770,7 @@ Discount,Descuento,module,Magento_SalesRule
 "Product Attribute","Atributos del artículo",module,Magento_SalesRule
 FOUND,ENCONTRADO,module,Magento_SalesRule
 "NOT FOUND","NO ENCONTRADO",module,Magento_SalesRule
+"If an item is %1 in the cart with %2 of these conditions true:","Si un artículo es %s en la cesta con %s de estas condiciones verdaderas:",module,Magento_SalesRule
 "total quantity","Suma total",module,Magento_SalesRule
 "total amount","Cantidad total",module,Magento_SalesRule
 is,es,module,Magento_SalesRule
@@ -2725,6 +2781,9 @@ is,es,module,Magento_SalesRule
 "less than","menor que",module,Magento_SalesRule
 "is one of","es uno de",module,Magento_SalesRule
 "is not one of","no es uno de",module,Magento_SalesRule
+"If %1 %2 %3 for a subselection of items in cart matching %4 of these conditions:","Si %s %s %s para una subselección de artículos en la cesta coincidiendo %s de estas condiciones:",module,Magento_SalesRule
+"Specified rule does not allow automatic coupon generation","Regla especificada no permite la generación automática del cupón",module,Magento_SalesRule
+"Error occurred when generating coupons: %1","Error al generar cupones: %1",module,Magento_SalesRule
 "Some coupons are invalid.","Algunos cupones no son válidos.",module,Magento_SalesRule
 "Item totals are not set for the rule.","No se han establecido totales de artículo para la regla.",module,Magento_SalesRule
 "Credit Memos","Facturas rectificadas",module,Magento_Sales
@@ -2835,6 +2894,7 @@ Capture,Captura,module,Magento_Sales
 "Total Refunded","Total reembolsado",module,Magento_Sales
 "Total Due","Total debido",module,Magento_Sales
 Edit,Editar,module,Magento_Sales
+"Are you sure you want to send an order email to customer?","¿Realmente quiere enviar al cliente un mensaje electrónico de pedido?",module,Magento_Sales
 "Are you sure you want to void the payment?","¿Realmente quiere anular el pago?",module,Magento_Sales
 Hold,Retener,module,Magento_Sales
 hold,Retener,module,Magento_Sales
@@ -2850,6 +2910,7 @@ Invoice,Factura,module,Magento_Sales
 Ship,Enviar,module,Magento_Sales
 Reorder,"Repetir pedido",module,Magento_Sales
 "Order # %1 %2 | %3","Pedido nº %1 %2 | %3",module,Magento_Sales
+"Are you sure? This order will be canceled and a new one will be created instead.","¿Está seguro? Este pedido será cancelado y uno nuevo será creado en su lugar.",module,Magento_Sales
 "Save Gift Message","Guardar mensaje de regalo",module,Magento_Sales
 "Order Credit Memos","Pedido - Facturas rectificadas",module,Magento_Sales
 "Credit memo #%1 created","Factura rectificada nº %1 creada",module,Magento_Sales
@@ -2907,6 +2968,7 @@ Sales,Ventas,module,Magento_Sales
 "The credit memo has been canceled.","La factura rectificada ha sido cancelada.",module,Magento_Sales
 "New Memo for #%1","Nuevo memorándum para nº %1",module,Magento_Sales
 "New Memo","Nuevo memorándum",module,Magento_Sales
+"Cannot create online refund for Refund to Store Credit.","No se puede crear el reembolso en línea de devolución al almacén de crédito.",module,Magento_Sales
 "You created the credit memo.","Ha creado la factura rectificada.",module,Magento_Sales
 "View Memo for #%1","Ver memorándum para nº %1",module,Magento_Sales
 "View Memo","Ver memorándum",module,Magento_Sales
@@ -2920,6 +2982,7 @@ Sales,Ventas,module,Magento_Sales
 "Invoice canceling error","Error al cancelar la factura",module,Magento_Sales
 "The invoice has been captured.","La factura ha sido capturada.",module,Magento_Sales
 "Invoice capturing error","Error al capturar la factura",module,Magento_Sales
+"The order does not allow an invoice to be created.","El orden no permite una factura ser creado.",module,Magento_Sales
 "New Invoice","Nueva factura",module,Magento_Sales
 "You created the invoice and shipment.","Ha creado factura y albarán.",module,Magento_Sales
 "The invoice has been created.","La factura ha sido creada.",module,Magento_Sales
@@ -2932,18 +2995,27 @@ Sales,Ventas,module,Magento_Sales
 "%1 order(s) were not put on hold.","%1 pedidos no fueron puestos en espera.",module,Magento_Sales
 "No order(s) were put on hold.","Ningún pedido fue puesto en suspenso.",module,Magento_Sales
 "You have put %1 order(s) on hold.","Ha puesto %1 pedidos en espera.",module,Magento_Sales
+"%1 order(s) were not released from on hold status.","%1 los pedidos no eran liberados de en estado de espera.",module,Magento_Sales
+"No order(s) were released from on hold status.","No hay pedidos fueron lanzados de en estado de espera.",module,Magento_Sales
+"%1 order(s) have been released from on hold status.","%1 los pedidos han sido liberados de en estado de espera.",module,Magento_Sales
 "There are no printable documents related to selected orders.","No hay documentos para imprimir relacionados con los pedidos seleccionados.",module,Magento_Sales
 "The payment has been accepted.","El pago se ha aceptado.",module,Magento_Sales
 "The payment has been denied.","El pago ha sido denegado.",module,Magento_Sales
 "Create New Order Status","Nuevo estado de pedido",module,Magento_Sales
+"We found another order status with the same order status code.","Nos encontramos con otro estado de la orden con el mismo código de estado de orden.",module,Magento_Sales
 "You have unassigned the order status.","Ha desasignado el estado del pedido.",module,Magento_Sales
+"You released the order from holding status.","Se publicó la orden del estado.",module,Magento_Sales
 "The order was not on hold.","La orden no estaba en espera.",module,Magento_Sales
 "Exception occurred during order load","Se produjo una excepción durante la carga de la orden",module,Magento_Sales
+"Something went wrong while saving the gift message.","Algo salió mal al guardar el mensaje de regalo.",module,Magento_Sales
 "The payment has been voided.","El pago ha sido anulado.",module,Magento_Sales
+"Please correct the transaction ID and try again.","Por favor corregir el identificador de transacción y vuelva a intentarlo.",module,Magento_Sales
 "The transaction details have been updated.","Se han actualizado los detalles de la transacción.",module,Magento_Sales
 "Orders and Returns","Pedidos y devoluciones",module,Magento_Sales
+"You entered incorrect data. Please try again.","Había ingresado datos incorrectos. Por favor, inténtelo de nuevo.",module,Magento_Sales
 Home,Inicio,module,Magento_Sales
 "Go to Home Page","Ir a inicio",module,Magento_Sales
+"We could not add a product to cart by the ID ""%1"".","No pudimos añadir un producto a la cesta por el ID ""%1"".",module,Magento_Sales
 "There is an error in one of the option rows.","Hay un error en una de las opciones de las filas.",module,Magento_Sales
 "This payment method is not available.","Este método de pago no está disponible.",module,Magento_Sales
 "A hold action is not available.","Una acción de retención no está disponible.",module,Magento_Sales
@@ -2954,6 +3026,8 @@ Pending,Pendiente,module,Magento_Sales
 Refunded,Reembolsado,module,Magento_Sales
 Canceled,Cancelado,module,Magento_Sales
 "Unknown State","Estado desconocido",module,Magento_Sales
+"We found an invalid quantity to refund item ""%1"".","Encontramos una cantidad válida para devolver el elemento ""%1"".",module,Magento_Sales
+"Maximum shipping amount allowed to refund is: %1","Importe máximo permitido del envío para reembolsar es: %s",module,Magento_Sales
 Paid,Pagado,module,Magento_Sales
 "We cannot register an existing invoice","No podemos registrar una factura existente",module,Magento_Sales
 "Unknown Status","Estatus desconocido",module,Magento_Sales
@@ -2965,8 +3039,11 @@ Returned,Devuelto,module,Magento_Sales
 Partial,Parcial,module,Magento_Sales
 Mixed,Mixto,module,Magento_Sales
 "Registered a Void notification.","Recibido una noticia vacía.",module,Magento_Sales
+"If the invoice was created offline, try creating an offline credit memo.","Si la factura se creó fuera de línea, intente crear un creditmemo en línea.",module,Magento_Sales
 "We refunded %1 online.","Devolvimos %1 en línea.",module,Magento_Sales
 "We refunded %1 offline.","Devolvimos %1 fuera de línea.",module,Magento_Sales
+"The credit memo has been created automatically.","La nota de crédito se ha creado automáticamente.",module,Magento_Sales
+"Registered notification about refunded amount of %1.","Recibido una noticia acerca de un importe reembolsado de %s.",module,Magento_Sales
 "Canceled order online","Pedido cancelado en línea",module,Magento_Sales
 "Canceled order offline","Pedido cancelado fuera de línea",module,Magento_Sales
 "Approved the payment online.","El pago ha sido aprobado a distancia.",module,Magento_Sales
@@ -2978,14 +3055,23 @@ Mixed,Mixto,module,Magento_Sales
 "Voided authorization.","Autorización anulada.",module,Magento_Sales
 "Amount: %1.","Cantidad: %1.",module,Magento_Sales
 "Transaction ID: ""%1""","Identificador de la transacción: ""%1""",module,Magento_Sales
+"The transaction ""%1"" cannot be captured yet.","La transacción ""%s"" todavía no puede ser capturada.",module,Magento_Sales
+"We will authorize %1 after the payment is approved at the payment gateway.","Le autorizamos a %1 después de que el pago es aprobado en la pasarela de pago.",module,Magento_Sales
 "Authorized amount of %1","Importe autorizado de %1",module,Magento_Sales
+"An amount of %1 will be captured after being approved at the payment gateway.","Una cantidad de %1 será capturada después de ser aprobado en la pasarela de pago.",module,Magento_Sales
 "Captured amount of %1 online","Cantidad capturada de %1 en línea",module,Magento_Sales
+"The order amount of %1 is pending approval on the payment gateway.","La cantidad de pedidos de %1 está pendiente de aprobación en la pasarela de pago.",module,Magento_Sales
 "Ordered amount of %1","Cantidad ordenada de %1",module,Magento_Sales
+"Registered notification about captured amount of %1.","Recibido una noticia acerca de un importe capturado de %s.",module,Magento_Sales
+"Order is suspended as its capture amount %1 is suspected to be fraudulent.","Se ha suspendido el pedido porque se sospecha que su cantidad tomada %s puede ser fraudulenta.",module,Magento_Sales
+"The parent transaction ID must have a transaction ID.","ID de transacción principal debe tener una ID de transacción.",module,Magento_Sales
 "Payment transactions disallow storing objects.","Las operaciones de pago no permiten almacenar objetos.",module,Magento_Sales
+"The transaction ""%1"" (%2) is already closed.","La transacción ""%s"" (%s) ya está cerrada.",module,Magento_Sales
 "Set order for existing transactions not allowed","No se le permite configurar un pedido de una transacción existente.",module,Magento_Sales
 "At minimum, you need to set a payment ID.","Como mínimo, es necesario establecer una ID de pago.",module,Magento_Sales
 Order,Pedido,module,Magento_Sales
 Authorization,Autorización,module,Magento_Sales
+"We found an unsupported transaction type ""%1"".","Encontramos un tipo de transacción ""%1"".",module,Magento_Sales
 "Sold to:","Vendido a:",module,Magento_Sales
 "Ship to:","Enviar a:",module,Magento_Sales
 "Payment Method:","Método de pago:",module,Magento_Sales
@@ -2994,6 +3080,7 @@ Authorization,Autorización,module,Magento_Sales
 Title,Título,module,Magento_Sales
 Number,Número,module,Magento_Sales
 "We found an invalid renderer model.","Encontramos un modelo de renderizado no válido.",module,Magento_Sales
+"Please define the PDF object before using.","Por favor, defina un objeto PDF ante de su uso.",module,Magento_Sales
 Products,Productos,module,Magento_Sales
 "Total (ex)","Total (excl.)",module,Magento_Sales
 Qty,Cantidad,module,Magento_Sales
@@ -3007,6 +3094,7 @@ Qty,Cantidad,module,Magento_Sales
 "Incl. Tax","Impuestos incl.",module,Magento_Sales
 title,Título,module,Magento_Sales
 "We cannot register an existing shipment","No se puede registrar un envío existente",module,Magento_Sales
+"The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","El modelo total debe extenderse desde \Magento\Sales\Model\Order\Total\AbstractTotal.",module,Magento_Sales
 "We cannot determine the field name.","No se puede determinar el nombre del campo.",module,Magento_Sales
 City,Cuidad,module,Magento_Sales
 Company,Empresa,module,Magento_Sales
@@ -3018,7 +3106,10 @@ State/Province,Estado/Provincia,module,Magento_Sales
 "Street Address",Domicilio,module,Magento_Sales
 "Zip/Postal Code","Código Postal",module,Magento_Sales
 "We cannot create an empty shipment.","No se puede crear un envio vacío.",module,Magento_Sales
+"We cannot register an existing credit memo.","No se puede registrar una factura rectificada existente.",module,Magento_Sales
 "The most money available to refund is %1.","La mayor cantidad de dinero disponible para devolución es %1.",module,Magento_Sales
+"We found an invalid quantity to invoice item ""%1"".","Encontramos una cantidad válida para facturar el artículo ""%1"".",module,Magento_Sales
+"The Order State ""%1"" must not be set manually.","El estado del pedido ""%s"" no se debe establecer manualmente.",module,Magento_Sales
 "VAT Request Identifier","Identificador de petición de IVA",module,Magento_Sales
 "VAT Request Date","Fecha de petición de IVA",module,Magento_Sales
 "Pending Payment","Pago pendiente",module,Magento_Sales
@@ -3057,6 +3148,7 @@ Action,Acción,module,Magento_Sales
 "Move to Shopping Cart","Al carrito de la compra",module,Magento_Sales
 "Subscribe to Newsletter","Suscribir al boletín informativo",module,Magento_Sales
 "Click to change shipping method","Haz click aquí para cambiar el método de envío",module,Magento_Sales
+"Sorry, no quotes are available for this order.","Lo sentimos, no hay citas disponibles para este pedido.",module,Magento_Sales
 "Get shipping methods and rates","Obtener métodos de envío y tarifas",module,Magento_Sales
 Refresh,Actualizar,module,Magento_Sales
 Item,Articulo,module,Magento_Sales
@@ -3213,6 +3305,7 @@ Shipments,Albaranes,module,Magento_Shipping
 "There are no shipping labels related to selected shipments.","No existen etiquetas de envío vinculadas a los envíos seleccionados.",module,Magento_Shipping
 "Tracking Information","Información de seguimiento",module,Magento_Shipping
 "The shipping module is not available.","El módulo de envío no está disponible.",module,Magento_Shipping
+"This shipping method is not available. Please specify the zip code.","Este método de envío no está disponible. Por favor especificar el código postal.",module,Magento_Shipping
 "No packages for request","No hay paquetes que solicitar",module,Magento_Shipping
 "All Allowed Countries","Todos los países permitidos",module,Magento_Shipping
 "Specific Countries","Especifique países.",module,Magento_Shipping
@@ -3371,6 +3464,7 @@ Priority,Prioridad,module,Magento_Tax
 "Tax rates at the same priority are added, others are compounded.","Las tarifas tributarias con la misma prioridad son añadidas, las demás son compuestas.",module,Magento_Tax
 "Calculate Off Subtotal Only","Calcular sólo del subtotal",module,Magento_Tax
 "Sort Order","Orden de aparición",module,Magento_Tax
+"Do you really want to delete this tax class?","¿Realmente desea eliminar esta clase de impuesto?",module,Magento_Tax
 "Add New Tax Class","Añadir nueva clase fiscal",module,Magento_Tax
 "Shipping Incl. Tax (%1)","Envío incluido impuestos (%1)",module,Magento_Tax
 "Shipping Excl. Tax (%1)","Envío no incluido impuestos (%1)",module,Magento_Tax
@@ -3390,12 +3484,15 @@ Tax,Impuestos,module,Magento_Tax
 "Tax Rules","Reglas de impuestos",module,Magento_Tax
 "The tax rule has been deleted.","Esta regla tributaria ha sido eliminada.",module,Magento_Tax
 "This rule no longer exists.","Esta regla ya no existe.",module,Magento_Tax
+"Something went wrong deleting this tax rule.","Algo salió mal en eliminar esta regla fiscal.",module,Magento_Tax
 "New Tax Rule","Nueva regla fiscal",module,Magento_Tax
 "Edit Rule","Editar regla",module,Magento_Tax
 "New Rule","Nueva regla",module,Magento_Tax
 "Maximum zip code length is 9.","La longitud máximo del código zip es de 9.",module,Magento_Tax
 "Range To should be equal or greater than Range From.","El rango superior debe ser igual o superior al rango inferior.",module,Magento_Tax
 "This class no longer exists.","Esta clase ya no existe.",module,Magento_Tax
+"You cannot delete this tax class because it is used in Tax Rules. You have to delete the rules it is used in first.","No puede eliminar esta clase de impuestos ya que está siendo utilizada en las reglas tributarias (tax rules). Debe eliminar las reglas que está utilizando primero.",module,Magento_Tax
+"You cannot delete this tax class because it is used in existing %1(s).","No se puede eliminar esta clase de impuesto ya que se utiliza en %1(s) existentes.",module,Magento_Tax
 "Custom price if available","Precio individual si está disponible",module,Magento_Tax
 "Original price only","Sólo precio original",module,Magento_Tax
 "Shipping Address","Dirección de envío",module,Magento_Tax
@@ -3419,11 +3516,15 @@ Code,Código,module,Magento_Tax
 "Including Tax","Impuestos incluídos",module,Magento_Tax
 None,Ninguno,module,Magento_Tax
 "Including and Excluding Tax","Inclusión y exclusión de impuestos",module,Magento_Tax
+"Click on the link to <a href=""%1"">ignore this notification</a>","Haga clic en el enlace de hacer <a href=""%1""> caso omiso a esta notificación</a>",module,Magento_Tax
+"Click here to go to <a href=""%1"">Tax Configuration</a> and change your settings.","Pulse aquí para ir a <a href=""%s"">configuración de impuestos</a> y cambiar la configuración.",module,Magento_Tax
 "customer group","grupo de clientes",module,Magento_Tax
 product,artículo,module,Magento_Tax
 "Incl. Tax","Impuestos incl.",module,Magento_Tax
 "Excl. Tax","Impuestos NO Incl.",module,Magento_Tax
 Note:,Nota:,module,Magento_Tax
+"Leave this field empty if you wish to use the tax identifier.","Deje este campo vacío si desea utilizar el identificador fiscal.",module,Magento_Tax
+"Do you really want to delete this tax rate?","¿Realmente desea eliminar esta clase de impuesto?",module,Magento_Tax
 Save,Guardar,module,Magento_Tax
 "Add New Class","Añadir nueva clase fiscal",module,Magento_Tax
 "Grand Total Excl. Tax","Total sin incluir impuestos",module,Magento_Tax
@@ -3655,6 +3756,7 @@ Role,Rol,module,Magento_User
 "User Info","Información de usuario",module,Magento_User
 "User Role","Funcion del usuario",module,Magento_User
 "Please correct the password reset token.","Por favor corrija el token para resetear el password.",module,Magento_User
+"Please specify the correct account and try again.","Por favor, especifique la cuenta correcta e inténtelo de nuevo.",module,Magento_User
 "Your password reset link has expired.","Su enlace de restablecimiento de contraseña ha caducado.",module,Magento_User
 "Please correct this email address:","Por favor, corregir el email:",module,Magento_User
 "Locked Users","Usuarios bloqueados",module,Magento_User
@@ -3674,14 +3776,20 @@ Permissions,Permisos,module,Magento_User
 "You saved the role.","Guardó el rol.",module,Magento_User
 "An error occurred while saving this role.","Error al guardar esta funcion.",module,Magento_User
 "You saved the user.","Se ha guardado el usuario.",module,Magento_User
+"A user with the same user name or email already exists.","Ya existe un usuario con el mismo nombre de usuario o correo electrónico.",module,Magento_User
 Recommended,Recomendado,module,Magento_User
 Forced,Forzado,module,Magento_User
+"Sorry, but this password has already been used. Please create another.","Lo sentimos, pero esta contraseña ya ha sido utilizada. Por favor crea otro.",module,Magento_User
 "You did not sign in correctly or your account is temporarily disabled.","Usted no se inscribió correctamente o su cuenta se ha desactivado temporalmente.",module,Magento_User
 "User Name is a required field.","Se requiere nombre de usuario.",module,Magento_User
 "First Name is a required field.","Se requiere nombre.",module,Magento_User
 "Last Name is a required field.","Se requiere apellidos.",module,Magento_User
 "Please enter a valid email.","Por favor ingrese un email válido.",module,Magento_User
 "Password is required field.","Se requiere contraseña.",module,Magento_User
+"Your password must be at least %1 characters.","Tu contraseña debe tener al menos caracteres %1.",module,Magento_User
+"Your password must include both numeric and alphabetic characters.","Passwort muss sowohl numerische als auch alphabetische Zeichen enthalten.",module,Magento_User
+"Your password confirmation must match your password.","La confirmación de su contraseña debe coincidir con la contraseña.",module,Magento_User
+"Your password has expired; please contact your administrator.","Su contraseña ha caducado; por favor, póngase en contacto con su administrador.",module,Magento_User
 "Retrieve Password","Recuperar contraseña",module,Magento_User
 "Forgot your password?","¿Olvidó su contraseña?",module,Magento_User
 "Reset a Password","Reinicializar contraseña",module,Magento_User
@@ -3904,6 +4012,7 @@ OK,Aceptar,module,Magento_Catalog
 Allow,Permitir,module,Magento_Integration
 Done,Hecho,module,Magento_Integration
 "Sorry, something went wrong.","Lo sentimos, algo salió mal.",module,Magento_Paypal
+"Sorry, something went wrong. Please try again later.","Lo sentimos, algo salió mal. Por favor Inténtelo más tarde.",module,Magento_Paypal
 "Add Products","Añadir artículos",module,Magento_Sales
 Ok,Aceptar,module,Magento_Sales
 "We don't recognize this file extension.","No reconocemos esta extensión de archivo.",module,Magento_Theme
@@ -4305,6 +4414,7 @@ Contacts,Contactos,module,Magento_Contact
 "Validate on Each Transaction","Validar en cada transacción",module,Magento_Customer
 "Default Value for Disable Automatic Group Changes Based on VAT ID","Valor para Disable Automatic Group Changes Based on VAT ID (predeterminado)",module,Magento_Customer
 "Show VAT Number on Storefront","Mostrar el número VAT en el Frontend",module,Magento_Customer
+"To show VAT number on Storefront, set Show VAT Number on Storefront option to Yes.","Para mostrar número de IVA en tienda, establezca mostrar número de IVA en la opción de la tienda en sí.",module,Magento_Customer
 "Default Email Domain","Dominio de correo electrónico (predeterminado)",module,Magento_Customer
 "Default Welcome Email","Correo de bienvenida (predeterminado)",module,Magento_Customer
 "Default Welcome Email Without Password","Correo de bienvenida sin contraseña predeterminado",module,Magento_Customer
@@ -4376,6 +4486,7 @@ Password,Contraseña,module,Magento_Dhl
 "Content Type","Tipo de contenido",module,Magento_Dhl
 "Calculate Handling Fee","Calcular el gastos de envío",module,Magento_Dhl
 "Handling Applied","Gastos de tramitación aplicados",module,Magento_Dhl
+"""Per Order"" allows a single handling fee for the entire order. ""Per Package"" allows an individual handling fee for each package.","""Por Pedido"" permite una única tarifa de gastos de manipulación para todo el pedido. ""Por Paquete"" permite una tarifa de gastos de gestión individual para cada paquete.",module,Magento_Dhl
 "Handling Fee","Gastos de tramitación",module,Magento_Dhl
 "Divide Order Weight","Dividir el peso del pedido",module,Magento_Dhl
 "Weight Unit","Unidad de peso",module,Magento_Dhl
@@ -4701,6 +4812,7 @@ User,Usuario,module,Magento_Paypal
 "Website Payments Pro Hosted Solution","Solución Hospedada de Pagos Web Pro",module,Magento_Paypal
 "Accept payments with a PCI compliant checkout that keeps customers on your site.","Acepte pagos según la normativa PCI en procesos de compra en línea con el objetivo de que sus cliente permanezcan en el sitio durante dicho proceso.",module,Magento_Paypal
 "Payments Pro Hosted Solution","Solución alojada de Payments Pro",module,Magento_Paypal
+"Basic Settings - PayPal Payments Pro Hosted Solution","Ajustes básicos: Solución alojada de Payments Pro de PayPal",module,Magento_Paypal
 "It is recommended to set this value to ""PayPal"" per store views.","Se recomienda fijar este valor en ""PayPal"" por vistas de tienda.",module,Magento_Paypal
 "Display Express Checkout in the Payment Information step","Mostrar pago exprés en la pantalla de información del pago",module,Magento_Paypal
 "Website Payments Pro Hosted Solution and Express Checkout","Solución alojada de Website Payments Pro y Pago exprés",module,Magento_Paypal
@@ -4753,11 +4865,13 @@ Dashboard,Panel,module,Magento_Reports
 "List of Products Recently Compared and Removed from the Compare List by Visitor","Lista de artículos comparada y eliminada recientemente de la lista de comparación por el visitante",module,Magento_Reports
 "Compared Products Grid Template","Comparados artículos - Plantilla cuadrícula",module,Magento_Reports
 "Compared Products List Template","Comparados artículos - Plantilla lista",module,Magento_Reports
+"Compared Products Images and Names Template","Imágenes en comparación con los productos y nombres de plantilla",module,Magento_Reports
 "Compared Product Names Only Template","Plantilla de sólo nombres de productos comparados",module,Magento_Reports
 "Compared Product Images Only Template","Plantilla de sólo imágenes de productos comparados",module,Magento_Reports
 Average,Promedio,module,Magento_Reports
 "Stock Quantity","Cantidad de stock",module,Magento_Reports
 "Ordered Quantity","Cantidad pedida",module,Magento_Reports
+"For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.","Para información precisa, asegúrese de actualizar las estadísticas de por vida cada vez que cambie la zona horaria.",module,Magento_Reports
 Guest,Visitante,module,Magento_Reports
 Action,Acción,module,Magento_Reports
 "Average (Approved)","Promedio (Aprobado)",module,Magento_Reports
@@ -5025,6 +5139,7 @@ Action,Acción,module,Magento_UrlRewrite
 Edit,Editar,module,Magento_UrlRewrite
 "Reset Password Template","Plantilla para restablecer contraseña",module,Magento_User
 "Maximum Login Failures to Lockout Account","Cantidad de fallas máximas de inicio de sesión para bloquear cuenta",module,Magento_User
+"We will disable this feature if the value is empty.","Desactivará esta función si el valor está vacío.",module,Magento_User
 "Lockout Time (minutes)","Tiempo de bloqueo (minutos)",module,Magento_User
 "Password Lifetime (days)","Tiempo de vida de password (dias)",module,Magento_User
 "Password Change","Cambio de contraseña",module,Magento_User
