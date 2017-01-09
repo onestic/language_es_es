@@ -4712,6 +4712,39 @@ None,Ninguno,module,Magento_Security
 "Are you sure that you want to log out all other sessions?","¿Está seguro que desea desconectar todas las otras sesiones?",module,Magento_Security
 "Log out all other sessions","Desconectar las otras sesiones",module,Magento_Security
 "This computer is using IP address %1.","Este equipo utiliza IP dirección %1.",module,Magento_Security
+"Page not found.","Página no encontrada.",module,Magento_SendFriend
+"You can't send messages more than %1 times an hour.","No puede enviar más de %1 mensajes en una hora.",module,Magento_SendFriend
+"The link to a friend was sent.","El enlace fue envíado a un amigo.",module,Magento_SendFriend
+"We found some problems with the data.","Hemos encontrado algunos problemas con los datos.",module,Magento_SendFriend
+"Some emails were not sent.","No se enviaron algunos mensajes de correo electrónico.",module,Magento_SendFriend
+"You've met your limit of %1 sends in an hour.","He alcanzado el límite de envíos de %1 en una hora.",module,Magento_SendFriend
+"Please enter a sender name.","Por favor, introduzca un nombre de remitente.",module,Magento_SendFriend
+"Invalid Sender Email","Correo electrónico de remitente inválido",module,Magento_SendFriend
+"Please enter a message.","Por favor, ingrese el mensaje.",module,Magento_SendFriend
+"Please specify at least one recipient.","Por favor especificar a al menos un destinatario.",module,Magento_SendFriend
+"Please enter a correct recipient email address.","Introduzca una dirección de correo electrónico de destinatario correcta.",module,Magento_SendFriend
+"No more than %1 emails can be sent at a time.","No se puede enviar más que %1 correos electrónicos al mismo tiempo.",module,Magento_SendFriend
+"Please define a correct product instance.","Por favor, defina una correcta instancia de artículo.",module,Magento_SendFriend
+"Invalid Sender Information","Información del remitente inválida",module,Magento_SendFriend
+"Please define the correct sender information.","Por favor, defina la información correcta del remitente.",module,Magento_SendFriend
+"IP Address","Dirección IP",module,Magento_SendFriend
+"Cookie (unsafe)","Cookie (inseguro)",module,Magento_SendFriend
+"No Product Exception.","Ninguna excepción de producto.",module,Magento_SendFriend
+"No Category Exception.","Sin excepción de categoría.",module,Magento_SendFriend
+"Some error","Algún error",module,Magento_SendFriend
+"Localized Exception.","Excepción localizada.",module,Magento_SendFriend
+Exception.,Excepción.,module,Magento_SendFriend
+"Remove Recipent","Eliminar destinatario",module,Magento_SendFriend
+Remove,Eliminar,module,Magento_SendFriend
+Name,Nombre,module,Magento_SendFriend
+Email,"Correo electrónico",module,Magento_SendFriend
+"* Required Fields","* Campos obligatorios",module,Magento_SendFriend
+Sender,Remitente,module,Magento_SendFriend
+Invitee,Invitado,module,Magento_SendFriend
+"Maximum %1 email addresses allowed.","Máximo %1 direcciones de correo electrónico permitidas.",module,Magento_SendFriend
+"Add Invitee","Añadir invitado",module,Magento_SendFriend
+"Send Email","Envíar correo electrónico",module,Magento_SendFriend
+Back,Volver,module,Magento_SendFriend
 "New Shipment for Order #%1","Nuevo envío para el pedido nº %1",module,Magento_Shipping
 "Submit Shipment","Enviar albarán",module,Magento_Shipping
 "You are trying to add a quantity for some products that doesn't match the quantity that was shipped.","Estas tratando de agregar una cantidad para algunos productos que no coincide con la cantidad que fue enviada.",module,Magento_Shipping
@@ -4950,6 +4983,23 @@ Clear,Limpiar,module,Magento_Swatches
 "Save Option","Opción de guardar",module,Magento_Swatches
 "Remove Option","Eliminar opción",module,Magento_Swatches
 "Create New Value","Crear un nuevo valor",module,Magento_Swatches
+Code,Código,module,Magento_TaxImportExport
+Country,País,module,Magento_TaxImportExport
+State,"Estado federado",module,Magento_TaxImportExport
+"Zip/Post Code","CP/Código postal",module,Magento_TaxImportExport
+Rate,Tasa,module,Magento_TaxImportExport
+"Zip/Post is Range","Sólo para ciertos códigos postales",module,Magento_TaxImportExport
+"Range From","Intervalo desde",module,Magento_TaxImportExport
+"Range To","Intervalo hasta",module,Magento_TaxImportExport
+"Tax Zones and Rates","Zonas de impuestos y tarifas",module,Magento_TaxImportExport
+"Import and Export Tax Rates","Importación y exportación de impuestos",module,Magento_TaxImportExport
+"The tax rate has been imported.","Esta tarifa tributaria ha sido importada.",module,Magento_TaxImportExport
+"Invalid file upload attempt","Intento de subida de un archivo no válido",module,Magento_TaxImportExport
+"Invalid file upload attempt.","Intento de subida de un archivo no válido.",module,Magento_TaxImportExport
+"Invalid file format.","Formato de archivo inválido.",module,Magento_TaxImportExport
+"One of the countries has invalid code.","Uno de los países tiene un código inválido.",module,Magento_TaxImportExport
+"Import Tax Rates","Importar tasas de impuestos",module,Magento_TaxImportExport
+"Export Tax Rates","Exportar tasas de impuestos",module,Magento_TaxImportExport
 "Tax Rate Information","Información sobre tarifas de impuestos",module,Magento_Tax
 "Tax Identifier","Identificador tributario",module,Magento_Tax
 "Zip/Post is Range","Sólo para ciertos códigos postales",module,Magento_Tax
@@ -5512,6 +5562,31 @@ Yes,Sí,module,Magento_Variable
 "Variable Code must be unique.","El código de variable debe ser único.",module,Magento_Variable
 "Validation has failed.","Validación ha fallado.",module,Magento_Variable
 "Insert Variable...","Insertar variable...",module,Magento_Variable
+"No token found.","Ningún token encontrado.",module,Magento_Vault
+"Wrong request.","Solicitud incorrecta.",module,Magento_Vault
+"Deletion failure. Please try again.","Falla en el borrado. Por favor, inténtelo de nuevo.",module,Magento_Vault
+"Credit Card was successfully removed","La tarjeta de crédito fue removida con éxito",module,Magento_Vault
+"My Credit Cards","Mis tarjetas de crédito",module,Magento_Vault
+"Card Number","Número de la tarjeta",module,Magento_Vault
+"Expiration Date","Fecha de vencimiento",module,Magento_Vault
+Type,Tipo,module,Magento_Vault
+"You have no credit cards.","No tienes tarjetas de crédito.",module,Magento_Vault
+ending,fin,module,Magento_Vault
+Actions,Acciones,module,Magento_Vault
+Delete,Eliminar,module,Magento_Vault
+"Consumer is not authorized to access %resources","El cliente no tiene permiso para acceder a %resources",module,Magento_Webapi
+"Operation allowed only in HTTPS","Operación permitida solamente en HTTPS",module,Magento_Webapi
+"Cannot perform GET operation with store code 'all'","No se puede realizar la operación GET con el código de tienda 'all'",module,Magento_Webapi
+"Request does not match any route.","Solicitud no coincide con ninguna ruta.",module,Magento_Webapi
+"Not allowed parameters: %1. Please use only %2 and %3.","No se permiten parámetros: %1. Por favor use solamente %2 y %3.",module,Magento_Webapi
+"Requested service is not available: ""%1""","El servicio solicitado no está disponible: ""%1""",module,Magento_Webapi
+"Operation ""%1"" not found.","Operación ""%1"" no encontrada.",module,Magento_Webapi
+"SOAP extension is not loaded.","La extensión SOAP no ha sido cargada.",module,Magento_Webapi
+"Invalid XML","XML no válido",module,Magento_Webapi
+"Invalid XML: Detected use of illegal DOCTYPE","XML no válido: Detectado uso de DOCTYPE ilegal",module,Magento_Webapi
+message,mensaje,module,Magento_Webapi
+Message,Mensaje,module,Magento_Webapi
+"Soap fault reason.","Razón de falla SOAP.",module,Magento_Webapi
 "Add Tax","Añadir impuestos",module,Magento_Weee
 "Delete Tax","Eliminar impuesto",module,Magento_Weee
 "All Websites","Todos sitios web",module,Magento_Weee
@@ -5835,6 +5910,9 @@ Delete,Borrar,module,Magento_GiftMessage
 "Your shipping confirmation is below. Thank you again for your business.","La confirmación de su envío está abajo. Gracias otra vez por su compra.",module,Magento_Sales
 "Your Shipment #%shipment_id for Order #%order_id","Su envío nº %shipment_id para el pedido nº %order_id",module,Magento_Sales
 "Update to your %store_name shipment","Actualización el envío de %store_name",module,Magento_Sales
+"Welcome, %name","Bienvenido, %name",module,Magento_SendFriend
+"%sender_name wants to share this product with you:","%sender_name quiere compartir este producto contigo:",module,Magento_SendFriend
+"Message from %sender_name:","Mensaje de %sender_name:",module,Magento_SendFriend
 "See our Shipping Policy","Ver nuestra política de envíos",module,Magento_Shipping
 "Sitemap generate Warnings","El mapa del sitio web genera avisos",module,Magento_Sitemap
 "Sitemap Generation Warnings","Advertencias de generación de Sitemap",module,Magento_Sitemap
@@ -6079,6 +6157,7 @@ Attention,Atención,module,Magento_Ui
 OK,Aceptar,module,Magento_Ui
 Close,Cerrar,module,Magento_Ui
 Ok,Aceptar,module,Magento_Ui
+Cancel,Cancelar,module,Magento_Vault
 "Show Toolbar","Mostrar barra de herramientas",module,Magento_AdminNotification
 "Show List","Mostrar lista",module,Magento_AdminNotification
 "Use HTTPS to Get Feed","Utilizar HTTPS para obtener el feed",module,Magento_AdminNotification
@@ -7471,6 +7550,15 @@ Website,"Página web",module,Magento_Search
 "Limit the number of password reset request per hour. Use 0 to disable.","Limitar el número de solicitud de restablecimiento de contraseña por hora. Utilice 0 para desactivar.",module,Magento_Security
 "Min Time Between Password Reset Requests","Tiempo mínimo entre las solicitudes de restablecimiento de contraseña",module,Magento_Security
 "Delay in minutes between password reset requests. Use 0 to disable.","Retardo en minutos entre contraseña restablece las solicitudes. Utilice 0 para desactivar.",module,Magento_Security
+"Email to a Friend","Escribir correo electrónico a un amigo",module,Magento_SendFriend
+"Email Templates","Plantillas de correo electrónico",module,Magento_SendFriend
+Enabled,Habilitado,module,Magento_SendFriend
+"Select Email Template","Elegir plantilla de correo electrónico",module,Magento_SendFriend
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Plantilla de correo electrónico elegido basado en suplencia de tema cuando está seleccionada la opción ""Predeterminado"".",module,Magento_SendFriend
+"Allow for Guests","Permitir visitantes",module,Magento_SendFriend
+"Max Recipients","Máximos destinatarios.",module,Magento_SendFriend
+"Max Products Sent in 1 Hour","Máximos artículos enviados en 1 hora",module,Magento_SendFriend
+"Limit Sending By","Límite de envío por",module,Magento_SendFriend
 "Shipping Settings Section","Ajustes de envío",module,Magento_Shipping
 "Shipping Policy Parameters Section","Sección de parámetros de la política de envío",module,Magento_Shipping
 "Shipping Methods Section","Sección de métodos de envío",module,Magento_Shipping
@@ -7701,6 +7789,17 @@ Debug,Depurar,module,Magento_Usps
 "Show Method if Not Applicable","Mostrar el método de envío, incluso si no se aplica",module,Magento_Usps
 "Sort Order","Orden de aparición",module,Magento_Usps
 Name,Nombre,module,Magento_Variable
+"Allow Anonymous Guest Access","Permitir acceso a visitante anónimo",module,Magento_WebapiSecurity
+"Manage Customers","Administrar clientes",module,Magento_Webapi
+"Create Customer","Crear cliente",module,Magento_Webapi
+"Edit Customer","Editar cliente",module,Magento_Webapi
+"Get Customer","Obtener cliente",module,Magento_Webapi
+"Delete Customer","Eliminar cliente",module,Magento_Webapi
+"SOAP Settings","Ajustes SOAP",module,Magento_Webapi
+"Default Response Charset","Conjunto de caracteres de respuesta (predeterminado)",module,Magento_Webapi
+"If empty, UTF-8 will be used.","Si está vacío, se utilizará UTF-8.",module,Magento_Webapi
+"Web Services Configuration","Ajustes de servicios web",module,Magento_Webapi
+"REST and SOAP configurations, generated WSDL file","Ajustes REST y SOAP, archivo WSDL generado",module,Magento_Webapi
 "Fixed Product Taxes","Impuestos fijos del artículo",module,Magento_Weee
 "Enable FPT","Habilitar FPT",module,Magento_Weee
 "Display Prices In Product Lists","Mostrar precios en listas de artículos",module,Magento_Weee
