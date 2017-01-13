@@ -1464,6 +1464,7 @@ Pages,Páginas,module,Magento_Cms
 "Something went wrong while saving the page.","Algo salió mal al guardar la página.",module,Magento_Cms
 "A total of %1 record(s) have been disabled.","Se han deshabilitado un total de %1 registro(s).",module,Magento_Cms
 "A total of %1 record(s) have been enabled.","Se han habilitado un total de %1 registros.",module,Magento_Cms
+"To apply changes you should fill in hidden required ""%1"" field","Para aplicar los cambios se debería llenar en el requerido campo oculto ""%1""",module,Magento_Cms
 "You saved this page.","Ha guardado la página.",module,Magento_Cms
 "The directory %1 is not writable by server.","El servidor no puede escribir en el directorio %1.",module,Magento_Cms
 "Make sure that static block content does not reference the block itself.","Asegúrese de que contenido de bloque estático no hace referencia a el propio bloque.",module,Magento_Cms
@@ -1474,12 +1475,14 @@ Pages,Páginas,module,Magento_Cms
 "CMS Page with id ""%1"" does not exist.","Página de CMS con el id ""%1"" no existe.",module,Magento_Cms
 "A block identifier with the same properties already exists in the selected store.","Ein Block-Bezeichner mit denselben Eigenschaften existiert bereits in dem ausgewählten Laden.",module,Magento_Cms
 "The page URL key contains capital letters or disallowed symbols.","Der URL-Bezeichner dieser Seite enthält Großbuchstaben oder unerlaubte Symbole.",module,Magento_Cms
+"The page URL key cannot be made of only numbers.","La clave URL de la página no se puede hacer sólo con números.",module,Magento_Cms
 "Please rename the folder using only letters, numbers, underscores and dashes.","Por favor, cambia el nombre de la carpeta usando sólo letras, números, guiones bajos y guiones.",module,Magento_Cms
 "We found a directory with the same name. Please try another folder name.","Encontramos una carpeta con el mismo nombre. Por favor, intente otro nombre para la carpeta.",module,Magento_Cms
 "We cannot create a new directory.","No podemos crear un nuevo directorio.",module,Magento_Cms
 "We cannot delete directory %1.","No podemos borrar directorio %1.",module,Magento_Cms
 "We can't upload the file right now.","No se puede cargar el archivo en estos momentos.",module,Magento_Cms
 "We can't delete root directory %1 right now.","No se puede eliminar el directorio raíz %1 en estos momentos.",module,Magento_Cms
+"Directory %1 is not under storage root path.","Directorio %1 no esta bajo la ruta raíz de almacenamiento.",module,Magento_Cms
 Exception,Excepcion,module,Magento_Cms
 "Could not create directory.","No se puede crear el directorio.",module,Magento_Cms
 "All Store Views","Todas las vistas de la tienda",module,Magento_Cms
@@ -2250,30 +2253,49 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Attribute object is undefined","Objeto de campo indefinido",module,Magento_Eav
 "Entity object is undefined","Objeto de entidad indefinido",module,Magento_Eav
 """%1"" invalid type entered.","""%1"" tipo introducido inválido.",module,Magento_Eav
+"""%1"" contains non-alphabetic or non-numeric characters.","""%1"" contiene caracteres no alfabéticos o no numéricos.",module,Magento_Eav
 """%1"" is an empty string.","""%1"" es una cadena vacía.",module,Magento_Eav
 """%1"" contains non-numeric characters.","""%1"" contiene caracteres no numéricos.",module,Magento_Eav
 """%1"" contains non-alphabetic characters.","""%1"" contiene caracteres no alfabéticos.",module,Magento_Eav
 """%1"" is not a valid email address.","""%1"" no es una dirección válida de email.",module,Magento_Eav
 """%1"" is not a valid hostname.","""%1"" no es un nombre de host válido.",module,Magento_Eav
 """%1"" uses too many characters.","""%1"" utiliza demasiados caracteres.",module,Magento_Eav
+"'%value%' looks like an IP address, which is not an acceptable format.","'%value%' luce como una dirección IP, la cual no es un formato aceptable.",module,Magento_Eav
+"'%value%' looks like a DNS hostname but we cannot match the TLD against known list.","'%value%' luce como un nombre de servidor DNS, pero no podemos igualar el TLD contra la lista conocida.",module,Magento_Eav
+"'%value%' looks like a DNS hostname but contains a dash in an invalid position.","'%value%' luce como un servidor de nombre DNS, pero contiene un guión en una posición no válida.",module,Magento_Eav
+"'%value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.","'%value%' luce como un servidor de nombre DNS, pero no podemos coincidir con el esquema de servidor de nombre para TLD '%tld%'.",module,Magento_Eav
+"'%value%' looks like a DNS hostname but cannot extract TLD part.","'%value%' luce como un servidor de nombre DNS pero no se puede extraer parte del TLD.",module,Magento_Eav
+"'%value%' does not look like a valid local network name.","'%value%' no parece ser un nombre válido de red local.",module,Magento_Eav
+"'%value%' looks like a local network name, which is not an acceptable format.","'%value%' luce como un nombre de red local, el cual no es un formato aceptable.",module,Magento_Eav
+"'%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.","'%value%' parece ser un servidor de nombre DNS, pero la notación punycode dado no puede ser decodificada.",module,Magento_Eav
 """%1"" is not a valid URL.","""%1"" no es una dirección URL válida.",module,Magento_Eav
 """%1"" is not a valid date.","""%1"" no es una fecha válida.",module,Magento_Eav
 """%1"" does not fit the entered date format.","""%1"" no se ajusta al formato de fecha introducido.",module,Magento_Eav
 """%1"" is a required value.","""%1"" es un valor necesario.",module,Magento_Eav
+"Please enter a valid date between %1 and %2 at %3.","Por favor introduzca una fecha válida entre %1 y %2 en %3.",module,Magento_Eav
+"Please enter a valid date equal to or greater than %1 at %2.","Por favor introduzca una fecha válida igual o mayor que %1 en %2.",module,Magento_Eav
+"Please enter a valid date less than or equal to %1 at %2.","Por favor introduzca una fecha válida menor o igual a %1 en %2.",module,Magento_Eav
 """%1"" is not a valid file extension.","""%1"" no es una extensión de archivo válida.",module,Magento_Eav
 """%1"" is not a valid file.","""%1"" no es un archivo válido.",module,Magento_Eav
 """%1"" exceeds the allowed file size.","""%1"" supera el tamaño de archivo permitido.",module,Magento_Eav
 """%1"" is not a valid image format","""%1"" no es un formato de imagen válido",module,Magento_Eav
 """%1"" width exceeds allowed value of %2 px.","""%1"" ancho excede el valor permitido de %2 px.",module,Magento_Eav
+"""%1"" height exceeds allowed value of %2 px.","""%1"" altura excede el valor permitido de %2 px.",module,Magento_Eav
 """%1"" cannot contain more than %2 lines.","""%1"" no puede contener más de %2 líneas.",module,Magento_Eav
+"""%1"" length must be equal or greater than %2 characters.","""%1"" longitud debe ser igual o mayor que %2 caracteres.",module,Magento_Eav
+"""%1"" length must be equal or less than %2 characters.","""%1"" longitud debe ser igual o inferior a %2 caráteres.",module,Magento_Eav
+"Attribute group does not belong to provided attribute set","Grupo de Atributos no pertenecen al conjunto de atributos configurados",module,Magento_Eav
 "Cannot save attributeGroup","No se puede guardar attributeGroup",module,Magento_Eav
 "Group with id ""%1"" does not exist.","El grupo con id ""%1"" no existe.",module,Magento_Eav
 "Cannot delete attributeGroup with id %1","No se puede eliminar attributeGroup con id %1",module,Magento_Eav
 "AttributeSet with id ""%1"" does not exist.","AttributeSet con id ""%1"" no existe.",module,Magento_Eav
 "Wrong attribute set id provided","El Id del conjunto de atributos proporcionado es incorrecto",module,Magento_Eav
+"Attribute group does not belong to attribute set","Grupo de atributo no pertenecen al conjunto de atributo",module,Magento_Eav
 "Attribute set not found: %1","Conjunto de atributos no encontrado: %1",module,Magento_Eav
+"Attribute ""%1"" not found in attribute set %2.","Atributo ""%1"" no se encuentra en %2 conjunto de atributo.",module,Magento_Eav
 "System attribute can not be deleted","No se puede eliminar el atributo de sistema",module,Magento_Eav
 "Cannot save attribute","No se puede guardar el atributo",module,Magento_Eav
+"Attribute with attributeCode ""%1"" does not exist.","Atributo con attributeCode ""%1"" no existe.",module,Magento_Eav
 "Cannot delete attribute.","No se puede eliminar el atributo.",module,Magento_Eav
 "Attribute with id ""%1"" does not exist.","Atributo con el id ""%1"" no existe.",module,Magento_Eav
 "There was an error saving attribute set.","Hubo un error al guardar el conjunto de atributos.",module,Magento_Eav
@@ -2283,10 +2305,12 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Entity is not initialized","La entidad no está inicializada",module,Magento_Eav
 "Unknown parameter","Parámetro desconocido",module,Magento_Eav
 "The attribute code '%1' is reserved by system. Please try another attribute code","El código de atributo '%s' está reservado por el sistema. Por favor, prueba con otro código de atributo.",module,Magento_Eav
+"An attribute code must not be more than %1 characters.","Un código de atributo no debe ser más de %1 caracteres.",module,Magento_Eav
 "Invalid default decimal value","Valor decimal por defecto no válido",module,Magento_Eav
 "Invalid default date","Fecha por defecto no válida",module,Magento_Eav
 "Invalid entity supplied","Se suministró una entidad no válida",module,Magento_Eav
 "Invalid backend model specified: %1","Modelo de backend especificado inválido: %1",module,Magento_Eav
+"Source model ""%1"" not found for attribute ""%2""","Modelo de la fuente ""%1"" no ha encontrado para el atributo ""%2""",module,Magento_Eav
 "The value of attribute ""%1"" must be set","El valor del atributo ""%1"" debe establecerse",module,Magento_Eav
 "The value of attribute ""%1"" must be unique","El valor del atributo ""%1"" debe ser único",module,Magento_Eav
 "Invalid date","Fecha no válida",module,Magento_Eav
@@ -2294,22 +2318,29 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 "Attribute %1 doesn't work with options","Atributo %1 no funciona con las opciones",module,Magento_Eav
 "Cannot save attribute %1","No se puede guardar el atributo %1",module,Magento_Eav
 "Attribute %1 doesn't have any option","Atributo %1 no tiene ninguna opción",module,Magento_Eav
+"Attribute %1 does not contain option with Id %2","Atributo %1 no contiene la opción con Id %2",module,Magento_Eav
 "Cannot load options for attribute %1","No se pueden cargar opciones de atributo %1",module,Magento_Eav
 "Attribute set name is empty.","Nombre del conjunto de atributos está vacío.",module,Magento_Eav
+"An attribute set named ""%1"" already exists.","Un conjunto de atributo llamado ""%1"" ya existe.",module,Magento_Eav
 "No options found.","No hay opciones encontradas.",module,Magento_Eav
 label,etiqueta,module,Magento_Eav
 "Invalid entity supplied: %1","Se suministró una entidad no válida: %1",module,Magento_Eav
 "Attempt to add an invalid object","Intento de añadir un objeto inválido",module,Magento_Eav
+"Invalid attribute identifier for filter (%1)","Identificador de atributo no válido para el filtro (%1)",module,Magento_Eav
 "Invalid attribute requested: %1","Atributo inválido solicitado: %1",module,Magento_Eav
 "Joint field or attribute expression with this alias is already declared","Ya se ha declarado un campo combinado o una expresión de atributos con este alias",module,Magento_Eav
 "Invalid alias, already exists in joint attributes","Alias inválido, ya existe en los atributos unidos.",module,Magento_Eav
 "Invalid foreign key","Clave externa no válida",module,Magento_Eav
 "Invalid entity type","Tipo de entidad no válido",module,Magento_Eav
 "Invalid attribute type","Tipo de atributo no válido",module,Magento_Eav
+"A joined field with this alias is already declared.","Un campo Unido con este alias ya se ha declarado.",module,Magento_Eav
 "Invalid joint fields","Campos combinados no válidos",module,Magento_Eav
+"A joint field with this alias (%1) is already declared.","Ya se ha declarado un campo común con este alias (%1).",module,Magento_Eav
 "Data integrity: No header row found for attribute","Integridad de datos: No se ha encontrado una línea de encabezamiento para el campo",module,Magento_Eav
 "Invalid attribute name: %1","Nombre de atributo no válido: %1",module,Magento_Eav
+"Invalid character encountered in increment ID: %1","Carácter no válido encontrado en incremento ID: %1",module,Magento_Eav
 "The current module pathname is undefined.","Ruta de acceso de módulo actual está indefinida.",module,Magento_Eav
+"The current module EAV entity is undefined.","El módulo actual de la entidad EAV es indefinido.",module,Magento_Eav
 "The form code is not defined.","El código de formulario no está definido.",module,Magento_Eav
 "The entity instance is not defined.","Instancia de la entidad no está definida.",module,Magento_Eav
 "Invalid form type.","Tipo de forma no válido",module,Magento_Eav
@@ -2651,24 +2682,35 @@ Email,"Correo electrónico",module,Magento_Integration
 "Callback URL","Llamada URL",module,Magento_Integration
 "Enter URL where Oauth credentials can be sent when using Oauth for token exchange. We strongly recommend using https://.","Introduzca la URL donde pueden enviarse las credenciales Oauth cuando se utiliza el intercambio de token Oauth. Recomendamos ampliamente usar https://.",module,Magento_Integration
 "Identity link URL","URL de enlace de identidad",module,Magento_Integration
+"URL to redirect user to link their 3rd party account with this Magento integration credentials.","URL para redireccionar usuario para vincular su cuenta de terceros con credenciales de integración de Magento.",module,Magento_Integration
 "Integration Details","Detalles de la integración",module,Magento_Integration
 "Basic Settings","Configuración Básica",module,Magento_Integration
 "Integration Tokens for Extensions","Tokens de integración para las extensiones",module,Magento_Integration
+"Uninstall the extension to remove this integration","Desinstala la extensión para eliminar esta integración",module,Magento_Integration
 Remove,Eliminar,module,Magento_Integration
 View,Ver,module,Magento_Integration
 Edit,Editar,module,Magento_Integration
 Activate,Activar,module,Magento_Integration
 Reauthorize,Reautorizar,module,Magento_Integration
+"Uninstall the extension to remove integration '%1'.","Desinstalar la extensión para eliminar la integración '%1'.",module,Magento_Integration
 "This integration no longer exists.","Esta integración no existe.",module,Magento_Integration
 "The integration '%1' has been deleted.","La integración '%1' ha sido eliminada.",module,Magento_Integration
+"Integration ID is not specified or is invalid.","ID de la integración no se especifica o no es válido.",module,Magento_Integration
+"Internal error. Check exception log for details.","Error interno. Compruebe el registro de excepción para los detalles.",module,Magento_Integration
 "View ""%1"" Integration","Ver integración de ""%1""",module,Magento_Integration
 "Edit ""%1"" Integration","Editar la integración de ""%1""",module,Magento_Integration
+"Warning! Integrations not using HTTPS are insecure and potentially expose private or personally identifiable information","¡ADVERTENCIA! Integraciones sin usar HTTPS son inseguras y potencialmente exponen información privada o personal",module,Magento_Integration
 "The integration '%1' has been saved.","La integración '%1' ha sido guardada.",module,Magento_Integration
 "The integration was not saved.","La integración no se guardó.",module,Magento_Integration
+"The integration '%1' has been re-authorized.","La integración de '%1' ha sido re-autorizada.",module,Magento_Integration
 "The integration '%1' has been activated.","La integración '%1' ha sido activada.",module,Magento_Integration
+"Integration '%1' has been sent for re-authorization.","Integración '%1' ha sido enviado para su re-autorización.",module,Magento_Integration
+"Integration '%1' has been sent for activation.","Integración '%1' ha sido enviado para la activación.",module,Magento_Integration
 "You did not sign in correctly or your account is temporarily disabled.","Usted no se inscribió correctamente o su cuenta se ha desactivado temporalmente.",module,Magento_Integration
 "This user has no tokens.","Este usuario no tiene tokens.",module,Magento_Integration
 "The tokens could not be revoked.","Los tokens no pudieron ser revocados.",module,Magento_Integration
+"Sorry, something went wrong granting permissions. You can find out more in the exceptions log.","Lo sentimos, algo salió mal otorgando permisos. Usted puede encontrar más información en el registro de excepciones.",module,Magento_Integration
+"Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.","Algo salió mal al eliminar roles y permisos. Usted puede encontrar más información en el registro de excepciones.",module,Magento_Integration
 "This customer has no tokens.","Este cliente no tiene tokens.",module,Magento_Integration
 Inactive,Inactivo,module,Magento_Integration
 Active,Activo,module,Magento_Integration
@@ -2676,24 +2718,38 @@ Active,Activo,module,Magento_Integration
 "Integration with ID '%1' does not exist.","Integración con ID '%1' no existe.",module,Magento_Integration
 "Invalid Callback URL","Llamada URL inválida",module,Magento_Integration
 "Invalid Rejected Callback URL","Llamada URL rechazada inválida",module,Magento_Integration
+"Incorrect timestamp value in the oauth_timestamp parameter","Valor de marca de hora incorrecto en el parámetro oauth_timestamp",module,Magento_Integration
+"The nonce is already being used by the consumer with ID %1","El nonce ya está siendo utilizado por el consumidor con ID %1",module,Magento_Integration
 "An error occurred validating the nonce","Un error ocurrió validando el nonce",module,Magento_Integration
+"Cannot convert to access token due to token is not request type","No se puede convertir a token de acceso debido a que el token no es un tipo de solicitud",module,Magento_Integration
 "Consumer key has expired","La clave de consumidor ha caducado",module,Magento_Integration
+"Cannot create request token because consumer token is not a verifier token","No se puede crear la petición de token porque el token del consumidor no esta verificado",module,Magento_Integration
+"Request token is not associated with the specified consumer","Solicitud de token no está asociado con el consumidor especificado",module,Magento_Integration
 "Token is already being used","El token ya está en uso",module,Magento_Integration
+"Cannot get access token because consumer token is not a request token","No puede obtener el token de acceso porque el token de consumidor no es un token de petición",module,Magento_Integration
+"Token is not associated with the specified consumer","Token no está asociado con el consumidor especificado",module,Magento_Integration
 "Token is not an access token","El token no es un token de acceso",module,Magento_Integration
 "Access token has been revoked","Token de acceso se ha revocado",module,Magento_Integration
 "Consumer key is not the correct length","El token de consumidor no es de la longitud correcta",module,Magento_Integration
+"A consumer having the specified key does not exist","Un consumidor tieniendo el token especifico no existe",module,Magento_Integration
 "Verifier is invalid","Verificador no es válido",module,Magento_Integration
 "Verifier is not the correct length","Verificador no tiene la longitud correcta",module,Magento_Integration
+"Token verifier and verifier token do not match","Tokens verificados no coinciden",module,Magento_Integration
 "A consumer with the ID %1 does not exist","Consumidor con ID %1 no existe",module,Magento_Integration
 "Token is not the correct length","Token no es de la longitud correcta",module,Magento_Integration
 "Specified token does not exist","Token especificado no existe",module,Magento_Integration
 "A token with consumer ID %1 does not exist","El token con el ID de consumidor %1 no existe",module,Magento_Integration
+"Unexpected error. Unable to create oAuth consumer account.","Error inesperado. No se puede crear cuenta oAuth para el consumidor.",module,Magento_Integration
+"Unexpected error. Unable to load oAuth consumer account.","Error inesperado. No se puede cargar la cuenta para el consumidor oAuth.",module,Magento_Integration
 "A consumer with ID %1 does not exist","Consumidor con ID %1 no existe",module,Magento_Integration
+"Unable to post data to consumer due to an unexpected error","No se puede publicar datos al consumidor debido a un error inesperado",module,Magento_Integration
 "Consumer with ID '%1' does not exist.","Consumidor con ID '%1' no existe.",module,Magento_Integration
 "Invalid token to except","Código no válido para excepción",module,Magento_Integration
 "A token with consumer ID 0 does not exist","El token con el ID de consumidor 0 no existe",module,Magento_Integration
+"The integration you selected asks you to approve access to the following:","La integración que ha seleccionado te pide aprobar el acceso a lo siguiente:",module,Magento_Integration
 "No permissions requested","No hay permisos solicitados",module,Magento_Integration
 "Are you sure ?","¿Está seguro?",module,Magento_Integration
+"Please setup or sign in into your 3rd party account to complete setup of this integration.","Por favor configurar o ingresa en tu cuenta de terceros para completar la instalación de esta integración.",module,Magento_Integration
 "Available APIs","APIs disponibles",module,Magento_Integration
 "Resource Access","Zugriff auf Ressource",module,Magento_Integration
 Custom,Personalizado,module,Magento_Integration
@@ -5736,6 +5792,7 @@ Done,Hecho,module,Magento_ConfigurableProduct
 "We could not detect a size.","No hemos podido detectar un tamaño.",module,Magento_Downloadable
 "Add Products to Group","Agregar artículos al grupo",module,Magento_GroupedProduct
 "Add Selected Products","Añadir artículos seleccionados",module,Magento_GroupedProduct
+"Sorry, something went wrong. Please try again later.","Lo sentimos, algo salió mal. Por favor Inténtalo más tarde.",module,Magento_Integration
 Allow,Permitir,module,Magento_Integration
 Done,Hecho,module,Magento_Integration
 "We can't complete your order because you don't have a payment method set up.","Nosotros no podemos completar el pedido porque no tienes forma de pago establecida.",module,Magento_Multishipping
@@ -6520,6 +6577,8 @@ Updated,Actualizado,module,Magento_Indexer
 "Cleanup Probability","Probabilidad de limpieza",module,Magento_Integration
 "Expiration Period","Periodo de expiración",module,Magento_Integration
 "Consumer Settings","Configuración del consumidor",module,Magento_Integration
+"OAuth consumer credentials HTTP Post maxredirects","Credenciales del consumidor OAuth HTTP Post maxredirects",module,Magento_Integration
+"OAuth consumer credentials HTTP Post timeout","Tiempo agotado de credenciales HTTP Post OAuth de consumidores",module,Magento_Integration
 "Integrations Configuration","Configuración de integraciones",module,Magento_Integration
 "Integration configuration file.","Archivo de configuración de integración.",module,Magento_Integration
 "Integrations API Configuration","Configuración de integraciones API",module,Magento_Integration
