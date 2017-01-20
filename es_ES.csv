@@ -5285,7 +5285,11 @@ Custom,Personalizado,module,Magento_UrlRewrite
 "You deleted the URL rewrite.","Borró la reescritura de URL.",module,Magento_UrlRewrite
 "We can't delete URL Rewrite right now.","No podemos eliminar reescritura de URL en este momento.",module,Magento_UrlRewrite
 "URL Rewrites","Reescrituras de URL",module,Magento_UrlRewrite
+"The product you chose is not associated with the selected store or category.","El producto que ha escogido no está asociado con la tienda o categoría seleccionada.",module,Magento_UrlRewrite
+"The category you chose is not associated with the selected store.","La categoría que ha escogido no está asociada con la tienda seleccionada.",module,Magento_UrlRewrite
 "The URL Rewrite has been saved.","La reescritura de URL se ha guardado.",module,Magento_UrlRewrite
+"Anchor symbol (#) is not supported in request path.","El símbolo (#) no está soportado en la ruta solicitada.",module,Magento_UrlRewrite
+"Anchor symbol (#) is not supported in url rewrite suffix.","El símbolo (#) no está soportado en el sufijo de reescritura de url.",module,Magento_UrlRewrite
 "Temporary (302)","(302) Temporal",module,Magento_UrlRewrite
 "Permanent (301)","(301) Permanente",module,Magento_UrlRewrite
 "Request Path for Specified Store","Solicitud de ruta para la tienda especificada",module,Magento_UrlRewrite
