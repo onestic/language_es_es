@@ -445,6 +445,8 @@ Authorize,Autorizar,module,Magento_Braintree
 "Please, enter valid Card Verification Number","Por favor, indique el número de verificación de tarjeta válido",module,Magento_Braintree
 ending,finalizando,module,Magento_Braintree
 expires,expira,module,Magento_Braintree
+"PayPal Account","Cuenta PayPal",module,Magento_Braintree
+"PayPal Logo","Logo PayPal",module,Magento_Braintree
 Actions,Acciones,module,Magento_Braintree
 Delete,Borrar,module,Magento_Braintree
 "Percent Discount","Porcentaje de descuento",module,Magento_Bundle
@@ -6367,8 +6369,10 @@ Size(bytes),Tamaño(bytes),module,Magento_Backup
 Type,Tipo,module,Magento_Backup
 Download,Descargar,module,Magento_Backup
 Action,Acción,module,Magento_Backup
+"Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase.","Acepta tarjetas de crédito/débito y PayPal en su tienda Magento. <br/> Sin cargos mensuales o de instalación y los clientes nunca abandonan su tienda para completar la compra.",module,Magento_Braintree
 "Enable this Solution","Habilitar esta solución",module,Magento_Braintree
 "Enable PayPal through Braintree","Activar PayPal a través de Braintree",module,Magento_Braintree
+"Vault Enabled","Vault Activado",module,Magento_Braintree
 "Basic Braintree Settings","Configuración básica de Braintree",module,Magento_Braintree
 Title,Título,module,Magento_Braintree
 Environment,Entorno,module,Magento_Braintree
@@ -6394,11 +6398,15 @@ Debug,Depurar,module,Magento_Braintree
 "Require Customer's Billing Address","Requiere la dirección de facturación del cliente",module,Magento_Braintree
 "Allow to Edit Shipping Address Entered During Checkout on PayPal Side","Permitir que se modifique la dirección de envío introducida durante el pago en PayPal",module,Magento_Braintree
 "Display on Shopping Cart","Mostrar en carrito de compras",module,Magento_Braintree
+"Skip Order Review","Saltar revisión del pedido",module,Magento_Braintree
 "3D Secure Verification Settings","Configuración de verificación 3D segura",module,Magento_Braintree
 "3D Secure Verification","Verificación 3D segura",module,Magento_Braintree
 "Threshold Amount","Monto del umbral",module,Magento_Braintree
 "Verify for Applicable Countries","Verificar para los países aplicables",module,Magento_Braintree
 "Verify for Specific Countries","Verificar para países específicos",module,Magento_Braintree
+"Dynamic Descriptors","Descriptores Dinámicos",module,Magento_Braintree
+Name,Nombre,module,Magento_Braintree
+Phone,Teléfono,module,Magento_Braintree
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Aplique filtros para obtener resultados. Sólo los 100 primeros registros se mostrarán en la cuadrícula; podrá descargar la versión completa del informe en formato .csv.",module,Magento_Braintree
 Select...,Seleccionar...,module,Magento_Braintree
 Status,Estado,module,Magento_Braintree
