@@ -47,6 +47,7 @@ Close,Cerrar,module,Magento_AdminNotification
 "Order saving error: %1","Error al guardar el pedido: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Por favor, seleccione un método de pago.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","No se puede procesar su pedido ahora. Por favor, inténtelo más tarde.",module,Magento_Authorizenet
+"An error occurred on the server. Please try to place the order again.","Se ha producido un error en el servidor. Trate de hacer el pedido otra vez.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","Tarjeta de crédito: xxxx-%1",module,Magento_Authorizenet
 "amount %1","monto %1",module,Magento_Authorizenet
 failed.,falló.,module,Magento_Authorizenet
@@ -911,6 +912,7 @@ Catalog,Catálogo,module,Magento_Catalog
 "You saved the product attribute.","Se guardo el atributo del producto.",module,Magento_Catalog
 "An attribute with this code already exists.","Ya existe un atributo con este código.",module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","Ya existe un atributo con el mismo código (%1).",module,Magento_Catalog
+"The value of Admin must be unique.","El valor de Admin debe ser único.",module,Magento_Catalog
 "You duplicated the product.","Se duplico el producto.",module,Magento_Catalog
 "This product doesn't exist.","Este producto no existe.",module,Magento_Catalog
 "Invalid product id. Should be numeric value greater than 0","Identificación del producto no válida. Debe ser un valor numérico mayor que 0",module,Magento_Catalog
@@ -1102,6 +1104,7 @@ Search,Buscar,module,Magento_Catalog
 Dropdown,"Lista desplegable",module,Magento_Catalog
 "%1 doesn't extend \Magento\Framework\Filter\Template","%1 no se extiende a \Magento\Framework\Filter\Template",module,Magento_Catalog
 "As low as","Tan bajo como",module,Magento_Catalog
+test,prueba,module,Magento_Catalog
 message,mensaje,module,Magento_Catalog
 Images,Imágenes,module,Magento_Catalog
 Select...,Seleccionar...,module,Magento_Catalog
