@@ -6074,7 +6074,7 @@ Delete,Borrar,module,Magento_ProductVideo
 "Images and Videos","Imágenes y vídeos",module,Magento_ProductVideo
 "This won't take long . . .","Esto no tardará mucho. . .",module,Magento_Rule
 "Your coupon was successfully removed.","Su cupón fue removido con éxito.",module,Magento_SalesRule
-"Your coupon was successfully applied.","Su cupón fue removido con éxito.",module,Magento_SalesRule
+"Your coupon was successfully applied.","Su cupón fue aplicado con éxito.",module,Magento_SalesRule
 "Add Products","Añadir artículos",module,Magento_Sales
 "You have item changes","Tiene cambios de artículo",module,Magento_Sales
 Ok,Aceptar,module,Magento_Sales
