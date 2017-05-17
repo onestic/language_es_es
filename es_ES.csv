@@ -1304,7 +1304,7 @@ Manually,Manualmente,module,Magento_CheckoutAgreements
 "Checkout agreement with specified ID ""%1"" not found.","Acuerdo de compra con el ID especificado ""%1"" no encontrado.",module,Magento_CheckoutAgreements
 "Shopping Cart","Carrito de compras",module,Magento_Checkout
 "Invalid method: %1","Método inválido: %1",module,Magento_Checkout
-City,Cuidad,module,Magento_Checkout
+City,Ciudad,module,Magento_Checkout
 Country,País,module,Magento_Checkout
 State/Province,Estado/Provincia,module,Magento_Checkout
 "Zip/Postal Code","Código Postal",module,Magento_Checkout
@@ -4458,7 +4458,7 @@ title,Título,module,Magento_Sales
 "Status can't be unassigned, because it is used by existing order(s).","Estado no puede ser desasignado, ya que es utilizado por los pedidos existentes.",module,Magento_Sales
 "The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","El modelo total debe extenderse desde \Magento\Sales\Model\Order\Total\AbstractTotal.",module,Magento_Sales
 "We cannot determine the field name.","No se puede determinar el nombre del campo.",module,Magento_Sales
-City,Cuidad,module,Magento_Sales
+City,Ciudad,module,Magento_Sales
 Company,Empresa,module,Magento_Sales
 Country,País,module,Magento_Sales
 Email,"Correo electrónico",module,Magento_Sales
@@ -6658,7 +6658,7 @@ Details,Detalles,module,Magento_Catalog
 "Send Payment Failed Email Copy Method","Sende Zahlungsfehler in Kopie (Methode)",module,Magento_Checkout
 Summary,Resumen,module,Magento_Checkout
 "Order Total","Total del Pedido",module,Magento_Checkout
-"We'll send your order confirmation here.","Aquí te enviaremos la confirmación de su pedido.",module,Magento_Checkout
+"We'll send your order confirmation here.","Aquí te enviaremos la confirmación de tu pedido.",module,Magento_Checkout
 Payment,Pago,module,Magento_Checkout
 "Not yet calculated","Aún no se ha calculado",module,Magento_Checkout
 "We received your order!","¡Hemos recibido su pedido!",module,Magento_Checkout
