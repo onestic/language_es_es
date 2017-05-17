@@ -945,7 +945,7 @@ Sales,Ventas,module,Magento_CheckoutAgreements
 "Something went wrong while saving this condition.","Algo salió mal al guardar esta condición.",module,Magento_CheckoutAgreements
 "Shopping Cart","Carrito de compras",module,Magento_Checkout
 "Invalid method: %1","Método inválido: %1",module,Magento_Checkout
-City,Cuidad,module,Magento_Checkout
+City,Ciudad,module,Magento_Checkout
 Country,País,module,Magento_Checkout
 State/Province,Estado/Provincia,module,Magento_Checkout
 "Zip/Postal Code","Código Postal",module,Magento_Checkout
@@ -3124,7 +3124,7 @@ title,Título,module,Magento_Sales
 "We cannot register an existing shipment","No se puede registrar un envío existente",module,Magento_Sales
 "The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","El modelo total debe extenderse desde \Magento\Sales\Model\Order\Total\AbstractTotal.",module,Magento_Sales
 "We cannot determine the field name.","No se puede determinar el nombre del campo.",module,Magento_Sales
-City,Cuidad,module,Magento_Sales
+City,Ciudad,module,Magento_Sales
 Company,Empresa,module,Magento_Sales
 Country,País,module,Magento_Sales
 Email,"Correo electrónico",module,Magento_Sales
