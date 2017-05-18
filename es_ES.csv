@@ -1336,6 +1336,7 @@ Checkout,Cobro,module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","Algo salió mal durante el procesamiento de su pedido. Por favor, inténtalo más tarde.",module,Magento_Checkout
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 no extiende \Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
 "Payment Method","Método de pago",module,Magento_Checkout
+"Payment Page","Página de pago",module,Magento_Checkout
 "We can't find the product.","No se puede encontrar el artículo.",module,Magento_Checkout
 "The product does not exist.","El artículo no existe.",module,Magento_Checkout
 "We don't have some of the products you want.","No tenemos algunos de los productos que desea.",module,Magento_Checkout
@@ -2174,6 +2175,7 @@ Unlimited,Ilimitado,module,Magento_Downloadable
 "Provided link information is invalid.","Información de enlace proporcionado no es válido.",module,Magento_Downloadable
 "Invalid link type.","Tipo de vínculo no válido.",module,Magento_Downloadable
 "Link title cannot be empty.","Título del enlace no puede estar vacío.",module,Magento_Downloadable
+"There is no downloadable link with provided ID.","No existe un vínculo para descargar con la ID proporcionada.",module,Magento_Downloadable
 "Provided downloadable link is not related to given product.","El link descargable no esta relacionado con el producto.",module,Magento_Downloadable
 "Cannot delete link with id %1","No se puede eliminar enlace con id %1",module,Magento_Downloadable
 "Please specify product link(s).","Por favor, especifique el(los) enlace(s) de artículo.",module,Magento_Downloadable
@@ -5577,11 +5579,12 @@ Yes,Sí,module,Magento_Variable
 "You deleted the custom variable.","Se ha eliminado la variable personalizada.",module,Magento_Variable
 "You saved the custom variable.","Se ha guardado la variable personalizada.",module,Magento_Variable
 "Variable Code must be unique.","El código de variable debe ser único.",module,Magento_Variable
-"Validation has failed.","Validación ha fallado.",module,Magento_Variable
+"Validation has failed.","La validación ha fallado.",module,Magento_Variable
 "Insert Variable...","Insertar variable...",module,Magento_Variable
 "No token found.","Ningún token encontrado.",module,Magento_Vault
 "Wrong request.","Solicitud incorrecta.",module,Magento_Vault
 "Deletion failure. Please try again.","Falla en el borrado. Por favor, inténtelo de nuevo.",module,Magento_Vault
+"Stored Payment Methods","Métodos de pago almacenados",module,Magento_Vault
 "Card Number","Número de la tarjeta",module,Magento_Vault
 "Expiration Date","Fecha de vencimiento",module,Magento_Vault
 Type,Tipo,module,Magento_Vault
