@@ -2165,6 +2165,7 @@ Unlimited,Ilimitado,module,Magento_Downloadable
 "Provided link information is invalid.","Información de enlace proporcionado no es válido.",module,Magento_Downloadable
 "Invalid link type.","Tipo de vínculo no válido.",module,Magento_Downloadable
 "Link title cannot be empty.","Título del enlace no puede estar vacío.",module,Magento_Downloadable
+"There is no downloadable link with provided ID.","No existe un vínculo para descargar con la ID proporcionada.",module,Magento_Downloadable
 "Provided downloadable link is not related to given product.","El link descargable no esta relacionado con el producto.",module,Magento_Downloadable
 "Please specify product link(s).","Por favor, especifique el(los) enlace(s) de artículo.",module,Magento_Downloadable
 "Provided sample information is invalid.","La información de ejemplo proporcionada no es válida.",module,Magento_Downloadable
@@ -5481,7 +5482,7 @@ Yes,Sí,module,Magento_Variable
 "You deleted the custom variable.","Se ha eliminado la variable personalizada.",module,Magento_Variable
 "You saved the custom variable.","Se ha guardado la variable personalizada.",module,Magento_Variable
 "Variable Code must be unique.","El código de variable debe ser único.",module,Magento_Variable
-"Validation has failed.","Validación ha fallado.",module,Magento_Variable
+"Validation has failed.","La validación ha fallado.",module,Magento_Variable
 "Insert Variable...","Insertar variable...",module,Magento_Variable
 "Operation allowed only in HTTPS","Operación permitida solamente en HTTPS",module,Magento_Webapi
 "Cannot perform GET operation with store code 'all'","No se puede realizar la operación GET con el código de tienda 'all'",module,Magento_Webapi
