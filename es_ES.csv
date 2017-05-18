@@ -3903,7 +3903,7 @@ Other,Otra,module,Magento_Usps
 None,Ninguno,module,Magento_Usps
 "Custom Variables","Variables personalizadas",module,Magento_Variable
 "Variable Code must be unique.","El código de variable debe ser único.",module,Magento_Variable
-"Validation has failed.","Validación ha fallado.",module,Magento_Variable
+"Validation has failed.","La validación ha fallado.",module,Magento_Variable
 "Insert Variable...","Insertar variable...",module,Magento_Variable
 "Operation allowed only in HTTPS","Operación permitida solamente en HTTPS",module,Magento_Webapi
 "Request does not match any route.","Solicitud no coincide con ninguna ruta.",module,Magento_Webapi
