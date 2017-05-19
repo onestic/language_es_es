@@ -1710,7 +1710,7 @@ Import,Importar,module,Magento_CurrencySymbol
 System,"Gestionar sistema",module,Magento_CurrencySymbol
 "You applied the custom currency symbols.","Aplicaste los símbolos de moneda personalizados.",module,Magento_CurrencySymbol
 "Old rate:","Alter Kurs:",module,Magento_CurrencySymbol
-"Please specify a website.","Por favor especifique un sitio Web.",module,Magento_CustomerImportExport
+"Please specify a website.","Por favor especifique un sitio web.",module,Magento_CustomerImportExport
 "Please specify an email.","Por favor especifique un correo electrónico.",module,Magento_CustomerImportExport
 "We found an invalid value in a website column.","Encontramos un valor inválido en una columna de sitio Web.",module,Magento_CustomerImportExport
 "Please enter a valid email.","Bitte geben Sie eine gültige eMail-Adresse ein.",module,Magento_CustomerImportExport
@@ -1725,7 +1725,7 @@ System,"Gestionar sistema",module,Magento_CurrencySymbol
 "Invalid value in Store column (store does not exists?)","Valor inválido en la columna Tienda (¿la tienda existe?)",module,Magento_CustomerImportExport
 "We can't find that email and website combination.","No podemos encontrar esa combinación de correo electrónico y página web.",module,Magento_CustomerImportExport
 "Please enter a password with a valid length.","Por favor, introduzca una contraseña con una longitud válida.",module,Magento_CustomerImportExport
-"Sign Out",Salir,module,Magento_Customer
+"Sign Out","Cerrar sesión",module,Magento_Customer
 "Sign In","Iniciar sesión",module,Magento_Customer
 "You subscribe to our newsletter.","Usted se suscribe a nuestro boletín de noticias.",module,Magento_Customer
 "You don't subscribe to our newsletter.","No está suscribiendose a nuestro boletín de noticias.",module,Magento_Customer
@@ -2360,7 +2360,7 @@ label,etiqueta,module,Magento_Eav
 hello,hola,module,Magento_Eav
 "Some internal exception message.","Algun mensaje de la excepción interna.",module,Magento_Eav
 "The value of attribute not valid","El valor del atributo no es válido",module,Magento_Eav
-"Add New Template","Agregar Nueva Plantilla",module,Magento_Email
+"Add New Template","Añadir Nueva Plantilla",module,Magento_Email
 "Transactional Emails","Correos electrónicos transaccionales",module,Magento_Email
 Back,Volver,module,Magento_Email
 Reset,Restablecer,module,Magento_Email
