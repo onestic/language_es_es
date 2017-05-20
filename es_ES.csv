@@ -2651,7 +2651,7 @@ Back,Volver,module,Magento_Review
 "You're reviewing:","Estás revisando:",module,Magento_Review
 Summary,Resumen,module,Magento_Review
 "Submit Review","Transmitir reseña del cliente",module,Magento_Review
-"Add Your Review","Añadir Su reseña",module,Magento_Review
+"Add Your Review","Valora este producto",module,Magento_Review
 "%1 Review(s)","%1 reseña(s)",module,Magento_Review
 "Review by","Comentario por",module,Magento_Review
 "Posted on","Publicado en",module,Magento_Review
