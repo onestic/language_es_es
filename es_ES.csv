@@ -32,7 +32,7 @@ Close,Cerrar,module,Magento_AdminNotification
 "Critical System Messages","Mensajes críticos del sistema",module,Magento_AdminNotification
 "Major System Messages","Mensajes principales del sistema",module,Magento_AdminNotification
 "System messages","Mensajes del Sistema",module,Magento_AdminNotification
-"You created the order.","Creó el pedido.",module,Magento_Authorizenet
+"You created the order.","Has creado el pedido.",module,Magento_Authorizenet
 "Order saving error: %1","Error al guardar el pedido: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Por favor, seleccione un método de pago.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","Tarjeta de crédito: xxxx-%1",module,Magento_Authorizenet
@@ -339,7 +339,7 @@ Database,"Base de datos",module,Magento_Backup
 "Magento root directory","Directorio de raíz de Magento",module,Magento_Backup
 "Create Backup","Crear copia de seguridad",module,Magento_Backup
 Country,País,module,Magento_Braintree
-"Allowed Credit Card Types","Tipos de tarjetas de crédito permitidos",module,Magento_Braintree
+"Allowed Credit Card Types","Tipos de tarjetas de crédito permitidas",module,Magento_Braintree
 "Add Rule","Agregar regla",module,Magento_Braintree
 "Stored Card","Tarjeta almacenada",module,Magento_Braintree
 "Credit Card Type","Tipo de tarjeta de crédito",module,Magento_Braintree
@@ -386,7 +386,7 @@ Actions,Acciones,module,Magento_Braintree
 Yes,Sí,module,Magento_Braintree
 Edit,Editar,module,Magento_Braintree
 "Percent Discount","Porcentaje de descuento",module,Magento_Bundle
-"-- Select --","-- Seleccione --",module,Magento_Bundle
+"-- Select --","-- Selecciona --",module,Magento_Bundle
 Dynamic,Dinámico,module,Magento_Bundle
 Fixed,Fijo,module,Magento_Bundle
 "Create New Option","Nueva opción",module,Magento_Bundle
@@ -918,7 +918,7 @@ Loading...,Cargando...,module,Magento_Catalog
 "* Required Fields","* Campos obligatorios",module,Magento_Catalog
 Availability,Disponibilidad,module,Magento_Catalog
 "Terms and Conditions","Términos y condiciones",module,Magento_CheckoutAgreements
-"Add New Condition","Nueva condición",module,Magento_CheckoutAgreements
+"Add New Condition","Añadir Nueva Condición",module,Magento_CheckoutAgreements
 "Save Condition","Guardar condición",module,Magento_CheckoutAgreements
 "Delete Condition","Eliminar condición",module,Magento_CheckoutAgreements
 "Edit Terms and Conditions","Editar términos y condiciones",module,Magento_CheckoutAgreements
@@ -1409,6 +1409,7 @@ Continue,Continuar,module,Magento_Directory
 "All Files","Todos los archivos",module,Magento_Downloadable
 Unlimited,Ilimitado,module,Magento_Downloadable
 "Something went wrong while getting the requested content.","Algo salió mal al obtener el contenido solicitado.",module,Magento_Downloadable
+"My Downloadable Products","Artículos para descargar",module,Magento_Downloadable
 "We can't find the link you requested.","No podemos encontrar el link que solicito.",module,Magento_Downloadable
 "The link has expired.","El enlace ha caducado.",module,Magento_Downloadable
 "The link is not available.","El enlace no está disponible.",module,Magento_Downloadable
