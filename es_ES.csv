@@ -42,8 +42,8 @@ Close,Cerrar,module,Magento_AdminNotification
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Modelo de tipo de entidad debe ser una instancia de \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","No se dispone de ningún tipo de producto para la exportación",module,Magento_AdvancedPricingImportExport
 "We can't find the role for the user you wanted.","No se puede encontrar el role para el usuario deseado.",module,Magento_Authorization
-"Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Algo salió mal mientras se compila una lista de recursos permitidos. Usted puede encontrar más información en el registro de excepciones.",module,Magento_Authorization
-"You created the order.","Creó el pedido.",module,Magento_Authorizenet
+"Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Algo salió mal mientras se compilaba una lista de recursos permitidos. Puedes encontrar más información en el registro de excepciones.",module,Magento_Authorization
+"You created the order.","Has creado el pedido.",module,Magento_Authorizenet
 "Order saving error: %1","Error al guardar el pedido: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Por favor, seleccione un método de pago.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","No se puede procesar su pedido ahora. Por favor, inténtelo más tarde.",module,Magento_Authorizenet
@@ -424,7 +424,7 @@ Exclude,Excluir,module,Magento_Backup
 "Magento root directory","Directorio de raíz de Magento",module,Magento_Backup
 "Create Backup","Crear copia de seguridad",module,Magento_Backup
 Country,País,module,Magento_Braintree
-"Allowed Credit Card Types","Tipos de tarjetas de crédito permitidos",module,Magento_Braintree
+"Allowed Credit Card Types","Tipos de tarjetas de crédito permitidas",module,Magento_Braintree
 "Add Rule","Agregar regla",module,Magento_Braintree
 "Braintree Settlement Report","Informe de acuerdos de Braintree",module,Magento_Braintree
 "Sorry, but something went wrong","Lo sentimos, pero algo salió mal",module,Magento_Braintree
@@ -451,7 +451,7 @@ expires,expira,module,Magento_Braintree
 Actions,Acciones,module,Magento_Braintree
 Delete,Borrar,module,Magento_Braintree
 "Percent Discount","Porcentaje de descuento",module,Magento_Bundle
-"-- Select --","-- Seleccione --",module,Magento_Bundle
+"-- Select --","-- Selecciona --",module,Magento_Bundle
 Dynamic,Dinámico,module,Magento_Bundle
 Fixed,Fijo,module,Magento_Bundle
 "Create New Option","Nueva opción",module,Magento_Bundle
@@ -622,7 +622,7 @@ Quantity,Cantidad,module,Magento_CatalogInventory
 "Product Name","Nombre del producto",module,Magento_CatalogInventory
 Qty,Cantidad,module,Magento_CatalogInventory
 "Delete Rule","Eliminar Regla",module,Magento_CatalogRule
-"Are you sure you want to do this?","¿Está seguro que desea hacer esto?",module,Magento_CatalogRule
+"Are you sure you want to do this?","¿Estás seguro que deseas hacer esto?",module,Magento_CatalogRule
 Reset,Restablecer,module,Magento_CatalogRule
 "Save and Apply","Guardar y aplicar",module,Magento_CatalogRule
 "Save and Continue Edit","Guardar y continuar editar",module,Magento_CatalogRule
@@ -1268,7 +1268,7 @@ Loading...,Cargando...,module,Magento_Catalog
 "* Required Fields","* Campos obligatorios",module,Magento_Catalog
 Availability,Disponibilidad,module,Magento_Catalog
 "Terms and Conditions","Términos y condiciones",module,Magento_CheckoutAgreements
-"Add New Condition","Nueva condición",module,Magento_CheckoutAgreements
+"Add New Condition","Añadir Nueva Condición",module,Magento_CheckoutAgreements
 "Save Condition","Guardar condición",module,Magento_CheckoutAgreements
 "Delete Condition","Eliminar condición",module,Magento_CheckoutAgreements
 "Edit Terms and Conditions","Editar términos y condiciones",module,Magento_CheckoutAgreements
@@ -1675,7 +1675,7 @@ Email,"Correo electrónico",module,Magento_Contact
 "What’s on your mind?","¿Qué está en su mente?",module,Magento_Contact
 Submit,Enviar,module,Magento_Contact
 "Invalid domain name: %1","Nombre de dominio no válido: %1",module,Magento_Cookie
-"Invalid cookie lifetime: %1","Duración de cookie no válida: %1",module,Magento_Cookie
+"Invalid cookie lifetime: %1","Duración de cookie inválida: %1",module,Magento_Cookie
 "Invalid cookie path","Ruta de cookie no válida",module,Magento_Cookie
 "We use cookies to make your experience better.","Utilizamos cookies para mejorar tu experiencia.",module,Magento_Cookie
 "To comply with the new e-Privacy directive, we need to ask for your consent to set the cookies.","Para cumplir con la nueva Directiva sobre privacidad electrónica, tenemos que pedir su consentimiento establecer cookies.",module,Magento_Cookie
@@ -2154,6 +2154,7 @@ Continue,Continuar,module,Magento_Directory
 "All Files","Todos los archivos",module,Magento_Downloadable
 Unlimited,Ilimitado,module,Magento_Downloadable
 "Something went wrong while getting the requested content.","Algo salió mal al obtener el contenido solicitado.",module,Magento_Downloadable
+"My Downloadable Products","Artículos para descargar",module,Magento_Downloadable
 "We can't find the link you requested.","No podemos encontrar el link que solicito.",module,Magento_Downloadable
 "Please sign in to download your product or purchase <a href=""%1"">%2</a>.","Por favor, acceda a su cuenta para descargar su artículo o compra <a href=""%1"">%2</a>.",module,Magento_Downloadable
 "Please sign in to download your product.","Por favor, ingrese a su cuenta para descargar su producto.",module,Magento_Downloadable
@@ -5584,10 +5585,12 @@ Yes,Sí,module,Magento_Variable
 "No token found.","Ningún token encontrado.",module,Magento_Vault
 "Wrong request.","Solicitud incorrecta.",module,Magento_Vault
 "Deletion failure. Please try again.","Falla en el borrado. Por favor, inténtelo de nuevo.",module,Magento_Vault
+"Stored Payment Method was successfully removed","El método de pago almacenado ha sido eliminado",module,Magento_Vault
 "Stored Payment Methods","Métodos de pago almacenados",module,Magento_Vault
 "Card Number","Número de la tarjeta",module,Magento_Vault
 "Expiration Date","Fecha de vencimiento",module,Magento_Vault
 Type,Tipo,module,Magento_Vault
+"You have no stored payment methods.","No tienes métodos de pago almacenados.",module,Magento_Vault
 ending,fin,module,Magento_Vault
 Actions,Acciones,module,Magento_Vault
 Delete,Eliminar,module,Magento_Vault
@@ -5768,7 +5771,7 @@ Back,Volver,module,Magento_Wishlist
 "Now Shopping by","Ahora comprando por",theme,frontend/Magento/luma
 Previous,Anterior,theme,frontend/Magento/luma
 Remove,Eliminar,theme,frontend/Magento/luma
-"Remove This Item","Remover este artículo",theme,frontend/Magento/luma
+"Remove This Item","Eliminar este artículo",theme,frontend/Magento/luma
 "Shop By","Comprar por",theme,frontend/Magento/luma
 "Clear All","Eliminar todo",theme,frontend/Magento/luma
 "Shopping Options","Opciones de compra",theme,frontend/Magento/luma
@@ -5962,7 +5965,7 @@ Filters,Filtros,module,Magento_Ui
 "Welcome to %store_name.","Bienvenido a %store_name.",theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Para iniciar sesión, utiliza estas credenciales durante el proceso de compra o en la página <a href=""%customer_url"">Mi cuenta</a>:",theme,frontend/Magento/luma
 Password:,Contraseña:,theme,frontend/Magento/luma
-"Password you set when creating account","Contraseña que ingresaste al crear la cuenta",theme,frontend/Magento/luma
+"Password you set when creating account","Contraseña utilizada al crear tu cuenta",theme,frontend/Magento/luma
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","¿Olvidó la contraseña de su cuenta? Haga clic <a href=""%reset_url""> aquí</a> para restablecerla.",theme,frontend/Magento/luma
 "When you sign in to your account, you will be able to:","Cuando inicie sesión en su cuenta, usted será capaz de:",theme,frontend/Magento/luma
 "Quick Checkout","Checkout rápido",theme,frontend/Magento/luma
@@ -5973,17 +5976,16 @@ Password:,Contraseña:,theme,frontend/Magento/luma
 "Store alternative addresses","Almacena direcciones alternativas",theme,frontend/Magento/luma
 "For shipping to multiple family members and friends","Para envío a varios miembros de la familia y amigos",theme,frontend/Magento/luma
 "Order History","Historial de pedidos",theme,frontend/Magento/luma
-"View past orders","Ver órdenes anteriores",theme,frontend/Magento/luma
+"View past orders","Ver pedidos anteriores",theme,frontend/Magento/luma
 Footer,"Pie de página",theme,frontend/Magento/luma
 "About Us","Acerca de nosotros",theme,frontend/Magento/luma
-"Customer Service","Servicio al cliente",theme,frontend/Magento/luma
-"<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone""> %store_phone</a>",theme,frontend/Magento/luma
+"Customer Service","Atención al cliente",theme,frontend/Magento/luma
 "Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Horas de operación:<br /><span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
-"Credit memo for your %store_name order","Credit memo para su orden en %store_name",theme,frontend/Magento/luma
-"Thank you for your order from %store_name.","Gracias por su orden de %store_name.",theme,frontend/Magento/luma
+"Credit memo for your %store_name order","Factura rectificativa para su pedido en %store_name",theme,frontend/Magento/luma
+"Thank you for your order from %store_name.","Gracias por su pedido de %store_name.",theme,frontend/Magento/luma
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Puede comprobar el estado de su pedido <a href=""%account_url"">accediendo a su cuenta</a>.",theme,frontend/Magento/luma
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Si usted tiene preguntas acerca de su pedido, puede enviarnos un email a <a href=""mailto:%store_email""> %store_email</a>.",theme,frontend/Magento/luma
-"Your Credit Memo #%creditmemo_id for Order #%order_id","Su factura rectificada #%creditmemo_id para el pedido # %order_id",theme,frontend/Magento/luma
+"Your Credit Memo #%creditmemo_id for Order #%order_id","Su factura rectificativa #%creditmemo_id para el pedido #%order_id",theme,frontend/Magento/luma
 "Billing Info","Información de facturación",theme,frontend/Magento/luma
 "Shipping Info","Información de envío",theme,frontend/Magento/luma
 "Payment Method","Método de pago",theme,frontend/Magento/luma
@@ -5995,10 +5997,10 @@ Footer,"Pie de página",theme,frontend/Magento/luma
 "Update to your %store_name invoice","Actualizar su factura en %store_name",theme,frontend/Magento/luma
 "Your %store_name order confirmation","Confirmación de su pedido en %store_name",theme,frontend/Magento/luma
 "Once your package ships we will send you a tracking number.","Una vez que el paquete sea enviado le enviaremos un número de rastreo.",theme,frontend/Magento/luma
-"Your Order <span class=""no-link"">#%increment_id</span>","Su orden <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
+"Your Order <span class=""no-link"">#%increment_id</span>","Su pedido <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","Creada el <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
 "Update to your %store_name order","Actualizar su orden en %store_name",theme,frontend/Magento/luma
-"Your %store_name order has shipped","Se ha enviado su orden de %store_name",theme,frontend/Magento/luma
+"Your %store_name order has shipped","Su pedido de %store_name ha sido enviado",theme,frontend/Magento/luma
 "Your shipping confirmation is below. Thank you again for your business.","La confirmación de su envío está abajo. Gracias otra vez por su compra.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","Su envío nº %shipment_id para el pedido nº %order_id",theme,frontend/Magento/luma
 "Update to your %store_name shipment","Actualización el envío de %store_name",theme,frontend/Magento/luma
@@ -6864,7 +6866,7 @@ ZIP,C.P.,module,Magento_Customer
 "Send Welcome Email From","Enviar correo de bienvenida desde",module,Magento_Customer
 Addresses,Direcciones,module,Magento_Customer
 "Are you sure you want to delete this item?","¿Está seguro de que desea borrar este elemento?",module,Magento_Customer
-"Account Dashboard","Cuenta Panel de control",module,Magento_Customer
+"Account Dashboard","Mi panel de control",module,Magento_Customer
 "Edit Account Information","Editar información de la cuenta",module,Magento_Customer
 "Password forgotten","Recordatorio de contraseña",module,Magento_Customer
 "My Dashboard","Mi panel de control",module,Magento_Customer
@@ -7847,6 +7849,6 @@ Action,Acción,module,Magento_Wishlist
 Configure,Configurar,module,Magento_Wishlist
 Delete,Borrar,module,Magento_Wishlist
 "Product Details and Comment","Detalles del artículo y comentarios",module,Magento_Wishlist
-"Account Dashboard","Cuenta Panel de control",theme,frontend/Magento/luma
+"Account Dashboard","Mi panel de control",theme,frontend/Magento/luma
 "Account Information","Información de la cuenta",theme,frontend/Magento/luma
 "Address Book","Libreta de direcciones",theme,frontend/Magento/luma
