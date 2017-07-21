@@ -960,7 +960,7 @@ State/Province,Estado/Provincia,module,Magento_Checkout
 "The coupon code ""%1"" is not valid.","El cupón ""%1"" no es válido.",module,Magento_Checkout
 "We cannot apply the coupon code.","No se puede aplicar el código de cupón.",module,Magento_Checkout
 "%1 was updated in your shopping cart.","%1 fueron actualizados en su carrito de la compra.",module,Magento_Checkout
-Checkout,Cobro,module,Magento_Checkout
+Checkout,"Realizar pedido",module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","Por favor, acepta todos los términos y condiciones antes de realizar el pedido.",module,Magento_Checkout
 "The product does not exist.","El artículo no existe.",module,Magento_Checkout
 "We don't have some of the products you want.","No tenemos algunos de los productos que desea.",module,Magento_Checkout
