@@ -1100,7 +1100,7 @@ Search,Buscar,module,Magento_Catalog
 "Provided link type ""%1"" does not exist","El tipo de vínculo proveído ""%1"" no existe",module,Magento_Catalog
 "Invalid data provided for linked products","Datos proveídos no válidos para productos vinculados",module,Magento_Catalog
 "Product with SKU '%1' is not linked to product with SKU '%2'","El producto con SKU '%1' no está vinculado al producto con SKU '%2'",module,Magento_Catalog
-"Product %1 doesn't have linked %2 as %3","El producto %1 no tiene vinculado %2 como %3",module,Magento_Catalog
+"Product %1 doesn't have linked %2 as %3","El artículo %1 no tiene un vínculo %2 como %3",module,Magento_Catalog
 "Requested product doesn't exist","El producto solicitado no existe",module,Magento_Catalog
 "Requested product does not support images.","El producto solicitado no es compatible con imágenes.",module,Magento_Catalog
 "Product with SKU ""%1"" does not exist","El producto con SKU ""%1"" no existe",module,Magento_Catalog
@@ -1801,7 +1801,7 @@ Purchased,Comprada,module,Magento_Customer
 "Order Total","Total del Pedido",module,Magento_Customer
 "Purchase Point","Punto de compra",module,Magento_Customer
 "Customer View","Vista cliente",module,Magento_Customer
-"There are no items in customer's shopping cart.","No hay productos en la cesta de la compra del cliente.",module,Magento_Customer
+"There are no items in customer's shopping cart.","No hay artículos en la cesta de la compra del cliente.",module,Magento_Customer
 Qty,Cantidad,module,Magento_Customer
 Confirmed,Confirmado,module,Magento_Customer
 "Confirmation Required","Confirmación necesaria",module,Magento_Customer
@@ -3586,6 +3586,7 @@ Role,Rol,module,Magento_ProductVideo
 "YouTube and Vimeo supported.","Youtube y Vimeo admitidos.",module,Magento_ProductVideo
 "Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Vimeo aceptado.< br />Para agregar el video de YouTube, por favor <a href=""%1""> Introduzca la clave de la API de YouTube</a> primero.",module,Magento_ProductVideo
 "Protocol isn't allowed","Protocolo no está permitido",module,Magento_ProductVideo
+"Disallowed file type.","Tipo de archivo no permitido.",module,Magento_ProductVideo
 "Could not get preview image information. Please check your connection and try again.","No se pudo obtener información de la imagen de vista previa. Por favor, compruebe su conexión y vuelva a intentarlo.",module,Magento_ProductVideo
 "Add Video","Añadir vídeo",module,Magento_ProductVideo
 "Browse to find or drag image here","Selecciona o arrastra la imagen aquí",module,Magento_ProductVideo
@@ -5882,10 +5883,12 @@ Password:,Contraseña:,module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Si no haces esta solicitud, puede pasar por alto este correo electrónico y su contraseña seguirá siendo la misma.",module,Magento_Customer
 "Your %store_name password has been changed","Se ha cambiado su contraseña de  %store_name",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: password.","Hemos recibido una solicitud para cambiar la siguiente información asociada a tu cuenta en %store_name: correo electrónico.",module,Magento_Customer
+"Checkout out as a new customer","Realice el pedido como un cliente nuevo",module,Magento_Customer
 "Creating an account has many benefits:","Crear una cuenta tiene muchos beneficios:",module,Magento_Customer
 "See order and shipping status","Ver estado de orden y envío",module,Magento_Customer
 "Track order history","Rastrear Historial de Orden",module,Magento_Customer
 "Check out faster","Comprar más rápidamente",module,Magento_Customer
+"Checkout out using your account","Efectuar compra utilizando su cuenta",module,Magento_Customer
 "Email Address","Dirección de email",module,Magento_Customer
 "Currency Update Warnings","Avisos de actualización de moneda",module,Magento_Directory
 Footer,"Pie de página",module,Magento_Email
@@ -6874,6 +6877,7 @@ Currency,Moneda,module,Magento_CurrencySymbol
 "Leave empty for default (15 minutes).","Dejar en blanco para tomar el valor por defecto (15 minutos).",module,Magento_Customer
 "Customer Notification","Notificacion de cliente",module,Magento_Customer
 "Assign a Customer Group","Asignar un grupo de clientes",module,Magento_Customer
+"Are you sure to assign selected customers to new group?","¿Está seguro que desea asignar a clientes seleccionados al nuevo grupo?",module,Magento_Customer
 "Customer Grid","Cuadrícula de cliente",module,Magento_Customer
 "Rebuild Customer grid index","Reconstruir el índice de red de cliente",module,Magento_Customer
 Group,Grupo,module,Magento_Customer
