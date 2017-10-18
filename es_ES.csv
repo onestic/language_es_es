@@ -1570,7 +1570,6 @@ Preview,"Vista previa",module,Magento_Email
 Unknown,Desconocido,module,Magento_Email
 "The email template is currently being used.","La plantilla de correo electrónico está siendo usada actualmente.",module,Magento_Email
 "Edit Template","Editar la plantilla",module,Magento_Email
-"Edit System Template","Systemvorlage bearbeiten",module,Magento_Email
 "New Template","Nueva plantilla",module,Magento_Email
 "New System Template","Neue Systemvorlage",module,Magento_Email
 "Email Templates","Plantillas de correo electrónico",module,Magento_Email
