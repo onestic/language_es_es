@@ -1023,8 +1023,8 @@ Manual,Manuell,module,Magento_Catalog
 Fixed,Fijo,module,Magento_Catalog
 Percent,Porcentaje,module,Magento_Catalog
 "-- Please select --","-- Por favor, seleccione --",module,Magento_Catalog
-"Product Thumbnail Itself","Miniaturansicht des Artikels selbst",module,Magento_Catalog
-"Parent Product Thumbnail","Hauptartikel Vorschaubild",module,Magento_Catalog
+"Product Thumbnail Itself","Miniatura del Producto en sí",module,Magento_Catalog
+"Parent Product Thumbnail","Miniatura del Producto Padre",module,Magento_Catalog
 Stretch,Flexibilidad,module,Magento_Catalog
 Tile,Mosaico,module,Magento_Catalog
 Top/Left,Superior/izquierda,module,Magento_Catalog
@@ -1423,7 +1423,7 @@ Layout,Diseño,module,Magento_Cms
 "Custom Layout","Eigener Entwurf",module,Magento_Cms
 "Custom Layout Update XML","Eigener Entwurf Update XML",module,Magento_Cms
 Design,Diseño,module,Magento_Cms
-"Page Information",Seiteninformation,module,Magento_Cms
+"Page Information","Página de información",module,Magento_Cms
 "Page Title",Seitentitel,module,Magento_Cms
 "URL Key",URL-Bezeichner,module,Magento_Cms
 "Relative to Web Site Base URL","Relativa a la dirección URL Base del sitio Web",module,Magento_Cms
@@ -2161,6 +2161,7 @@ Unlimited,Ilimitado,module,Magento_Downloadable
 "Number of downloads must be a positive integer.","Número de descargas debe ser un número entero positivo.",module,Magento_Downloadable
 "Sort order must be a positive integer.","Orden de clasificación debe ser un entero positivo.",module,Magento_Downloadable
 "Link URL must have valid format.","URL de enlace debe tener formato válido.",module,Magento_Downloadable
+"Provided file content must be valid base64 encoded data.","El contenido del archivo proporcionado debe ser datos base64 codificado válido.",module,Magento_Downloadable
 "Sample URL must have valid format.","Muestra URL debe tener formato válido.",module,Magento_Downloadable
 "Order id cannot be null","El ID del pedido no puede ser nulo",module,Magento_Downloadable
 "Order item id cannot be null","El ID del artículo del pedido no puede ser nulo",module,Magento_Downloadable
@@ -2174,6 +2175,7 @@ Unlimited,Ilimitado,module,Magento_Downloadable
 "Provided sample information is invalid.","La información de ejemplo proporcionada no es válida.",module,Magento_Downloadable
 "Invalid sample type.","Tipo de muestra inválido.",module,Magento_Downloadable
 "Sample title cannot be empty.","Título de la muestra no puede estar vacío.",module,Magento_Downloadable
+"There is no downloadable sample with provided ID.","No hay muestra descargable con la ID proporcionada.",module,Magento_Downloadable
 "Provided downloadable sample is not related to given product.","La muestra descargable proporcionada no está relacionada con el producto.",module,Magento_Downloadable
 attachment,"documento adjunto",module,Magento_Downloadable
 inline,"en línea",module,Magento_Downloadable
@@ -2204,6 +2206,7 @@ Delete,Borrar,module,Magento_Downloadable
 Availability,Disponibilidad,module,Magento_Downloadable
 "In stock",Disponible,module,Magento_Downloadable
 "Out of stock","No está disponible",module,Magento_Downloadable
+"Go to <a href=""%1"">My Downloadable Products</a>","Ir a <a href=""%1"">mis artículos descargables</a>",module,Magento_Downloadable
 "Downloadable Products","Artículos descargables",module,Magento_Downloadable
 "Order #","Pedido nº",module,Magento_Downloadable
 Date,Fecha,module,Magento_Downloadable
@@ -2373,14 +2376,14 @@ Reset,Restablecer,module,Magento_Email
 "Preview Template","Vista previa de la plantilla",module,Magento_Email
 "Save Template","Guardar la plantilla",module,Magento_Email
 "Load Template","Vorlage laden",module,Magento_Email
-"Edit Email Template","eMail-Vorlage bearbeiten",module,Magento_Email
-"New Email Template","Neue eMail-Vorlage",module,Magento_Email
+"Edit Email Template","Editar plantilla de correo electrónico",module,Magento_Email
+"New Email Template","Nueva plantilla de correo electrónico",module,Magento_Email
 "Default Config","Configuración por defecto",module,Magento_Email
 "Template Information","Información de la plantilla",module,Magento_Email
 "Currently Used For","Actualmente utilizada para",module,Magento_Email
 "Template Name","Nombre de plantilla",module,Magento_Email
 "Template Subject","Asunto de la plantilla",module,Magento_Email
-"Insert Variable...","Variable einfügen...",module,Magento_Email
+"Insert Variable...","Insertar variable...",module,Magento_Email
 "Template Content","Contenido de plantilla",module,Magento_Email
 "Template Styles","Estilos de plantilla",module,Magento_Email
 Preview,"Vista previa",module,Magento_Email
@@ -2390,8 +2393,9 @@ Unknown,Desconocido,module,Magento_Email
 "We can't delete email template data right now. Please review log and try again.","No podemos borrar datos de la plantilla de correo electrónico ahora mismo. Revise el registro y vuelva a intentarlo.",module,Magento_Email
 "We can't find an email template to delete.","No podemos encontrar una plantilla de correo electrónico para eliminar.",module,Magento_Email
 "Edit Template","Editar la plantilla",module,Magento_Email
+"Edit System Template","Editar plantilla de sistema",module,Magento_Email
 "New Template","Nueva plantilla",module,Magento_Email
-"New System Template","Neue Systemvorlage",module,Magento_Email
+"New System Template","Nueva plantilla de sistema",module,Magento_Email
 "Email Templates","Plantillas de correo electrónico",module,Magento_Email
 "Email Preview","Vista previa del correo electrónico",module,Magento_Email
 "An error occurred. The email template can not be opened for preview.","Se ha producido un error. La plantilla de correo electrónico no se puede abrir para vista previa.",module,Magento_Email
@@ -2433,7 +2437,7 @@ City,Ciudad,module,Magento_Email
 "Error filtering template: %s","Error de filtrado plantilla: %s",module,Magento_Email
 "Invalid sender data","Datos de remitente inválidos",module,Magento_Email
 Title,Título,module,Magento_Email
-"Load default template","Standardvorlage laden",module,Magento_Email
+"Load default template","Subir plantilla por defecto",module,Magento_Email
 Template,Plantilla,module,Magento_Email
 "Are you sure you want to strip tags?","¿Seguro que deseas retirar las etiquetas?",module,Magento_Email
 "Are you sure you want to delete this template?","¿Realmente quiere borrar esta plantilla?",module,Magento_Email
@@ -3079,7 +3083,7 @@ Yes,Sí,module,Magento_Payment
 "Please Select","Por favor, seleccione",module,Magento_Payment
 "We'll ask for your payment details before you place an order.","Te pediremos pedir los datos de pago antes de hacer un pedido.",module,Magento_Payment
 "--Please Select--","--Por favor seleccione--",module,Magento_Payment
-"Card Verification Number Visual Reference",Kartenprüfnummer,module,Magento_Payment
+"Card Verification Number Visual Reference","Referencia visual de número de verificación de tarjeta",module,Magento_Payment
 "What is this?","¿Qué es esto?",module,Magento_Payment
 "Credit Card Information","Información de tarjeta de crédito",module,Magento_Payment
 "Billing Agreements","Acuerdos de pago",module,Magento_Paypal
@@ -4658,6 +4662,8 @@ Store,Tienda,module,Magento_Search
 Reports,Informes,module,Magento_Search
 "Search Terms Report","Informe de términos de búsqueda",module,Magento_Search
 "You saved the search term.","Guardaste el término de búsqueda.",module,Magento_Search
+"Something went wrong while saving the search query.","Algo salió mal al guardar la consulta de búsqueda.",module,Magento_Search
+"You already have an identical search term query.","Ya tiene una consulta de término de búsqueda idéntica.",module,Magento_Search
 "Your search query can't be longer than %1, so we shortened your query.","La consulta de búsqueda no puede ser más larga que %1, por lo que se acortó su solicitud.",module,Magento_Search
 "Search entire store here...","Busque aquí por toda la tienda...",module,Magento_Search
 "There are no search terms available.","No hay términos de búsqueda disponibles.",module,Magento_Search
@@ -4881,6 +4887,9 @@ Yearly,Anualmente,module,Magento_Sitemap
 Never,Nunca,module,Magento_Sitemap
 "File handler unreachable","Controlador de archivo inalcanzable",module,Magento_Sitemap
 "Please define a correct path.","Por favor defina una ruta correcta.",module,Magento_Sitemap
+"Please create the specified folder ""%1"" before saving the sitemap.","Por favor, cree la carpeta especificada ""%1"" antes de guardar el mapa del sitio.",module,Magento_Sitemap
+"Please make sure that ""%1"" is writable by the web-server.","Por favor, asegúrese de que ""%1"" permite la escritura por el servidor web.",module,Magento_Sitemap
+"Please use only letters (a-z or A-Z), numbers (0-9) or underscores (_) in the filename. No spaces or other characters are allowed.","Utilice solo letras (a-z o A-Z), números (0-9) o guiones bajos (_) en el nombre del archivo. No se permiten espacios ni otros personajes.",module,Magento_Sitemap
 None,Ninguno,module,Magento_Sitemap
 "Base Only","Base solamente",module,Magento_Sitemap
 All,Todo,module,Magento_Sitemap
@@ -5088,6 +5097,7 @@ Manage,Gestionar,module,Magento_Theme
 "Allowed file types *.css.","Tipos de archivo permitidos *.css.",module,Magento_Theme
 "This file will replace the current custom.css file and can't be more than 2 MB.","Este archivo reemplazará el archivo actual custom.css y no puede ser de más de 2 MB.",module,Magento_Theme
 "Max file size to upload %1M","Tamaño máximo del archivo a subir %1M",module,Magento_Theme
+"Something is wrong with the file upload settings.","Algo está mal con la configuración de carga de archivos.",module,Magento_Theme
 "CSS Editor","Editor CSS",module,Magento_Theme
 "Theme Settings","Ajustes de tema",module,Magento_Theme
 "Parent Theme","Tema Padre",module,Magento_Theme
@@ -5108,6 +5118,8 @@ Theme,Plantilla,module,Magento_Theme
 "Delete File","Eliminar archivo",module,Magento_Theme
 "Insert File","Insertar archivo",module,Magento_Theme
 "New Folder Name:","Nuevo nombre de carpeta:",module,Magento_Theme
+"Are you sure you want to delete this folder?","¿Está seguro de que desea eliminar esta carpeta?",module,Magento_Theme
+"Are you sure you want to delete this file?","¿Está seguro que desea eliminar este archivo?",module,Magento_Theme
 "Storage Root","Raíz de almacenamiento",module,Magento_Theme
 "You deleted the theme.","Ha eliminado el tema.",module,Magento_Theme
 "We cannot delete the theme.","No podemos eliminar el tema.",module,Magento_Theme
@@ -5127,12 +5139,16 @@ Theme,Plantilla,module,Magento_Theme
 label,etiqueta,module,Magento_Theme
 "-- Please Select --",--Seleccione--,module,Magento_Theme
 "The start date can't follow the end date.","La fecha de inicio no puede después la fecha de finalización.",module,Magento_Theme
+"The date range for this design change overlaps another design change for the specified store.","El intervalo de fechas para este cambio de diseño superpone a otro cambio de diseño para la tienda especificada.",module,Magento_Theme
 Copy,Copiar,module,Magento_Theme
 "Theme id should be set","Id de tema debe establecerse",module,Magento_Theme
+"Circular-reference in theme inheritance detected for ""%1""","Referencia circular en herencia de tema detectada para ""%1""",module,Magento_Theme
 "The CSS file must be less than %1M.","El archivo CSS debe ser menor que %1M.",module,Magento_Theme
 "The JS file must be less than %1M.","El archivo JS debe ser menor que %1M.",module,Magento_Theme
 "We can't upload the file right now.","No podemos subir el archivo en este momento.",module,Magento_Theme
+"Use only standard alphanumeric, dashes and underscores.","Use solo alfanuméricos estándar, guiones y guiones bajos.",module,Magento_Theme
 "We found a directory with the same name.","Encontramos un directorio con el mismo nombre.",module,Magento_Theme
+"We cannot find a directory with this name.","No podemos encontrar un directorio con este nombre.",module,Magento_Theme
 "We can't delete root directory %1 right now.","No podemos eliminar el directorio raiz %1 en este momento.",module,Magento_Theme
 "Theme isn't deletable.","El tema no es eliminable.",module,Magento_Theme
 "localized exception","excepción localizada",module,Magento_Theme
@@ -5145,6 +5161,10 @@ Remove,Eliminar,module,Magento_Theme
 "Help Us Keep Magento Healthy","Ayúdenos a que Magento siga funcionando correctamente",module,Magento_Theme
 "Report All Bugs","Informar de todos los errores",module,Magento_Theme
 "JavaScript seems to be disabled in your browser.","Parece que JavaScript está deshabilitado en su navegador.",module,Magento_Theme
+"For the best experience on our site, be sure to turn on Javascript in your browser.","Para obtener la mejor experiencia en nuestro sitio, asegúrese de activar Javascript en su navegador.",module,Magento_Theme
+"Local Storage seems to be disabled in your browser.","El almacenamiento local parece estar deshabilitado en tu navegador.",module,Magento_Theme
+"For the best experience on our site, be sure to turn on Local Storage in your browser.","Para obtener la mejor experiencia en nuestro sitio, asegúrese de activar Almacenamiento local en su navegador.",module,Magento_Theme
+"This is demo store. No orders will be fulfilled.","Esta es la tienda de demostración. No se cumplirán pedidos.",module,Magento_Theme
 "Items %1 to %2 of %3 total","Artículos %1 al %2 de %3 totales",module,Magento_Theme
 "%1 Item","%1 artículo",module,Magento_Theme
 "%1 Item(s)","%1 artículo(s)",module,Magento_Theme
@@ -5290,11 +5310,15 @@ Custom,Personalizado,module,Magento_UrlRewrite
 "The product you chose is not associated with the selected store or category.","El producto que ha escogido no está asociado con la tienda o categoría seleccionada.",module,Magento_UrlRewrite
 "The category you chose is not associated with the selected store.","La categoría que ha escogido no está asociada con la tienda seleccionada.",module,Magento_UrlRewrite
 "The URL Rewrite has been saved.","La reescritura de URL se ha guardado.",module,Magento_UrlRewrite
+"Something went wrong while saving URL Rewrite.","Algo salió mal al guardar la reescritura de URL.",module,Magento_UrlRewrite
+"Do not use two or more consecutive slashes in the request path.","No use dos o más barras inclinadas consecutivas en la ruta de solicitud.",module,Magento_UrlRewrite
 "Anchor symbol (#) is not supported in request path.","El símbolo (#) no está soportado en la ruta solicitada.",module,Magento_UrlRewrite
+"Do not use two or more consecutive slashes in the url rewrite suffix.","No use dos o más barras diagonales consecutivas en el sufijo de reescritura de Url.",module,Magento_UrlRewrite
 "Anchor symbol (#) is not supported in url rewrite suffix.","El símbolo (#) no está soportado en el sufijo de reescritura de url.",module,Magento_UrlRewrite
 "Temporary (302)","(302) Temporal",module,Magento_UrlRewrite
 "Permanent (301)","(301) Permanente",module,Magento_UrlRewrite
 "Request Path for Specified Store","Solicitud de ruta para la tienda especificada",module,Magento_UrlRewrite
+"URL key for specified store already exists.","La clave de URL para la tienda especificada ya existe.",module,Magento_UrlRewrite
 "Custom storage message","Mensaje personalizado de la tienda",module,Magento_UrlRewrite
 "Select Category","Seleccione categoría",module,Magento_UrlRewrite
 Back,Volver,module,Magento_User
@@ -5570,8 +5594,8 @@ All,Todo,module,Magento_Widget
 "Open Chooser","Abrir el buscador",module,Magento_Widget
 Apply,Aplicar,module,Magento_Widget
 Page,Página,module,Magento_Widget
-"Wish List",Favoritos,module,Magento_Wishlist
-"Wish List Sharing","Compartir favoritos",module,Magento_Wishlist
+"Wish List","Lista de deseos",module,Magento_Wishlist
+"Wish List Sharing","Compartir lista de deseos",module,Magento_Wishlist
 "My Wish List","Mi lista de deseos",module,Magento_Wishlist
 "Page not found.","Página no encontrada.",module,Magento_Wishlist
 "We can't specify a product.","No podemos especificar un producto.",module,Magento_Wishlist
@@ -5703,6 +5727,9 @@ Password:,Contraseña:,module,Magento_Customer
 "You have been successfully subscribed to our newsletter.","Te has suscrito con éxito al nuestro boletín.",module,Magento_Newsletter
 "You have been unsubscribed from the newsletter.","Has sido dado de baja de nuestro boletín.",module,Magento_Newsletter
 "Product alerts cron warnings","Advertencias de alertas cron de productos",module,Magento_ProductAlert
+"Thank you for your order from %store_name.","Gracias por su pedido de %store_name.",module,Magento_Sales
+"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Puede comprobar el estado de su pedido <a href=""%account_url"">accediendo a su cuenta</a>.",module,Magento_Sales
+"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Si tienes alguna duda acerca de tu pedido, puede enviarnos un email a <a href=""mailto:%store_email"">%store_email</a>",module,Magento_Sales
 "or call us at <a href=""tel:%store_phone"">%store_phone</a>","o llámenos al <a href=""tel:%store_phone""> %store_phone</a>",module,Magento_Sales
 "Our hours are <span class=""no-link"">%store_hours</span>.","Nuestro horario es de <span class=""no-link"">%store_hours</span>.",module,Magento_Sales
 "Your Credit Memo #%creditmemo_id for Order #%order_id","Su factura rectificada nº %creditmemo_id para el pedido nº %order_id",module,Magento_Sales
@@ -5710,6 +5737,10 @@ Password:,Contraseña:,module,Magento_Customer
 "Shipping Info","Información de envío",module,Magento_Sales
 "Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","El pedido nº %increment_id se ha actualizado con un estado de <strong>%order_status</strong>.",module,Magento_Sales
 "Your Invoice #%invoice_id for Order #%order_id","Su factura nº %invoice_id para el pedido nº %order_id",module,Magento_Sales
+"Once your package ships we will send you a tracking number.","Una vez que el paquete sea enviado te enviaremos un número de seguimiento.",module,Magento_Sales
+"Your Order <span class=""no-link"">#%increment_id</span>","Su pedido <span class=""no-link""> #%increment_id</span>",module,Magento_Sales
+"Placed on <span class=""no-link"">%created_at</span>","Creada el <span class=""no-link"">%created_at</span>",module,Magento_Sales
+"Once your package ships we will send an email with a link to track your order.","Una vez que su paquete se envíe, le enviaremos un correo electrónico con un enlace para rastrear su pedido.",module,Magento_Sales
 "Your shipping confirmation is below. Thank you again for your business.","La confirmación de su envío está abajo. Gracias otra vez por su compra.",module,Magento_Sales
 "Your Shipment #%shipment_id for Order #%order_id","Su envío nº %shipment_id para el pedido nº %order_id",module,Magento_Sales
 "%sender_name wants to share this product with you:","%sender_name quiere compartir este producto contigo:",module,Magento_SendFriend
@@ -7163,7 +7194,9 @@ Empty,Vacío,module,Magento_Theme
 "Display Demo Store Notice","Mostrar noticia ""tienda de demonstración""",module,Magento_Theme
 "Search Engine Robots","Robots de motores de búsqueda",module,Magento_Theme
 "Default Robots","Robots (predeterminado)",module,Magento_Theme
+"Edit custom instruction of robots.txt File","Edite instrucciones personalizadas del archivo robots.txt",module,Magento_Theme
 "Reset to Defaults","Restablecer valores predeterminados",module,Magento_Theme
+"This action will delete your custom instructions and reset robots.txt file to system's default settings.","Esta acción eliminará sus instrucciones personalizadas y restablecerá el archivo robots.txt a la configuración predeterminada del sistema.",module,Magento_Theme
 Header,Encabezado,module,Magento_Theme
 "Logo Image","Logo imagen",module,Magento_Theme
 "Logo Image Width","Ancho de la imagen de logotipo",module,Magento_Theme
