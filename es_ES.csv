@@ -355,6 +355,7 @@ Country,País,module,Magento_Braintree
 "Credit card type is not allowed for this payment method.","Este tipo de tarjeta de crédito no está permitido para este método de pago.",module,Magento_Braintree
 "Selected payment type is not allowed for billing country.","El tipo de pago seleccionado no está permitido para el país de facturación.",module,Magento_Braintree
 "Please try again later","Por favor, inténtalo más tarde",module,Magento_Braintree
+"This refund is for a partial amount but the Transaction has not settled.","Este reembolso es por un monto parcial pero la Transacción no se ha liquidado.",module,Magento_Braintree
 "Please wait 24 hours before trying to issue a partial refund.","Por favor espere 24 horas antes de emitir un reembolso parcial.",module,Magento_Braintree
 "Some transactions are already settled or voided and cannot be voided.","Algunas transacciones ya se han acordado o anulado y no pueden ser anuladas.",module,Magento_Braintree
 "Invalid Customer ID provided","ID de cliente proporcionado no válido",module,Magento_Braintree
@@ -767,8 +768,8 @@ Manual,Manuell,module,Magento_Catalog
 Fixed,Fijo,module,Magento_Catalog
 Percent,Porcentaje,module,Magento_Catalog
 "-- Please select --","-- Por favor, seleccione --",module,Magento_Catalog
-"Product Thumbnail Itself","Miniaturansicht des Artikels selbst",module,Magento_Catalog
-"Parent Product Thumbnail","Hauptartikel Vorschaubild",module,Magento_Catalog
+"Product Thumbnail Itself","Miniatura del Producto en sí",module,Magento_Catalog
+"Parent Product Thumbnail","Miniatura del Producto Padre",module,Magento_Catalog
 Stretch,Flexibilidad,module,Magento_Catalog
 Tile,Mosaico,module,Magento_Catalog
 Top/Left,Superior/izquierda,module,Magento_Catalog
@@ -1029,7 +1030,7 @@ Layout,Diseño,module,Magento_Cms
 "Custom Layout","Eigener Entwurf",module,Magento_Cms
 "Custom Layout Update XML","Eigener Entwurf Update XML",module,Magento_Cms
 Design,Diseño,module,Magento_Cms
-"Page Information",Seiteninformation,module,Magento_Cms
+"Page Information","Página de información",module,Magento_Cms
 "Page Title",Seitentitel,module,Magento_Cms
 "URL Key",URL-Bezeichner,module,Magento_Cms
 "Relative to Web Site Base URL","Relativa a la dirección URL Base del sitio Web",module,Magento_Cms
@@ -1440,6 +1441,7 @@ Delete,Borrar,module,Magento_Downloadable
 Availability,Disponibilidad,module,Magento_Downloadable
 "In stock",Disponible,module,Magento_Downloadable
 "Out of stock","No está disponible",module,Magento_Downloadable
+"Go to <a href=""%1"">My Downloadable Products</a>","Ir a <a href=""%1"">mis artículos descargables</a>",module,Magento_Downloadable
 "Downloadable Products","Artículos descargables",module,Magento_Downloadable
 "Order #","Pedido nº",module,Magento_Downloadable
 Date,Fecha,module,Magento_Downloadable
@@ -1558,20 +1560,21 @@ Reset,Restablecer,module,Magento_Email
 "Preview Template","Vista previa de la plantilla",module,Magento_Email
 "Save Template","Guardar la plantilla",module,Magento_Email
 "Load Template","Vorlage laden",module,Magento_Email
-"Edit Email Template","eMail-Vorlage bearbeiten",module,Magento_Email
-"New Email Template","Neue eMail-Vorlage",module,Magento_Email
+"Edit Email Template","Editar plantilla de correo electrónico",module,Magento_Email
+"New Email Template","Nueva plantilla de correo electrónico",module,Magento_Email
 "Template Information","Información de la plantilla",module,Magento_Email
 "Template Name","Nombre de plantilla",module,Magento_Email
 "Template Subject","Asunto de la plantilla",module,Magento_Email
-"Insert Variable...","Variable einfügen...",module,Magento_Email
+"Insert Variable...","Insertar variable...",module,Magento_Email
 "Template Content","Contenido de plantilla",module,Magento_Email
 "Template Styles","Estilos de plantilla",module,Magento_Email
 Preview,"Vista previa",module,Magento_Email
 Unknown,Desconocido,module,Magento_Email
 "The email template is currently being used.","La plantilla de correo electrónico está siendo usada actualmente.",module,Magento_Email
 "Edit Template","Editar la plantilla",module,Magento_Email
+"Edit System Template","Editar plantilla de sistema",module,Magento_Email
 "New Template","Nueva plantilla",module,Magento_Email
-"New System Template","Neue Systemvorlage",module,Magento_Email
+"New System Template","Nueva plantilla de sistema",module,Magento_Email
 "Email Templates","Plantillas de correo electrónico",module,Magento_Email
 "Email Preview","Vista previa del correo electrónico",module,Magento_Email
 "An error occurred. The email template can not be opened for preview.","Se ha producido un error. La plantilla de correo electrónico no se puede abrir para vista previa.",module,Magento_Email
@@ -1600,7 +1603,7 @@ City,Ciudad,module,Magento_Email
 "Invalid transactional email code: %1","Código de email transaccional invalido: %1",module,Magento_Email
 "Requested invalid store ""%1""","Tienda solicitada ""%1"" inválida",module,Magento_Email
 "Invalid sender data","Datos de remitente inválidos",module,Magento_Email
-"Load default template","Standardvorlage laden",module,Magento_Email
+"Load default template","Subir plantilla por defecto",module,Magento_Email
 Template,Plantilla,module,Magento_Email
 "Change Encryption Key","Cambiar clave de cifrado",module,Magento_EncryptionKey
 "Encryption Key","Clave de cifrado",module,Magento_EncryptionKey
@@ -2045,7 +2048,7 @@ Yes,Sí,module,Magento_Payment
 "Issue Number","Número de emisión",module,Magento_Payment
 "Start Date","Fecha inicio",module,Magento_Payment
 "--Please Select--","--Por favor seleccione--",module,Magento_Payment
-"Card Verification Number Visual Reference",Kartenprüfnummer,module,Magento_Payment
+"Card Verification Number Visual Reference","Referencia visual de número de verificación de tarjeta",module,Magento_Payment
 "What is this?","¿Qué es esto?",module,Magento_Payment
 "Billing Agreements","Acuerdos de pago",module,Magento_Paypal
 Email,"Correo electrónico",module,Magento_Paypal
@@ -3453,6 +3456,9 @@ Yearly,Anualmente,module,Magento_Sitemap
 Never,Nunca,module,Magento_Sitemap
 "File handler unreachable","Controlador de archivo inalcanzable",module,Magento_Sitemap
 "Please define a correct path.","Por favor defina una ruta correcta.",module,Magento_Sitemap
+"Please create the specified folder ""%1"" before saving the sitemap.","Por favor, cree la carpeta especificada ""%1"" antes de guardar el mapa del sitio.",module,Magento_Sitemap
+"Please make sure that ""%1"" is writable by the web-server.","Por favor, asegúrese de que ""%1"" permite la escritura por el servidor web.",module,Magento_Sitemap
+"Please use only letters (a-z or A-Z), numbers (0-9) or underscores (_) in the filename. No spaces or other characters are allowed.","Utilice solo letras (a-z o A-Z), números (0-9) o guiones bajos (_) en el nombre del archivo. No se permiten espacios ni otros personajes.",module,Magento_Sitemap
 None,Ninguno,module,Magento_Sitemap
 "Base Only","Base solamente",module,Magento_Sitemap
 All,Todo,module,Magento_Sitemap
@@ -3579,6 +3585,7 @@ Manage,Gestionar,module,Magento_Theme
 "Edit custom.css","Editar custom.css",module,Magento_Theme
 "Allowed file types *.css.","Tipos de archivo permitidos *.css.",module,Magento_Theme
 "Max file size to upload %1M","Tamaño máximo del archivo a subir %1M",module,Magento_Theme
+"Something is wrong with the file upload settings.","Algo está mal con la configuración de carga de archivos.",module,Magento_Theme
 "CSS Editor","Editor CSS",module,Magento_Theme
 "Theme Settings","Ajustes de tema",module,Magento_Theme
 "Parent Theme","Tema Padre",module,Magento_Theme
@@ -3599,6 +3606,8 @@ Theme,Plantilla,module,Magento_Theme
 "Delete File","Eliminar archivo",module,Magento_Theme
 "Insert File","Insertar archivo",module,Magento_Theme
 "New Folder Name:","Nuevo nombre de carpeta:",module,Magento_Theme
+"Are you sure you want to delete this folder?","¿Está seguro de que desea eliminar esta carpeta?",module,Magento_Theme
+"Are you sure you want to delete this file?","¿Está seguro que desea eliminar este archivo?",module,Magento_Theme
 "Storage Root","Raíz de almacenamiento",module,Magento_Theme
 "You deleted the theme.","Ha eliminado el tema.",module,Magento_Theme
 "We cannot delete the theme.","No podemos eliminar el tema.",module,Magento_Theme
@@ -3611,14 +3620,18 @@ Theme,Plantilla,module,Magento_Theme
 label,etiqueta,module,Magento_Theme
 "-- Please Select --",--Seleccione--,module,Magento_Theme
 Copy,Copiar,module,Magento_Theme
+"Circular-reference in theme inheritance detected for ""%1""","Referencia circular en herencia de tema detectada para ""%1""",module,Magento_Theme
 "The CSS file must be less than %1M.","El archivo CSS debe ser menor que %1M.",module,Magento_Theme
 "The JS file must be less than %1M.","El archivo JS debe ser menor que %1M.",module,Magento_Theme
+"Use only standard alphanumeric, dashes and underscores.","Use solo alfanuméricos estándar, guiones y guiones bajos.",module,Magento_Theme
 "We found a directory with the same name.","Encontramos un directorio con el mismo nombre.",module,Magento_Theme
+"We cannot find a directory with this name.","No podemos encontrar un directorio con este nombre.",module,Magento_Theme
 "We found no files.","No se encontró ningún archivo.",module,Magento_Theme
 "Browse Files","Examinar archivos",module,Magento_Theme
 Remove,Eliminar,module,Magento_Theme
 "Report All Bugs","Informar de todos los errores",module,Magento_Theme
 "JavaScript seems to be disabled in your browser.","Parece que JavaScript está deshabilitado en su navegador.",module,Magento_Theme
+"Local Storage seems to be disabled in your browser.","El almacenamiento local parece estar deshabilitado en tu navegador.",module,Magento_Theme
 "Items %1 to %2 of %3 total","Artículos %1 al %2 de %3 totales",module,Magento_Theme
 "%1 Item","%1 artículo",module,Magento_Theme
 "%1 Item(s)","%1 artículo(s)",module,Magento_Theme
@@ -3976,8 +3989,8 @@ All,Todo,module,Magento_Widget
 "Open Chooser","Abrir el buscador",module,Magento_Widget
 Apply,Aplicar,module,Magento_Widget
 Page,Página,module,Magento_Widget
-"Wish List",Favoritos,module,Magento_Wishlist
-"Wish List Sharing","Compartir favoritos",module,Magento_Wishlist
+"Wish List","Lista de deseos",module,Magento_Wishlist
+"Wish List Sharing","Compartir lista de deseos",module,Magento_Wishlist
 "My Wish List","Mi lista de deseos",module,Magento_Wishlist
 "%1's Wish List","Lista de deseos de %1",module,Magento_Wishlist
 "You added %1 to your shopping cart.","Añadiste %1 a tu cesta.",module,Magento_Wishlist
@@ -5120,7 +5133,9 @@ Empty,Vacío,module,Magento_Theme
 "Display Demo Store Notice","Mostrar noticia ""tienda de demonstración""",module,Magento_Theme
 "Search Engine Robots","Robots de motores de búsqueda",module,Magento_Theme
 "Default Robots","Robots (predeterminado)",module,Magento_Theme
+"Edit custom instruction of robots.txt File","Edite instrucciones personalizadas del archivo robots.txt",module,Magento_Theme
 "Reset to Defaults","Restablecer valores predeterminados",module,Magento_Theme
+"This action will delete your custom instructions and reset robots.txt file to system's default settings.","Esta acción eliminará sus instrucciones personalizadas y restablecerá el archivo robots.txt a la configuración predeterminada del sistema.",module,Magento_Theme
 Header,Encabezado,module,Magento_Theme
 "Logo Image","Logo imagen",module,Magento_Theme
 "Logo Image Alt","Texto alternativo al logotipo",module,Magento_Theme
